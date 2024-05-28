@@ -8,10 +8,11 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.551">
 
-  <meta name="author" content="Richard Conrardy, Dozent">
+  <meta name="author" content="Richard Conrardy">
   <title>Python</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -32,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -224,7 +225,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -400,7 +402,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
 <div class="quarto-title-author-email">
 <a href="mailto:richard.conrardy@phbern.ch">richard.conrardy@phbern.ch</a>
@@ -413,17 +415,7 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
     </div>
 </div>
 
-</section><section id="TOC">
-<nav role="doc-toc"> 
-<h2 id="toc-title">Inhalt</h2>
-<ul>
-<li><a href="#/learning-outcomes" id="/toc-learning-outcomes">Learning Outcomes</a></li>
-<li><a href="#/was-sind-variablen" id="/toc-was-sind-variablen">Was sind Variablen?</a></li>
-<li><a href="#/was-sind-datentypen" id="/toc-was-sind-datentypen">Was sind Datentypen?</a></li>
-<li><a href="#/konvertierung-von-datentypen-type-casting" id="/toc-konvertierung-von-datentypen-type-casting">Konvertierung von Datentypen (Type Casting)</a></li>
-<li><a href="#/auftrag-mein-erstes-programm" id="/toc-auftrag-mein-erstes-programm">Auftrag: Mein erstes Programm</a></li>
-</ul>
-</nav>
+  <p class="date">01.01.2024</p>
 </section>
 <section id="learning-outcomes" class="slide level2">
 <h2>Learning Outcomes</h2>
@@ -435,56 +427,58 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
 <section id="was-sind-variablen" class="slide level2">
 <h2>Was sind Variablen?</h2>
 <p>Eine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>name <span class="op">=</span> <span class="st">"Christian"</span> <span class="co"># Variable erstellen und Wert zuweisen</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(name) <span class="co"># Output: Christian</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a>name <span class="op">=</span> <span class="dv">3</span> <span class="co"># Variable überschreiben</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="bu">print</span>(name) <span class="co"># Output: 3 </span></span>
-<span id="cb1-6"><a href="#cb1-6"></a></span>
-<span id="cb1-7"><a href="#cb1-7"></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Gib deinen Namen ein: "</span>) <span class="co"># Benutzereingabe</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="bu">print</span>(<span class="st">"Dein Name ist: "</span> <span class="op">+</span> name) <span class="co"># Output: ?</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>name <span class="op">=</span> <span class="st">"Christian"</span> <span class="co"># Variable erstellen und Wert zuweisen</span></span>
+<span id="cb1-2"><a></a><span class="bu">print</span>(name) <span class="co"># Output: Christian</span></span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a>name <span class="op">=</span> <span class="dv">3</span> <span class="co"># Variable überschreiben</span></span>
+<span id="cb1-5"><a></a><span class="bu">print</span>(name) <span class="co"># Output: 3 </span></span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Gib deinen Namen ein: "</span>) <span class="co"># Benutzereingabe</span></span>
+<span id="cb1-8"><a></a><span class="bu">print</span>(<span class="st">"Dein Name ist: "</span> <span class="op">+</span> name) <span class="co"># Output: ?</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)</p>
 </section>
 <section id="was-sind-datentypen" class="slide level2">
 <h2>Was sind Datentypen?</h2>
 <p>Jede Variable hat einen Datentyp. Die vier wichtigsten:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: int (Integer/Ganzzahl)</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a>x <span class="op">=</span> <span class="fl">5.0</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: float (Floating-Point/Kommazahl)</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a></span>
-<span id="cb2-7"><a href="#cb2-7"></a>x <span class="op">=</span> <span class="va">True</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: bool (Boolean/Wahrheitswert)</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a></span>
-<span id="cb2-10"><a href="#cb2-10"></a>x <span class="op">=</span> <span class="st">"hello"</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: string (String/Zeichenkette)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>x <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb2-2"><a></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: int (Integer/Ganzzahl)</span></span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a>x <span class="op">=</span> <span class="fl">5.0</span></span>
+<span id="cb2-5"><a></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: float (Floating-Point/Kommazahl)</span></span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a>x <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb2-8"><a></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: bool (Boolean/Wahrheitswert)</span></span>
+<span id="cb2-9"><a></a></span>
+<span id="cb2-10"><a></a>x <span class="op">=</span> <span class="st">"hello"</span></span>
+<span id="cb2-11"><a></a><span class="bu">print</span>(<span class="bu">type</span>(x)) <span class="co"># Output: string (String/Zeichenkette)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="konvertierung-von-datentypen-type-casting" class="slide level2">
 <h2>Konvertierung von Datentypen (Type Casting)</h2>
 <p>Manchmal muss man Datentypen umwandeln</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>x <span class="op">=</span> <span class="st">"Monat "</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>y <span class="op">=</span> <span class="dv">12</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">print</span>(x <span class="op">+</span> y) <span class="co"># funktioniert nicht und macht keinen Sinn</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a></span>
-<span id="cb3-5"><a href="#cb3-5"></a>x <span class="op">=</span> <span class="st">"Monat "</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a>y <span class="op">=</span> <span class="dv">12</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="bu">print</span>(x <span class="op">+</span> <span class="bu">str</span>(y)) <span class="co"># Output: Monat 12</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>x <span class="op">=</span> <span class="st">"Monat "</span></span>
+<span id="cb3-2"><a></a>y <span class="op">=</span> <span class="dv">12</span></span>
+<span id="cb3-3"><a></a><span class="bu">print</span>(x <span class="op">+</span> y) <span class="co"># funktioniert nicht und macht keinen Sinn</span></span>
+<span id="cb3-4"><a></a></span>
+<span id="cb3-5"><a></a>x <span class="op">=</span> <span class="st">"Monat "</span></span>
+<span id="cb3-6"><a></a>y <span class="op">=</span> <span class="dv">12</span></span>
+<span id="cb3-7"><a></a><span class="bu">print</span>(x <span class="op">+</span> <span class="bu">str</span>(y)) <span class="co"># Output: Monat 12</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Die Umwandlungsfunktionen sind analog zu den Datentypen:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="bu">int</span>(x) <span class="co"># x ist bereits ein Integer</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="bu">float</span>(x) <span class="co"># 5.0</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="bu">bool</span>(x) <span class="co"># True</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="bu">str</span>(x) <span class="co"># "5"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>x <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb4-2"><a></a><span class="bu">int</span>(x) <span class="co"># x ist bereits ein Integer</span></span>
+<span id="cb4-3"><a></a><span class="bu">float</span>(x) <span class="co"># 5.0</span></span>
+<span id="cb4-4"><a></a><span class="bu">bool</span>(x) <span class="co"># True</span></span>
+<span id="cb4-5"><a></a><span class="bu">str</span>(x) <span class="co"># "5"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-mein-erstes-programm" class="slide level2">
 <h2>Auftrag: Mein erstes Programm</h2>
 <p>In Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.</p>
 <p>Erstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?</p>
 
-
-<img src="../images/penguin.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy</p>
+<div class="quarto-auto-generated-content">
+<p><img src="../images/penguin.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
+</div>
 </div>
 </section>
     </div>
@@ -514,7 +508,6 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -776,10 +769,32 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -789,8 +804,17 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -804,7 +828,11 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
@@ -844,20 +872,6 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           });
         }
       }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-          }
-        }
     });
     </script>
     

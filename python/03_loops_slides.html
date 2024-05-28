@@ -8,10 +8,11 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.551">
 
-  <meta name="author" content="Richard Conrardy, Dozent">
+  <meta name="author" content="Richard Conrardy">
   <title>Python</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -32,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -224,7 +225,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -400,7 +402,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
 <div class="quarto-title-author-email">
 <a href="mailto:richard.conrardy@phbern.ch">richard.conrardy@phbern.ch</a>
@@ -413,31 +415,21 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
     </div>
 </div>
 
-</section><section id="TOC">
-<nav role="doc-toc"> 
-<h2 id="toc-title">Inhalt</h2>
-<ul>
-<li><a href="#/lernziele" id="/toc-lernziele">Lernziele</a>
-<ul>
-<li><a href="#/was-sind-loops-schleifen" id="/toc-was-sind-loops-schleifen">Was sind Loops? (Schleifen)</a>
-<ul>
-<li><a href="#/was-sind-loops-schleifen" id="/toc-for-loop">For-Loop</a></li>
-<li><a href="#/was-sind-loops-schleifen" id="/toc-while-loops-vs.-for-loops">While-Loops vs.&nbsp;For-Loops</a></li>
-</ul></li>
-<li><a href="#/unendliche-loops-loops-verlassen" id="/toc-unendliche-loops-loops-verlassen">Unendliche Loops &amp; Loops verlassen</a>
-<ul>
-<li><a href="#/unendliche-loops-loops-verlassen" id="/toc-das-flussdiagramm-als-visuelle-darstellung">Das Flussdiagramm als visuelle Darstellung</a></li>
-</ul></li>
-<li><a href="#/auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule" id="/toc-auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule">Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule</a></li>
-<li><a href="#/auftrag-fahrplan-luzern---engelberg" id="/toc-auftrag-fahrplan-luzern---engelberg">Auftrag: Fahrplan Luzern - Engelberg</a></li>
-<li><a href="#/auftrag-prüfungssoftware-programmieren" id="/toc-auftrag-prüfungssoftware-programmieren">Auftrag: Prüfungssoftware Programmieren</a></li>
-</ul></li>
-</ul>
-</nav>
+  <p class="date">01.01.2024</p>
 </section>
 <section>
-<section id="lernziele" class="title-slide slide level1 center">
+<section id="lernziele" class="title-slide slide level1 agenda-slide center scrollable">
 <h1>Lernziele</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-active">
+<p>Lernziele</p>
+</div></li>
+</ol>
+</div>
 <p>Sie verstehen das Prinzip von Loops (while, for) und können dieses Wissen in einem Programm umsetzen</p>
 <p>Sie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen</p>
 </section>
@@ -445,49 +437,49 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
 <h2>Was sind Loops? (Schleifen)</h2>
 <p>Mit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:</p>
 <p><strong>While-Loop</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>i <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Braucht eine Zähler-Variable</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">5</span>:  <span class="co"># Solange i &lt; 5</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a>  <span class="bu">print</span>(i)</span>
-<span id="cb1-4"><a href="#cb1-4"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span>  <span class="co"># i um eins erhöhen</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>i <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Braucht eine Zähler-Variable</span></span>
+<span id="cb1-2"><a></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">5</span>:  <span class="co"># Solange i &lt; 5</span></span>
+<span id="cb1-3"><a></a>  <span class="bu">print</span>(i)</span>
+<span id="cb1-4"><a></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span>  <span class="co"># i um eins erhöhen</span></span>
+<span id="cb1-5"><a></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <h3 id="for-loop">For-Loop</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">5</span>):  <span class="co"># Für jedes i von 0 bis 5</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>  <span class="bu">print</span>(i)</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">5</span>):  <span class="co"># Für jedes i von 0 bis 5</span></span>
+<span id="cb2-2"><a></a>  <span class="bu">print</span>(i)</span>
+<span id="cb2-3"><a></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <h3 id="while-loops-vs.-for-loops">While-Loops vs.&nbsp;For-Loops</h3>
 <p>While-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.</p>
 <p>Warum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>, <span class="dv">10</span>):  <span class="co"># range(von, bis)</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="bu">print</span>(i)</span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="co"># Output: 5 6 7 8 9</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>, <span class="dv">10</span>):  <span class="co"># range(von, bis)</span></span>
+<span id="cb3-2"><a></a>  <span class="bu">print</span>(i)</span>
+<span id="cb3-3"><a></a><span class="co"># Output: 5 6 7 8 9</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <pre><code>Vgl. Misra-C + Leserlichkeit
 Demo</code></pre>
 </section>
 <section id="unendliche-loops-loops-verlassen" class="slide level2">
 <h2>Unendliche Loops &amp; Loops verlassen</h2>
 <p>Mit “while True:” erzeugt man einen unendlichen Loop:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="cf">while</span> <span class="va">True</span>:  <span class="co"># Unendliche Schleife</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>  <span class="bu">print</span>(<span class="st">"hallo"</span>)</span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="co"># Output: hallo hallo hallo hallo hallo hallo hallo hallo ...</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">while</span> <span class="va">True</span>:  <span class="co"># Unendliche Schleife</span></span>
+<span id="cb5-2"><a></a>  <span class="bu">print</span>(<span class="st">"hallo"</span>)</span>
+<span id="cb5-3"><a></a><span class="co"># Output: hallo hallo hallo hallo hallo hallo hallo hallo ...</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>(Tipp: Mit “ctrl-c” brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)</p>
 <p>Mit “break” kann man einen Loop wieder <strong>verlassen</strong></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>i <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="cf">while</span> <span class="va">True</span>:</span>
-<span id="cb6-3"><a href="#cb6-3"></a>  <span class="bu">print</span>(i)</span>
-<span id="cb6-4"><a href="#cb6-4"></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">100</span>:</span>
-<span id="cb6-5"><a href="#cb6-5"></a>    <span class="cf">break</span>  <span class="co"># Loop verlassen</span></span>
-<span id="cb6-6"><a href="#cb6-6"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a><span class="co"># Output: 0 1 2 4 5 ... 98 99 100</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb6-2"><a></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb6-3"><a></a>  <span class="bu">print</span>(i)</span>
+<span id="cb6-4"><a></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">100</span>:</span>
+<span id="cb6-5"><a></a>    <span class="cf">break</span>  <span class="co"># Loop verlassen</span></span>
+<span id="cb6-6"><a></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb6-7"><a></a><span class="co"># Output: 0 1 2 4 5 ... 98 99 100</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <h3 id="das-flussdiagramm-als-visuelle-darstellung">Das Flussdiagramm als visuelle Darstellung</h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a>i <span class="op">=</span> <span class="dv">2</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">10</span>:</span>
-<span id="cb7-3"><a href="#cb7-3"></a>  <span class="bu">print</span>(i)</span>
-<span id="cb7-4"><a href="#cb7-4"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">2</span></span>
-<span id="cb7-5"><a href="#cb7-5"></a><span class="bu">print</span>(<span class="st">"fertig"</span>)</span>
-<span id="cb7-6"><a href="#cb7-6"></a><span class="co"># Output: 2 4 6 8 fertig</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>i <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb7-2"><a></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">10</span>:</span>
+<span id="cb7-3"><a></a>  <span class="bu">print</span>(i)</span>
+<span id="cb7-4"><a></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">2</span></span>
+<span id="cb7-5"><a></a><span class="bu">print</span>(<span class="st">"fertig"</span>)</span>
+<span id="cb7-6"><a></a><span class="co"># Output: 2 4 6 8 fertig</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>(Da For-Loops nur “Syntactic Sugar” für While-Loops sind, werden diese als While-Loop dargestellt.)</p>
 </section>
-<section id="auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule" class="slide level2">
+<section id="auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule" class="slide level2 scrollable">
 <h2>Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule</h2>
 <ol type="1">
 <li>Die Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.</li>
@@ -500,16 +492,18 @@ Demo</code></pre>
 <p>Der IR (Interregio) von Luzern nach Engelberg fährt nur 1x pro Stunde. Der erste Zug fährt um 6:12 und der letzte Zug um 20:12.</p>
 <p>Erstellen sie ein Programm, welches den Fahrplan ausgibt (ohne jeden Zug einzeln aufzuschreiben). Erstellen sie das Flussdiagramm dazu.</p>
 </section>
-<section id="auftrag-prüfungssoftware-programmieren" class="slide level2">
+<section id="auftrag-prüfungssoftware-programmieren" class="slide level2 scrollable">
 <h2>Auftrag: Prüfungssoftware Programmieren</h2>
 <ol type="1">
 <li>Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.</li>
 <li>Erstellen sie das Flussdiagramm dazu.</li>
 </ol>
 
-
-<img src="../images/penguin.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy</p>
+<div class="quarto-auto-generated-content">
+<p><img src="../images/penguin.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
+</div>
 </div>
 </section></section>
     </div>
@@ -539,7 +533,6 @@ Demo</code></pre>
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -801,10 +794,32 @@ Demo</code></pre>
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -814,8 +829,17 @@ Demo</code></pre>
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -829,7 +853,11 @@ Demo</code></pre>
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
@@ -869,20 +897,6 @@ Demo</code></pre>
           });
         }
       }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-          }
-        }
     });
     </script>
     

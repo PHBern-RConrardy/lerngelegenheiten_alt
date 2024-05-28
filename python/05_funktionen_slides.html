@@ -8,10 +8,11 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.551">
 
-  <meta name="author" content="Richard Conrardy, Dozent">
+  <meta name="author" content="Richard Conrardy">
   <title>Python</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -32,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -224,7 +225,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -400,7 +402,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
 <div class="quarto-title-author-email">
 <a href="mailto:richard.conrardy@phbern.ch">richard.conrardy@phbern.ch</a>
@@ -413,25 +415,21 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
     </div>
 </div>
 
-</section><section id="TOC">
-<nav role="doc-toc"> 
-<h2 id="toc-title">Inhalt</h2>
-<ul>
-<li><a href="#/lernziele-dart" id="/toc-lernziele-dart">Lernziele :dart:</a>
-<ul>
-<li><a href="#/was-sind-funktionen-calculator" id="/toc-was-sind-funktionen-calculator">Was sind Funktionen? :calculator:</a></li>
-<li><a href="#/parameter-bzw.-argumente" id="/toc-parameter-bzw.-argumente">Parameter bzw. Argumente</a></li>
-<li><a href="#/rückgabewert" id="/toc-rückgabewert">Rückgabewert</a></li>
-<li><a href="#/reine-vs.-modifizierte-funktionen" id="/toc-reine-vs.-modifizierte-funktionen">Reine vs.&nbsp;Modifizierte Funktionen</a></li>
-<li><a href="#/section" id="/toc-section"></a></li>
-<li><a href="#/auftrag-brief-adressieren" id="/toc-auftrag-brief-adressieren">Auftrag: Brief Adressieren</a></li>
-</ul></li>
-</ul>
-</nav>
+  <p class="date">01.01.2024</p>
 </section>
 <section>
-<section id="lernziele-dart" class="title-slide slide level1 center">
+<section id="lernziele-dart" class="title-slide slide level1 agenda-slide center scrollable">
 <h1>Lernziele :dart:</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-active">
+<p>Lernziele :dart:</p>
+</div></li>
+</ol>
+</div>
 <blockquote>
 <p>Sie verstehen das Prinzip von Funktionen und können dieses Wissen in einem Programm umsetzen</p>
 </blockquote>
@@ -440,50 +438,50 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
 <h2>Was sind Funktionen? :calculator:</h2>
 <p>Funktionen kennen sie bereits aus der Mathematik, z. B. <code>f(x) = 2x</code>.</p>
 <p>In Python werden Funktionen mit <code>def</code>/<code>return</code> definiert und meistens verwendet, um Code besser zu strukturieren:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Definition einer Funktion</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">def</span> meine_funktion(x):</span>
-<span id="cb1-3"><a href="#cb1-3"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
-<span id="cb1-4"><a href="#cb1-4"></a></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Funktionen können mehrmals aufgerufen werden</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="bu">print</span>(meine_funktion(<span class="dv">2</span>))</span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="bu">print</span>(meine_funktion(<span class="dv">4</span>))</span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="co"># Output: 4 8</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="co"># Definition einer Funktion</span></span>
+<span id="cb1-2"><a></a><span class="kw">def</span> meine_funktion(x):</span>
+<span id="cb1-3"><a></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a><span class="co"># Funktionen können mehrmals aufgerufen werden</span></span>
+<span id="cb1-6"><a></a><span class="bu">print</span>(meine_funktion(<span class="dv">2</span>))</span>
+<span id="cb1-7"><a></a><span class="bu">print</span>(meine_funktion(<span class="dv">4</span>))</span>
+<span id="cb1-8"><a></a><span class="co"># Output: 4 8</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>(Im Gegensatz zu einer Variable sollte ein langer Funktionsname mit einem Bodenstrich getrennt werden, z.B., bmi_berechnen() und nicht bmiBerechnen())</p>
 </section>
 <section id="parameter-bzw.-argumente" class="slide level2">
 <h2>Parameter bzw. Argumente</h2>
 <p>Funktionen können (müssen aber nicht) Argumente haben:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">def</span> funktion_ohne_argument():</span>
-<span id="cb2-2"><a href="#cb2-2"></a>  <span class="bu">print</span>(<span class="st">"hello"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="kw">def</span> funktion_mit_argument(x):</span>
-<span id="cb2-5"><a href="#cb2-5"></a>  <span class="bu">print</span>(x)</span>
-<span id="cb2-6"><a href="#cb2-6"></a></span>
-<span id="cb2-7"><a href="#cb2-7"></a><span class="co"># Funktionen haben immer Klammern (mit oder ohne Argumente)</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>funktion_ohne_argument()</span>
-<span id="cb2-9"><a href="#cb2-9"></a>funktion_mit_argument(<span class="st">"world"</span>)</span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># Output: hello world</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> funktion_ohne_argument():</span>
+<span id="cb2-2"><a></a>  <span class="bu">print</span>(<span class="st">"hello"</span>)</span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="kw">def</span> funktion_mit_argument(x):</span>
+<span id="cb2-5"><a></a>  <span class="bu">print</span>(x)</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="co"># Funktionen haben immer Klammern (mit oder ohne Argumente)</span></span>
+<span id="cb2-8"><a></a>funktion_ohne_argument()</span>
+<span id="cb2-9"><a></a>funktion_mit_argument(<span class="st">"world"</span>)</span>
+<span id="cb2-10"><a></a><span class="co"># Output: hello world</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Die Argumente sind nur innerhalb der Funktion erreichbar:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">def</span> meine_funktion(x):</span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="bu">print</span>(x) <span class="co"># x ist das Argument/Parameter</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="bu">print</span>(x) <span class="co"># x wird nicht gefunden</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="kw">def</span> meine_funktion(x):</span>
+<span id="cb3-2"><a></a>  <span class="bu">print</span>(x) <span class="co"># x ist das Argument/Parameter</span></span>
+<span id="cb3-3"><a></a></span>
+<span id="cb3-4"><a></a><span class="bu">print</span>(x) <span class="co"># x wird nicht gefunden</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="rückgabewert" class="slide level2">
 <h2>Rückgabewert</h2>
 <p>Funktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">def</span> funktion_ohne_rückgabewert(x):</span>
-<span id="cb4-2"><a href="#cb4-2"></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
-<span id="cb4-3"><a href="#cb4-3"></a></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="kw">def</span> funktion_mit_rückgabewert(x):</span>
-<span id="cb4-5"><a href="#cb4-5"></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
-<span id="cb4-6"><a href="#cb4-6"></a>  <span class="cf">return</span> y</span>
-<span id="cb4-7"><a href="#cb4-7"></a></span>
-<span id="cb4-8"><a href="#cb4-8"></a>v1 <span class="op">=</span> funktion_ohne_rückgabewert(<span class="dv">5</span>)</span>
-<span id="cb4-9"><a href="#cb4-9"></a>v2 <span class="op">=</span> funktion_mit_rückgabewert(<span class="dv">5</span>)</span>
-<span id="cb4-10"><a href="#cb4-10"></a></span>
-<span id="cb4-11"><a href="#cb4-11"></a><span class="bu">print</span>(v1) <span class="co"># Output: None</span></span>
-<span id="cb4-12"><a href="#cb4-12"></a><span class="bu">print</span>(v2) <span class="co"># Output: 10</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="kw">def</span> funktion_ohne_rückgabewert(x):</span>
+<span id="cb4-2"><a></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb4-3"><a></a></span>
+<span id="cb4-4"><a></a><span class="kw">def</span> funktion_mit_rückgabewert(x):</span>
+<span id="cb4-5"><a></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb4-6"><a></a>  <span class="cf">return</span> y</span>
+<span id="cb4-7"><a></a></span>
+<span id="cb4-8"><a></a>v1 <span class="op">=</span> funktion_ohne_rückgabewert(<span class="dv">5</span>)</span>
+<span id="cb4-9"><a></a>v2 <span class="op">=</span> funktion_mit_rückgabewert(<span class="dv">5</span>)</span>
+<span id="cb4-10"><a></a></span>
+<span id="cb4-11"><a></a><span class="bu">print</span>(v1) <span class="co"># Output: None</span></span>
+<span id="cb4-12"><a></a><span class="bu">print</span>(v2) <span class="co"># Output: 10</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="reine-vs.-modifizierte-funktionen" class="slide level2">
 <h2>Reine vs.&nbsp;Modifizierte Funktionen</h2>
@@ -491,29 +489,31 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a>globaleVariable <span class="op">=</span> <span class="dv">0</span> <span class="co"># Das ist eine globale Variable</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="kw">def</span> reine_funktion(x):</span>
-<span id="cb5-4"><a href="#cb5-4"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
-<span id="cb5-5"><a href="#cb5-5"></a></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="kw">def</span> modifizierte_funktion(x):</span>
-<span id="cb5-7"><a href="#cb5-7"></a>  <span class="kw">global</span> globaleVariable <span class="co"># auf globale Variable zugreifen</span></span>
-<span id="cb5-8"><a href="#cb5-8"></a>  globaleVariable <span class="op">=</span> globaleVariable <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x<span class="op">*</span>globaleVariable</span>
-<span id="cb5-10"><a href="#cb5-10"></a></span>
-<span id="cb5-11"><a href="#cb5-11"></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
-<span id="cb5-12"><a href="#cb5-12"></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
-<span id="cb5-13"><a href="#cb5-13"></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
-<span id="cb5-14"><a href="#cb5-14"></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 16 --&gt; anderer Output</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>globaleVariable <span class="op">=</span> <span class="dv">0</span> <span class="co"># Das ist eine globale Variable</span></span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="kw">def</span> reine_funktion(x):</span>
+<span id="cb5-4"><a></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb5-5"><a></a></span>
+<span id="cb5-6"><a></a><span class="kw">def</span> modifizierte_funktion(x):</span>
+<span id="cb5-7"><a></a>  <span class="kw">global</span> globaleVariable <span class="co"># auf globale Variable zugreifen</span></span>
+<span id="cb5-8"><a></a>  globaleVariable <span class="op">=</span> globaleVariable <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb5-9"><a></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x<span class="op">*</span>globaleVariable</span>
+<span id="cb5-10"><a></a></span>
+<span id="cb5-11"><a></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-12"><a></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-13"><a></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-14"><a></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 16 --&gt; anderer Output</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-brief-adressieren" class="slide level2">
 <h2>Auftrag: Brief Adressieren</h2>
 <p>Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:</p>
 <p>Vorname, Name, Strasse, Strassennr, Plz, Ort</p>
 
-
-<img src="../images/penguin.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy</p>
+<div class="quarto-auto-generated-content">
+<p><img src="../images/penguin.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
+</div>
 </div>
 </section></section>
     </div>
@@ -543,7 +543,6 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -805,10 +804,32 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -818,8 +839,17 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -833,7 +863,11 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
@@ -873,20 +907,6 @@ Richard Conrardy, Dozent <a href="https://orcid.org/0009-0004-2063-6898" class="
           });
         }
       }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-          }
-        }
     });
     </script>
     
