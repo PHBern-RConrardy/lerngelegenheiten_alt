@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Richard Conrardy">
+
+<title>Funktionen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-592fc19d5c4a1bff56c90fe561edeec5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#lektion-1" id="toc-lektion-1" class="nav-link active" data-scroll-target="#lektion-1">Lektion 1</a>
+  <ul class="collapse">
+  <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a></li>
+  <li><a href="#skript" id="toc-skript" class="nav-link" data-scroll-target="#skript">Skript</a></li>
+  <li><a href="#teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion" id="toc-teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion" class="nav-link" data-scroll-target="#teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion">Teil 2 Eigenschaften von Funktionen: Welche Gleichung ist keine Funktion?</a></li>
+  </ul></li>
+  <li><a href="#lektion-2" id="toc-lektion-2" class="nav-link" data-scroll-target="#lektion-2">Lektion 2</a>
+  <ul class="collapse">
+  <li><a href="#übungen-funktionsgleichungen" id="toc-übungen-funktionsgleichungen" class="nav-link" data-scroll-target="#übungen-funktionsgleichungen">Übungen Funktionsgleichungen</a></li>
+  </ul></li>
+  <li><a href="#lehrpersonenkommentar" id="toc-lehrpersonenkommentar" class="nav-link" data-scroll-target="#lehrpersonenkommentar">Lehrpersonenkommentar</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Funktionen</h1>
+<p class="subtitle lead">Einführung ins Konzept</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Lynn Gurtner </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">21.09.2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Zusammenfassung</div>
+    <p>Zwei Doppellektionen für die Einführung und Übung von Funktionen als Input-Output-Modell wobei entweder Input oder Output bekannt ist.</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="lektion-1" class="level1">
+<h1>Lektion 1</h1>
+<section id="organisation" class="level2">
+<h2 class="anchored" data-anchor-id="organisation">Organisation</h2>
+<table class="caption-top table">
+<caption>Lektionsplan Lektion 1</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 25%">
+<col style="width: 32%">
+<col style="width: 6%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Zeitangabe</th>
+<th>Aufgabe SuS</th>
+<th>Aufgabe LP</th>
+<th>LUKAS</th>
+<th>Methode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5 min</td>
+<td>Materialien bereitlegen</td>
+<td>Begrüssung, Ankündigung neues Thema</td>
+<td>Ankommen</td>
+<td>Frontalunterricht</td>
+</tr>
+<tr class="even">
+<td>15 min</td>
+<td>Aufmerksam zuhören, Fragen stellen bei Unklarheiten. Beispiele notieren und gemeinsam lösen.</td>
+<td>Einführung Funktionen Teil 1 mit Skript als Orientierung. Mehrere Beispiele werden an der Wandtafel gezeigt, Begriffe werden erklärt. Zugriff zum Skript erst am Ende der Erklärung.</td>
+<td>Konfrontation</td>
+<td>An der Wandtafel und Beamer, Frontalunterricht</td>
+</tr>
+<tr class="odd">
+<td>10 min</td>
+<td>Durchlesen des Skripts. Teil 1. Unklarheiten mit LP klären, Wichtige Begriffe markieren</td>
+<td>Zugriff zum Skript erteilen. Fragen der SuS klären.</td>
+<td>Erarbeitungsaufgabe</td>
+<td>Skript online hochladen, SuS machen Einzelarbeit beim Durchlesen, Fragen mit LP oder mit Nachbar*in klären.</td>
+</tr>
+<tr class="even">
+<td>15 min</td>
+<td>Aufgaben 1-4 lösen</td>
+<td>Bereit für Fragen, allenfalls erneute Erklärungen an der Wandtafel.</td>
+<td>Übungsaufgabe</td>
+<td>Aufgaben können in Einzel- oder Partnerarbeit gelöst werden. Entweder direktes Lösen auf dem Tablet oder Übersetzen auf Papier.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skript" class="level2">
+<h2 class="anchored" data-anchor-id="skript">Skript</h2>
+<p>Skript Einführung Funktionen Teil 1 Was ist eine Funktion?</p>
+<p>Die Funktion ist eines der wichtigsten «Objekte» der Mathematik. In der Biologie oder im Physik werden sie oftmals auch als <strong>Regeln, Gesetze oder Formeln</strong> bezeichnet. Wir stellen uns Funktionen in der Mathematik als <strong>kleine Maschinen</strong> vor. In diese Maschine wird ein <strong>Input</strong> gegeben, dieser wird dann nach einer genauen Regel verarbeitet und als neuer <strong>Output</strong> wieder aus der Maschine gegeben. <a href="https://v-fe.lehrplan.ch/101DeKLWBVL4Rk2n6hmVf3GLKffyRqX4Y" class="knopf stufe">MA.3.A.1.m</a></p>
+<p>Eine Funktion wird üblicherweise mit dem Symbol f bezeichnet. Wobei der Input mit einem x und der Output mit einem y</p>
+<p>gekennzeichnet wird. Sind aber mehrere verschiedene Funktionen vorhanden, werden diese mit weiteren Buchstaben bezeichnet.</p>
+<p>Hängen wir diese Informationen nun zusammen, erhalten wir eine Maschine:</p>
+<p><span class="math display">\[\begin{align*}
+\text{Input: } &amp; x \\
+&amp; \downarrow \\
+&amp; \boxed{g} \quad \text{Regel: } g(x) = x^2 \\
+&amp; \downarrow \\
+\text{Output: } &amp; y
+\end{align*}\]</span></p>
+<p>Der Input wird also in die Maschine gegeben, wird dann in der Maschine verändert und kommt als neuer Output wieder heraus. Die Regel dieser Funktion lautet x+3 . Das heisst, addiere den Input mit 3. Wenn also der Input 2 ist, so ist der Output 2+3=5.</p>
+<p>Hier ist eine Maschine <span class="math inline">\(g\)</span>,</p>
+<p>die mit einer anderen Regel funktioniert.</p>
+<p><span class="math display">\[\begin{align*}
+\text{Input: } &amp; x \\
+&amp; \downarrow \\
+&amp; \boxed{g} \quad \text{Regel: } g(x) = x^2 \\
+&amp; \downarrow \\
+\text{Output: } &amp; y
+\end{align*}\]</span></p>
+<p>Bei dieser Funktion wird der Inhalt quadriert. Wenn also <span class="math inline">\(x = 4\)</span>, so ist <span class="math inline">\(y\)</span>, oder der Output, <span class="math inline">\(4 \cdot 4 = 16\)</span>.</p>
+<p>Nun gibt es verschiedene <strong>Notationen</strong>, wie man eine Funktion ohne die Maschine beschreiben kann. Wir werden uns mit der meistgebrauchten Notation beschäftigen.</p>
+<p>Diese sieht folgendermassen aus: <span class="math inline">\(ƒ(x)\)</span> <strong>= Regel der Funktion</strong>.</p>
+<p>Damit die Funktion berechnet werden kann, wird das <span class="math inline">\(x\)</span> definiert, sodass man den <span class="math inline">\(y\)</span>-Wert finden kann. Andererseits kann man auch den <strong><span class="math inline">\(y\)</span>-Wert</strong> definieren und so mit Hilfe der Funktionsregel auf den <strong><span class="math inline">\(x\)</span>-Wert</strong> schliessen.</p>
+<p>Wenn wir nun unsere Maschinen von oben betrachten, sehen diese mit der Notation so aus:</p>
+<p><span class="math display">\[ f(x) = x + 3 \]</span></p>
+<p><span class="math display">\[ g(x) = x^2 \]</span></p>
+<p><strong>Löse Aufgaben 1 &amp; 2 (Grundanforderung)</strong></p>
+<p><strong>Aufgabe 3:</strong> obligatorisch für Sek und Spez-Sek, freiwillig für Real</p>
+<p><strong>Aufgabe 4:</strong> obligatorisch für Spez-Sek, freiwillig für Sek und Real</p>
+</section>
+<section id="teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion" class="level2">
+<h2 class="anchored" data-anchor-id="teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion">Teil 2 Eigenschaften von Funktionen: Welche Gleichung ist keine Funktion?</h2>
+<p>Für eine Funktion kann nicht einfach eine willkürliche Gleichung gewählt werden. Es gibt gewisse Regeln, die beachtet werden müssen. Um diese etwas anschaulicher zu gestalten, benutzen wir dazu die <strong>Mengen</strong>.</p>
+<p>Jede Funktion besteht aus 2 Mengen. Diese Mengen werden als <strong>Definitionsbereich</strong> und als <strong>Wertebereich</strong> bezeichnet.</p>
+<p>Der Definitionsbereich einer Funktion gibt an welche Werte man in die Funktion einsetzen darf. Er beschreibt also alle Inputs oder x-Werte.</p>
+<p>Der Wertebereich beschreibt alle möglichen Ergebnisse, die aus der Maschine ausgespuckt werden können. Es sind also die Outputs oder y-Werte einer Funktion. Die Zahlen des Wertebereichs entstehen also durch die Zahlen des Definitionsbereichs.</p>
+<p>Damit eine Funktion nun gültig ist, kann <strong>jeder Input nur einen einzigen Output</strong> besitzen. Das bedeutet jedem Element im Definitionsbereich wird genau 1 Element im Wertebereich zugeteilt. Sobald die Gleichung mehrere Lösungen hat, ist es keine Funktionsgleichung.</p>
+<p>Lasst uns das in einem Bild veranschaulichen:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Mengen.jpg" class="img-fluid figure-img"></p>
+<figcaption>Bild erstellt von Lynn Gurtner</figcaption>
+</figure>
+</div>
+<p>Wie man sehen kann, verändern sich die Formen oder auch Zahlen durch die Funktionsregeln, jedoch wird jedem Input genau 1 Output zugestellt. Somit sind die Funktionen gültig.</p>
+<section id="ist-die-folgende-gleichung-eine-funktionsgleichung-begründe" class="level3">
+<h3 class="anchored" data-anchor-id="ist-die-folgende-gleichung-eine-funktionsgleichung-begründe">Ist die folgende Gleichung eine Funktionsgleichung? Begründe:</h3>
+<p><span class="math display">\[ f(2) = x^2 - 4 \]</span></p>
+<p>Ebenso wird die Gleichung nicht als gültig anerkannt, wenn sie kein Ergebnis ausspuckt.</p>
+<p>Ein Beispiel für eine Gleichung mit ungültigem Output ist:</p>
+<p><span class="math display">\[ f(3) = \frac{1}{x - 3} \]</span></p>
+<p>Diese Gleichung ist ungültig, da die Division durch Null nicht erlaubt ist. Die Gleichung hat also keinen gültigen Output.</p>
+</section>
+<section id="ma.3.b.1.i" class="level3">
+<h3 class="anchored" data-anchor-id="ma.3.b.1.i">MA.3.B.1.i</h3>
+<p>Löse Aufgaben 5-9. Aufgabe 9 = freiwillige Erweiterung.</p>
+</section>
+<section id="wichtige-erkenntnisse-und-begriffe" class="level3">
+<h3 class="anchored" data-anchor-id="wichtige-erkenntnisse-und-begriffe">Wichtige Erkenntnisse und Begriffe:</h3>
+<ul>
+<li>Eine Funktion kann als kleine Maschine betrachtet werden.</li>
+<li>Eine Funktion wird mit dem Symbol ƒ bezeichnet.</li>
+<li><strong>Input</strong> = x-Wert der Funktion.</li>
+<li><strong>Output</strong> = y-Wert der Funktion.</li>
+<li>Jede Funktion besitzt eine Regel, nach der der Output berechnet wird.</li>
+<li><span class="math display">\[ ƒ(x) \]</span> = Regel der Funktion ist die Notation einer Funktion.</li>
+<li>Der <strong>Definitionsbereich</strong> beschreibt die Inputs.</li>
+<li>Der <strong>Wertebereich</strong> beschreibt die Outputs.</li>
+</ul>
+<p>Wenn du noch eine zusätzliche Erklärung zum Thema Funktionen brauchst, kannst du gerne noch das Video unter folgendem Link anschauen:</p>
+<p><a href="https://youtu.be/myLx0d5wmHw?si=vB-aI0zptBWo8Rt4">Video zur Erklärung der Funktionen</a></p>
+<p><strong>Achtung:</strong> Hier werden bereits die Funktionsgraphen erklärt, welche wir uns in einem nächsten Schritt anschauen. Du darfst dich aber gerne schon darüber informieren.</p>
+</section>
+</section>
+</section>
+<section id="lektion-2" class="level1">
+<h1>Lektion 2</h1>
+<table class="caption-top table">
+<caption>Lektionsplan Lektion 2</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 33%">
+<col style="width: 38%">
+<col style="width: 5%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Zeitangabe</th>
+<th>Aufgabe SuS</th>
+<th>Aufgabe LP</th>
+<th>LUKAS</th>
+<th>Methode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>15 min</td>
+<td>Zuhören, Fragen stellen bei Unklarheiten</td>
+<td>Einführung des 2. Teils (Mengen). Unklarheiten wiederholen, Begriffe erklären mit Beispielen (Erklärung mit Menge = Beispiel 1 bei Beispielen einer Funktion von Serlo als Hilfe)</td>
+<td>Konfrontation und Reflexion</td>
+<td>Frontalunterricht, Wandtafel und Beamer</td>
+</tr>
+<tr class="even">
+<td>20 min</td>
+<td>Aufgaben 5-9 lösen. Bei Unklarheiten LP fragen oder verlinkte Videos anschauen.</td>
+<td>SuS unterstützen beim Lösen der Aufgaben. Allenfalls Aufgaben im Plenum erklären. Einige schwierigere Aufgaben im Frontalunterricht lösen, falls erwünscht von den SuS.</td>
+<td>Übungs- und Vertiefungsaufgaben</td>
+<td>Einzel- oder Partnerarbeit. SuS arbeiten am Platz mit Tablets.</td>
+</tr>
+<tr class="odd">
+<td>10 min</td>
+<td>Letzter Teil: Wichtige Begriffe und Erkenntnisse durchlesen. Unklarheiten melden.</td>
+<td>Wiederholung der wichtigen Begriffe und Erkenntnisse. Schwierige Aufgaben besprechen und gemeinsam lösen. Allenfalls von SuS erklären lassen.</td>
+<td>Reflexion und Synthese</td>
+<td>Zuerst Einzelarbeit beim Lesen, danach Besprechung und Klärung im Frontalunterricht</td>
+</tr>
+</tbody>
+</table>
+<section id="übungen-funktionsgleichungen" class="level2">
+<h2 class="anchored" data-anchor-id="übungen-funktionsgleichungen">Übungen Funktionsgleichungen</h2>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 1</strong></span> Finde den y-Wert</p>
+<p></p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 2</strong></span> Erstelle eine Funktionsgleichung mit</p>
+<ol type="a">
+<li><span class="math inline">\(x = 2\)</span></li>
+<li><span class="math inline">\(x = −2\)</span></li>
+<li><span class="math inline">\(x = 16\)</span></li>
+<li><span class="math inline">\(x = 1.5\)</span></li>
+<li><span class="math inline">\(x = 12\)</span></li>
+<li><span class="math inline">\(x = 7 − 4 / 2\)</span></li>
+</ol>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 3</strong></span> Betrachte die folgenden, mit Worten beschriebenen Funktionen. Zeichne für jede Funktion die Maschinen-Darstellung und schreibe auch die Funktionsgleichung auf. (MA.1.A.4.j)</p>
+<ol type="1">
+<li>Der Input wird durch 2 geteilt, und das Ergebnis wird um 1 erhöht.</li>
+<li>Der Input wird um 2.5 vermindert, und das Ergebnis wird mit 10 multipliziert.</li>
+<li>Der Input wird hoch drei gerechnet, und das Ergebnis wird mit 2 multipliziert.</li>
+<li>Der Input wird mit 3 multipliziert, das Ergebnis wird hoch drei gerechnet.</li>
+</ol>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 4</strong></span> Bestimme den Input für den gegebenen Output</p>
+<ol type="a">
+<li></li>
+</ol>
+<p><span class="math display">\[\begin{align*}
+x &amp; = ? \\
+&amp; \downarrow \\
+&amp; \left\lceil  f \right\rceil \quad \text{Regel: } f(x) = 3x - 1 \\
+&amp; \downarrow \\
+y &amp; = 0
+\end{align*}\]</span></p>
+<ol start="2" type="a">
+<li></li>
+</ol>
+<p><span class="math display">\[\begin{align*}
+x &amp; = ? \\
+&amp; \downarrow \\
+&amp; \left\lceil  f \right\rceil \quad \text{Regel: } f(x) = 2x \\
+&amp; \downarrow \\
+y &amp; = 36
+\end{align*}\]</span></p>
+<ol start="3" type="a">
+<li></li>
+</ol>
+<p><span class="math display">\[\begin{align*}
+x &amp; = ? \\
+&amp; \downarrow \\
+&amp; \left\lceil  f \right\rceil \quad \text{Regel: } f(x) = (x - 1)^2 \\
+&amp; \downarrow \\
+y &amp; = 16
+\end{align*}\]</span></p>
+<ol start="4" type="a">
+<li></li>
+</ol>
+<p><span class="math display">\[\begin{align*}
+x &amp; = ? \\
+&amp; \downarrow \\
+&amp;\left\lceil  f \right\rceil \quad \text{Regel: }  f(x)  = \frac{1}{x} \\
+&amp; \downarrow \\
+y &amp; = 0
+\end{align*}\]</span></p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 5</strong></span> f ist die Funktion, die jeder Frucht in der Menge die richtige Farbe zuordnet.</p>
+<p>Zeichne die Mengen des Definitionsbereichs und des Wertebereichs. Verbinde die Elemente durch Pfeile (wie im Skript) und notiere die Funktionsgleichungen für:</p>
+<ul>
+<li>Apfel<br>
+</li>
+<li>Banane<br>
+</li>
+<li>Birne<br>
+</li>
+<li>Mango<br>
+</li>
+<li>Pflaume<br>
+</li>
+<li>Tomate</li>
+</ul>
+<p>Funktionsgleichungen können auch im Alltag nützlich sein. Schauen wir uns eine solche Situation etwas genauer an. (MA.3.C.3.g)</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 6</strong></span> Die Fahrzeit berechnen mit Hilfe einer Funktionsgleichung</p>
+<p>Für die Berechnung der Fahrzeit benötigen wir 2 verschiedene Angaben:</p>
+<ol type="1">
+<li>Die Strecke<br>
+</li>
+<li>Die Geschwindigkeit</li>
+</ol>
+<p>Für die Strecke benutzen wir den Buchstaben <strong>d</strong> (distance) mit der Maßeinheit km und für die Geschwindigkeit den Buchstaben <strong>v</strong> (velocity) mit der Maßeinheit km/h.<br>
+Wenn wir nun die Fahrzeit berechnen wollen, benötigen wir die folgende Gleichung:</p>
+<p><strong>f(t) = d / v</strong></p>
+<p>Die Strecke geteilt durch die Geschwindigkeit ergibt also die Fahrzeit.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 7</strong></span> Berechne die Fahrzeit. Gib in Minuten an</p>
+<ol type="1">
+<li>t = 120, v = 60</li>
+<li>t = 30, v = 60</li>
+<li>t = 100, v = 80</li>
+<li>t = 70, v = 40</li>
+</ol>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 8</strong></span> Berechne die Fahrzeit von der Schule zu deinem Zuhause und an deinen Lieblings-Ferienort mit</p>
+<ol type="1">
+<li>v = 80</li>
+<li>v = 120</li>
+</ol>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 9</strong></span> Berechne die Fahrzeit für die Strecke zum Ferienort, wenn du 1/3 der Strecke 30 km/h fährst, 1/3 der Strecke 80 km/h fährst und 1/3 der Strecke 100 km/h fährst.</p>
+</div>
+</section>
+</section>
+<section id="lehrpersonenkommentar" class="level1">
+<h1>Lehrpersonenkommentar</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Die Funktionen spielen eine sehr wichtige Rolle in der Mathematik. Deshalb möchte ich für die Einführung in dieses neue Thema zwei Lektionen beanspruchen. Mein Skript, das die Basis für diese Lektionen bildet, beschäftigt sich vorwiegend mit Funktionsgleichungen und Begriffserklärungen. Die SuS lernen einen neuen mathematischen Begriff, die Funktion, sowie eine neue Notation kennen. Damit das Thema verständlicher wird, rate ich den SuS im ersten Teil des Skripts, sich Funktionen als kleine Maschinen vorzustellen. Dabei lernen sie bildlich, was eine Funktion ist und wie diese funktioniert.</p>
+<p>Im zweiten Teil des Skripts werden Funktionen anhand von Mengen veranschaulicht. Die SuS lernen dadurch zwei verschiedene Varianten kennen, wie man Funktionen darstellen kann. Diese Vergleiche sollen ihnen helfen, die folgende mathematische Gleichungen besser zu verstehen. Der Fokus dieses Skripts liegt ausführlich auf den Funktionsgleichungen. Alternativ könnte man auch mit dem Graphen einer Funktion beginnen und anhand dessen auf die Gleichung schliessen. Ich halte es jedoch für sinnvoller, zuerst zu verstehen, was eine Funktion ist und wie man sie korrekt notiert, bevor man sich mit den Arten von Funktionen und somit ihren Graphen beschäftigt. Ich fokussiere mich deshalb auf die Gleichungen und würde dann in einer nächsten Lektion mit dem Graph einer Funktion fortfahren.</p>
+<p>Nach dem ersten Teil des Skripts habe ich einige Übungen eingebaut. Diese sind darauf ausgelegt, die SuS so intensiv wie möglich mit den Gleichungen zu konfrontieren. Es gibt Aufgaben, bei denen sie die Gleichung lösen müssen, und andere, bei denen sie die Funktionsgleichung selbst formulieren sollen. Dadurch erhalten sie einen differenzierten Überblick über das neue Thema.</p>
+<p>Auch nach dem zweiten Teil gibt es verschiedene Aufgaben. Die erste ist auf die Anwendung der Mengentheorie ausgelegt und beim Rest liegt der Fokus dann wieder beim Lösen von Funktionsgleichungen. Auch habe ich ein alltagsnahes Beispiel eingefügt, um das Thema den SuS etwas näher zu bringen.</p>
+<p>In diesen Lektionen liegt der Fokus auf dem neuen Thema der Funktion. Deshalb sollten der erste und zweite Teil des Skripts zu Beginn der Lektionen frontal eingeführt werden. So haben alle SuS die neuen Informationen einmal gehört und es können bereits einige Beispiele gemeinsam bearbeitet werden. Das Skript wird den SuS aber auch nach der Einführung zugänglich sein, damit sie die Informationen zur Ergebnissicherung noch einmal nachlesen können. Erst danach sollten sie mit den Übungen beginnen. Als kleine “Auszeit” oder zusätzliche Hilfe habe ich auch Videos eingebaut, um eine alternative Lernstrategie anzubieten. Mir ist bewusst, dass dieser Lektionsablauf eher altmodisch ist und man heute einen interaktiveren Unterricht planen sollte. Dennoch bin ich überzeugt, dass es sich gerade bei der Einführung von neune Themen sehr lohnt, wenn man sie bewusst im Frontalunterricht behandelt.</p>
+<section id="unterrichtsmethoden" class="level3">
+<h3 class="anchored" data-anchor-id="unterrichtsmethoden">Unterrichtsmethoden</h3>
+<p>Um das Thema der Funktionen verständlicher zu machen, setze ich auf eine Kombination von Unterrichtsmethoden. Zu Beginn der beiden Lektionen führe ich das Thema frontal ein. Dabei wird den SuS das neue Thema der Funktionen erklärt. Im ersten Teil gehe ich vor allem auf die Notation und den Aufbau einer Funktion ein. In der zweiten Lektion wird das Thema gewissermassen wiederholt, allerdings werden die Funktionen nun auf eine andere Art und Weise dargestellt. Durch den Frontalunterricht erkenne ich in der zweiten Lektion direkt, was die SuS noch nicht verstanden haben. Die klare Einführung stellt sicher, dass alle SuS mit den neuen Grundbegriffen arbeiten können. Gerade bei neuen Themen ist es sinnvoll, den Frontalunterricht anzuwenden, da so alle SuS gleichzeitig auf denselben Wissensstand gebracht werden. Anschließend kann in einer weiteren Unterrichtssequenz auf lernschwächere oder sehr leistungsstarke SuS individuell eingegangen werden.</p>
+<p>Nach dem Einstieg folgt eine Phase der Einzelarbeit. Die SuS sollen das gerade Gelernte noch einmal durchlesen, um die Informationen besser zu verinnerlichen. Sobald dies geschehen ist, können sie beim Lösen der Aufgaben zwischen Einzel- und Partnerarbeit wählen.</p>
+<p>Durch die Partnerarbeit haben die SuS die Möglichkeit, sich gegenseitig zu unterstützen. Das kooperative Lernen fördert sowohl das Verständnis des Themas als auch ihre sozialen Kompetenzen. Außerdem haben sie durch diese Methode die Gelegenheit, Fragen an die Lehrperson oder ihre Peers zu stellen.</p>
+<p>Das Austeilen des Skripts ermöglicht es den SuS, individuell an den Aufgaben zu arbeiten. Sie können dies in ihrem eigenen Tempo tun und dabei jederzeit die Regeln der Funktionen nachlesen, falls etwas unklar ist. In diesen Phasen kann ich die SuS individuell unterstützen.</p>
+</section>
+<section id="unterrichtstechniken-einführung-funktionen" class="level3">
+<h3 class="anchored" data-anchor-id="unterrichtstechniken-einführung-funktionen">Unterrichtstechniken Einführung Funktionen</h3>
+<p>Bei jedem neuen Thema in der Mathematik fragt man sich, wie es für die Schülerinnen und Schüler am besten verständlich wird. Bei den Funktionen habe ich mich deshalb für eine visuelle Darstellung und den Einsatz von Metaphern entschieden. Das Konzept der Funktionsgleichung vergleiche ich mit einer kleinen Maschine, die einen Input und einen Output verarbeitet. Diese bildhafte Beschreibung hilft den Lernenden, eine Verbindung zwischen dem abstrakten Thema der Funktion und der Realität herzustellen. Zudem führe ich die mathematische Notation schrittweise ein. Zunächst arbeite ich mit der visuellen Metapher der Maschine, bevor ich zur mathematischen Notation übergehe. Ebenso wie die Maschine helfen auch Mengen, das Thema zu visualisieren. Da die Schülerinnen und Schüler bereits mit Mengen vertraut sind, lassen sich einfache Alltagsbeispiele nutzen, um das Thema verständlicher zu machen. Hier arbeite ich mit Symbolen oder in den Übungen dann auch mit Früchten. Ich verpacke also die symbolische Sprache der Mathematik in greifbare Beispiele. Ein weiterer wesentlicher Bestandteil meiner Lernumgebung sind die anschließenden Übungen, die ich nach jedem Theorieteil einfüge. Diese Aufgaben basieren direkt auf den Beispielen aus dem Skript, sodass die Lernenden das neue Wissen sofort anwenden können. Ich habe die Aufgaben in Grundanforderungen und Erweiterungen unterteilt, damit alle ein grundlegendes Verständnis erwerben, aber auch die Möglichkeit haben, selbstständig weiterzuarbeiten und ihr Verständnis zu überprüfen. Im Allgemeinen folgt meine Lernumgebung einer klaren und verständlichen Struktur. Sie beginnt mit dem theoretischen Teil, gefolgt von darauf aufbauenden Aufgaben. Was den Schülerinnen und Schülern hilft, ihr Wissen systematisch zu vertiefen.</p>
+</section>
+<section id="vertiefung-1-lernphasen" class="level3">
+<h3 class="anchored" data-anchor-id="vertiefung-1-lernphasen">Vertiefung 1: Lernphasen</h3>
+<p>Mit dem LUKAS Lernprozessmodell wird diese Lernumgebung in 5 Phasen unterteilt.</p>
+<p>Zu Beginn der Lektion wird der Klasse der Lernauftrag klar vermittelt. Durch den Frontalunterricht erkläre ich das neue Thema der Funktionen. Die SuS haben somit eine erste Vorstellung der Funktion, deren mathematischen Notation und sie lernen eine neue Gleichungsart kennen. Ich biete der Klasse also eine klare Orientierung, was sie lernen sollen und warum das Thema wichtig ist. Folglich wissen die Schülerinnen und Schüler von Anfang an, welche Lernziele sie erreichen sollen.</p>
+<p>In der darauffolgenden Phase befinden wir uns im Bereich der Erarbeitung. Die Klasse setzt sich also nach dem theoretischen Input mit dem eben gelernten Stoff auseinander. Sie werden zunächst aufgefordert, das Gelernte noch einmal zu vertiefen, indem sie es in Einzelarbeit durchlesen. Danach können sie selbst entscheiden, ob sie die Übungen alleine oder zu zweit erarbeiten wollen.</p>
+<p>Die Dritte Phase, das Können, wird durch das Lösen der Übungen gestärkt. Die SuS wenden die neuen Erkenntnisse an, indem sie die Funktionsgleichungen lösen und auch selbständig aufstellen. Die Aufgaben helfen den SuS ihr Verständnis über das Thema zu stärken und gleichzeitig werden sie routinierter im Umgang mit Funktionsgleichungen. Hierbei haben sie die Möglichkeit in ihrem eigenen Tempo zu arbeiten, was eine individuelle Differenzierung fördert.</p>
+<p>Die Anwendungsphase ist in dieser Lernumgebung in den letzten Aufgaben zu finden. Mit Hilfe des Alltagsbeispiels lernen die SuS, die neuen Informationen auf lebensnahe Kontexte zu übertragen. Dabei vertiefen sie ihr Verständnis und kennen zugleich ein Beispiel für die Relevanz der mathematischen Funktion im Alltag.</p>
+<p>In der letzten Phase findet die Sicherung des Gelernten statt. Dafür fasse ich die wichtigsten Begriffe des Themas am Ende des Skripts noch einmal zusammen. Diese Aufzählung dient als Checkliste für die Schülerinnen und Schüler, falls sie eine Begriff nicht mehr definieren können. Auch dient sie als Anhaltspunkt für die Lehrperson beim Überprüfen, welche Konzepte noch nicht erfasst werden konnten.</p>
+</section>
+<section id="vertiefung-2-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="vertiefung-2-motivation">Vertiefung 2: Motivation</h3>
+<p>Die Motivation der Schülerinnen und Schüler spielt in jeder Lernumgebung eine zentrale Rolle. In den Mathematikunterricht der Oberstufe kommen viele SuS leider bereits mit negativen Erfahrungen oder sogar Ängsten daher. Deshalb ist es umso wichtiger, ihre Motivation anzuzapfen und stetig aufzubauen.</p>
+<p>In dieser Lernumgebung setze ich deshalb auf eine klare Struktur und verständliche Aufgabenstellungen, um die Ängste der SuS zu minimieren. Die frontale Einführung gibt ihnen eine solide Grundlage, auf der sie im weiteren Verlauf der Lektion aufbauen können. Falls der Einstieg für manche zu schnell war oder sich einzelne SuS nicht genug konzentrieren konnten, stellt das Skript einen weiteren Meilenstein dar. Es bietet ihnen die Möglichkeit, immer wieder auf die Theorie zurückzugreifen, falls sie auf Schwierigkeiten stossen. Zusätzlich steht ihnen ein unterstützendes Video zur Verfügung. Dieses Video ist nicht offizieller Teil der Lernumgebung, dient jedoch als zusätzliche differenzierte Hilfe. Sobald die SuS das neue Thema verstanden haben, steigt auch ihre Motivation. Denn am wenigsten motiviert ist man, wenn man einen Themenbereich nicht nachvollziehen kann. Durch verschiedene Unterrichtsmethoden und gezielt eingesetzte Techniken wird die Motivation der SuS weiter gestärkt. Sie haben die Freiheit, ihr Lerntempo selbst zu gestalten und können zwischen Einzelarbeit und kooperativem Lernen wählen. Bildhafte Darstellungen und Metaphern helfen ebenfalls, mögliche Hemmungen abzubauen und das Thema zugänglicher zu machen. Ein weiterer wichtiger Punkt ist das Einbeziehen von Alltagsbeispielen. Diese helfen den SuS, die Relevanz komplexer mathematischer Themen in ihrem täglichen Leben zu erkennen, sodass das Thema nicht als „unnötig“ wahrgenommen wird. Zusammenfassend tragen alle diese Faktoren dazu bei, dass die Schülerinnen und Schüler Interesse am Thema entwickeln, ihre Aufgaben motiviert angehen und das Gelernte langfristig festigen.</p>
+</section>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Diese Lernumgebung beruht auf einer Lernumgebung welche von Lynn Gurtner erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876524 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-gurtner2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Gurtner, L. (2024, September 21). <em>Funktionen</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/">
+<p>PHBern</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
+<p>Kontakt</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

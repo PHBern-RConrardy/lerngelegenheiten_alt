@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.6.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-592fc19d5c4a1bff56c90fe561edeec5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -154,9 +154,65 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lehrmaterialien .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-authors',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lehrmaterialien'] = new List('listing-lehrmaterialien', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projekte .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projekte'] = new List('listing-projekte', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -213,7 +269,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(28)</span></div><div class="category" data-category="Fach - Mathematik">Fach - Mathematik <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Label - Digitalität">Label - Digitalität <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Formative Beurteilung">Modul - Formative Beurteilung <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Modul - Summative und prognostische Beurteilung">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(54)</span></div><div class="category" data-category="RmFjaCAtIE1hdGhlbWF0aWs=">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFiZWwgLSBEaWdpdGFsaXTkdA==">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBGb3JtYXRpdmUgQmV1cnRlaWx1bmc=">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBLbGFzc2VuZvxocnVuZw==">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNYWtyb3BsYW51bmc=">Modul - Makroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNaWtyb3BsYW51bmc=">Modul - Mikroplanung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmc=">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBadXNhbW1lbmFyYmVpdCB1bmQgS29tbXVuaWthdGlvbg==">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -229,7 +285,7 @@ window.Quarto = {
   <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -259,9 +315,10 @@ window.Quarto = {
 
 
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Lernumgebungen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Projekte</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows. test</p>
 <div id="listing-lerngelegenheiten" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -291,28 +348,68 @@ Untertitel
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Modul - Summative und prognostische Beurteilung,Modul - Formative Beurteilung" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716821189868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1155" data-listing-title-sort="Grundlagen der Beurteilung" data-listing-filename-sort="LG_grundlagen_der_beurteilung.qmd">
+<tr data-index="0" data-categories="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmc=" data-listing-file-modified-sort="1724825417668" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" data-listing-title-sort="Chancen und Risiken standardisierter Testverfahren und Leistungsmessung" data-listing-filename-sort="LG_standtest.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html" class="title listing-title">Grundlagen der Beurteilung</a>
+<a href="./lerngelegenheiten/LG_math-standtest/LG_standtest.html" class="title listing-title">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</a>
 </td>
 <td>
-<span class="listing-subtitle">Fallbasiert diskutiert, SOL mit Coaching-Angebot</span>
+<span class="listing-subtitle">Teil Mathematik</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="Modul - Formative Beurteilung,Label - Digitalität" data-listing-date-sort="1715637600000" data-listing-file-modified-sort="1715773422158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="625" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="LG_learning_analytics.qmd">
+<tr data-index="1" data-categories="TW9kdWwgLSBadXNhbW1lbmFyYmVpdCB1bmQgS29tbXVuaWthdGlvbixNb2R1bCAtIEtsYXNzZW5m/GhydW5nLExhYmVsIC0gRGlnaXRhbGl05HQ=" data-listing-date-sort="1726351200000" data-listing-file-modified-sort="1726432924690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193" data-listing-title-sort="Digitale Zusammenarbeit und Kommunikation" data-listing-filename-sort="LG_digitale_zusammenarbeit.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html" class="title listing-title">Learning Analytics</a>
+<a href="./lerngelegenheiten/LG_digi-zuk/LG_digitale_zusammenarbeit.html" class="title listing-title">Digitale Zusammenarbeit und Kommunikation</a>
+</td>
+<td>
+<span class="listing-subtitle">Tools und Technologien kennenlernen</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmcsTGFiZWwgLSBEaWdpdGFsaXTkdA==" data-listing-file-modified-sort="1721650436159" data-listing-reading-time-sort="2" data-listing-word-count-sort="303" data-listing-title-sort="Digitalität und Datenschutz" data-listing-filename-sort="LG_datenschutz.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_digi-datenschutz/LG_datenschutz.html" class="title listing-title">Digitalität und Datenschutz</a>
 </td>
 <td>
 <span class="listing-subtitle">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="Modul - Formative Beurteilung,Modul - Summative und prognostische Beurteilung,Label - Digitalität,Fach - Mathematik" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715541319739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3147" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="LG_math_ki.qmd">
+<tr data-index="3" data-categories="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmcsTW9kdWwgLSBGb3JtYXRpdmUgQmV1cnRlaWx1bmc=" data-listing-date-sort="1704754800000" data-listing-file-modified-sort="1735030427276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="552" data-listing-title-sort="Grundlagen der Beurteilung" data-listing-filename-sort="LG_grundbeurteilung.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LG_grundbeurteilung.html" class="title listing-title">Grundlagen der Beurteilung</a>
 </td>
 <td>
-<span class="listing-subtitle">Beurteilung Mathematik</span>
+<span class="listing-subtitle">Fallbasiert diskutiert, SOL mit Coaching-Angebot</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="TW9kdWwgLSBNYWtyb3BsYW51bmcsTW9kdWwgLSBNaWtyb3BsYW51bmc=" data-listing-date-sort="1714860000000" data-listing-file-modified-sort="1733245309468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="700" data-listing-title-sort="Mediendidaktik" data-listing-filename-sort="LG_Mediendidaktik.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html" class="title listing-title">Mediendidaktik</a>
+</td>
+<td>
+<span class="listing-subtitle">Präsenzkurs</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="TW9kdWwgLSBNaWtyb3BsYW51bmcsRmFjaCAtIE1hdGhlbWF0aWs=" data-listing-date-sort="1717711200000" data-listing-file-modified-sort="1733306380120" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1926" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="LG_mikroplanungmath.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-subtitle">Lernumgebungen entwickeln</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmcsRmFjaCAtIE1hdGhlbWF0aWs=" data-listing-file-modified-sort="1726482390607" data-listing-reading-time-sort="9" data-listing-word-count-sort="1648" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="LG_summmath.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-summ/LG_summmath.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="TW9kdWwgLSBGb3JtYXRpdmUgQmV1cnRlaWx1bmcsTW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmcsTGFiZWwgLSBEaWdpdGFsaXTkdCxGYWNoIC0gTWF0aGVtYXRpaw==" data-listing-date-sort="1726524000000" data-listing-file-modified-sort="1726581031912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1245" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="LG_mathpython.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-python/LG_mathpython.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">Programmieren im Mathematikunterricht</span>
 </td>
 </tr>
 </tbody>
@@ -323,6 +420,7 @@ Keine Treffer
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Auflistung aller Lernmodule welche eine thematische Lerneinheit bilden.</p>
 <div id="listing-lernmodule" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -352,124 +450,180 @@ Untertitel
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886665621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="215" data-listing-title-sort="Thematische Einführung" data-listing-filename-sort="Lernmodul_01.qmd">
+<tr data-index="0" data-categories="TGFiZWwgLSBEaWdpdGFsaXTkdA==" data-listing-file-modified-sort="1730747522067" data-listing-reading-time-sort="4" data-listing-word-count-sort="799" data-listing-title-sort="Datenschutz" data-listing-filename-sort="LM_datenschutz_01.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html" class="title listing-title">Thematische Einführung</a>
+<a href="./lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html" class="title listing-title">Datenschutz</a>
+</td>
+<td>
+<span class="listing-subtitle">Digitalität und Datenschutz</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1728380458093" data-listing-reading-time-sort="2" data-listing-word-count-sort="216" data-listing-title-sort="Thematische Einführung" data-listing-filename-sort="LM_01.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_01.html" class="title listing-title">Thematische Einführung</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886403177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627" data-listing-title-sort="Theoretische Grundlagen" data-listing-filename-sort="Lernmodul_02.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1728381181039" data-listing-reading-time-sort="4" data-listing-word-count-sort="678" data-listing-title-sort="Theoretische Grundlagen" data-listing-filename-sort="LM_02.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html" class="title listing-title">Theoretische Grundlagen</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_02.html" class="title listing-title">Theoretische Grundlagen</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886627046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1229" data-listing-title-sort="Gesetzliche Grundlagen" data-listing-filename-sort="Lernmodul_03.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1735030416493" data-listing-reading-time-sort="7" data-listing-word-count-sort="1211" data-listing-title-sort="Gesetzliche Grundlagen" data-listing-filename-sort="LM_03.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.html" class="title listing-title">Gesetzliche Grundlagen</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_03.html" class="title listing-title">Gesetzliche Grundlagen</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886632978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571" data-listing-title-sort="Noten und Beurteilungsberichte" data-listing-filename-sort="Lernmodul_04.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1735030410701" data-listing-reading-time-sort="3" data-listing-word-count-sort="565" data-listing-title-sort="Noten und Beurteilungsberichte" data-listing-filename-sort="LM_04.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.html" class="title listing-title">Noten und Beurteilungsberichte</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_04.html" class="title listing-title">Noten und Beurteilungsberichte</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886638471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Förderorientierung" data-listing-filename-sort="Lernmodul_05.qmd">
+<tr data-index="5" data-listing-file-modified-sort="1735030403460" data-listing-reading-time-sort="2" data-listing-word-count-sort="211" data-listing-title-sort="Förderorientierung" data-listing-filename-sort="LM_05.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.html" class="title listing-title">Förderorientierung</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_05.html" class="title listing-title">Förderorientierung</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="5" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886642883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="814" data-listing-title-sort="Lernbegleitung und Lerncoaching" data-listing-filename-sort="Lernmodul_06.qmd">
+<tr data-index="6" data-listing-file-modified-sort="1728382189380" data-listing-reading-time-sort="4" data-listing-word-count-sort="773" data-listing-title-sort="Lernbegleitung und Lerncoaching" data-listing-filename-sort="LM_06.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.html" class="title listing-title">Lernbegleitung und Lerncoaching</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_06.html" class="title listing-title">Lernbegleitung und Lerncoaching</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="6" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886648319" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="677" data-listing-title-sort="Kompetenzorientierung" data-listing-filename-sort="Lernmodul_07.qmd">
+<tr data-index="7" data-listing-file-modified-sort="1728382390003" data-listing-reading-time-sort="4" data-listing-word-count-sort="674" data-listing-title-sort="Kompetenzorientierung" data-listing-filename-sort="LM_07.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.html" class="title listing-title">Kompetenzorientierung</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_07.html" class="title listing-title">Kompetenzorientierung</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="7" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886652140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2817" data-listing-title-sort="Gesamturteil und Persönliche und Schlüsselkompetenzen" data-listing-filename-sort="Lernmodul_08.qmd">
+<tr data-index="8" data-listing-file-modified-sort="1724242721617" data-listing-reading-time-sort="15" data-listing-word-count-sort="2806" data-listing-title-sort="Gesamturteil und Persönliche und Schlüsselkompetenzen" data-listing-filename-sort="LM_08.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.html" class="title listing-title">Gesamturteil und Persönliche und Schlüsselkompetenzen</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_08.html" class="title listing-title">Gesamturteil und Persönliche und Schlüsselkompetenzen</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="8" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886658108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210" data-listing-title-sort="Niveaus und Schulmodelle" data-listing-filename-sort="Lernmodul_09.qmd">
+<tr data-index="9" data-listing-file-modified-sort="1716886658108" data-listing-reading-time-sort="2" data-listing-word-count-sort="210" data-listing-title-sort="Niveaus und Schulmodelle" data-listing-filename-sort="LM_09.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.html" class="title listing-title">Niveaus und Schulmodelle</a>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_09.html" class="title listing-title">Niveaus und Schulmodelle</a>
 </td>
 <td>
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="9" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1716886661830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="717" data-listing-title-sort="Nachteilsausgleich und individuelle Lernziele" data-listing-filename-sort="Lernmodul_10.qmd">
+<tr data-index="10" data-listing-file-modified-sort="1724866976862" data-listing-reading-time-sort="2" data-listing-word-count-sort="255" data-listing-title-sort="Lehrmittel" data-listing-filename-sort="LM_mikromath_01.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.html" class="title listing-title">Nachteilsausgleich und individuelle Lernziele</a>
+<a href="./lerngelegenheiten/LG_math-mikro/LM_mikromath_01.html" class="title listing-title">Lehrmittel</a>
 </td>
 <td>
-<span class="listing-subtitle">Grundlagen der Beurteilung</span>
+<span class="listing-subtitle">Mathematik</span>
 </td>
 </tr>
-<tr data-index="10" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715536086429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261" data-listing-title-sort="Variablen Datentypen und Typecasting" data-listing-filename-sort="Lernmodul_01.qmd">
+<tr data-index="11" data-listing-file-modified-sort="1724871209671" data-listing-reading-time-sort="4" data-listing-word-count-sort="732" data-listing-title-sort="Lernumgebungen" data-listing-filename-sort="LM_mikromath_02.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="title listing-title">Variablen Datentypen und Typecasting</a>
+<a href="./lerngelegenheiten/LG_math-mikro/LM_mikromath_02.html" class="title listing-title">Lernumgebungen</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="12" data-listing-file-modified-sort="1735030308573" data-listing-reading-time-sort="2" data-listing-word-count-sort="232" data-listing-title-sort="Variablen Datentypen und Typecasting" data-listing-filename-sort="LM_mathpython_01.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="title listing-title">Variablen Datentypen und Typecasting</a>
 </td>
 <td>
 <span class="listing-subtitle">Python - Lernmodul 1</span>
 </td>
 </tr>
-<tr data-index="11" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715519348041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265" data-listing-title-sort="Conditionals (if-elif-else) und Flussdiagramme" data-listing-filename-sort="Lernmodul_02.qmd">
+<tr data-index="13" data-listing-file-modified-sort="1730404116370" data-listing-reading-time-sort="2" data-listing-word-count-sort="351" data-listing-title-sort="Conditionals" data-listing-filename-sort="LM_mathpython_02.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="title listing-title">Conditionals (if-elif-else) und Flussdiagramme</a>
+<a href="./lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="title listing-title">Conditionals</a>
 </td>
 <td>
 <span class="listing-subtitle">Python - Lernmodul 2</span>
 </td>
 </tr>
-<tr data-index="12" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715536083936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="326" data-listing-title-sort="Loops" data-listing-filename-sort="Lernmodul_03.qmd">
+<tr data-index="14" data-listing-file-modified-sort="1730403890287" data-listing-reading-time-sort="4" data-listing-word-count-sort="766" data-listing-title-sort="Loops" data-listing-filename-sort="LM_mathpython_03.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="title listing-title">Loops</a>
+<a href="./lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="title listing-title">Loops</a>
 </td>
 <td>
 <span class="listing-subtitle">Python - Lernmodul 3</span>
 </td>
 </tr>
-<tr data-index="13" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715536079335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272" data-listing-title-sort="Listen" data-listing-filename-sort="Lernmodul_04.qmd">
+<tr data-index="15" data-listing-file-modified-sort="1735030293602" data-listing-reading-time-sort="2" data-listing-word-count-sort="354" data-listing-title-sort="Listen" data-listing-filename-sort="LM_mathpython_04.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="title listing-title">Listen</a>
+<a href="./lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="title listing-title">Listen</a>
 </td>
 <td>
 <span class="listing-subtitle">Python - Lernmodul 4</span>
 </td>
 </tr>
-<tr data-index="14" data-listing-date-sort="1704063600000" data-listing-file-modified-sort="1715536091503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236" data-listing-title-sort="Funktionen" data-listing-filename-sort="Lernmodul_05.qmd">
+<tr data-index="16" data-listing-file-modified-sort="1735030281929" data-listing-reading-time-sort="2" data-listing-word-count-sort="301" data-listing-title-sort="Funktionen" data-listing-filename-sort="LM_mathpython_05.qmd">
 <td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="title listing-title">Funktionen</a>
+<a href="./lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="title listing-title">Funktionen</a>
 </td>
 <td>
 <span class="listing-subtitle">Python - Lernmodul 5</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-file-modified-sort="1717056394148" data-listing-reading-time-sort="4" data-listing-word-count-sort="638" data-listing-title-sort="Standardisierte Testverfahren in der Mathematik" data-listing-filename-sort="LM_standtestmath_01.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-standtest/LM_standtestmath_01.html" class="title listing-title">Standardisierte Testverfahren in der Mathematik</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="18" data-listing-date-sort="1721340000000" data-listing-file-modified-sort="1735030260027" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347" data-listing-title-sort="Installationsanleitung IDE" data-listing-filename-sort="LM_IDE_install.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="title listing-title">Installationsanleitung IDE</a>
+</td>
+<td>
+<span class="listing-subtitle">Kurzanleitung wie man RStudio oder VSCode für Python und Quarto nutzt</span>
+</td>
+</tr>
+<tr data-index="19" data-listing-date-sort="1720562400000" data-listing-file-modified-sort="1730380979719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="814" data-listing-title-sort="Nachteilsausgleich und individuelle Lernziele" data-listing-filename-sort="LM_10.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_esw-beurteilung/LM_10.html" class="title listing-title">Nachteilsausgleich und individuelle Lernziele</a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen der Beurteilung</span>
+</td>
+</tr>
+<tr data-index="20" data-categories="TGFiZWwgLSBEaWdpdGFsaXTkdA==" data-listing-date-sort="1719007200000" data-listing-file-modified-sort="1735030457246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1306" data-listing-title-sort="Urheberrecht" data-listing-filename-sort="LM_urheberrecht.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_digi-mediendidaktik/LM_urheberrecht.html" class="title listing-title">Urheberrecht</a>
+</td>
+<td>
+<span class="listing-subtitle">Mediendidaktik</span>
+</td>
+</tr>
+<tr data-index="21" data-listing-date-sort="1718834400000" data-listing-file-modified-sort="1725374172491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1516" data-listing-title-sort="Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht" data-listing-filename-sort="LM_mikromath_03.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math-mikro/LM_mikromath_03.html" class="title listing-title">Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 </tr>
 </tbody>
@@ -480,6 +634,7 @@ Keine Treffer
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Auflistung von Slideshows für Konferenzen, Tagungen und Austauschgefässen.</p>
 <div id="listing-tagungsunterlagen" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -518,7 +673,29 @@ Untertitel
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1717538400000" data-listing-file-modified-sort="1716266165896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="725" data-listing-title-sort="<small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>" data-listing-filename-sort="2024_06_05_Nachwuchskolloquium.qmd">
+<tr data-index="0" data-listing-date-sort="1737932400000" data-listing-file-modified-sort="1732962065100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4698" data-listing-title-sort="<small>How to flip the right way: <br>Fail, flip, fix and feed in practice</small>" data-listing-filename-sort="2025_01_27_Gebf.qmd">
+<td>
+<span class="listing-date">27.01.2025</span>
+</td>
+<td>
+<a href="./tagungsunterlagen/2025_01_27_Gebf.html" class="title listing-title"><small>How to flip the right way: <br>Fail, flip, fix and feed in practice</small></a>
+</td>
+<td>
+<span class="listing-subtitle">12. GEBF-Tagung</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1731625200000" data-listing-file-modified-sort="1732630580656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4698" data-listing-title-sort="<small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>" data-listing-filename-sort="2024_11_21_Zukunftsforum.qmd">
+<td>
+<span class="listing-date">15.11.2024</span>
+</td>
+<td>
+<a href="./tagungsunterlagen/2024_11_21_Zukunftsforum.html" class="title listing-title"><small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Zukunftsforum Bildungsforschung</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1717538400000" data-listing-file-modified-sort="1730405426735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="581" data-listing-title-sort="<small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>" data-listing-filename-sort="2024_06_05_Nachwuchskolloquium.qmd">
 <td>
 <span class="listing-date">05.06.2024</span>
 </td>
@@ -529,7 +706,7 @@ Untertitel
 <span class="listing-subtitle">Nachwuchskolloquium PH Heidelberg</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715536463538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Mathematik" data-listing-filename-sort="2024_05_07_CAS_BKB_MA.qmd">
+<tr data-index="3" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1730438654362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Mathematik" data-listing-filename-sort="2024_05_07_CAS_BKB_MA.qmd">
 <td>
 <span class="listing-date">07.05.2024</span>
 </td>
@@ -540,7 +717,7 @@ Untertitel
 <span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715536477529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308" data-listing-title-sort="Medien und Informatik" data-listing-filename-sort="2024_05_07_CAS_BKB_MI.qmd">
+<tr data-index="4" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1732962463232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308" data-listing-title-sort="Medien und Informatik" data-listing-filename-sort="2024_05_07_CAS_BKB_MI.qmd">
 <td>
 <span class="listing-date">07.05.2024</span>
 </td>
@@ -551,7 +728,7 @@ Untertitel
 <span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1714661183852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295" data-listing-title-sort="KI im Mathematikunterricht" data-listing-filename-sort="2024_05_02_KI_Mathematikunterricht.qmd">
+<tr data-index="5" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1730439490080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293" data-listing-title-sort="KI im Mathematikunterricht" data-listing-filename-sort="2024_05_02_KI_Mathematikunterricht.qmd">
 <td>
 <span class="listing-date">02.05.2024</span>
 </td>
@@ -562,7 +739,7 @@ Untertitel
 <span class="listing-subtitle">Think Tank Medien und Informatik</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1715536452813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>" data-listing-filename-sort="2024_03_20_PLP_Tagung.qmd">
+<tr data-index="6" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1730408067988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>" data-listing-filename-sort="2024_03_20_PLP_Tagung.qmd">
 <td>
 <span class="listing-date">20.03.2024</span>
 </td>
@@ -573,7 +750,7 @@ Untertitel
 <span class="listing-subtitle">Praxislehrpersonen-Tagung</span>
 </td>
 </tr>
-<tr data-index="5" data-listing-date-sort="1710716400000" data-listing-file-modified-sort="1716471310705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_03_18_Treffpunkt_Hochschuldidaktik.qmd">
+<tr data-index="7" data-listing-date-sort="1710716400000" data-listing-file-modified-sort="1733166893298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_03_18_Treffpunkt_Hochschuldidaktik.qmd">
 <td>
 <span class="listing-date">18.03.2024</span>
 </td>
@@ -584,7 +761,7 @@ Untertitel
 <span class="listing-subtitle">Treffpunkt Hochschuldidaktik</span>
 </td>
 </tr>
-<tr data-index="6" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1715536441434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2056" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_03_04_kolloquium_fachdidaktik.qmd">
+<tr data-index="8" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1715536441434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2056" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_03_04_kolloquium_fachdidaktik.qmd">
 <td>
 <span class="listing-date">04.03.2024</span>
 </td>
@@ -595,7 +772,7 @@ Untertitel
 <span class="listing-subtitle">Kolloquium Fachdidaktik</span>
 </td>
 </tr>
-<tr data-index="7" data-listing-date-sort="1707692400000" data-listing-file-modified-sort="1715536433807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_02_12_barcamp_phbern_2024.qmd">
+<tr data-index="9" data-listing-date-sort="1707692400000" data-listing-file-modified-sort="1732630518265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1159" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_02_12_barcamp_phbern_2024.qmd">
 <td>
 <span class="listing-date">12.02.2024</span>
 </td>
@@ -606,7 +783,7 @@ Untertitel
 <span class="listing-subtitle">Barcamp PHBern</span>
 </td>
 </tr>
-<tr data-index="8" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1715536422350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_01_30_literature_club.qmd">
+<tr data-index="10" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1717169746438" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_01_30_literature_club.qmd">
 <td>
 <span class="listing-date">30.01.2024</span>
 </td>
@@ -617,7 +794,7 @@ Untertitel
 <span class="listing-subtitle">Literature Club Besprechung</span>
 </td>
 </tr>
-<tr data-index="9" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1716582279515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="2024_01_19_gdm_tagung.qmd">
+<tr data-index="11" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1732630518264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="2024_01_19_gdm_tagung.qmd">
 <td>
 <span class="listing-date">19.01.2024</span>
 </td>
@@ -626,6 +803,202 @@ Untertitel
 </td>
 <td>
 <span class="listing-subtitle">Workshop Gesellschaft für Didaktik der Mathematik Schweiz</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Auflistung von Lernumgebungen welche von Studierenden erstellt wurden.</p>
+<div id="listing-lehrmaterialien" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-lehrmaterialien-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-lehrmaterialien'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+<th>
+authors
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1735029919413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2496" data-listing-title-sort="Satzgruppe des Pythagoras" data-listing-filename-sort="math_07_pythagoras_erweitert.qmd">
+<td>
+<a href="./lehrmaterialien/math_07_pythagoras_erweitert/math_07_pythagoras_erweitert.html" class="title listing-title">Satzgruppe des Pythagoras</a>
+</td>
+<td>
+<span class="listing-subtitle">Vertiefung Satz des Pythagoras</span>
+</td>
+<td>
+<span class="listing-authors">Nino Rosset</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1735029856248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3079" data-listing-title-sort="Negative Zahlen" data-listing-filename-sort="math_02_negative_zahlen.qmd">
+<td>
+<a href="./lehrmaterialien/math_02_negative_zahlen/math_02_negative_zahlen.html" class="title listing-title">Negative Zahlen</a>
+</td>
+<td>
+<span class="listing-subtitle">Addition, Subtraktion, Multiplikation und Division</span>
+</td>
+<td>
+<span class="listing-authors">Manon Brunner</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1728993781055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3167" data-listing-title-sort="Gleichungen" data-listing-filename-sort="math_04_gleichungen.qmd">
+<td>
+<a href="./lehrmaterialien/math_04_gleichungen/math_04_gleichungen.html" class="title listing-title">Gleichungen</a>
+</td>
+<td>
+<span class="listing-subtitle">Einführung und Theorie</span>
+</td>
+<td>
+<span class="listing-authors">David Grossenbacher</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1735029839238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3540" data-listing-title-sort="Rationale Zahlen" data-listing-filename-sort="math_06_zahlenstrahl.qmd">
+<td>
+<a href="./lehrmaterialien/math_06_zahlenstrahl2/math_06_zahlenstrahl.html" class="title listing-title">Rationale Zahlen</a>
+</td>
+<td>
+<span class="listing-subtitle">Brüche kürzen und erweitern, sowie addieren und subtrahieren</span>
+</td>
+<td>
+<span class="listing-authors">Simon Mooser</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1726869600000" data-listing-file-modified-sort="1735029903051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4642" data-listing-title-sort="Funktionen" data-listing-filename-sort="math_04_funktionen.qmd">
+<td>
+<a href="./lehrmaterialien/math_04_funktionen/math_04_funktionen.html" class="title listing-title">Funktionen</a>
+</td>
+<td>
+<span class="listing-subtitle">Einführung ins Konzept</span>
+</td>
+<td>
+<span class="listing-authors">Lynn Gurtner</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="1726696800000" data-listing-file-modified-sort="1729943542234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3290" data-listing-title-sort="Achsen- und Punktsymmetrien" data-listing-filename-sort="math_05_symmetrien.qmd">
+<td>
+<a href="./lehrmaterialien/math_05_symmetrien/math_05_symmetrien.html" class="title listing-title">Achsen- und Punktsymmetrien</a>
+</td>
+<td>
+<span class="listing-subtitle">Erkennen und zeichnen</span>
+</td>
+<td>
+<span class="listing-authors">Liv Küng</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="1718143200000" data-listing-file-modified-sort="1734209695291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454" data-listing-title-sort="Lineare Funktionen und ihre Bedeutung" data-listing-filename-sort="math_08_lineare_funktion.qmd">
+<td>
+<a href="./lehrmaterialien/math_08_lineare_funktion_regression/math_08_lineare_funktion.html" class="title listing-title">Lineare Funktionen und ihre Bedeutung</a>
+</td>
+<td>
+<span class="listing-subtitle">Entdeckendes Lernen – Von zwei Punkten zur Geradengleichung</span>
+</td>
+<td>
+<span class="listing-authors">&nbsp;</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>Auflistung von getrennten Projekten welche in keine andere Kategorie passen.</p>
+<div id="listing-projekte" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-projekte-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-projekte'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1734209695293" data-listing-reading-time-sort="5" data-listing-word-count-sort="823" data-listing-title-sort="Webscraping" data-listing-filename-sort="anki.qmd">
+<td>
+<a href="./projekte/anki.html" class="title listing-title">Webscraping</a>
+</td>
+<td>
+<span class="listing-subtitle">Profile mit Photos der Mitarbeitenden IS1</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1732962645038" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="test" data-listing-filename-sort="test_praesi.qmd">
+<td>
+<a href="./projekte/test_praesi.html" class="title listing-title">test</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1719567213318" data-listing-reading-time-sort="4" data-listing-word-count-sort="711" data-listing-title-sort="Inhaltliche Zusammenhänge" data-listing-filename-sort="zusammenhaenge.qmd">
+<td>
+<a href="./projekte/zusammenhaenge.html" class="title listing-title">Inhaltliche Zusammenhänge</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1732575600000" data-listing-file-modified-sort="1732889090719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200" data-listing-title-sort="Sprechstunden" data-listing-filename-sort="Beratungstermine.qmd">
+<td>
+<a href="./projekte/Beratungstermine.html" class="title listing-title">Sprechstunden</a>
+</td>
+<td>
+<span class="listing-subtitle">Anleitung für Beratungstermine bei Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1728684000000" data-listing-file-modified-sort="1728806394280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91" data-listing-title-sort="mögliche Masterarbeitsthemen" data-listing-filename-sort="Masterarbeitsthemen.qmd">
+<td>
+<a href="./projekte/Masterarbeitsthemen.html" class="title listing-title">mögliche Masterarbeitsthemen</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
 </td>
 </tr>
 </tbody>
@@ -680,18 +1053,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -723,7 +1085,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
@@ -731,7 +1115,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Richard Conrardy">
+
+<title>Gleichungen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-592fc19d5c4a1bff56c90fe561edeec5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#lektion" id="toc-lektion" class="nav-link active" data-scroll-target="#lektion">Lektion</a>
+  <ul class="collapse">
+  <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele</a></li>
+  <li><a href="#zusatzaufgabe" id="toc-zusatzaufgabe" class="nav-link" data-scroll-target="#zusatzaufgabe">Zusatzaufgabe:</a></li>
+  <li><a href="#arbeitsblatt-gleichungen-i" id="toc-arbeitsblatt-gleichungen-i" class="nav-link" data-scroll-target="#arbeitsblatt-gleichungen-i">Arbeitsblatt – Gleichungen I</a></li>
+  <li><a href="#übung-2" id="toc-übung-2" class="nav-link" data-scroll-target="#übung-2">Übung 2</a></li>
+  <li><a href="#übung-3" id="toc-übung-3" class="nav-link" data-scroll-target="#übung-3">Übung 3</a></li>
+  </ul></li>
+  <li><a href="#weitere-gleichungen" id="toc-weitere-gleichungen" class="nav-link" data-scroll-target="#weitere-gleichungen">Weitere Gleichungen</a></li>
+  <li><a href="#lehrerkommentar" id="toc-lehrerkommentar" class="nav-link" data-scroll-target="#lehrerkommentar">Lehrerkommentar</a>
+  <ul class="collapse">
+  <li><a href="#kompetenzstufen" id="toc-kompetenzstufen" class="nav-link" data-scroll-target="#kompetenzstufen">Kompetenzstufen</a></li>
+  </ul></li>
+  <li><a href="#lehrpersonenkommentar" id="toc-lehrpersonenkommentar" class="nav-link" data-scroll-target="#lehrpersonenkommentar">Lehrpersonenkommentar</a>
+  <ul class="collapse">
+  <li><a href="#vorangehende-kompetenzen" id="toc-vorangehende-kompetenzen" class="nav-link" data-scroll-target="#vorangehende-kompetenzen">Vorangehende Kompetenzen</a></li>
+  <li><a href="#grundlegende-stolpersteine" id="toc-grundlegende-stolpersteine" class="nav-link" data-scroll-target="#grundlegende-stolpersteine">Grundlegende Stolpersteine</a></li>
+  <li><a href="#lernziele-1" id="toc-lernziele-1" class="nav-link" data-scroll-target="#lernziele-1">Lernziele</a></li>
+  <li><a href="#arbeitsunterlagen-für-sus" id="toc-arbeitsunterlagen-für-sus" class="nav-link" data-scroll-target="#arbeitsunterlagen-für-sus">Arbeitsunterlagen für SuS</a></li>
+  <li><a href="#unterrichtsmaterialien" id="toc-unterrichtsmaterialien" class="nav-link" data-scroll-target="#unterrichtsmaterialien">Unterrichtsmaterialien</a></li>
+  <li><a href="#ergebnissicherung" id="toc-ergebnissicherung" class="nav-link" data-scroll-target="#ergebnissicherung">Ergebnissicherung</a></li>
+  <li><a href="#unterrichtsmethoden" id="toc-unterrichtsmethoden" class="nav-link" data-scroll-target="#unterrichtsmethoden">Unterrichtsmethoden</a></li>
+  <li><a href="#unterrichtstechniken" id="toc-unterrichtstechniken" class="nav-link" data-scroll-target="#unterrichtstechniken">Unterrichtstechniken</a></li>
+  <li><a href="#didaktische-prinzipien-mathematik" id="toc-didaktische-prinzipien-mathematik" class="nav-link" data-scroll-target="#didaktische-prinzipien-mathematik">Didaktische Prinzipien (Mathematik)</a></li>
+  </ul></li>
+  <li><a href="#lernwirksamkeit-lernphasen" id="toc-lernwirksamkeit-lernphasen" class="nav-link" data-scroll-target="#lernwirksamkeit-lernphasen">Lernwirksamkeit &amp; Lernphasen</a>
+  <ul class="collapse">
+  <li><a href="#zu-den-lernphasen" id="toc-zu-den-lernphasen" class="nav-link" data-scroll-target="#zu-den-lernphasen">Zu den Lernphasen</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gleichungen</h1>
+<p class="subtitle lead">Einführung und Theorie</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">David Grossenbacher </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">22.09.2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Zusammenfassung</div>
+    <p>Eine Doppellektion zur Einführung in Gleichungen</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="lektion" class="level1">
+<h1>Lektion</h1>
+<section id="lernziele" class="level2">
+<h2 class="anchored" data-anchor-id="lernziele">Lernziele</h2>
+<p>In dieser Lernumgebung werden folgende Lernziele angepeilt:</p>
+<ul>
+<li><p>Die SuS können einfache Gleichungen mit einer Variablen durch reines Einsetzen und Kopfrechnen ermitteln.</p></li>
+<li><p>Die SuS können Gleichungen ausgehend von Texten aufschreiben.</p></li>
+<li><p>Die SuS füllen Wertetabellen für Gleichungen mit 2 Variablen korrekt aus.</p></li>
+<li><p>Die Schüler erstellen keine “Gleichheitsketten” und verwenden das Äquivalenzzeichen korrekt. Bsp:</p>
+<p><span class="math inline">\(3x + 1 = 10 \leftrightarrow x = 3\)</span></p>
+<p>und nicht</p>
+<p><span class="math inline">\(3x + 1 = 10 = x = 3\)</span></p></li>
+</ul>
+</section>
+<section id="zusatzaufgabe" class="level2">
+<h2 class="anchored" data-anchor-id="zusatzaufgabe">Zusatzaufgabe:</h2>
+<p>Mache einen Eintrag in deinem Merkheft, in welchem du die wichtigsten Erkenntnisse festhältst:</p>
+<pre><code>Was ist eine Variable?
+Was ist ein Term?
+Was ist eine Gleichung und wie kann man sie lösen?
+Wofür wird das Äquivalenzzeichen verwendet?
+...</code></pre>
+</section>
+<section id="arbeitsblatt-gleichungen-i" class="level2">
+<h2 class="anchored" data-anchor-id="arbeitsblatt-gleichungen-i">Arbeitsblatt – Gleichungen I</h2>
+<p>Welche Werte müssen für x eingesetzt werden, damit die Gleichungen erfüllt sind?</p>
+<section id="a." class="level3">
+<h3 class="anchored" data-anchor-id="a.">a.)</h3>
+<ol type="1">
+<li><span class="math inline">\(x + 3 = 7\)</span></li>
+<li><span class="math inline">\(2x = 10\)</span></li>
+<li><span class="math inline">\(\frac{x}{2} = 6\)</span></li>
+<li><span class="math inline">\(x - 7 = 8\)</span></li>
+<li><span class="math inline">\(4x = 16\)</span></li>
+<li><span class="math inline">\(x + 2 = 5\)</span></li>
+<li><span class="math inline">\(5x = 20\)</span></li>
+<li><span class="math inline">\(3x = 15\)</span></li>
+<li><span class="math inline">\(x + 4 = 9\)</span></li>
+<li><span class="math inline">\(x - 5 = 2\)</span></li>
+</ol>
+</section>
+<section id="b." class="level3">
+<h3 class="anchored" data-anchor-id="b.">b.)</h3>
+<ol type="1">
+<li><span class="math inline">\(x + 4 = 9\)</span></li>
+<li><span class="math inline">\(3x = 12\)</span></li>
+<li><span class="math inline">\(x - 3 = 7\)</span></li>
+<li><span class="math inline">\(2x + 1 = 9\)</span></li>
+<li><span class="math inline">\(5x = 25\)</span></li>
+<li><span class="math inline">\(\frac{x}{3} = 6\)</span></li>
+<li><span class="math inline">\(x + 8 = 14\)</span></li>
+<li><span class="math inline">\(4x - 2 = 14\)</span></li>
+<li><span class="math inline">\(\frac{x}{3} = 5\)</span></li>
+<li><span class="math inline">\(7x = 28\)</span></li>
+</ol>
+</section>
+<section id="c." class="level3">
+<h3 class="anchored" data-anchor-id="c.">c.)</h3>
+<ol type="1">
+<li><span class="math inline">\(x - 5 = 11\)</span></li>
+<li><span class="math inline">\(3x + 2 = 17\)</span></li>
+<li><span class="math inline">\(\frac{x}{4} = 7\)</span></li>
+<li><span class="math inline">\(6x = 36\)</span></li>
+<li><span class="math inline">\(x + 3 = 10\)</span></li>
+<li><span class="math inline">\(2x - 4 = 8\)</span></li>
+<li><span class="math inline">\(5x + 5 = 30\)</span></li>
+<li><span class="math inline">\(x - 6 = 3\)</span></li>
+<li><span class="math inline">\(4x + 1 = 21\)</span></li>
+<li><span class="math inline">\(\frac{x}{5} = 4\)</span></li>
+</ol>
+</section>
+<section id="d." class="level3">
+<h3 class="anchored" data-anchor-id="d.">d.)</h3>
+<ol type="1">
+<li><span class="math inline">\(x + 15 = 25\)</span></li>
+<li><span class="math inline">\(3x = 36\)</span></li>
+<li><span class="math inline">\(2x + 8 = 30\)</span></li>
+<li><span class="math inline">\(5x - 10 = 50\)</span></li>
+<li><span class="math inline">\(4x = 44\)</span></li>
+<li><span class="math inline">\(\frac{x}{2} = 20\)</span></li>
+<li><span class="math inline">\(7x = 56\)</span></li>
+<li><span class="math inline">\(7x = 70\)</span></li>
+<li><span class="math inline">\(x - 30 = 40\)</span></li>
+<li><span class="math inline">\(9x + 18 = 108\)</span></li>
+</ol>
+</section>
+<section id="e." class="level3">
+<h3 class="anchored" data-anchor-id="e.">e.)</h3>
+<ol type="1">
+<li><span class="math inline">\(8x = 64\)</span></li>
+<li><span class="math inline">\(8x + 8 = 88\)</span></li>
+<li><span class="math inline">\(10x = 100\)</span></li>
+<li><span class="math inline">\(\frac{x}{5} = 15\)</span></li>
+<li><span class="math inline">\(2x + 20 = 100\)</span></li>
+<li><span class="math inline">\(6x - 10 = 50\)</span></li>
+<li><span class="math inline">\(4x + 20 = 80\)</span></li>
+<li><span class="math inline">\(\frac{x}{3} + 5 = 38\)</span></li>
+<li><span class="math inline">\(x - 5 = 95\)</span></li>
+<li><span class="math inline">\(3x + 10 = 55\)</span></li>
+</ol>
+</section>
+<section id="f." class="level3">
+<h3 class="anchored" data-anchor-id="f.">f.)</h3>
+<ol type="1">
+<li><span class="math inline">\(2x + 40 = 100\)</span></li>
+<li><span class="math inline">\(5x - 50 = 150\)</span></li>
+<li><span class="math inline">\(\frac{x}{2} + 150 = 500\)</span></li>
+<li><span class="math inline">\(3x + 100 = 400\)</span></li>
+<li><span class="math inline">\(\frac{x}{5} + 60 = 260\)</span></li>
+<li><span class="math inline">\(7x = 490\)</span></li>
+<li><span class="math inline">\(5x - 200 = 300\)</span></li>
+<li><span class="math inline">\(9x + 90 = 990\)</span></li>
+<li><span class="math inline">\(\frac{x}{4} + 50 = 200\)</span></li>
+<li><span class="math inline">\(4x + 80 = 960\)</span></li>
+</ol>
+</section>
+</section>
+<section id="übung-2" class="level2">
+<h2 class="anchored" data-anchor-id="übung-2">Übung 2</h2>
+<section id="erstellung-von-gleichungen-aus-textaufgaben" class="level3">
+<h3 class="anchored" data-anchor-id="erstellung-von-gleichungen-aus-textaufgaben">Erstellung von Gleichungen aus Textaufgaben</h3>
+<section id="a.-1" class="level4">
+<h4 class="anchored" data-anchor-id="a.-1">a.)</h4>
+<p>Lisa hat 3 Äpfel. Wenn sie weitere <span class="math inline">\(x\)</span> Äpfel bekommt, hat sie insgesamt 8 Äpfel.<br>
+Stelle eine Gleichung auf und berechne, wie viele Äpfel <span class="math inline">\(x\)</span> sind.</p>
+</section>
+<section id="b.-1" class="level4">
+<h4 class="anchored" data-anchor-id="b.-1">b.)</h4>
+<p>Ein Zug fährt mit einer Geschwindigkeit von 60 km/h. Nach <span class="math inline">\(x\)</span> Stunden hat er 240 km zurückgelegt.<br>
+Stelle eine Gleichung auf und berechne <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="c.-1" class="level4">
+<h4 class="anchored" data-anchor-id="c.-1">c.)</h4>
+<p>Tom hat doppelt so viele Murmeln wie Sam. Wenn Sam <span class="math inline">\(x\)</span> Murmeln hat, hat Tom 12 Murmeln.<br>
+Stelle eine Gleichung auf und bestimme <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="d.-1" class="level4">
+<h4 class="anchored" data-anchor-id="d.-1">d.)</h4>
+<p>Ein Wasserspeicher enthält 500 Liter Wasser. Jeden Tag entnimmt eine Maschine <span class="math inline">\(x\)</span> Liter Wasser. Nach 5 Tagen sind noch 100 Liter Wasser übrig.<br>
+Wie viel Wasser entnimmt die Maschine pro Tag? Erstelle eine Gleichung und bestimme <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="e.-1" class="level4">
+<h4 class="anchored" data-anchor-id="e.-1">e.)</h4>
+<p>Ein Lehrer verteilt 120 Aufgabenblätter an <span class="math inline">\(x\)</span> Schüler. Wenn jeder Schüler 6 Blätter erhält, wie viele Schüler sind in der Klasse?<br>
+Erstelle eine Gleichung und berechne <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="f.-1" class="level4">
+<h4 class="anchored" data-anchor-id="f.-1">f.)</h4>
+<p>Ein LKW kann 2000 kg Fracht transportieren. Wenn eine Kiste 100 kg wiegt, wie viele Kisten (<span class="math inline">\(x\)</span>) können maximal transportiert werden, wenn 1200 kg schon geladen sind?<br>
+Erstelle eine Gleichung und berechne <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="g." class="level4">
+<h4 class="anchored" data-anchor-id="g.">g.)</h4>
+<p>Eine Reihe eines Achterbahn-Zuges hat 4 Plätze. Wie viele Reihen <span class="math inline">\(x\)</span> hat der gesamte Zug, wenn bei einer Fahrt insgesamt 36 Passagiere mitreiten können.<br>
+Stelle eine Gleichung auf und bestimme <span class="math inline">\(x\)</span>.</p>
+</section>
+<section id="h." class="level4">
+<h4 class="anchored" data-anchor-id="h.">h.)</h4>
+<p>Bei der in Aufgabe g.) genannten Achterbahn verlässt alle 60 Sekunden ein Zug die Station.<br>
+Stelle eine Gleichung auf und berechne, wie viele Passagiere in einer Stunde die Fahrt genießen können.<br>
+(Das Resultat entspricht ungefähr der Kapazität der Achterbahn Silver Star im Europa Park)</p>
+</section>
+</section>
+<section id="zusatzaufgabe-erstelle-eigene-beispiele" class="level3">
+<h3 class="anchored" data-anchor-id="zusatzaufgabe-erstelle-eigene-beispiele">Zusatzaufgabe: Erstelle eigene Beispiele!</h3>
+<p><strong>Möglichkeit 1:</strong> Erstelle ein eigenes Beispiel wie in den obigen Aufgaben. Schreibe das Beispiel auf ein A5-Blatt und die entsprechende Lösung auf die Rückseite. Tausche die Aufgabe mit anderen Schüler*innen aus!</p>
+<p><strong>Möglichkeit 2:</strong> Schreibe für eine/n andere/n Schüler*in eine zufällige Gleichung mit einer Variable auf. Sie/Er soll ein Alltagsbeispiel erfinden, welches die entsprechende Gleichung beschreibt.</p>
+<p><strong>Bsp.:</strong> <span class="math inline">\(2x = 30\)</span><br>
+Mögliche Antwort: “In einer Schule hat es 30 Schüler<em>innen. Insgesamt hat es 2 Klassen, wobei es in jeder Klasse <span class="math inline">\(x\)</span> Schüler</em>innen hat.”<br>
+<span class="math inline">\(2x = 30 \leftrightarrow x = 15\)</span></p>
+</section>
+</section>
+<section id="übung-3" class="level2">
+<h2 class="anchored" data-anchor-id="übung-3">Übung 3</h2>
+<p>Ausfüllen von Wertetabellen bei Gleichungen der Form <span class="math inline">\(y = mx + b\)</span></p>
+<p>a.) <span class="math inline">\(y = 2x\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>8</td>
+<td>10</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p>b.) <span class="math inline">\(y = 3x - 2\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>1</td>
+<td>4</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+<p>c.) <span class="math inline">\(y = \frac{x}{2} + 2\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>2</th>
+<th>4</th>
+<th>6</th>
+<th>8</th>
+<th></th>
+<th>12</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td></td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>d.) <span class="math inline">\(y = 7x - 6\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>1</th>
+<th>2</th>
+<th>5</th>
+<th></th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>1</td>
+<td>8</td>
+<td>29</td>
+<td></td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+<p>e.) <span class="math inline">\(y = \frac{x}{4} + 4\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>4</th>
+<th>8</th>
+<th></th>
+<th></th>
+<th>20</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>5</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="weitere-gleichungen" class="level1">
+<h1>Weitere Gleichungen</h1>
+<p>Weitere Gleichungen:</p>
+<p>Fülle die folgenden Tabellen selbst aus, indem du eigene, passende <span class="math inline">\(x\)</span>-Werte einsetzt. Gib auch an, wie viele verschiedene Lösungen es gibt! Gibt es genau eine Lösung, gibt es unendlich viele Lösungen, keine Lösung, o.a.?</p>
+<p>f.) <span class="math inline">\(y + x = 20\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>g.) <span class="math inline">\(y + 3 = y + x\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>h.) <span class="math inline">\(2x + 3 = 2x + 4\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>i.) <span class="math inline">\(y + 2 = 100\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Zusatzaufgabe: Erstelle eine passende Gleichung ausgehend von den Daten der Wertetabelle und fülle die restlichen Felder aus.</p>
+<p>Gleichung:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>1</th>
+<th>2</th>
+<th></th>
+<th></th>
+<th>11</th>
+<th>12</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>12</td>
+<td>15</td>
+<td></td>
+<td></td>
+<td>30</td>
+<td>39</td>
+</tr>
+</tbody>
+</table>
+<p>Gleichung:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th>2</th>
+<th>4</th>
+<th></th>
+<th></th>
+<th>20</th>
+<th>38</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y\)</span></td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td>4</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lehrerkommentar" class="level1">
+<h1>Lehrerkommentar</h1>
+<section id="kompetenzstufen" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzstufen">Kompetenzstufen</h2>
+<p><a href="https://be.lehrplan.ch/101E8xmhHHgram3LHqgCx2Gwdg3vJ6cPY" class="knopf stufe">MA.1.A.4.i</a> können ein Produkt mit gleichen Faktoren als Potenz schreiben und umgekehrt (z.B. <span class="math inline">\(15 \cdot 15 \cdot 15 = 15^3\)</span> ; <span class="math inline">\(a \cdot a \cdot a \cdot a = a^4\)</span> ).</p>
+<p><a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a> Erweiterung: können lineare Gleichungen mit einer Variablen mit Äquivalenzumformungen lösen (z.B. <span class="math inline">\(5x + 3 = 7\)</span>)</p>
+<p><a href="https://be.lehrplan.ch/101eyUHN5UTpNM7eNmb25PVMKdrYH99AJ" class="knopf stufe">MA.3.c.3.g</a> Erweiterung: können Buchstabenterme, Formeln und lineare Funktionsgleichungen mit Sachsituationen konkretisieren (z.B. die Funktionsgleichung y = 2x + 3 mit Preis = 2 · Anzahl + 3).</p>
+</section>
+</section>
+<section id="lehrpersonenkommentar" class="level1">
+<h1>Lehrpersonenkommentar</h1>
+<p>Die vorliegende Lernumgebung dient als Einführung und erste Annäherung an das Thema «Gleichungen» für 7. Klässler im ersten Semester. Die beigelegte Lektionsplanung ist für etwa 3-4 Lektionen ausgelegt.</p>
+<section id="vorangehende-kompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="vorangehende-kompetenzen">Vorangehende Kompetenzen</h2>
+<p>Folgende <strong>vorangehende Kompetenzen</strong> sollten die SuS behandelt haben:</p>
+<ul>
+<li>Die SuS wissen, was eine Variable ist und sie kennen die einfachen Term-Vereinfachungsregeln (Bspw.: <span class="math inline">\(x + 2x = 3x\)</span>).</li>
+<li>Die SuS beherrschen die Grundoperationen.</li>
+</ul>
+</section>
+<section id="grundlegende-stolpersteine" class="level2">
+<h2 class="anchored" data-anchor-id="grundlegende-stolpersteine">Grundlegende Stolpersteine</h2>
+<p>Weiter sind die folgenden grundlegenden <strong>Stolpersteine</strong> zu beachten:</p>
+<ul>
+<li>Die SuS kennen die Rechenregeln von ganzen und rationalen Zahlen noch nicht. Die Lösungen und die in den Aufgaben gebrauchten Zahlen sind also immer rein natürliche Zahlen. Folgendes Beispiel ist dementsprechend nicht Inhalt der LU:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".png" class="img-fluid figure-img"></p>
+<figcaption>Bild</figcaption>
+</figure>
+</div>
+<ul>
+<li>Die SuS können Gleichungen noch nicht umstellen. Die Variable <span class="math inline">\(x\)</span> wird durch reines Einsetzen und Kopfrechnen ermittelt.</li>
+<li>Die SuS haben noch kein oder ein falsches Verständnis dafür, was das Gleichheitszeichen bedeutet. In der Primarstufe wird oftmals gesagt “eins und eins gibt zwei”. Daraus könnte sich das Fehlkonzept entwickeln, dass <span class="math inline">\(1 + 1\)</span> irgendwie zu <span class="math inline">\(2\)</span> führt. Das Verständnis dafür, dass beide Terme auf der linken und rechten Seite des Gleichheitszeichens ausgewertet gleich groß sein müssen, wäre dementsprechend nicht vorhanden.</li>
+<li>Termumformungen sind in dieser LU kein Thema.</li>
+</ul>
+</section>
+<section id="lernziele-1" class="level2">
+<h2 class="anchored" data-anchor-id="lernziele-1">Lernziele</h2>
+<p>In dieser Lernumgebung werden folgende Lernziele angepeilt:</p>
+<ul>
+<li><p>Die SuS können einfache Gleichungen mit einer Variable durch reines Einsetzen und Kopfrechnen ermitteln.</p></li>
+<li><p>Die SuS können Gleichungen ausgehend von Texten aufschreiben.</p></li>
+<li><p>Die SuS füllen Wertetabellen für Gleichungen mit 2 Variablen korrekt aus.</p></li>
+<li><p>Die Schüler erstellen keine “Gleichheitsketten” und verwenden das Äquivalenzzeichen korrekt. Bsp:</p>
+<p><span class="math inline">\(3x + 1 = 10 \leftrightarrow x = 3\)</span></p>
+<p>und nicht</p>
+<p><span class="math inline">\(3x + 1 = 10 = x = 3\)</span></p></li>
+</ul>
+</section>
+<section id="arbeitsunterlagen-für-sus" class="level2">
+<h2 class="anchored" data-anchor-id="arbeitsunterlagen-für-sus">Arbeitsunterlagen für SuS</h2>
+<ul>
+<li>Da das Thema “Gleichungen” erst eingeführt wird, haben die Übungen nicht sehr viel Anwendungscharakter.</li>
+<li>Die Aufgabenstellungen sind nicht sehr differenziert, sie sollten aber in allen Klassen für die Erarbeitung der Grundlagen hilfreich sein. Bei sehr heterogenen Klassen müssen allenfalls zusätzliche Arbeitsunterlagen den Bedürfnissen entsprechend angeschafft werden.</li>
+<li>Das AB1 ist relativ repetitiv. Es muss nicht das gesamte AB gelöst werden, bevor die SuS zu Übung 2 übergehen.</li>
+<li>Die Übung 3 ist grundsätzlich nach der Einführung zu den Wertetabellen zu bearbeiten. Nach eigenem Ermessen dürfen die SuS auch noch an den vorherigen Aufträgen weitermachen.</li>
+<li>Die unten aufgeführten .html Dateien orientieren sich an der Aufgabenstellung des AB1 (<span class="math inline">\(x\)</span> herausfinden) und an den ersten 5 Wertetabellen-Aufgaben (Wertetabellen_Generator).</li>
+</ul>
+<section id="zusatzaufgaben-für-schnelle-sus" class="level3">
+<h3 class="anchored" data-anchor-id="zusatzaufgaben-für-schnelle-sus">Zusatzaufgaben für schnelle SuS:</h3>
+<ul>
+<li>Erstelle eigene Textaufgaben (siehe Übung 2).</li>
+<li>Erstelle einen Merkhefteintrag, wo die wichtigsten theoretischen Inhalte festgehalten werden.</li>
+<li>Übe weiter in den Rechenprogrammen.</li>
+</ul>
+</section>
+<section id="weitere-übungsmöglichkeiten-sollte-die-gesamte-klasse-sehr-schnell-arbeiten" class="level3">
+<h3 class="anchored" data-anchor-id="weitere-übungsmöglichkeiten-sollte-die-gesamte-klasse-sehr-schnell-arbeiten">Weitere Übungsmöglichkeiten, sollte die gesamte Klasse sehr schnell arbeiten:</h3>
+<ul>
+<li>Die von den SuS erstellten Textaufgabenbeispiele können im Plenum zusammen gelöst werden.</li>
+</ul>
+</section>
+</section>
+<section id="unterrichtsmaterialien" class="level2">
+<h2 class="anchored" data-anchor-id="unterrichtsmaterialien">Unterrichtsmaterialien</h2>
+<p>Die LP benötigt eine Visualisierungshilfe (Visualiser, Tafel, o.ä.). Die Arbeitsaufgaben für die SuS können in dieser Form weiterverwendet und ausgedruckt werden. Weiter sollen A5-Blätter für die Zusatzaufgabe in Übung 2 bereitgehalten werden.</p>
+</section>
+<section id="ergebnissicherung" class="level2">
+<h2 class="anchored" data-anchor-id="ergebnissicherung">Ergebnissicherung</h2>
+<p>Es ist keine konkrete Art der Ergebnissicherung eingeplant. Es ist Auftrag der LP, während der individuellen Lernphasen Erkenntnisse über den Lernstand der individuellen SuS zu sammeln. Für die Lernprozess- / formative Beurteilung kann ein Merkhefteintrag eingefordert werden.</p>
+</section>
+<section id="unterrichtsmethoden" class="level2">
+<h2 class="anchored" data-anchor-id="unterrichtsmethoden">Unterrichtsmethoden</h2>
+<p>Makromethodisch findet der Unterricht in einem fremdgesteuerten Setting statt. Die LP instruiert und die SuS führen vorbereitete Aufgaben/Übungen aus.</p>
+<ul>
+<li><strong>Direkte Instruktionen:</strong>
+<ul>
+<li>Es sind zwei Frontalunterrichts-Sequenzen eingeplant. Hier werden hauptsächlich theoretische Inhalte vermittelt und auch kurze Einstiegsbeispiele gezeigt.</li>
+<li>Es wird versucht, am Vorverständnis der SuS anzuknüpfen.</li>
+<li>Die Bedeutung des Gleichheitszeichens und Äquivalenzpfeils werden im Plenum vermittelt.</li>
+</ul></li>
+<li><strong>Partnerarbeiten:</strong>
+<ul>
+<li>Während den Frontalunterrichtssequenzen werden kurze Murmelphasen eingeplant, um die Anteilnahme der SuS zu fördern. Hier dürfen sich die SuS kurz miteinander austauschen.</li>
+<li>Während den Arbeitsphasen können sich die SuS zusammensetzen und Probleme gegebenenfalls miteinander betrachten.</li>
+</ul></li>
+<li><strong>Individuelles Lernen (Offener Lernunterricht):</strong>
+<ul>
+<li>Die SuS arbeiten selbstständig an den Übungsaufgaben. Hier können sie sich im eigenen Tempo in das Gehörte vertiefen.</li>
+<li>Die LP agiert als Coach und hilft wo nötig.</li>
+</ul></li>
+<li><strong>Digitale Medien:</strong>
+<ul>
+<li>Die Aufgaben können den SuS digital gezeigt werden.</li>
+<li>Es gibt zwei verschiedene Rechenprogramme, mit Hilfe von welchen SuS weiterüben können.</li>
+</ul></li>
+<li><strong>Deduktive Vorgehensweise:</strong>
+<ul>
+<li>Es werden zuerst theoretische Inhalte vermittelt. In den Übungsaufgaben werden dann eher konkrete Fälle betrachtet.</li>
+</ul></li>
+</ul>
+</section>
+<section id="unterrichtstechniken" class="level2">
+<h2 class="anchored" data-anchor-id="unterrichtstechniken">Unterrichtstechniken</h2>
+<p>In der vorliegenden Unterrichtsplanung werden verschiedene Unterrichtstechniken eingesetzt.</p>
+<ul>
+<li><strong>Visualisierungshilfen:</strong>
+<ul>
+<li>Um das Erzählte zu unterstützen, zeigt die LP an der Wandtafel (oder am Visualiser, o.ä.) die Rechnungen und Skizzen auf.</li>
+</ul></li>
+<li><strong>Fragetechniken:</strong>
+<ul>
+<li>Während den Einführungen werden verschiedene Fragen gestellt:
+<ul>
+<li><em>Rhetorische Fragen:</em> Es werden Fragen aufgeworfen, welche noch keine Antwort von den SuS verlangen. Bsp.: “Was bedeutet das Gleichheitszeichen?” Eine konkrete Antwort wird erst nach dem Betrachten der Waage angeschaut.</li>
+<li><em>Konkrete Fragen:</em> Es werden im Plenum Fragen gestellt, welche dann im Plenum besprochen werden.</li>
+</ul></li>
+</ul></li>
+<li><strong>Aktivierungstechniken:</strong>
+<ul>
+<li>Um Antworten bei den jeweiligen Fragen zu generieren, werden hauptsächlich Murmelgruppen verwendet. Hier besprechen die SuS mit ihrem Pultnachbar die Fragen, um den Einstieg zu erleichtern.</li>
+</ul></li>
+<li><strong>Reflexionstechniken:</strong>
+<ul>
+<li>Es besteht die Möglichkeit, dass die SuS einen Merkhefteintrag erstellen, in welchem sie das Gelernte nochmals festhalten.</li>
+</ul></li>
+<li><strong>Schritt-für-Schritt Erklärungen:</strong>
+<ul>
+<li>Die SuS werden in verschiedenen Aufgaben angeleitet, damit sie das Lösungsvorgehen bei Gleichungen verstehen lernen.</li>
+</ul></li>
+</ul>
+</section>
+<section id="didaktische-prinzipien-mathematik" class="level2">
+<h2 class="anchored" data-anchor-id="didaktische-prinzipien-mathematik">Didaktische Prinzipien (Mathematik)</h2>
+<ul>
+<li><strong>Anknüpfen an Vorwissen + Einführung in neue Konzepte</strong>
+<ul>
+<li>Die Lernphase (LP) beginnt mit der Wiederholung des bereits bekannten Themas „Variablen“.</li>
+<li>Dies stellt sicher, dass das Vorwissen aktiviert wird und die Schülerinnen und Schüler (SuS) die Möglichkeit haben, auf bereits Gelerntes zurückzugreifen.</li>
+<li>Danach wird schrittweise das neue Konzept „Gleichungen“ eingeführt.</li>
+</ul></li>
+<li><strong>Verständnis von Begriffen und Symbolen (Variable, Term, Gleichheitszeichen, etc.)</strong>
+<ul>
+<li>Bezüglich der Sprachsensibilität im Mathematikunterricht müssen diese Begriffe im Unterricht explizit verwendet werden.</li>
+<li>Dies fördert ein klares Verständnis und eine präzise Verwendung von mathematischen Begriffen.</li>
+</ul></li>
+<li><strong>Förderung des funktionalen Denkens</strong>
+<ul>
+<li>Die LP zeigt beispielsweise lineare Beziehungen auf.</li>
+<li>Es wird erklärt, wie sich die Werte in der Zweierreihe durch Multiplikation von (x) mit 2 ergeben.</li>
+<li>Dieses Verständnis legt die Basis für weiterführende Themen wie lineare Funktionen und Graphen.</li>
+</ul></li>
+<li><strong>Veranschaulichung der algebraischen Strukturen</strong>
+<ul>
+<li>Durch das Hinzufügen weiterer Summanden zu einer Gleichung (von (y=2x) zu (y=2x+3)) wird den SuS verdeutlicht, wie sich die mathematische Struktur verändert.</li>
+<li>Dies zeigt auf, was diese Veränderung für die Lösungsmenge bedeutet.</li>
+<li>Dies ist ein wichtiger Aspekt der algebraischen Denkweise, die es den SuS ermöglicht, allgemeine Strukturen in Gleichungen zu erkennen und zu analysieren.</li>
+</ul></li>
+<li><strong>Exploratives Arbeiten</strong>
+<ul>
+<li>Um der rein deduktiven Vorgehensweise entgegenzuwirken, können die SuS eigene Textaufgabenbeispiele erstellen.</li>
+<li>Hier geht es darum, Alltagsbeispiele zu mathematisieren.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="lernwirksamkeit-lernphasen" class="level1">
+<h1>Lernwirksamkeit &amp; Lernphasen</h1>
+<p>Zur Lernwirksamkeit im Unterricht:</p>
+<p>Man kann argumentieren, dass die vorliegende Lektion methodisch nicht besonders abwechslungsreich sei. Jedoch ist zu beachten, dass Abwechslung nicht erzwungen werden muss. Die Unterrichtsverlaufsplanung ist sehr einfach gehalten, da es jeweils nur eine Frontalunterrichtssequenz für den Einstieg und eine anschliessende Arbeitsphase für die SuS gibt. Damit die echte Lernzeit, ein Merkmal lernförderlichen Unterrichts, möglichst gross ist, soll die Einstiegsphase möglichst kurz gehalten werden.</p>
+<p>Frontalunterricht ist heutzutage etwas aus der Mode gekommen, dennoch haben kurze Frontalunterrichtsphasen ein sehr hohes Potenzial dafür, dass das Lernen lernwirksam wird. Man arbeitet direkt an vorgegebenen Zielen, die Lernschritte bleiben für die LP und die SuS überschaubar und es bietet einen höheren fachlichen Lernerfolg, gerade dann, wenn keine Vorkenntnisse vorhanden sind. Weiter kann die LP durch direkte Instruktionen Strukturen im Klassenzimmer aufbauen, was gerade zu Beginn in der 7. Klasse sehr wichtig ist.</p>
+<p>Ein offeneres Lernarrangement ist nur möglich, wenn die nötigen Kompetenzen und Grundhaltungen dafür erworben worden sind. Dies muss kontinuierlich eingeübt werden, weshalb Zeiten eingeplant werden müssen, während welchen SuS selbstständig und selbstorganisiert an Aufträgen arbeiten können. Dies erhöht die Selbstwirksamkeit und hat positive Einflüsse auf die Motivation. Weiter sind folgende Merkmale wie inhaltliche Klarheit, eine gute Lernatmosphäre und eine vorbereitete Umgebung vorteilhaft für die Lernwirksamkeit.</p>
+<p>In der vorliegenden Planung nimmt die LP zwei verschiedene Rollen ein. So ist sie zum einen ein Tutor, welcher während den Einführungen reines Faktenwissen vermittelt und dann in den anschliessenden SOL-Teilen mehr als Coach agiert. Im letzteren Teil ist es auch ihre Aufgabe, dem/der einzelnen Schüler*in die eigene Verantwortung für das Lernen beizubringen.</p>
+<p>Hierbei ist es auch wichtig, dass den SuS klargemacht wird, was die Lernziele sind. Diese sollten kommuniziert werden, damit die SuS wissen, was erwartet wird, und es muss eine gewisse Sinnvermittlung stattfinden, damit die SuS wissen, weshalb das Thema “Gleichungen” relevant ist. Gemäss den Taxonomie-Stufen von Bloom haben die Lernziele vorerst nur Wissens- / Verstehens-Charakter. Die Anwendungsstufe ist hier noch nicht besonders relevant.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<section id="zu-den-lernphasen" class="level2">
+<h2 class="anchored" data-anchor-id="zu-den-lernphasen">Zu den Lernphasen</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".png" class="img-fluid figure-img"></p>
+<figcaption>Bild Aviva Lernphasen<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></figcaption>
+</figure>
+</div>
+<p>Der Unterricht wurde mit Hilfe des AVIVA-Modells geplant. Demzufolge gibt es zu Beginn der Lektion eine instruktionale Phase, während welcher zuerst das Vorwissen der Schüler aktiviert wird. In diesem Zusammenhang wird das Thema Variablen repetiert. Auf diesem Vorwissen wird nun aufgebaut, indem nun das Thema Gleichungen eingeführt wird (siehe Lektionsplanung).</p>
+<p>Dieser Teil dient dem «Informieren» (AVIVA), da nun neue Theorien eingeführt werden. So wird hier über die Identität des Gleichheitszeichens gesprochen. Die Rolle des Gleichheitszeichens ist den meisten SuS zu diesem Zeitpunkt unbekannt, weshalb die LP dessen Bedeutung aufzeigt und die SuS entsprechend anleitet. Analog wird zeitgleich der Äquivalenzpfeil eingeführt.</p>
+<p>Die erwähnten Konzepte werden beim anschliessenden «Verarbeiten» (AVIVA) vertieft, indem die SuS das Gehörte und Gesehene in Übungen einüben. Das «Auswerten» (AVIVA) ist nicht in der Lektionsplanung ersichtlich: Die SuS nutzen die gesamte Zeit bis zum Ende der Lektion zur Bearbeitung der Aufgaben und es ist entsprechend Auftrag der LP genügend Informationen für die Ergebnissicherung zu sammeln, indem sie durch die Reihen geht und den Lernstand der SuS überprüft. Sollten Aufgaben bei einzelnen SuS Schwierigkeiten bereiten, dann können diese beispielsweise bei einem zukünftigen Lektionseinstieg im Plenum besprochen werden. Um die LU abzurunden, kann von der LP ein Merkhefteintrag eingefordert werden.</p>
+<p>Das AVIVA-Modell wurde für diese Unterrichtssequenz gewählt, da es eine instruktionale und LP-gesteuerte Vorgehensweise befürwortet. Der Theorieteil unterstützt dementsprechend eine deduktive Vorgehensweise, da das Wissen durch die LP vermittelt wird und die SuS das Wissen in verschiedenen Aufgaben einüben. Dies ist meines Erachtens in dieser Situation hilfreich, da neue Konzepte wie die Bedeutung des Gleichheitszeichens in Gleichungen vermittelt werden müssen. Ein Selbsterarbeiten (induktiver Vorgang) durch die SuS wäre entsprechend zeitlich weniger effizient und brächte keinen beachtlichen Mehrwert.</p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
+
+<ol>
+<li id="fn1"><p>Bodenmann Neda (2024), Mikroplanung, Unveröffentlichte Unterlagen zur LG: Wirksame Lehre und Unterrichtsmethoden, Bern: PHBern, IS1<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Daniel Ingrisani (2023), Persönliche und Professionelle Entwicklung, unveröffentlichte Unterlagen zur LG: Ringvorlesung, Bern: PHBern, IS1<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Diese Lernumgebung beruht auf einer Lernumgebung welche von Lynn Gurtner erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876949 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-grossenbacher2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Grossenbacher, D. (2024, September 22). <em>Gleichungen</em>. University
+of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/">
+<p>PHBern</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
+<p>Kontakt</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

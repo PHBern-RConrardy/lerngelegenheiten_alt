@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Richard Conrardy">
+
+<title>Rationale Zahlen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-592fc19d5c4a1bff56c90fe561edeec5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#lektion-1---was-ist-schon-wieder-ein-bruch" id="toc-lektion-1---was-ist-schon-wieder-ein-bruch" class="nav-link active" data-scroll-target="#lektion-1---was-ist-schon-wieder-ein-bruch">Lektion 1 - Was ist schon wieder ein Bruch?</a>
+  <ul class="collapse">
+  <li><a href="#einführungsaufgabe-15-min" id="toc-einführungsaufgabe-15-min" class="nav-link" data-scroll-target="#einführungsaufgabe-15-min">Einführungsaufgabe (15 min)</a></li>
+  <li><a href="#spiel-bruchpaare-25-min" id="toc-spiel-bruchpaare-25-min" class="nav-link" data-scroll-target="#spiel-bruchpaare-25-min">Spiel “Bruchpaare” (25 min)</a></li>
+  </ul></li>
+  <li><a href="#sus-lesen-die-theorie-der-lernumgebung-5-min" id="toc-sus-lesen-die-theorie-der-lernumgebung-5-min" class="nav-link" data-scroll-target="#sus-lesen-die-theorie-der-lernumgebung-5-min">SuS lesen die Theorie der Lernumgebung (5 min)</a></li>
+  <li><a href="#lektion-2---verschieden-brüche-die-alle-denselben-wert-haben" id="toc-lektion-2---verschieden-brüche-die-alle-denselben-wert-haben" class="nav-link" data-scroll-target="#lektion-2---verschieden-brüche-die-alle-denselben-wert-haben">Lektion 2 - Verschieden Brüche, die alle denselben Wert haben</a></li>
+  <li><a href="#lektion-3-brüche-kürzen-und-erweitern" id="toc-lektion-3-brüche-kürzen-und-erweitern" class="nav-link" data-scroll-target="#lektion-3-brüche-kürzen-und-erweitern">Lektion 3 Brüche kürzen und erweitern</a></li>
+  <li><a href="#lektion-4---brüche-addieren-und-subtrahieren" id="toc-lektion-4---brüche-addieren-und-subtrahieren" class="nav-link" data-scroll-target="#lektion-4---brüche-addieren-und-subtrahieren">Lektion 4 - Brüche addieren und subtrahieren</a></li>
+  <li><a href="#skript" id="toc-skript" class="nav-link" data-scroll-target="#skript">Skript?</a>
+  <ul class="collapse">
+  <li><a href="#was-ist-schon-wieder-ein-bruch" id="toc-was-ist-schon-wieder-ein-bruch" class="nav-link" data-scroll-target="#was-ist-schon-wieder-ein-bruch">Was ist schon wieder ein Bruch?</a></li>
+  <li><a href="#der-bruch" id="toc-der-bruch" class="nav-link" data-scroll-target="#der-bruch">Der Bruch</a></li>
+  <li><a href="#verschiedene-brüche-die-alle-denselben-wert-haben" id="toc-verschiedene-brüche-die-alle-denselben-wert-haben" class="nav-link" data-scroll-target="#verschiedene-brüche-die-alle-denselben-wert-haben">Verschiedene Brüche, die alle denselben Wert haben</a></li>
+  <li><a href="#schreibe-in-dezimalzahl." id="toc-schreibe-in-dezimalzahl." class="nav-link" data-scroll-target="#schreibe-in-dezimalzahl.">Schreibe in Dezimalzahl.</a></li>
+  <li><a href="#brüche-und-dezimalzahlen-für-den-zahlenstrahl" id="toc-brüche-und-dezimalzahlen-für-den-zahlenstrahl" class="nav-link" data-scroll-target="#brüche-und-dezimalzahlen-für-den-zahlenstrahl">Brüche und Dezimalzahlen für den Zahlenstrahl</a></li>
+  <li><a href="#brüche-kürzen-und-erweitern" id="toc-brüche-kürzen-und-erweitern" class="nav-link" data-scroll-target="#brüche-kürzen-und-erweitern">Brüche kürzen und erweitern</a></li>
+  <li><a href="#zeichne-einen-pfeil-zu-dem-gekürzten-bruch." id="toc-zeichne-einen-pfeil-zu-dem-gekürzten-bruch." class="nav-link" data-scroll-target="#zeichne-einen-pfeil-zu-dem-gekürzten-bruch.">Zeichne einen Pfeil zu dem gekürzten Bruch.</a></li>
+  <li><a href="#erweitern" id="toc-erweitern" class="nav-link" data-scroll-target="#erweitern">Erweitern</a></li>
+  <li><a href="#brüche-addieren-und-subtrahieren" id="toc-brüche-addieren-und-subtrahieren" class="nav-link" data-scroll-target="#brüche-addieren-und-subtrahieren">Brüche addieren und subtrahieren</a></li>
+  </ul></li>
+  <li><a href="#lehrpersonensonkommentar" id="toc-lehrpersonensonkommentar" class="nav-link" data-scroll-target="#lehrpersonensonkommentar">Lehrpersonensonkommentar</a>
+  <ul class="collapse">
+  <li><a href="#voraussetzungen" id="toc-voraussetzungen" class="nav-link" data-scroll-target="#voraussetzungen">Voraussetzungen</a></li>
+  <li><a href="#allgemeines" id="toc-allgemeines" class="nav-link" data-scroll-target="#allgemeines">Allgemeines</a></li>
+  <li><a href="#was-ist-schon-wieder-ein-bruch-1" id="toc-was-ist-schon-wieder-ein-bruch-1" class="nav-link" data-scroll-target="#was-ist-schon-wieder-ein-bruch-1">Was ist schon wieder ein Bruch?</a></li>
+  <li><a href="#verschiedene-brüche-die-alle-denselben-wert-haben-1" id="toc-verschiedene-brüche-die-alle-denselben-wert-haben-1" class="nav-link" data-scroll-target="#verschiedene-brüche-die-alle-denselben-wert-haben-1">Verschiedene Brüche, die alle denselben Wert haben</a></li>
+  <li><a href="#brüche-kürzen-und-erweitern-1" id="toc-brüche-kürzen-und-erweitern-1" class="nav-link" data-scroll-target="#brüche-kürzen-und-erweitern-1">Brüche kürzen und erweitern</a></li>
+  <li><a href="#brüche-addieren-und-subtrahieren-1" id="toc-brüche-addieren-und-subtrahieren-1" class="nav-link" data-scroll-target="#brüche-addieren-und-subtrahieren-1">Brüche addieren und subtrahieren</a></li>
+  <li><a href="#anwenden-von-gelerntem-ausserhalb-von-lernsituationen" id="toc-anwenden-von-gelerntem-ausserhalb-von-lernsituationen" class="nav-link" data-scroll-target="#anwenden-von-gelerntem-ausserhalb-von-lernsituationen">Anwenden von Gelerntem ausserhalb von Lernsituationen</a></li>
+  </ul></li>
+  <li><a href="#vertiefung" id="toc-vertiefung" class="nav-link" data-scroll-target="#vertiefung">Vertiefung</a>
+  <ul class="collapse">
+  <li><a href="#lernphasen" id="toc-lernphasen" class="nav-link" data-scroll-target="#lernphasen">Lernphasen</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Rationale Zahlen</h1>
+<p class="subtitle lead">Brüche kürzen und erweitern, sowie addieren und subtrahieren</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Simon Mooser </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">22.09.2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Zusammenfassung</div>
+    <p>Zwei Doppellektion zum Thema Brüche kürzen</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="lektion-1---was-ist-schon-wieder-ein-bruch" class="level1">
+<h1>Lektion 1 - Was ist schon wieder ein Bruch?</h1>
+<section id="einführungsaufgabe-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="einführungsaufgabe-15-min">Einführungsaufgabe (15 min)</h2>
+<ul>
+<li>SuS lösen die Aufgabe in PA.</li>
+<li>Besprechung der Lösungsvorschläge im KV.</li>
+</ul>
+</section>
+<section id="spiel-bruchpaare-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="spiel-bruchpaare-25-min">Spiel “Bruchpaare” (25 min)</h2>
+</section>
+</section>
+<section id="sus-lesen-die-theorie-der-lernumgebung-5-min" class="level1">
+<h1>SuS lesen die Theorie der Lernumgebung (5 min)</h1>
+</section>
+<section id="lektion-2---verschieden-brüche-die-alle-denselben-wert-haben" class="level1">
+<h1>Lektion 2 - Verschieden Brüche, die alle denselben Wert haben</h1>
+<ul>
+<li>5’Brüche und Dezimalzahlen auf dem Zahlenstrahl einordnen:
+<ul>
+<li>Jeder SuS ordnet seine Brüche/Dezimalzahlen auf dem Zahlenstrahl ein.</li>
+</ul></li>
+<li>20’ Brüche und Dezimalzahlen auf dem Zahlenstrahl korrigieren:
+<ul>
+<li>Die SuS korrigieren gemeinsam mit der LP den Zahlenstrahl.</li>
+</ul></li>
+<li>20’Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS ordnen 2-3 selbstgewählte Brüche mit Dezimalzahlen auf dem Zahelnstrahl ein.</li>
+<li>SuS lösen die Aufgaben in der Lernumgebung.</li>
+</ul></li>
+</ul>
+<p>Bemerkung: Hier könnte sich der Verlauf der Lektion etwas ändern. Eventuell kann schon mit der Einführung in das Thema Kürzen und dem Arbeiten an den Aufgaben begonnen werden. Das lösen der Aufgaben kann gut unterbrochen werden und in der nächsten Doppellektion wieder aufgenommen werden.</p>
+</section>
+<section id="lektion-3-brüche-kürzen-und-erweitern" class="level1">
+<h1>Lektion 3 Brüche kürzen und erweitern</h1>
+<ul>
+<li>10 Einführung in das Thema Kürzen:
+<ul>
+<li>LP führt das Thema an der Wandtafel ein.</li>
+<li>zwei Beispiele im KV lösen.</li>
+</ul></li>
+<li>15’ Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS lösen die Aufgaben in der Lernumgebung.</li>
+</ul></li>
+<li>10’Einführung in das Thema Erweitern:
+<ul>
+<li>LP führt das Thema gemeinsam mit 1-2 SuS an der Wandtafel ein.</li>
+<li>zwei Beispiele im KV lösen.</li>
+</ul></li>
+<li>10’ Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS lösen die Aufgaben in der Lernumgebung.</li>
+</ul></li>
+</ul>
+</section>
+<section id="lektion-4---brüche-addieren-und-subtrahieren" class="level1">
+<h1>Lektion 4 - Brüche addieren und subtrahieren</h1>
+<ul>
+<li>10’ Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS lesen die Theorie zur Addition in der Lernumgebung.</li>
+</ul></li>
+<li>10’Das Rechteckmodell:
+<ul>
+<li>Die LP zeigt den SuS wie die Addition mit Hilfe des Rechteckmodells funktioniert.</li>
+<li>Ein weiteres Beispiel lösen 1-2 SuS gemeinsam mit der Klasse und der LP an der Wandtafel.</li>
+</ul></li>
+<li>10’ Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS lösen die Aufgaben zur Addition in der Lernumgebung.</li>
+</ul></li>
+<li>10’ Arbeiten in der Lernumgebung:
+<ul>
+<li>SuS lesen die Theorie zur Subtraktion in der Lernumgebung.</li>
+<li>SuS lösen die Aufgaben zur Subtraktion in der Lernumgebung.</li>
+</ul></li>
+<li>5’ Lösen der Alltagsaufgabe, welche zu Beginn dieser Lernumgebung thematisiert wurde.</li>
+</ul>
+</section>
+<section id="skript" class="level1">
+<h1>Skript?</h1>
+<section id="was-ist-schon-wieder-ein-bruch" class="level2">
+<h2 class="anchored" data-anchor-id="was-ist-schon-wieder-ein-bruch">Was ist schon wieder ein Bruch?</h2>
+<section id="spiel---bruchpaare" class="level3">
+<h3 class="anchored" data-anchor-id="spiel---bruchpaare">Spiel - Bruchpaare</h3>
+<section id="wie-wird-gespielt" class="level4">
+<h4 class="anchored" data-anchor-id="wie-wird-gespielt">Wie wird gespielt?</h4>
+<p>Spiele das Spiel zu zweit, beispielsweise mit deiner Pultnachbarin oder deinem Pultnachbarn.</p>
+</section>
+<section id="ziel-des-spiels" class="level4">
+<h4 class="anchored" data-anchor-id="ziel-des-spiels">Ziel des Spiels</h4>
+<p>Jede Spielerin oder jeder Spieler versucht, so viele Bruchpaare wie möglich zu finden.</p>
+</section>
+<section id="spielablauf" class="level4">
+<h4 class="anchored" data-anchor-id="spielablauf">Spielablauf</h4>
+<p>Die erste Spielerin oder der erste Spieler deckt zwei Karten auf. Wenn die beiden Karten denselben Bruch darstellen (ein Paar bilden), darfst du die Karten nehmen und einen weiteren Zug machen. Stimmen die Karten nicht überein, musst du sie wieder verdecken, und deine Pultnachbarin oder dein Pultnachbarn ist an der Reihe.</p>
+</section>
+<section id="tipp" class="level4">
+<h4 class="anchored" data-anchor-id="tipp">Tipp!</h4>
+<p>Merken, wo welche Karte liegt, um bei späteren Zügen einfacher ein Bruchpaar zu finden.</p>
+</section>
+<section id="spielende" class="level4">
+<h4 class="anchored" data-anchor-id="spielende">Spielende</h4>
+<p>Das Spiel endet, wenn alle Bruchpaare gefunden wurden. Die Spielerin oder der Spieler mit den meisten gesammelten Paaren gewinnt.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruch1.png" class="img-fluid figure-img"></p>
+<figcaption>Bruchbeispiel</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="der-bruch" class="level2">
+<h2 class="anchored" data-anchor-id="der-bruch">Der Bruch</h2>
+<p>Ein Bruch ist eine Zahl, welche aus zwei Teilen besteht. Der Bruch zeigt an, wie viele Teile eines Ganzen gemeint sind.</p>
+<ul>
+<li>Der Zähler gibt an, wie viele Teile des Ganzen ausgewählt werden.</li>
+<li>Der Nenner gibt an, in wie viele gleich grosse Teile das Ganze aufgeteilt ist.</li>
+</ul>
+<p>Beispiel:</p>
+<p>Wird ein Ganzes in vier Teile geteilt und werden davon drei ausgewählt, so ist das der Bruch <span class="math inline">\(\frac{3}{4}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruch2.png" class="img-fluid figure-img"></p>
+<figcaption>Begriffe</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruch3.png" class="img-fluid figure-img"></p>
+<figcaption>Visualisierung</figcaption>
+</figure>
+</div>
+<p><a href="Spiel Bruchpaare.pdf">PDF Spiel Bruchpaare</a></p>
+</section>
+<section id="verschiedene-brüche-die-alle-denselben-wert-haben" class="level2">
+<h2 class="anchored" data-anchor-id="verschiedene-brüche-die-alle-denselben-wert-haben">Verschiedene Brüche, die alle denselben Wert haben</h2>
+<section id="der-zahlenstrahl" class="level3">
+<h3 class="anchored" data-anchor-id="der-zahlenstrahl">Der Zahlenstrahl</h3>
+<p>Ordne verschiedene Brüche auf dem Zahlenstrahl ein.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruch4.png" class="img-fluid figure-img"></p>
+<figcaption>Zahlenstrahl</figcaption>
+</figure>
+</div>
+<section id="bemerke" class="level4">
+<h4 class="anchored" data-anchor-id="bemerke">Bemerke!</h4>
+<p>Für jeden Bruch gibt es viele (sogar unendlich viele) verschiedene Brüche, die alle denselben Wert, sprich dieselbe Grösse haben.</p>
+</section>
+</section>
+</section>
+<section id="schreibe-in-dezimalzahl." class="level2">
+<h2 class="anchored" data-anchor-id="schreibe-in-dezimalzahl.">Schreibe in Dezimalzahl.</h2>
+<section id="g" class="level3">
+<h3 class="anchored" data-anchor-id="g">g</h3>
+<ol type="a">
+<li><span class="math inline">\(\frac{1}{4} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{8} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{2} =\)</span></li>
+<li><span class="math inline">\(\frac{2}{4} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{5} =\)</span></li>
+<li><span class="math inline">\(\frac{3}{4} =\)</span></li>
+<li><span class="math inline">\(\frac{2}{4} =\)</span></li>
+<li><span class="math inline">\(\frac{2}{5} =\)</span></li>
+<li><span class="math inline">\(\frac{2}{2} =\)</span></li>
+<li><span class="math inline">\(\frac{4}{8} =\)</span></li>
+</ol>
+</section>
+<section id="e" class="level3">
+<h3 class="anchored" data-anchor-id="e">e</h3>
+<ol type="a">
+<li><span class="math inline">\(\frac{1}{3} =\)</span></li>
+<li><span class="math inline">\(\frac{3}{8} =\)</span></li>
+<li><span class="math inline">\(\frac{4}{5} =\)</span></li>
+<li><span class="math inline">\(\frac{6}{8} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{9} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{10} =\)</span></li>
+<li><span class="math inline">\(\frac{8}{16} =\)</span></li>
+<li><span class="math inline">\(\frac{4}{10} =\)</span></li>
+<li><span class="math inline">\(\frac{3}{12} =\)</span></li>
+<li><span class="math inline">\(\frac{6}{15} =\)</span></li>
+</ol>
+</section>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">*</h3>
+<ol type="a">
+<li><span class="math inline">\(\frac{2}{3} =\)</span></li>
+<li><span class="math inline">\(\frac{1}{6} =\)</span></li>
+<li><span class="math inline">\(\frac{3}{9} =\)</span></li>
+<li><span class="math inline">\(\frac{2}{14} =\)</span></li>
+<li><span class="math inline">\(\frac{4}{12} =\)</span></li>
+<li><span class="math inline">\(\frac{10}{18} =\)</span></li>
+</ol>
+</section>
+</section>
+<section id="brüche-und-dezimalzahlen-für-den-zahlenstrahl" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-und-dezimalzahlen-für-den-zahlenstrahl">Brüche und Dezimalzahlen für den Zahlenstrahl</h2>
+<p><a href="brueche_zahlenstrahl.pdf">Druckvorlage</a></p>
+</section>
+<section id="brüche-kürzen-und-erweitern" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-kürzen-und-erweitern">Brüche kürzen und erweitern</h2>
+<section id="kürzen" class="level3">
+<h3 class="anchored" data-anchor-id="kürzen">Kürzen</h3>
+<p>Kürzen heisst Zähler <strong>und</strong> Nenner durch die gleiche Zahl dividieren. <strong>Beachte:</strong> Durch das Kürzen ändert sich der Wert des Bruches nicht.</p>
+<p><img src="bruch_kuerzen.png" class="img-fluid" alt="Bruch kürzen"> <img src="bruch_kuerzen_2.png" class="img-fluid" alt="Bruch kürzen"></p>
+</section>
+</section>
+<section id="zeichne-einen-pfeil-zu-dem-gekürzten-bruch." class="level2">
+<h2 class="anchored" data-anchor-id="zeichne-einen-pfeil-zu-dem-gekürzten-bruch.">Zeichne einen Pfeil zu dem gekürzten Bruch.</h2>
+<section id="g-1" class="level3">
+<h3 class="anchored" data-anchor-id="g-1">g</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruchaufgabe_1.png" class="img-fluid figure-img"></p>
+<figcaption>Brüche</figcaption>
+</figure>
+</div>
+</section>
+<section id="e-1" class="level3">
+<h3 class="anchored" data-anchor-id="e-1">e</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruchaufgabe_2.png" class="img-fluid figure-img"></p>
+<figcaption>Brüche</figcaption>
+</figure>
+</div>
+</section>
+<section id="e-2" class="level3">
+<h3 class="anchored" data-anchor-id="e-2">e</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruchaufgabe_3.png" class="img-fluid figure-img"></p>
+<figcaption>Brüche</figcaption>
+</figure>
+</div>
+</section>
+<section id="mit-welcher-zahl-wurde-gekürzt" class="level3">
+<h3 class="anchored" data-anchor-id="mit-welcher-zahl-wurde-gekürzt">Mit welcher Zahl wurde gekürzt?</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruchaufgabe_4.png" class="img-fluid figure-img"></p>
+<figcaption>Brüche</figcaption>
+</figure>
+</div>
+</section>
+<section id="kürze-so-weit-wie-möglich" class="level3">
+<h3 class="anchored" data-anchor-id="kürze-so-weit-wie-möglich">Kürze so weit wie möglich</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bruchaufgabe_5.png" class="img-fluid figure-img"></p>
+<figcaption>Brüche</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="erweitern" class="level2">
+<h2 class="anchored" data-anchor-id="erweitern">Erweitern</h2>
+<p>Erweitern heisst Zähler <strong>und</strong> Nenner mit der gleichen Zahl multiplizieren. <strong>Beachte:</strong> Durch das Erweitern ändert sich der Wert des Bruches nicht.</p>
+<p><img src="erweitern_1.png" class="img-fluid"> <img src="erweitern_2.png" class="img-fluid"></p>
+<section id="zeichne-einen-pfeil-zu-dem-erweiterten-bruch." class="level3">
+<h3 class="anchored" data-anchor-id="zeichne-einen-pfeil-zu-dem-erweiterten-bruch.">Zeichne einen Pfeil zu dem erweiterten Bruch.</h3>
+<p><img src="erweitern_g.png" class="img-fluid"></p>
+<p><img src="erweitern_e.png" class="img-fluid"></p>
+<p><img src="erweitern_s.png" class="img-fluid"></p>
+</section>
+<section id="mit-welcher-zahl-wurde-erweitert" class="level3">
+<h3 class="anchored" data-anchor-id="mit-welcher-zahl-wurde-erweitert">Mit welcher Zahl wurde erweitert?</h3>
+<p><img src="erweitern_aufgabe.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="brüche-addieren-und-subtrahieren" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-addieren-und-subtrahieren">Brüche addieren und subtrahieren</h2>
+<section id="addition" class="level3">
+<h3 class="anchored" data-anchor-id="addition">Addition</h3>
+<p>Addition von Brüchen mit <strong>gleichem</strong> Nenner.</p>
+<p>Addiere die Zähler und behalte die Nenner bei.</p>
+<p><span class="math inline">\(\frac{1}{3}+\frac{1}{3}=\frac{1+1}{3}=\frac{2}{3}\)</span></p>
+<p><span class="math inline">\(\frac{2}{7}+\frac{4}{7}=\frac{2+4}{7}=\frac{6}{7}\)</span></p>
+<p>** Achtung!** Vergiss nicht zu kürzen.</p>
+<p><span class="math inline">\(\frac{1}{8}+\frac{3}{8}=\frac{1+3}{8}=\frac{4}{8}=\frac{1}{2}\)</span></p>
+<p>Addition von Brüchen mit <strong>verschiedenen</strong> Nenner.</p>
+<ol type="1">
+<li>Erweitere die Nenner auf einen gemeinsamen Nenner. Dieser gemeinsame Nenner heisst Hauptnenner.</li>
+<li>Bestimme die Zahl, mit welcher du den Bruch erweitern musst, indem du den Hauptnenner durch den Nenner des Bruches dividierst.</li>
+<li>Erweitere die Brüche.</li>
+<li>Addiere die Zähler und behalte den Hauptnenner bei.</li>
+<li>Kürze, wenn möglich.</li>
+</ol>
+<p><img src="hauptnenner.png" class="img-fluid"></p>
+<p>So kannst du dein Rechnungsweg notieren:</p>
+<p><span class="math inline">\(\frac{1}{4}+\frac{2}{3}=\frac{3}{12}+\frac{8}{12}=\frac{11}{12}\)</span></p>
+<p>Du kannst mit Hilfe des Rechteckmodells ein Addition veranschaulichen.</p>
+<p><img src="rechteckmodell.png" class="img-fluid"></p>
+<p>Erklärt euch gegenseitig wie man Brüche mit dem Rechteckmodell addieren kann. Mach dir Notizen!</p>
+<p>Stellt mit dem Rechteckmodell zwei weitere Bruchadditionen dar.</p>
+<p>Addiere.</p>
+<p><img src="rechteckmodell_aufgabe.png" class="img-fluid"></p>
+</section>
+<section id="subtraktion" class="level3">
+<h3 class="anchored" data-anchor-id="subtraktion">Subtraktion</h3>
+<p>Subtraktion von Brüchen mit <strong>gleichen</strong> Nenner.</p>
+<p>Subtrahiere die Zähler und behalte die Nenner bei.</p>
+<p><span class="math inline">\(\frac{3}{5}-\frac{1}{5}=\frac{3-1}{5}=\frac{2}{5}\)</span></p>
+<p><span class="math inline">\(\frac{4}{7}-\frac{3}{7}=\frac{4-3}{7}=\frac{1}{7}\)</span></p>
+<p><strong>Achtung!</strong> Vergiss nicht zu kürzen</p>
+<p><span class="math inline">\(\frac{3}{8}=\frac{3-1}{8}=\frac{2}{8}=\frac{1}{4}\)</span></p>
+<p>Subtraktion von Brüchen mit <strong>verschiedenen</strong> Nenner.</p>
+<ol type="1">
+<li>Erweitere die Nenner auf einen gemeinsamen Nenner. Dieser gemeinsame Nenner heisst Hauptnenner.</li>
+<li>Bestimme die Zahl, mit welcher du den Bruch erweitern musst, indem du den Hauptnenner durch den Nenner des Bruches dividierst.</li>
+<li>Erweitere die Brüche.</li>
+<li>Subtrahiere die Zähler und behalte den Hauptnenner bei.</li>
+<li>Kürze, wenn möglich.</li>
+</ol>
+<p><img src="subtrahieren.png" class="img-fluid"></p>
+<p>So kannst du dein Rechnungsweg notieren:</p>
+<p><span class="math inline">\(\frac{2}{3}-\frac{1}{5}=\frac{10}{15}-\frac{3}{15}=\frac{7}{15}\)</span></p>
+<p>Subtrahiere</p>
+<p><img src="subtrahieren_aufgabe.png" class="img-fluid"></p>
+</section>
+</section>
+</section>
+<section id="lehrpersonensonkommentar" class="level1">
+<h1>Lehrpersonensonkommentar</h1>
+<section id="voraussetzungen" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzungen">Voraussetzungen</h2>
+<p>Diese Lernumgebung befasst sich mit dem Thema Brüche. Die folgenden Themen werden im Detail behandelt.</p>
+<ul>
+<li>Repetition, was ist ein Bruch?</li>
+<li>Wert (Grösse) eines Bruches</li>
+<li>Brüche kürzen und erweitern</li>
+<li>Brüche addieren und subtrahieren</li>
+</ul>
+<p>Es wird vorausgesetzt, dass der Begriff „Bruch” kein Fremdwort für die Schüler<em>innen ist. Die Schüler</em>innen sollten bereits über grundlegende Kenntnisse zum Thema Brüche verfügen. Dies stützt sich auf dem Lehrplan 21, da die Kompetenz MA 1. A. 3. f bereits thematisiert wurde. Sie gehört zu den Grundanforderungen des Zyklus 2 und folgt nach dem Orientierungspunkt. Die Kompetenz lautet konkret: „Die Schüler und Schülerinnen können Brüche mit den Nennern 2, 3, 4, 5, 6, 8, 10, 20, 50, 100 am Rechteckmodell kürzen, erweitern, addieren und subtrahieren” (Deutschschweizer Erziehungsdirektoren-Konferenz, 2016, S. 12).</p>
+<p>Nach Abschluss der Lernumgebung sollten die Schüler*innen folgende Kompetenzen beherrschen:</p>
+<ul>
+<li>Ich weiss, dass jeder Bruch einen bestimmten Wert besitzt und dieser in einer Dezimalzahl darstellbar ist.</li>
+<li>Ich kann Brüche auf dem Zahlenstrahl einordnen.</li>
+<li>Ich kann Brüche kürzen und erweitern.</li>
+<li>Ich kann Brüche addieren und subtrahieren.</li>
+</ul>
+<p>Ja, das kann ich perfekt (🙂). Ja, aber zum Teil habe ich noch etwas Mühe (😬). Nein, da muss ich noch mehr üben (🙁).</p>
+<p>Diese Tabelle dient zugleich der Selbsteinschätzung/Selbstevaluation der Schüler*innen. Da diese Lernumgebung nur ein Teil des Themas Brüche beinhaltet und in einer weiteren Lernumgebung die Multiplikation und Division von Brüchen thematisiert wird, könnte abschliessend zu diesen zwei Lernumgebungen eine Lernkontrolle stattfinden. Eine Alternative dazu könnte ein Produkt sein, beispielsweise in Form eines Merkhefteintrages.</p>
+</section>
+<section id="allgemeines" class="level2">
+<h2 class="anchored" data-anchor-id="allgemeines">Allgemeines</h2>
+<p>Die Lernumgebung beinhaltet Theorie und die dazupassenden Übungsaufgaben. Zu jedem Thema gibt es einen gemeinsamen Einstig mit den Schüler<em>innen. Die Übungsaufgaben sind folgendermassen gekennzeichnet: g: grundlegend, e: erweitert, </em>: Expert. Wenn Schüler<em>innen auf der jeweiligen Stufe Schwierigkeiten bekunden, empfiehlt es sich zusätzlich weitere Aufgaben mit ähnlichem Schwierigkeitsgrad zu lösen. Das Gleiches gilt für leistungsstärkere Schüler</em>innen. Sie sollten mit weiteren Aufgaben gefördert werden. Die Aufgaben und Spiele, welche in Papierform gebraucht werden, können als PDF-Datei heruntergeladen werden.</p>
+</section>
+<section id="was-ist-schon-wieder-ein-bruch-1" class="level2">
+<h2 class="anchored" data-anchor-id="was-ist-schon-wieder-ein-bruch-1">Was ist schon wieder ein Bruch?</h2>
+<p>Um den Schüler<em>innen zu zeigen, wofür das Bruchrechnen wichtig ist, kann man eine anspruchsvolle alltagsbezogene Aufgabe stellen. Wenn der Alltagsbezug geschickt die Interessen der Schüler</em>innen anspricht, fördert dies deren Motivation und Aufmerksamkeit.</p>
+<p>Zum Beispiel: Angenommen, du möchtest einen Smoothie aus verschiedenen Getränken und Säften herstellen. Du hast folgende Mengen zur Verfügung: 1/3 Liter Orangensaft, 2/5 Liter Apfelsaft, 1/4 Liter Traubensaft und 1/6 Waser.</p>
+<ol type="1">
+<li>Wie viel Saft hast du insgesamt?</li>
+<li>Du trinkst nur 3/4 von dem Saft. Wieviel hast du noch übrig?</li>
+</ol>
+<p>Eine solche Aufgabe können die Schüler<em>innen vorerst kurz versuchen zu lösen. Anschliessend folgt eine Besprechung im Klassenverband, um die Lösungsvorschläge der Schüler</em>innen zu sammeln. Es ist nicht das Ziel, dass die Schüler<em>innen bereits die Aufgabe lösen, sondern die Lehrperson kann daraus schliessen, wieviel Wissen die Schüler</em>innen im Thema Brüche bereits besitzen.</p>
+<p>Danach kann das Spiel „Bruchpaare” gespielt werden. Abschliessend können die Schüler*innen den Theorieblock lesen.</p>
+</section>
+<section id="verschiedene-brüche-die-alle-denselben-wert-haben-1" class="level2">
+<h2 class="anchored" data-anchor-id="verschiedene-brüche-die-alle-denselben-wert-haben-1">Verschiedene Brüche, die alle denselben Wert haben</h2>
+<p>Bei diesem Thema können die Schüler*innen die Grösse eines Bruches erkunden. Sie entdecken, dass verschiedene Brüche den gleichen Wert haben. Zudem erfolgen bereits erste Annäherungen zum Kürzen und Erweitern.</p>
+<p>Die Lehrperson erstellt einen grossen Zahlenstrahl auf dem Boden des Klassenzimmers. Dies funktioniert sehr einfach mit Malerklebeband. Nun sollen die Schüler<em>innen Brüche und Dezimalzahlen einordnen. Entweder gibt man die Brüche und Dezimalzahlen vor oder die Schüler</em>innen schrieben selbst welche auf einen Zettel. Wichtig zu beachten ist, dass der Bruch jeweils auch in dessen Dezimalzahl vorhanden ist. So erkennen die Schüler<em>innen den Zusammenhang zwischen Bruch und Dezimalzahl. Nach dem Einordnen wird der Zahlenstrahl zusammen im Klassenverband korrigiert. Dabei sollen die Schüler</em>innen falsch eingeordnete Zettel, unter Aufsicht und dem O.K. der Lehrperson, neu anordnen.</p>
+<p>Abschliessend können die Schüler*innen zwei bis drei selbstgewählte Brüche mit Dezimalzahl in der Lernumgebung einordnen und die Aufgaben lösen.</p>
+</section>
+<section id="brüche-kürzen-und-erweitern-1" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-kürzen-und-erweitern-1">Brüche kürzen und erweitern</h2>
+<section id="kürzen-1" class="level3">
+<h3 class="anchored" data-anchor-id="kürzen-1">Kürzen</h3>
+<p>Zuerst kann die Lehrperson den Schüler<em>innen mitteilen, dass das Kürzen und Erweitern der Brüche ein bedeutender Punkt ist, welcher bei der Addition und Subtraktion zentral wird (Sinnvermittlung). Daraufhin notiert die Lehrperson einen Bruch mit grossem Zähler und grossem Nenner, beispielsweise 24/48, an die Wandtafel. Sie fragt die Klasse nach dem Wert dieses Bruches, sprich, welche Dezimalzahl diesen Bruch darstellt. Da dies ein einfacher Bruch ist, ist die Wahrscheinlichkeit sehr gross, dass jemand die Antwort weiss. Anschliessend fragt die Lehrperson die Klasse, ob sie noch weitere Brüche kennen mit dem Wert 0,5. Anhand den genannten Brüchen kann die Lehrperson das Kürzen, wie in der Lernumgebung dargestellt, vorzeigen. Nachfolgend können zwei weitere Beispiele im Klassenverband gelöst werden, bevor die Schüler</em>innen die Aufgaben in der Lernumgebung lösen.</p>
+</section>
+<section id="erweitern-1" class="level3">
+<h3 class="anchored" data-anchor-id="erweitern-1">Erweitern</h3>
+<p>Die Einführung in das Erweitern erfolgt nach den gleichen Schritten wie das Kürzen. Diese Einführung könnte durchaus mit 1-2 „fitten” Schüler<em>innen gemeinsam an der Wandtafel gemacht werden. Dadurch wird den Schüler</em>innen Verantwortung übertragen und sie finden sich in neuen Situationen wieder. Dies kann positive Auswirkungen auf den Unterricht haben. Vielleicht wirkt es motivierend auf Mitschüler<em>innen, wenn gleichaltrige Themen vermitteln oder sie sind zumindest aufmerksamer. Schliesslich lesen die Schüler</em>innen die Theorie und lösen die Aufgaben in der Lernumgebung.</p>
+</section>
+</section>
+<section id="brüche-addieren-und-subtrahieren-1" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-addieren-und-subtrahieren-1">Brüche addieren und subtrahieren</h2>
+<section id="addition-1" class="level3">
+<h3 class="anchored" data-anchor-id="addition-1">Addition</h3>
+<p>Hier lesen die Schüler<em>innen den Theorieblock in der Lernumgebung aufmerksam durch. Danach zeigt die Lehrperson an der Wandtafel, wie das Lösen einer Addition mit dem Rechteckmodell funktioniert. In zwei weiteren Beispielen sollen bereits wieder Schüler</em>innen nach vorne kommen, um gemeinsam die Rechteckmodelle zu erstellen. Dann lösen die Schüler*innen die Aufgaben in der Lernumgebung.</p>
+</section>
+<section id="subtraktion-1" class="level3">
+<h3 class="anchored" data-anchor-id="subtraktion-1">Subtraktion</h3>
+<p>Wiederum lesen die Schüler*innen zuerst den Theorieblock, können jedoch danach selbständig mit dem Lösen von Aufgaben beginnen. Auf eine Veranschaulichung mit dem Rechteckmodell habe ich bei der Subtraktion bewusst verzichtet. Im Fokus stehen die gleichen Abläufe wie bei der Addition mit der Ausnahme das Zähler plus Zähler zu Zähler minus Zähler wird.</p>
+</section>
+</section>
+<section id="anwenden-von-gelerntem-ausserhalb-von-lernsituationen" class="level2">
+<h2 class="anchored" data-anchor-id="anwenden-von-gelerntem-ausserhalb-von-lernsituationen">Anwenden von Gelerntem ausserhalb von Lernsituationen</h2>
+<p>Nach dieser Lernumgebung und der darauffolgenden beherrschen die Schüler<em>innen das Operieren mit Brüchen. Bereits nach dieser oder nach beiden Lernumgebungen kann das Gelernte ausserhalb von Lernsituationen angewendet werden. Eine Möglichkeit in der Mathematik ist das Lösen von Fermi-Fragen. Von Vorteile wäre natürlich wenn die Schüler</em>innen beim Lösen der Fermi-Frage auf Brüche treffen würden. Zu beachten ist, dass die Transferierbarkeit von Wissen abhängig ist von den Ähnlichkeiten zwischen Basis- und Zielaufgaben, den Ähnlichkeiten der Kontexte und natürlich von dem Vorwissen und der Motivation der Lernenden.</p>
+<p>Literatur:</p>
+<p>Deutschschweizer Erziehungsdirektoren-Konferenz. (2016). Lehrplan 21: Broschüre Mathematik (S. 12). D-EDK.</p>
+</section>
+</section>
+<section id="vertiefung" class="level1">
+<h1>Vertiefung</h1>
+<section id="lernphasen" class="level2">
+<h2 class="anchored" data-anchor-id="lernphasen">Lernphasen</h2>
+<p>Im ersten Teil meiner Vertiefung möchte ich mit dem Verlauf eines Lernprozesses beschäftigen. Dazu fokussiere ich mich auf die zwei Strukturen, in welche die Lektionen aufgeteilt werden können. Einerseits ist das die Sicht- und Oberflächenstruktur, welche den zeitlichen Lektionsverlauf beschreibt, anderseits die Tiefenstruktur, welche den Lernprozess ersichtlich macht (Meyer, 2013).</p>
+<section id="sicht--und-oberflächenstruktur" class="level3">
+<h3 class="anchored" data-anchor-id="sicht--und-oberflächenstruktur">Sicht- und Oberflächenstruktur</h3>
+<p>Die Sicht- und Oberflächenstruktur ist die zeitliche Gliederung des Unterrichts. Eine mögliche Gliederung ist die Aufteilung der Lektion in Einstieg, Hauptteil und Schluss.</p>
+<p>Der Einstieg dient dazu, das Interesse der Schüler<em>innen zu wecken. Gleichzeitig wird ihnen das Unterrichtsthema vorgestellt. Darüber hinaus kann der Einstieg genutzt werden, um die Aufmerksamkeit der Schüler</em>innen zu fokussieren und das Thema für sie sinnhaft zu machen.</p>
+<p>Im Hauptteil einer Lektion wird der Kerninhalt vermittelt. Hier wird das eigentliche Thema der Lektion erarbeitet, vertieft und angewendet. Die Schüler*innen beschäftigen sich mit dem Thema, sei es durch Erklärungen, Diskussionen, Übungen oder praktische Aufgaben.</p>
+<p>In einem Abschluss kann das Gelernte in einem Rückblick sichtbar gemacht werden (Ergebnissicherung).</p>
+</section>
+<section id="tiefenstruktur" class="level3">
+<h3 class="anchored" data-anchor-id="tiefenstruktur">Tiefenstruktur</h3>
+<p>Der Lernprozess ist schlecht in einer einzigen Lektion oder Doppellektion ersichtlich, sondern er offenbart sich erst nach 2-3 Stunden. Der Lernprozess lässt sich am besten in Lernphasenmodelle aufzeigen. Solche Lernphasenmodelle beziehen sich auf den Lernprozess und nicht auf die zeitliche Gliederung. Ich werde nun meine Lernumgebung mit Hilfe des PADUA Modells (Aebli, 2011) analysieren.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Schritt</strong></th>
+<th><strong>Beschreibung</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Problemlösendes Aufbauen einer Struktur</strong></td>
+<td>Wenn das Lernen neuer Inhalte von lebendig empfundenen Problemen ausgeht, kann dadurch das Interesse der Schüler<em>innen geweckt werden. Neue Inhalte werden problemlösend und fragend, entwickelnd gelernt. Gemeinsam mit den Schüler</em>innen wird eine Struktur erarbeitet, indem bekannte und neue Elemente schrittweise zusammengefügt werden.</td>
+</tr>
+<tr class="even">
+<td><strong>Durcharbeiten einer Struktur</strong></td>
+<td>Die neuen Inhalte werden in neue Zusammenhänge gebracht, um eine andere Sicht auf dieselbe Sache zu ermöglichen.</td>
+</tr>
+<tr class="odd">
+<td><strong>Üben und Wiederholen</strong></td>
+<td>Ziel ist Sicherheit. Üben ist ein zentraler Lernschritt, der oft vergessen wird. Dem Vergessen wird nur durch Üben entgegengesetzt.</td>
+</tr>
+<tr class="even">
+<td><strong>Anwenden der Struktur in neuen Problemsituationen</strong></td>
+<td>Schüler*innen können die neu erworbenen Inhalte in neuen Situationen anwenden. Dadurch wird eine Verbindung zwischen Lernen und Leben hergestellt. Gesicherte Lerninhalte werden auf reale Lebenssituationen angewendet und geprüft.</td>
+</tr>
+</tbody>
+</table>
+<p>PA: Als Einstieg in die Lernumgebung wird den Schüler<em>innen eine anspruchsvolle alltagsbezogene Aufgabe gestellt. Inwieweit dies ein lebendig empfundenes Problem darstellt, ist sehr abhängig von den Interessen der Schüler</em>innen. Je besser die Lehrperson ihre Schüler<em>innen kennt, desto besser kann sie eine alltagsbezogene Aufgabe formulieren, welche möglichst viele Schüler</em>innen anspricht.</p>
+<p>Bei dem Thema „Brüche kürzen und erweitern” werden die Inhalte problemlösend beziehungsweise fragend, entwickelnd vermittelt. Hier wird an bereits vorhandenen Strukturen angeknüpft. Das bekannte Wissen, über den Wert eines Bruches, kann mit dem neuen Wissen, dem Kürzen und Erweitern, zusammengefügt werden. Bei dem Thema „Verschieden Brüche, die alle denselben Wert haben” werden die neuen Inhalte nicht problemlösend beziehungsweise fragend, entwickelnd vermittelt, jedoch gemeinsam mit den Schüler*innen erarbeitet.</p>
+<p>D: Diese Lernumgebung ist aufbauend entwickelt. Alle erlernten Inhalte müssen im nächsten Thema angewendet werden. Dadurch werden die Inhalte in neue Zusammenhänge gebracht.</p>
+<p>U: Übung macht den Meister. Gerade in der Mathematik ist das Üben sehr wichtig. Die Lernumgebung bietet verschiedene Aufgabenstellungen. Diese sind keine definitiven Aufgaben. Je nach Klasse und Schüler*innen können weitere und verschieden Aufgaben bearbeitet werden.</p>
+<p>A: Nun kann das gelernte, in der zu Beginn der Lernumgebung gestellten Aufgabe, angewendet werden. Wie bereits im Lehrpersonenkommentar erwähnt, ist eine weitere Option mit den Schüler*innen Fermi-Fragen zu lösen.</p>
+</section>
+</section>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Im zweiten Teil meiner Vertiefung befasse ich mich mit dem Thema Motivation. Motivation setzt sich aus einem Motiv, einem dauerhaften Bedürfnis, sowie einem äusseren Anreiz, der das Motiv anspricht, zusammen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="motivation.png" class="img-fluid figure-img"></p>
+<figcaption>Motvation</figcaption>
+</figure>
+</div>
+<section id="intrinsische-und-extrinsische-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="intrinsische-und-extrinsische-motivation">Intrinsische und extrinsische Motivation</h3>
+<p>In der Pädagogik ist die Unterscheidung zwischen intrinsischer und extrinsischer Motivation von Bedeutung. Intrinsische Motivation meint das Handeln um seiner selbst willen. Die Motivation entsteht aus der Person heraus und ist unabhängig von äusseren Faktoren wie Belohnungen oder Bestrafungen. Die Schüler<em>innen lernen aus Freude an der Tätigkeit selbst oder aufgrund des Interessens am Inhalt. Extrinsische Motivation meint die Verhaltenssteuerung durch äussere Anreize wie Belohnungen, Bestrafungen, gute Noten oder Anerkennung. Für die Schüler</em>innen ist das Lernen nur ein Mittel zum Zweck.</p>
+<p>Ein Beispiel für intrinsische Motivation ist: Max ist ein Schüler, der sich gerne mit mathematischen Problemen beschäftigt. Er liebt es, neue Lösungswege zu entdecken und knifflige Aufgaben zu lösen. Die Mathematik fasziniert ihn. Deshalb übt Max freiwillig in seiner Freizeit Mathematik, nicht um bessere Noten zu bekommen, sondern weil ihm das Denken in Zahlen und Formeln Spass macht.</p>
+<p>Ein Beispiel für extrinsische Motivation ist: Lisa lernt fleissig für ihre Mathematikprüfung. Sie möchte unbedingt eine gute Note bekommen, damit ihre Eltern Stolz auf sie sind. In diesem Fall ist der Hauptantrieb nicht das Interesse an der Mathematik, sondern die Aussicht auf Anerkennung und Belohnung von aussen.</p>
+<p>Die intrinsische Motivation ist die wertvollere und erstrebenswertere Motivation. Intrinsisch motivierte Schüler<em>innen lernen aus eigenem Antrieb. Sie brauchen keinen äusseren Anreize. Schüler</em>innen, welche aus intrinsischer Motivation heraus lernen, lernen nachweislich nachhaltiger und gründlicher. In der Praxis ist es jedoch schwierig, dass alle Schüler*innen intrinsisch motiviert sind. Aus diesem Grund darf auf extrinsische Motivation nicht vollkommen verzichtet werden. Denn extrinsische Motivation ist immer noch besser, als wenn gar nicht mitgearbeitet und gelernt wird (Bovet &amp; Huwendiek, 2019).</p>
+</section>
+<section id="tätigkeitsbezogene-vs.-sachbezogene-intrinsische-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="tätigkeitsbezogene-vs.-sachbezogene-intrinsische-motivation">Tätigkeitsbezogene vs.&nbsp;sachbezogene intrinsische Motivation</h3>
+<p>Ein Beispiel für tätigkeitsbezogene intrinsische Motivation ist: Die Schüler*inne arbeiten im Mathematikunterricht sehr gut mit, weil sie ein Spiel spielen dürfen. Das Thema Brüche interessiert sie nicht besonders.</p>
+<p>Ein Beispiel für sachbezogene intrinsische Motivation ist: Das Lösen von Bruchadditionen- und Subtraktionen interessiert die Schüler*innen. Sie sind in ihren Aufgaben vertieft.</p>
+<p>Diese Unterscheidung ist von Bedeutung, weil sie auf Kompensationsmöglichkeit hinweist. Wenn das Thema trocken ist, können die Methoden motivieren. Umgekehrt kann eine langweilige Methode, z. B. eine Übung, durch interessante Inhalte attraktiver gestaltet werden.</p>
+</section>
+<section id="drei-basisbedürfnisse" class="level3">
+<h3 class="anchored" data-anchor-id="drei-basisbedürfnisse">Drei Basisbedürfnisse</h3>
+<p>Für die Förderung der intrinsischen Motivation sind drei angeborenen Basisbedürfnisse Autonomie, Kompetenzerleben und soziale Eingebundenheit zentral (Deci &amp; Ryan, 2000). Werden diese Bedürfnisse durch die gestellten Inhalte und Aufgaben befriedigt, so steigt die intrinsische Motivation. Bei dem Basisbedürfnis Kompetenzerleben ist zu beachten, dass sich Lehrpersonen genau überlegen, wie stark sie ihre Schüler<em>innen durch ihre Aufgabenstellung herausfordern. Eine optimale Passung der Anforderungen mit den jeweiligen individuellen Kompetenzen der Schüler</em>innen ist dabei unabdingbar. Dadurch kann sich im Idealfall sogar ein flowartiger Zustand einstellen.</p>
+<p>Die drei Basisbedürfnisse in Bezug auf meine Lernumgebung.</p>
+<ul>
+<li>Autonomie: Wahlmöglichkeiten und Mitbestimmung der Schüler<em>innen. In manchen Aufgaben können die Schüler</em>innen selbst wählen, welche Brüche sie verwenden. Da die Schüler*innen gemeinsam mit der Lerhperson an der Wandtafel unterrichten, können sie den Unterricht ein Stück weit mitbestimmen.</li>
+<li>Kompetenzerleben: Lernerfolge ermöglichen und sichtbar machen. Die Schüler*innen lösen zu jedem Thema Aufgaben. Dort erkennen sie, ob sie die erlernten Inhalte anwenden können und verstehen.</li>
+<li>Soziale Eingebundenheit: Positives Lernklima schaffen. In manchen Situationen erlernen die Schüler*innen die Inhalte in partnersschaftlicher Arbeit oder Gruppen.</li>
+</ul>
+<p>Literatur:</p>
+<p>Aebli, H. (2011). Zwölf Grundformen des Lehrens: eine Allgemeine Didaktik auf psychologischer Grundlage: Medien und Inhalte didaktischer Kommunikation, der Lernzyklus (14. Aufl.). Klett‐Cotta.</p>
+<p>Bovet, M., &amp; Huwendiek, S. (Hrsg.). (2019). Leitfaden Schulpraxis: Pädagogik und Psychologie für den Lehrberuf (11. Aufl.). Cornelsen.</p>
+<p>Deci, E. L., &amp; Ryan, R. M. (2000). The “what” and “why” of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227-268.</p>
+<p>Meyer, H. (2013). Unterrichtsmethoden 1: Theorieband (15. Aufl.). Cornelsen.</p>
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Diese Lernumgebung beruht auf einer Lernumgebung welche von Simon Moser erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876805 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-moser2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Moser, S. (2024, September 22). <em>Rationale Zahlen</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/">
+<p>PHBern</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
+<p>Kontakt</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
