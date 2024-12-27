@@ -7,9 +7,9 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.33">
+  <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Richard Conrardy">
   <title>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</title>
@@ -31,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-347f181c56564ba5974f550cb4bd8174.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-dc86baa1bbd21afae746d8e55ebb005b.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -126,8 +126,6 @@
       margin-right: 0; 
     }
   </style>
-  <link href="../../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
-  <script src="../../site_libs/countdown-0.4.0/countdown.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -246,14 +244,6 @@ Abbildung&nbsp;1: Stellwerk-Profil(Muster)
 </section>
 <section id="testen-wir-es" class="slide level2">
 <h2>Testen wir es</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_6be92426" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
 <p><a href="https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4">Beispielaufgaben Mathematik</a></p>
 <div style="width: 100%; height: 50%; overflow: hidden;">
 <iframe src="https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4" width="100%" height="100%" frameborder="0" allowfullscreen="">
@@ -283,14 +273,6 @@ Abbildung&nbsp;1: Stellwerk-Profil(Muster)
 </section>
 <section id="bericht" class="slide level2">
 <h2>Bericht</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_161d8f52" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
 <ul>
 <li>Wieviele Lernende der 9. Klasse erreichten die Grundkompetenzen in Mathematik im Kanton Bern?</li>
 <li>Ordnen Sie dieses Ergebnis in der Bildungslandschaft ein.</li>
@@ -329,14 +311,6 @@ Abbildung&nbsp;1: Stellwerk-Profil(Muster)
 </section>
 <section id="auftrag" class="slide level2 unnumbered unlisted">
 <h2>Auftrag</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_76533af9" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
 <ul>
 <li>Teilen Sie sich in 4 Gruppen ein, je nach Interessenschwerpunkt.</li>
 <li>Sichten Sie die auf Ilias zur Verfügung gestellten Materialien.</li>
@@ -566,44 +540,6 @@ Abbildung&nbsp;1: Stellwerk-Profil(Muster)
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -683,8 +619,6 @@ Abbildung&nbsp;1: Stellwerk-Profil(Muster)
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')
