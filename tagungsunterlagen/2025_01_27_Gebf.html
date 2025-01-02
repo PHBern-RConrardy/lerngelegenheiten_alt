@@ -210,6 +210,49 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize countdown time (20 minutes in seconds)
+      let countdownTime = 19 * 60;
+      let countdownElement = document.createElement('div');
+
+      // Style the countdown element
+      countdownElement.style.position = 'fixed';
+      countdownElement.style.bottom = '10px';
+      countdownElement.style.left = '0%';
+      countdownElement.style.fontSize = '18px';
+      countdownElement.style.fontWeight = 'bold';
+      countdownElement.style.color = 'lightgrey';
+      countdownElement.style.zIndex = '1000';
+      countdownElement.style.backgroundColor = 'white';
+      countdownElement.style.padding = '5px 10px';
+
+      // Insert countdown into the body
+      countdownElement.innerHTML = formatTime(countdownTime);
+      document.body.appendChild(countdownElement);
+
+      // Timer to update countdown every second
+      let timer = setInterval(function() {
+        countdownTime--;
+        countdownElement.innerHTML = formatTime(countdownTime);
+
+        if (countdownTime <= 0) {
+          clearInterval(timer);
+        }
+      }, 1000);
+
+      // Format time function (show minutes and rounded half-minutes)
+      function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+
+        // Round seconds to nearest half-minute
+        const roundedSeconds = (remainingSeconds < 30) ? 0 : 30;
+
+        return `${minutes}:${roundedSeconds === 0 ? '00' : '30'}`;  // Show minutes and rounded seconds (00 or 30)
+      }
+    });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -251,7 +294,7 @@
 </section>
 <section id="exploration-und-instruktion" class="slide level2">
 <h2>Exploration und Instruktion</h2>
-<div style="text-align: center;">
+<div style="text-align: center; width: 90%; margin: 0 auto">
 <p><img data-src="2024_11_21_Zukunftsforum/zukunftsforum.webp"></p>
 </div>
 <div class="quelle">
@@ -577,6 +620,13 @@
 </table>
 </div>
 </div></div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="2024_11_21_Zukunftsforum/aufbau.svg" class="r-stretch"><div class="quelle">
+<p><span style="background-color: #ffc50b; color: black;  border: 2px solid #ffc50b; padding: 2px;">In class</span> <span style="background-color: #094372; color: white;  border: 2px solid #094372; padding: 2px;">Out of class</span></p>
+</div>
 </section>
 <section id="hypothesen" class="slide level2 scrollable">
 <h2>Hypothesen</h2>
@@ -1516,45 +1566,14 @@ Walker, E., &amp; Nowacki, A. S. (2010). Understanding Equivalence and Noninferi
 <section id="danke-für-ihre-aufmerksamkeit" class="slide level2">
 <h2>Danke für Ihre Aufmerksamkeit</h2>
 <div class="fragment">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th></th>
-<th>4F</th>
-<th>ALT</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Fail</strong></td>
-<td>in class</td>
-<td>out of class</td>
-</tr>
-<tr class="even">
-<td><strong>Flip</strong></td>
-<td>out of class</td>
-<td>in class</td>
-</tr>
-<tr class="odd">
-<td><strong>Fix</strong></td>
-<td>in class</td>
-<td>in class</td>
-</tr>
-<tr class="even">
-<td><strong>Feed</strong></td>
-<td>in class</td>
-<td>in class</td>
-</tr>
-</tbody>
-</table>
+<p><img data-src="2024_11_21_Zukunftsforum/aufbau.svg" style="width:90.0%"></p>
+<div class="quelle">
+<p><span style="background-color: #ffc50b; color: black;  border: 2px solid #ffc50b; padding: 2px;">In class</span> <span style="background-color: #094372; color: white;  border: 2px solid #094372; padding: 2px;">Out of class</span></p>
 </div>
-</section>
-<section id="untersuchungsdesign-1" class="slide level2">
-<h2>Untersuchungsdesign</h2>
 
 
-
-<img data-src="2024_11_21_Zukunftsforum/aufbau.jpg" class="r-stretch"></section></section>
+</div>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

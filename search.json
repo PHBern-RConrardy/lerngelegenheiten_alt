@@ -56,6 +56,13 @@
     "text": "Untersuchungsdesign\n\n\n\nMathematikunterricht in der Sekundarstufe 1\nThema: Mittlere absolute Abweichung\nExperimentelles Forschungsdesign (randomisiert innerhalb der Klassen)\n220 Lernende aus 12 Klassen\n\n\n\n\n\n\n\n\n\n4F\nALT\n\n\n\n\nFail\nin class\nout of class\n\n\nFlip\nout of class\nin class\n\n\nFix\nin class\nin class\n\n\nFeed\nin class\nin class"
   },
   {
+    "objectID": "tagungsunterlagen/2025_01_27_Gebf.html#section",
+    "href": "tagungsunterlagen/2025_01_27_Gebf.html#section",
+    "title": "How to flip the right way: Fail, flip, fix and feed in practice",
+    "section": "",
+    "text": "In class Out of class"
+  },
+  {
     "objectID": "tagungsunterlagen/2025_01_27_Gebf.html#hypothesen",
     "href": "tagungsunterlagen/2025_01_27_Gebf.html#hypothesen",
     "title": "How to flip the right way: Fail, flip, fix and feed in practice",
@@ -109,14 +116,7 @@
     "href": "tagungsunterlagen/2025_01_27_Gebf.html#danke-für-ihre-aufmerksamkeit",
     "title": "How to flip the right way: Fail, flip, fix and feed in practice",
     "section": "Danke für Ihre Aufmerksamkeit",
-    "text": "Danke für Ihre Aufmerksamkeit\n\n\n\n\n\n4F\nALT\n\n\n\n\nFail\nin class\nout of class\n\n\nFlip\nout of class\nin class\n\n\nFix\nin class\nin class\n\n\nFeed\nin class\nin class"
-  },
-  {
-    "objectID": "tagungsunterlagen/2025_01_27_Gebf.html#untersuchungsdesign-1",
-    "href": "tagungsunterlagen/2025_01_27_Gebf.html#untersuchungsdesign-1",
-    "title": "How to flip the right way: Fail, flip, fix and feed in practice",
-    "section": "Untersuchungsdesign",
-    "text": "Untersuchungsdesign"
+    "text": "Danke für Ihre Aufmerksamkeit\n\n\n\nIn class Out of class"
   },
   {
     "objectID": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#bildungskontext",
@@ -1667,32 +1667,39 @@
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Digileb"
+    "text": "Übungsaufgabe 1 (Lehr-Lernfilm) Informieren Sie sich über Lehr-Lernfilme auf Digileb.\n\n\nÜbungsaufgabe 2 (Lehr-Lernfilm) Nehmen Sie ein Lernvideo für nächstes Mal auf und halten Sie fest, wie Sie es mit einer Klasse teilen."
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-1",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-1",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Definition 1 (Kollaboration)  \n\nCollaboration is a coordinated, synchronous activity that is the result of a continued attempt to construct and maintain a shared conception ofa problem.\n\n\n(roschelle_construction_1995?)\n\n\n\nDefinition 2 (Kooperatives Lernen)  \n\nBeim kooperativen (kollaborativen) Lernen arbeiten Schülerinnen und Schüler gemeinsam in kleinen Gruppen, um sich beim Aufbau von Kenntnissen und beim Erwerb von Fertigkeiten gegenseitig zu unterstützen. Das kooperative ist ein aktives, selbständiges und soziales Lernen. Kooperative Lehrformen sind lernerzentriert, denn während des Lernprozesses tritt die Lehrperson im Allgemeinen in den Hintergrund. Mindestens zwei, meist aber drei bis fünf Lernende konstituieren eine Lerngruppe.\n\n\n(Hasselhorn & Gold, 2013, S. 308)\n\n\n(vgl, schulz_diklusive_2021?)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#werkzeuge",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#werkzeuge",
-    "title": "Mediendidaktik",
-    "section": "Werkzeuge",
-    "text": "Werkzeuge"
+    "text": "Definition 1 (Kollaboration)  \n\nCollaboration is a coordinated, synchronous activity that is the result of a continued attempt to construct and maintain a shared conception ofa problem.\n\n\n(roschelle_construction_1995?)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-2",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-2",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Googlesites\nWordpress\nQuarto"
+    "text": "Definition 2 (Kooperatives Lernen)  \n\nBeim kooperativen (kollaborativen) Lernen arbeiten Schülerinnen und Schüler gemeinsam in kleinen Gruppen, um sich beim Aufbau von Kenntnissen und beim Erwerb von Fertigkeiten gegenseitig zu unterstützen. Das kooperative ist ein aktives, selbständiges und soziales Lernen. Kooperative Lehrformen sind lernerzentriert, denn während des Lernprozesses tritt die Lehrperson im Allgemeinen in den Hintergrund. Mindestens zwei, meist aber drei bis fünf Lernende konstituieren eine Lerngruppe.\n\n\n(Hasselhorn & Gold, 2013, S. 308)\n\n\n(vgl, schulz_diklusive_2021?)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#werkzeuge",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#werkzeuge",
+    "title": "Mediendidaktik",
+    "section": "Werkzeuge",
+    "text": "Werkzeuge\n\nÜbungsaufgabe 3 Halten Sie fest in welchen digitalen Werkzeug Sie"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-3",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-3",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Googlesites\nWordpress\nQuarto"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-4",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-4",
     "title": "Mediendidaktik",
     "section": "",
     "text": "Hasselhorn, M., & Gold, A. (2013). Pädagogische Psychologie: erfolgreiches Lernen und Lehren (3., vollständig überarbeitete und erweiterte Auflage). Verlag W. Kohlhammer."
@@ -1782,11 +1789,11 @@
     "text": "Übungsaufgabe 7 Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang."
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#übung",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#übung",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-9",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-9",
     "title": "Mediendidaktik",
-    "section": "Übung",
-    "text": "Übung\n\n  \n    −\n    +\n \n 05:00\n \n\nÜbungsaufgabe 8 (Doppelgänger) Lesen Sie sich in die Doppelgänger Kampagne ein (Bayerisches Landesamt für Verfassungsschutz, 2024).\nLesen Sie insbesondere S.16."
+    "section": "",
+    "text": "−\n    +\n \n 05:00\n \n\nÜbungsaufgabe 8 (Doppelgänger) Lesen Sie sich in die Doppelgänger Kampagne ein (Bayerisches Landesamt für Verfassungsschutz, 2024).\nLesen Sie insbesondere S.16."
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#james-studie",
@@ -1838,11 +1845,11 @@
     "text": "Empfehlungen\n\nDie Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen, Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.\nGemeindebehörden fordern von den Schulen das Erarbeiten und die periodische Überprüfung eines ICT-Konzeptes, […]\n\n\nErziehungsdirektion des Kantons Bern (2016)"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-9",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-9",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-10",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-10",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Übungsaufgabe 11 (Kantonale Empfehlungen) Lesen die kantonalen Empfehlungen.(Erziehungsdirektion des Kantons Bern, 2016)"
+    "text": "−\n    +\n \n 05:00\n \n\nÜbungsaufgabe 11 (Kantonale Empfehlungen) Lesen die kantonalen Empfehlungen.(Erziehungsdirektion des Kantons Bern, 2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#weitere-empfehlungen",
@@ -1852,11 +1859,11 @@
     "text": "Weitere Empfehlungen\n\nArbeitsgeräte der Schülerinnen und Schüler\nArbeitsgeräte für Lehrpersonen\nVernetzung innerhalb der Schule und Bandbreiten ins Internet\nDatenablage\nPeripheriegeräte\nLizenzen und Nutzungsverträge\n\n\nErziehungsdirektion des Kantons Bern (2016)"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#spezialistinspezialist-medien-und-informatik-smi",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#spezialistinspezialist-medien-und-informatik-smi",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-11",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-11",
     "title": "Mediendidaktik",
-    "section": "Spezialistin/Spezialist Medien und Informatik (SMI)",
-    "text": "Spezialistin/Spezialist Medien und Informatik (SMI)\n\n\nAbbildung 4: (Erziehungsdirektion des Kantons Bern, 2018, S. 3)"
+    "section": "",
+    "text": "Abbildung 4: Spezialistin/Spezialist Medien und Informatik (SMI) (Erziehungsdirektion des Kantons Bern, 2018, S. 3)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#kosten",
@@ -1866,18 +1873,18 @@
     "text": "Kosten\n\n\n\n\n\n\n\n\n\nKategorie\nElement\nAnzahl\nKosten (CHF)\n\n\n\n\nSchülergeräte\nChromebooks\n275\n123’750.00\n\n\n\nMacBook Air\n30\n33’870.00\n\n\n\nKopfhörer, Drucker, Chromecast (div.)\n-\n6’080.00\n\n\nSoftware/Lizenzen\nChrome OS EDU Lizenzen (Chromebooks)\n-\n-\n\n\n\nG Suite Enterprise for EDU Lizenzen (Lehrpersonen)\n-\n-\n\n\n\nMS Office 365 Lizenzen (Unterrichtsvorbereitung)\n-\n11’100.00\n\n\nTotalkosten Sekundarstufe I\n-\n-\n174’800.00\n\n\n\n\n(Grosser Gemeinderat Zollikofen, 2020, S. 3f)"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#diskussion",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#diskussion",
-    "title": "Mediendidaktik",
-    "section": "Diskussion",
-    "text": "Diskussion"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-10",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-10",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-12",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-12",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Übungsaufgabe 12  \n\nLesen Sie 2 ICT Konzepte durch.\nDiskutieren Sie miteinander was Sie feststellen."
+    "text": "Definition 3 (Prozessorarchitektur) Die Prozessorarchitektur bezieht sich auf die spezifische Struktur und Organisation eines Prozessors, der ein wesentlicher Bestandteil von Computern und anderen elektronischen Geräten ist\n\n\nWikipedia\n\nBeispiele:\nx64, ARM, RISV-V"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-13",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-13",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "−\n    +\n \n 05:00\n \n\nÜbungsaufgabe 12 (ICT-Konzepte)  \n\nLesen Sie 2 ICT Konzepte durch.\nWas stellen Sie fest?"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#bibliographie",
@@ -2897,25 +2904,46 @@
     "text": "Bearbeitungsfragen\n\nÜbungsaufgabe 1 Der Urheber eines Werkes ist seit 80 Jahren verstorben. Ist die Übersetzung damit ebenfalls frei?\n\n\n\nLösungsvorschlag\n\nNein. “Werke zweiter Hand sind selbständig geschützt.” URG Art. 3 Abs. 3\n\n\nÜbungsaufgabe 2 Einzelaufgaben wie z.B. \\(x^2-3x=0\\) sind (vermutlich) nicht geschützt. Ist somit eine Aufgabe mit 10 von diesen Gleichungen ebenfalls nicht geschützt?\n\n\n\nLösungsvorschlag\n\nDoch. “Sammlungen sind selbständig geschützt, sofern es sich bezüglich Auswahl oder Anordnung um geistige Schöpfungen mit individuellem Charakter handelt.” URG Art. 4 Abs. 1\n\n\nÜbungsaufgabe 3 Dürfen Lehrmaterialien welche zur ausschliesslichen Verwendung in einem Kurs erschaffen wurden, zitiert werden?\n\n\n\nLösungsvorschlag\n\nJa, “Ein Werk ist veröffentlicht, wenn der Urheber oder die Urheberin es selber erstmals ausserhalb eines privaten Kreises im Sinne von Artikel 19 Absatz 1 Buchstabe a einer grösseren Anzahl Personen zugänglich gemacht oder einer solchen Veröffentlichung zugestimmt hat.” URG Art. 9 Abs. 3\n“Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.” URG Art. 25 Abs. 1\n\n\nÜbungsaufgabe 4 Dürfen Werke, deren Ursprung nicht bekannt ist, zitiert werden?\n\n\n\nLösungsvorschlag\n\nJa. “Verwaiste Werke gelten als veröffentlicht. Sind in einem verwaisten Werk andere Werke oder Werkteile integriert, so gilt Absatz 2 auch für die Geltendmachung der Rechte an diesen Werken oder Werkteilen, sofern diese nicht in erheblichem Mass die Eigenart des Exemplars bestimmen.” URG Art. 22b Abs. 3\n\n\nÜbungsaufgabe 5 Darf ich fremde Unterrichtsmaterialien umändern und in meinem Unterricht benutzen?\n\n\n\nLösungsvorschlag\n\nNein. “1 Der Urheber oder die Urheberin hat das ausschliessliche Recht zu bestimmen; a. ob, wann und wie das Werk geändert werden darf; b. ob, wann und wie das Werk zur Schaffung eines Werks zweiter Hand verwendet oder in ein Sammelwerk aufgenommen werden darf.” URG Art. 11 Abs. 1\n\n\nÜbungsaufgabe 6 Darf ich Unterrichtsmaterialien, welche ich von einer eng befreundeten Lehrperson (legal) erhalten habe, an meine Klasse für den Unterricht weitergeben?\n\n\n\nLösungsvorschlag\n\nJein. Enge Freunde geben Ihnen Werke gemäss URG Art. 19 Abs. 1 lit. a weiter. Sie geben Ihrer Klasse es jedoch nach URG Art. 19 Abs. 1 lit. b weiter. URG Art. 19 Abs. 3 regelt, welche Werke nicht an die Klasse weitergegeben werden dürfen. Es handelt sich insbesondere um Werke der bildenden Kunst und weitgehend vollständige Werkexemplare.\n\n\nÜbungsaufgabe 7 Erhalten Urheber eine Vergütung, falls ich für den Unterricht in meiner Klasse verwende?\n\n\n\nLösungsvorschlag\n\nJa. “Wer zum Eigengebrauch nach Artikel 19 Absatz 1 Buchstabe b oder Buchstabe c oder wer als Drittperson nach Artikel 19 Absatz 2 Werke auf irgendwelche Art vervielfältigt, schuldet dem Urheber oder der Urheberin hiefür eine Vergütung.” URG Art. 20 Abs. 2\n\n\nÜbungsaufgabe 8 Meine Kollege benutzt die von mir (privat) erstellten Materialien. Schuldet er mir eine Vergütung?\n\n\n\nLösungsvorschlag\n\nJa, aber nicht direkt sondern über eine Verwertungsgesellschaft. “Die Vergütungsansprüche können nur von zugelassenen Verwertungsgesellschaften geltend gemacht werden.” URG Art. 20 Abs. 4\n\n\nÜbungsaufgabe 9 Wird ein nicht weitesgehend vollständiges Werkexemplar für den Unterricht vervielfältig, muss dann die Quelle angegeben werden?\n\n\n\nLösungsvorschlag\n\nNein, denn hier handelt es sich um “Eigengebrauch” nach URG Art. 19 Abs. 1 lit. b und nicht um ein Zitat nach URG Art. 25\n\n\nÜbungsaufgabe 10 Darf bildende Kunst zitiert werden?\n\n\n\nLösungsvorschlag\n\nJa, allerdings nur “wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.” URG Art. 25\nDas IGE stellt hier klar: “Auch zitieren ist erlaubt: Zur Erläuterung, Veranschaulichung oder um auf etwas Bestimmtes hinzuweisen, darf jedermann Stellen aus veröffentlichten Werken wörtlich wiedergeben. Und zwar nicht nur aus Büchern, sondern auch aus Vorträgen, Musikstücken oder Filmen. Ob das Zitieren von Werken der bildenden Kunst und von Fotografien von der gesetzlichen Regelung auch erfasst ist, war lange umstritten. Die Botschaft zur Revision stellt klar, dass auch diese Werkkategorien unter Einhaltung der gesetzlich vorgegebenen Bedingungen zitiert werden können.” IGE\n\n\nÜbungsaufgabe 11 Gibt es (gesetzliche) Regeln wie man die Quelle bei Zitaten korrekt angibt?\n\n\n\nLösungsvorschlag\n\nNein. “Das Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.” URG Art. 25 Abs. 2\n\n\nÜbungsaufgabe 12 Ist der Film “Modern Times” (1936) noch urheberrechtlich geschützt?\n\n\n\nLösungsvorschlag\n\nJa, bin zum Jahr 2027. Gemäss URG Art. 29 Abs. 2 b erlischt der Schutz 70 Jahre nach dem Tod des Urheberes. Nach Art. 30 Abs. 3 bezieht sich diese Zeitdauer auf den Tod des Regisseurs. Sir Charles Chaplin war der Regisseur des Films, er verstarb am 25.12.1977 Quelle, somit erlischt das Urheberrecht am 25.12.2027.\n\n\nÜbungsaufgabe 13 Haftet die Lehrperson bei einem Urheberrechtsverstoss persönlich?\n\n\n\nLösungsvorschlag\n\n“Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.” OR Art. 321e Abs. 1\nFahrlässig ist nicht gesetzlich klar abgegrenzt. Eine Rechtsschutzversicherung oder eine Geldreserve für einen Anwalt ist vermutlich eine gute Investition.\nWeitere Empfehlung: Alle Handlungen als Lehrperson klar abgrenzen von privaten Handlungen.\nBeispiel: Eine Lehrperson hat über einen Cloudprovider sein Skript mit seiner Klasse über einen öffentlich verfügbaren Link geteilt. Das Skript enthielt eine Textaufgabe welche aus einem Schulbuch eines Verlages (teilweise) übernommen wurde. Der Verlag hat von der Lehrperson (privat) 10’000 Chf verlangt, damit es nicht vor Gericht geht.\n\n\nÜbungsaufgabe 14 Dürfen Filme und Serien gratis gedownloaded werden, falls davon auszugehen ist, dass diese unrechtmässig angeboten werden?\n\n\n\nLösungsvorschlag\n\nGemäss dem Eidgenössischem Institut für Geistiges Eigentum ist das Downloaden für den Privatgebrauch nicht verboten:\n\n“Das Herunterladen oder Streaming für den Privatgebrauch ist gesetzlich erlaubt. Dies gilt selbst dann, wenn Sie von illegalen Quellen herunterladen. Letzteres steht zwar nicht ausdrücklich im Gesetz, scheint aber heute unbestritten zu sein. Das Hochladen von Werken gehört hingegen nicht zum gesetzlich erlaubten Privatgebrauch.” Quelle: IGE\n\n\n\nÜbungsaufgabe 15 Darf ein Werk (Statue oder Fassadenmalerei) auf einem Privathaus photographiert und das Photo veröffentlicht werden?\n\n\n\nLösungsvorschlag\n\nJa, Gemäss Art. 27 Abs. 1 URG dürfen Werke welche sich auf allgemein zugänglichem Grund befindet, abgebildet werden. Allgemein zugänglicher Grund schliesst Privatgrund nicht aus.\nGemäss Art. 27 Abs. 2 URG darf die Abbildung jedoch nicht dreidimensional (z.B. eine Statue) sein und die Abbildung darf nicht zum gleichen Zweck vewendet werden, eine Fassadenmalerei darf z.B. nicht auf der eigenen Hausfassade abgebildet werden.\n\n\nÜbungsaufgabe 16 Gehört das Werk, welches ein Programm dank maschinellem Lernen und einer Benutzereingabe erstellt hat, diesem Benutzer?\n\n\n\nLösungsvorschlag\n\nDie Rechtssprechung bei “KI”-Anwendungen ist im Moment (2024) noch dünn und eine gute Antwort kann weder national noch international gegeben werden.\nKlar ist, dass das Programm kein Urheber sein kann: “Urheber oder Urheberin ist die natürliche Person, die das Werk geschaffen hat.” Art. 6 URG"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#tpack-modell",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#tpack-modell",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section",
     "title": "Mediendidaktik",
-    "section": "TPACK-Modell",
-    "text": "TPACK-Modell\n\n\nAbbildung 1: Koehler et al. (2013)"
+    "section": "",
+    "text": "Abbildung 1: TPACK-Modell (Koehler et al., 2013)"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lerntheorien",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lerntheorien",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-1",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-1",
     "title": "Mediendidaktik",
-    "section": "Lerntheorien",
-    "text": "Lerntheorien\n\nBehavourismus\nKognitivismus\nKonstruktivismus\nSozialkonstruktivistische Ansätze\n\n(vgl, Kerres, 2018, S. 165)"
+    "section": "",
+    "text": "Wie verändert Ihr technisches Wissen ihren Unterricht?"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#medien-im-didaktischen-dreieck",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#medien-im-didaktischen-dreieck",
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-2",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-2",
     "title": "Mediendidaktik",
-    "section": "Medien im didaktischen Dreieck",
-    "text": "Medien im didaktischen Dreieck\n(Petko, 2020, S. 120)"
+    "section": "",
+    "text": "−\n    +\n \n 10:00\n \n\nÜbungsaufgabe 1 (Lerntheoretische Positionen) Lesen Sie Kerres (2018) ab Seite 146 die Lerntheoretischen Positionen\n\n\nÜbungsaufgabe 2 Lösen Sie die Übungen 1 und 2 in Kerres (2018) ab Seite 166"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#künstlich-intelligente-tutorsysteme",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#künstlich-intelligente-tutorsysteme",
+    "title": "Mediendidaktik",
+    "section": "Künstlich-intelligente Tutorsysteme",
+    "text": "Künstlich-intelligente Tutorsysteme\n\n(vgl Kerres, 2018, S. 156)\n\nWie ist künstliche Intelligenz definiert?\nLösung"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-3",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-3",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Wie funktionieren Chatbots?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-4",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-4",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "−\n    +\n \n 06:00\n \n\nÜbungsaufgabe 3 (Medien im didaktischen Dreieck) Lesen Sie in Petko (2020) Seite 120.\nHalten Sie jeweils fest welche Medien Sie dazu kennen und zu nutzen wissen und welche sie kennen aber noch nicht zu nutzen wissen."
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#samr---modell",
