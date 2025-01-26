@@ -7,10 +7,10 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.39">
+  <meta name="generator" content="quarto-1.6.33">
 
   <meta name="author" content="Richard Conrardy">
   <meta name="author" content="Christian Spannagel">
@@ -118,7 +118,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-70b0321f28e5eae4a30d06619da24ee9.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-ac94e95aa15e857be01a40b2152bdda6.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -1294,6 +1294,9 @@
 <div id="tabset-4-1">
 <p><img data-src="2024_11_21_Zukunftsforum/hypothese4_plot.png"></p>
 <p>ANOVA: <span class="math inline">\(\quad p=0.626\)</span></p>
+<div class="fragment fade-up">
+<p>TOST-Äquivalenztest <span class="citation" data-cites="walker_understanding_2010">(vgl. <a href="#/bibliographie" role="doc-biblioref" onclick="">Walker &amp; Nowacki, 2010</a>)</span> - Statistically <strong>not</strong> equivalent <em>and</em> not different.</p>
+</div>
 </div>
 <div id="tabset-4-2">
 <div class="sourceCode" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a></span>
@@ -1461,7 +1464,34 @@
 <span id="cb8-127"><a></a><span class="sc">&gt;</span> <span class="fu">AIC</span>(model1_tot)</span>
 <span id="cb8-128"><a></a>[<span class="dv">1</span>] <span class="fl">780.4426</span></span>
 <span id="cb8-129"><a></a><span class="sc">&gt;</span> <span class="fu">AIC</span>(model2_tot)</span>
-<span id="cb8-130"><a></a>[<span class="dv">1</span>] <span class="fl">778.6848</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-130"><a></a>[<span class="dv">1</span>] <span class="fl">778.6848</span></span>
+<span id="cb8-131"><a></a></span>
+<span id="cb8-132"><a></a>TOST results<span class="sc">:</span></span>
+<span id="cb8-133"><a></a>t<span class="sc">-</span>value lower bound<span class="sc">:</span> <span class="sc">-</span><span class="fl">0.79</span>   p<span class="sc">-</span>value lower bound<span class="sc">:</span> <span class="fl">0.785</span></span>
+<span id="cb8-134"><a></a>t<span class="sc">-</span>value upper bound<span class="sc">:</span> <span class="sc">-</span><span class="fl">12.79</span>   p<span class="sc">-</span>value upper bound<span class="sc">:</span> <span class="fl">0.00000000000000000000000009</span></span>
+<span id="cb8-135"><a></a>degrees of freedom <span class="sc">:</span> <span class="dv">143</span></span>
+<span id="cb8-136"><a></a></span>
+<span id="cb8-137"><a></a>Equivalence <span class="fu">bounds</span> (Cohen<span class="st">'s d):</span></span>
+<span id="cb8-138"><a></a><span class="st">low eqbound: -0.5 </span></span>
+<span id="cb8-139"><a></a><span class="st">high eqbound: 0.5</span></span>
+<span id="cb8-140"><a></a></span>
+<span id="cb8-141"><a></a><span class="st">Equivalence bounds (raw scores):</span></span>
+<span id="cb8-142"><a></a><span class="st">low eqbound: -0.0335 </span></span>
+<span id="cb8-143"><a></a><span class="st">high eqbound: 0.0335</span></span>
+<span id="cb8-144"><a></a></span>
+<span id="cb8-145"><a></a><span class="st">TOST confidence interval:</span></span>
+<span id="cb8-146"><a></a><span class="st">lower bound 90% CI: -0.047</span></span>
+<span id="cb8-147"><a></a><span class="st">upper bound 90% CI:  -0.029</span></span>
+<span id="cb8-148"><a></a></span>
+<span id="cb8-149"><a></a><span class="st">NHST confidence interval:</span></span>
+<span id="cb8-150"><a></a><span class="st">lower bound 95% CI: -0.049</span></span>
+<span id="cb8-151"><a></a><span class="st">upper bound 95% CI:  -0.027</span></span>
+<span id="cb8-152"><a></a></span>
+<span id="cb8-153"><a></a><span class="st">Equivalence Test Result:</span></span>
+<span id="cb8-154"><a></a><span class="st">The equivalence test was non-significant, t(143) = -0.790, p = 0.785, given equivalence bounds of -0.0335 and 0.0335 (on a raw scale) and an alpha of 0.05.</span></span>
+<span id="cb8-155"><a></a></span>
+<span id="cb8-156"><a></a><span class="st">Null Hypothesis Test Result:</span></span>
+<span id="cb8-157"><a></a><span class="st">The null hypothesis test was significant, t(143) = -6.790, p = 0.000000000278, given an alpha of 0.05.</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="tabset-4-4">
 <p>9-Punkte Likert Skala genutzt von <span class="citation" data-cites="kapur_productive_2014">Kapur (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span> aus <span class="citation" data-cites="paas_training_1992">Paas (<a href="#/bibliographie" role="doc-biblioref" onclick="">1992</a>)</span>.</p>
@@ -1599,7 +1629,6 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/gongtimer/elapsed_time_bar.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -1622,7 +1651,6 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
-'gongtimer': {"0":{"allottedTime":19},"1":{"barColor":"rgb(255, 197, 11)"},"allottedTime":19,"progressBarHeight":4,"barColor":"rgb(255, 197, 11)","pausedBarColor":"rgba(200,0,0,.6)"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1793,7 +1821,7 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, gongtimer, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -1881,6 +1909,8 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')
