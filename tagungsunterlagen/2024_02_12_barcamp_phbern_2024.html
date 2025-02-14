@@ -7,10 +7,10 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.33">
+  <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="Richard Conrardy">
   <title>Inhalte effizient onlinebringen</title>
@@ -117,7 +117,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-347f181c56564ba5974f550cb4bd8174.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-dc86baa1bbd21afae746d8e55ebb005b.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -218,8 +218,6 @@
   <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
   <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
   <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
-  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
-  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -310,14 +308,6 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
 </section>
 <section id="workshop" class="slide level2">
 <h2>Workshop</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_e1c6877d" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
 </section>
 <section id="creative-coding---sonja-schär" class="slide level2 unlisted">
 <h2>Creative Coding - Sonja Schär</h2>
@@ -325,39 +315,39 @@ var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff",
 <div class="cell">
 <details class="code-fold">
 <summary>Quellcode von Sonja Schär</summary>
-<div class="sourceCode cell-code" id="cb1" data-startfrom="87" data-source-offset="-0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 86;"><span id="cb1-87"><a></a>P5 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"p5"</span>)</span>
-<span id="cb1-88"><a></a></span>
-<span id="cb1-89"><a></a><span class="kw">function</span><span class="op">*</span> <span class="fu">createSketch</span>(sketch) {</span>
-<span id="cb1-90"><a></a>  <span class="kw">const</span> element <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span>)<span class="op">;</span></span>
-<span id="cb1-91"><a></a>  <span class="kw">yield</span> element<span class="op">;</span></span>
-<span id="cb1-92"><a></a>  <span class="kw">const</span> instance <span class="op">=</span> <span class="kw">new</span> <span class="fu">P5</span>(sketch<span class="op">,</span> element<span class="op">,</span> <span class="kw">true</span>)<span class="op">;</span></span>
-<span id="cb1-93"><a></a>  <span class="cf">try</span> {</span>
-<span id="cb1-94"><a></a>    <span class="cf">while</span> (<span class="kw">true</span>) {</span>
-<span id="cb1-95"><a></a>      <span class="kw">yield</span> element<span class="op">;</span></span>
-<span id="cb1-96"><a></a>    }</span>
-<span id="cb1-97"><a></a>  } <span class="cf">finally</span> {</span>
-<span id="cb1-98"><a></a>    instance<span class="op">.</span><span class="fu">remove</span>()<span class="op">;</span></span>
-<span id="cb1-99"><a></a>  }</span>
-<span id="cb1-100"><a></a>}</span>
-<span id="cb1-101"><a></a></span>
-<span id="cb1-102"><a></a><span class="fu">createSketch</span>((s) <span class="kw">=&gt;</span> {</span>
-<span id="cb1-103"><a></a>    s<span class="op">.</span><span class="at">setup</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
-<span id="cb1-104"><a></a>    s<span class="op">.</span><span class="at">sizeX</span> <span class="op">=</span> <span class="dv">960</span><span class="op">;</span></span>
-<span id="cb1-105"><a></a>    s<span class="op">.</span><span class="at">sizeY</span> <span class="op">=</span> <span class="dv">400</span><span class="op">;</span></span>
-<span id="cb1-106"><a></a>    s<span class="op">.</span><span class="fu">createCanvas</span>(s<span class="op">.</span><span class="at">sizeX</span><span class="op">,</span> s<span class="op">.</span><span class="at">sizeY</span>)<span class="op">;</span></span>
-<span id="cb1-107"><a></a>    s<span class="op">.</span><span class="fu">background</span>(<span class="dv">0</span>)<span class="op">;</span></span>
-<span id="cb1-108"><a></a>  }<span class="op">;</span></span>
-<span id="cb1-109"><a></a></span>
-<span id="cb1-110"><a></a>  s<span class="op">.</span><span class="at">draw</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
-<span id="cb1-111"><a></a>    <span class="fu">meinKreisePinsel</span>()<span class="op">;</span></span>
-<span id="cb1-112"><a></a>  }<span class="op">;</span></span>
-<span id="cb1-113"><a></a></span>
-<span id="cb1-114"><a></a>  <span class="kw">function</span> <span class="fu">meinKreisePinsel</span>() {</span>
-<span id="cb1-115"><a></a>    s<span class="op">.</span><span class="fu">strokeWeight</span>(<span class="dv">1</span>)<span class="op">;</span></span>
-<span id="cb1-116"><a></a>    s<span class="op">.</span><span class="fu">fill</span>(<span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeX</span> <span class="op">*</span> s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeY</span> <span class="op">*</span> (s<span class="op">.</span><span class="at">sizeY</span> <span class="op">-</span> s<span class="op">.</span><span class="at">mouseX</span>))<span class="op">;</span></span>
-<span id="cb1-117"><a></a>    s<span class="op">.</span><span class="fu">circle</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">+</span><span class="dv">100</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">+</span><span class="dv">50</span><span class="op">,</span> s<span class="op">.</span><span class="fu">dist</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseY</span>))<span class="op">;</span></span>
-<span id="cb1-118"><a></a>  }</span>
-<span id="cb1-119"><a></a>})</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1" data-startfrom="69" data-source-offset="-0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 68;"><span id="cb1-69"><a></a>P5 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"p5"</span>)</span>
+<span id="cb1-70"><a></a></span>
+<span id="cb1-71"><a></a><span class="kw">function</span><span class="op">*</span> <span class="fu">createSketch</span>(sketch) {</span>
+<span id="cb1-72"><a></a>  <span class="kw">const</span> element <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span>)<span class="op">;</span></span>
+<span id="cb1-73"><a></a>  <span class="kw">yield</span> element<span class="op">;</span></span>
+<span id="cb1-74"><a></a>  <span class="kw">const</span> instance <span class="op">=</span> <span class="kw">new</span> <span class="fu">P5</span>(sketch<span class="op">,</span> element<span class="op">,</span> <span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb1-75"><a></a>  <span class="cf">try</span> {</span>
+<span id="cb1-76"><a></a>    <span class="cf">while</span> (<span class="kw">true</span>) {</span>
+<span id="cb1-77"><a></a>      <span class="kw">yield</span> element<span class="op">;</span></span>
+<span id="cb1-78"><a></a>    }</span>
+<span id="cb1-79"><a></a>  } <span class="cf">finally</span> {</span>
+<span id="cb1-80"><a></a>    instance<span class="op">.</span><span class="fu">remove</span>()<span class="op">;</span></span>
+<span id="cb1-81"><a></a>  }</span>
+<span id="cb1-82"><a></a>}</span>
+<span id="cb1-83"><a></a></span>
+<span id="cb1-84"><a></a><span class="fu">createSketch</span>((s) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-85"><a></a>    s<span class="op">.</span><span class="at">setup</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-86"><a></a>    s<span class="op">.</span><span class="at">sizeX</span> <span class="op">=</span> <span class="dv">960</span><span class="op">;</span></span>
+<span id="cb1-87"><a></a>    s<span class="op">.</span><span class="at">sizeY</span> <span class="op">=</span> <span class="dv">400</span><span class="op">;</span></span>
+<span id="cb1-88"><a></a>    s<span class="op">.</span><span class="fu">createCanvas</span>(s<span class="op">.</span><span class="at">sizeX</span><span class="op">,</span> s<span class="op">.</span><span class="at">sizeY</span>)<span class="op">;</span></span>
+<span id="cb1-89"><a></a>    s<span class="op">.</span><span class="fu">background</span>(<span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb1-90"><a></a>  }<span class="op">;</span></span>
+<span id="cb1-91"><a></a></span>
+<span id="cb1-92"><a></a>  s<span class="op">.</span><span class="at">draw</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-93"><a></a>    <span class="fu">meinKreisePinsel</span>()<span class="op">;</span></span>
+<span id="cb1-94"><a></a>  }<span class="op">;</span></span>
+<span id="cb1-95"><a></a></span>
+<span id="cb1-96"><a></a>  <span class="kw">function</span> <span class="fu">meinKreisePinsel</span>() {</span>
+<span id="cb1-97"><a></a>    s<span class="op">.</span><span class="fu">strokeWeight</span>(<span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb1-98"><a></a>    s<span class="op">.</span><span class="fu">fill</span>(<span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeX</span> <span class="op">*</span> s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeY</span> <span class="op">*</span> (s<span class="op">.</span><span class="at">sizeY</span> <span class="op">-</span> s<span class="op">.</span><span class="at">mouseX</span>))<span class="op">;</span></span>
+<span id="cb1-99"><a></a>    s<span class="op">.</span><span class="fu">circle</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">+</span><span class="dv">100</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">+</span><span class="dv">50</span><span class="op">,</span> s<span class="op">.</span><span class="fu">dist</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseY</span>))<span class="op">;</span></span>
+<span id="cb1-100"><a></a>  }</span>
+<span id="cb1-101"><a></a>})</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1003,7 +993,7 @@ Thurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. <em>Ameri
       });
     </script>
     <script type="ojs-module-contents">
-    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlA1ID0gcmVxdWlyZShcInA1XCIpXG5cbmZ1bmN0aW9uKiBjcmVhdGVTa2V0Y2goc2tldGNoKSB7XG4gIGNvbnN0IGVsZW1lbnQgPSBET00uZWxlbWVudCgnZGl2Jyk7XG4gIHlpZWxkIGVsZW1lbnQ7XG4gIGNvbnN0IGluc3RhbmNlID0gbmV3IFA1KHNrZXRjaCwgZWxlbWVudCwgdHJ1ZSk7XG4gIHRyeSB7XG4gICAgd2hpbGUgKHRydWUpIHtcbiAgICAgIHlpZWxkIGVsZW1lbnQ7XG4gICAgfVxuICB9IGZpbmFsbHkge1xuICAgIGluc3RhbmNlLnJlbW92ZSgpO1xuICB9XG59XG5cbmNyZWF0ZVNrZXRjaCgocykgPT4ge1xuICAgIHMuc2V0dXAgPSAoKSA9PiB7XG4gICAgcy5zaXplWCA9IDk2MDtcbiAgICBzLnNpemVZID0gNDAwO1xuICAgIHMuY3JlYXRlQ2FudmFzKHMuc2l6ZVgsIHMuc2l6ZVkpO1xuICAgIHMuYmFja2dyb3VuZCgwKTtcbiAgfTtcblxuICBzLmRyYXcgPSAoKSA9PiB7XG4gICAgbWVpbktyZWlzZVBpbnNlbCgpO1xuICB9O1xuXG4gIGZ1bmN0aW9uIG1laW5LcmVpc2VQaW5zZWwoKSB7XG4gICAgcy5zdHJva2VXZWlnaHQoMSk7XG4gICAgcy5maWxsKDI1NSAvIHMuc2l6ZVggKiBzLm1vdXNlWCwgMCwgMjU1IC8gcy5zaXplWSAqIChzLnNpemVZIC0gcy5tb3VzZVgpKTtcbiAgICBzLmNpcmNsZShzLm1vdXNlWCsxMDAsIHMubW91c2VZKzUwLCBzLmRpc3Qocy5tb3VzZVgsIHMubW91c2VZLCBzLnBtb3VzZVgsIHMucG1vdXNlWSkpO1xuICB9XG59KVxuXG4ifV19
+    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlA1ID0gcmVxdWlyZShcInA1XCIpXHJcblxyXG5mdW5jdGlvbiogY3JlYXRlU2tldGNoKHNrZXRjaCkge1xyXG4gIGNvbnN0IGVsZW1lbnQgPSBET00uZWxlbWVudCgnZGl2Jyk7XHJcbiAgeWllbGQgZWxlbWVudDtcclxuICBjb25zdCBpbnN0YW5jZSA9IG5ldyBQNShza2V0Y2gsIGVsZW1lbnQsIHRydWUpO1xyXG4gIHRyeSB7XHJcbiAgICB3aGlsZSAodHJ1ZSkge1xyXG4gICAgICB5aWVsZCBlbGVtZW50O1xyXG4gICAgfVxyXG4gIH0gZmluYWxseSB7XHJcbiAgICBpbnN0YW5jZS5yZW1vdmUoKTtcclxuICB9XHJcbn1cclxuXHJcbmNyZWF0ZVNrZXRjaCgocykgPT4ge1xyXG4gICAgcy5zZXR1cCA9ICgpID0+IHtcclxuICAgIHMuc2l6ZVggPSA5NjA7XHJcbiAgICBzLnNpemVZID0gNDAwO1xyXG4gICAgcy5jcmVhdGVDYW52YXMocy5zaXplWCwgcy5zaXplWSk7XHJcbiAgICBzLmJhY2tncm91bmQoMCk7XHJcbiAgfTtcclxuXHJcbiAgcy5kcmF3ID0gKCkgPT4ge1xyXG4gICAgbWVpbktyZWlzZVBpbnNlbCgpO1xyXG4gIH07XHJcblxyXG4gIGZ1bmN0aW9uIG1laW5LcmVpc2VQaW5zZWwoKSB7XHJcbiAgICBzLnN0cm9rZVdlaWdodCgxKTtcclxuICAgIHMuZmlsbCgyNTUgLyBzLnNpemVYICogcy5tb3VzZVgsIDAsIDI1NSAvIHMuc2l6ZVkgKiAocy5zaXplWSAtIHMubW91c2VYKSk7XHJcbiAgICBzLmNpcmNsZShzLm1vdXNlWCsxMDAsIHMubW91c2VZKzUwLCBzLmRpc3Qocy5tb3VzZVgsIHMubW91c2VZLCBzLnBtb3VzZVgsIHMucG1vdXNlWSkpO1xyXG4gIH1cclxufSlcclxuXHJcbiJ9XX0=
     </script>
     <script type="module">
     if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
@@ -1013,44 +1003,6 @@ Thurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. <em>Ameri
     window._ojs.selfContained = false;
     window._ojs.runtime.interpretFromScriptTags();
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -1130,8 +1082,6 @@ Thurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. <em>Ameri
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')
