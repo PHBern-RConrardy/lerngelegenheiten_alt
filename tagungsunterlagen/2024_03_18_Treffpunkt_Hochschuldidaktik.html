@@ -587,10 +587,10 @@ Lösungsvorschlag
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-padagogische_hochschule_bern_eckpfeiler_2017" class="csl-entry" role="listitem">
-Pädagogische Hochschule Bern. (2017). <em><span>ECKPFEILER</span> <span>FÜR</span> <span>DIE</span> <span>ANGEBOTS</span>- <span>ENTWICKLUNG</span> 2025 Grundlagendokument</em>. <a href="https://qmp.phbern.ch/File/CoreDownload?id=5150">https://qmp.phbern.ch/File/CoreDownload?id=5150</a>
+Pädagogische Hochschule Bern. (2017). <em><span>ECKPFEILER</span> <span>FÜR</span> <span>DIE</span> <span>ANGEBOTS</span>- <span>ENTWICKLUNG</span> 2025 <span>Grundlagendokument</span></em>. <a href="https://qmp.phbern.ch/File/CoreDownload?id=5150">https://qmp.phbern.ch/File/CoreDownload?id=5150</a>
 </div>
 <div id="ref-padagogische_hochschule_bern_geistiges_2023" class="csl-entry" role="listitem">
-Pädagogische Hochschule Bern. (2023). <em>Geistiges Eigentum Merkblatt (Fassung vom November 2023)</em>. <a href="https://qmp.phbern.ch/File/CoreDownload?id=5913&amp;filename=Merkblatt%20Geistiges%20Eigentum.pdf&amp;langId=1">https://qmp.phbern.ch/File/CoreDownload?id=5913&amp;filename=Merkblatt%20Geistiges%20Eigentum.pdf&amp;langId=1</a>
+Pädagogische Hochschule Bern. (2023). <em>Geistiges <span>Eigentum</span> <span>Merkblatt</span> (<span>Fassung</span> vom <span>November</span> 2023)</em>. <a href="https://qmp.phbern.ch/File/CoreDownload?id=5913&amp;filename=Merkblatt%20Geistiges%20Eigentum.pdf&amp;langId=1">https://qmp.phbern.ch/File/CoreDownload?id=5913&amp;filename=Merkblatt%20Geistiges%20Eigentum.pdf&amp;langId=1</a>
 </div>
 <div id="ref-ryan_self-determination_2000" class="csl-entry" role="listitem">
 Ryan, R. M., &amp; Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. <em>American Psychologist</em>, <em>55</em>(1), 68–78. <a href="https://doi.org/10.1037/0003-066X.55.1.68">https://doi.org/10.1037/0003-066X.55.1.68</a>
@@ -816,42 +816,80 @@ Ryan, R. M., &amp; Deci, E. L. (2000). Self-determination theory and the facilit
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
