@@ -5131,18 +5131,11 @@
     "text": "Exploration und Instruktion\n\n\n\n\nOpenAI (2024) “generiere mir ein Bild im Schulkontext welche Exploration und Instruktion kontrastiert”"
   },
   {
-    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#productive-failure",
-    "href": "tagungsunterlagen/2025_03_06_GDM.html#productive-failure",
+    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#section",
+    "href": "tagungsunterlagen/2025_03_06_GDM.html#section",
     "title": "Fail, flip, fix and feed in der Sekundarschule",
-    "section": "Productive Failure",
-    "text": "Productive Failure\n\nProductive Failure is an instructional approach in which students engage in problemsolving attempts prior to instruction.\n\n\n(Hartmann et al., 2022, S. 1219)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#flipped-classroom-method",
-    "href": "tagungsunterlagen/2025_03_06_GDM.html#flipped-classroom-method",
-    "title": "Fail, flip, fix and feed in der Sekundarschule",
-    "section": "Flipped Classroom Method",
-    "text": "Flipped Classroom Method\n\nConceived as a two-phase model […]\nlearn basic content online and prior to class[…]\nin-class time to clarify students’ understandings […] enable students to engage deeply […]\n\n(Kapur et al., 2022, S. 1–2)"
+    "section": "",
+    "text": "Productive Failure\n\nProductive Failure is an instructional approach in which students engage in problemsolving attempts prior to instruction.\n\n\n(Hartmann et al., 2022, S. 1219)\n\n\nFlipped Classroom Method\n\nConceived as a two-phase model […]\nlearn basic content online and prior to class[…]\nin-class time to clarify students’ understandings […] enable students to engage deeply […]\n\n(Kapur et al., 2022, S. 1–2)"
   },
   {
     "objectID": "tagungsunterlagen/2025_03_06_GDM.html#empirische-forschung",
@@ -5166,8 +5159,8 @@
     "text": "Untersuchungsdesign\n\n\n\nMathematikunterricht in der Sekundarstufe 1\nThema: Mittlere absolute Abweichung\nExperimentelles Forschungsdesign (randomisiert innerhalb der Klassen)\n220 Lernende aus 12 Klassen\n\n\n\n\n\n\n\n\n\n4F\nALT\n\n\n\n\nFail\nin class\nout of class\n\n\nFlip\nout of class\nin class\n\n\nFix\nin class\nin class\n\n\nFeed\nin class\nin class"
   },
   {
-    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#section",
-    "href": "tagungsunterlagen/2025_03_06_GDM.html#section",
+    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#section-1",
+    "href": "tagungsunterlagen/2025_03_06_GDM.html#section-1",
     "title": "Fail, flip, fix and feed in der Sekundarschule",
     "section": "",
     "text": "Abbildung 1: vergangener Aufbau Experiment - Sekundarschule"
@@ -5194,8 +5187,8 @@
     "text": "Nächste Studie\n\n\n\nMathematikunterricht in der Hochschule\nThema: Lineare Regression\nExperimentelles Forschungsdesign\n\\(&gt;\\) 60 Studierende\n\n\n\n\n\n\n\n\n4F\nALT (2)\n\n\n\n\nFail\nFlip\n\n\nFlip\nFail\n\n\nFix\nFix\n\n\nFeed\nFeed"
   },
   {
-    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#section-1",
-    "href": "tagungsunterlagen/2025_03_06_GDM.html#section-1",
+    "objectID": "tagungsunterlagen/2025_03_06_GDM.html#section-2",
+    "href": "tagungsunterlagen/2025_03_06_GDM.html#section-2",
     "title": "Fail, flip, fix and feed in der Sekundarschule",
     "section": "",
     "text": "Abbildung 2: zukünftiger Aufbau Experiment - Hochschule"
