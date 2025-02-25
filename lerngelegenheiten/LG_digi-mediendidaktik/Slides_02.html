@@ -213,6 +213,37 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      let timeElement = document.createElement('div');
+      
+      // Style the time element
+      timeElement.style.position = 'fixed';
+      timeElement.style.bottom = '10px';
+      timeElement.style.left = '0%';
+      timeElement.style.fontSize = '24px';
+      timeElement.style.fontWeight = 'bold';
+      timeElement.style.color = 'lightgrey';
+      timeElement.style.zIndex = '1000';
+      timeElement.style.backgroundColor = 'white';
+      timeElement.style.padding = '5px 10px';
+      
+      // Insert time element into the body
+      document.body.appendChild(timeElement);
+
+      // Function to update the time
+      function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      timeElement.innerHTML = `${hours}:${minutes}`;
+      }
+
+      // Update the time every second
+      updateTime();
+      setInterval(updateTime, 1000);
+  });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -265,7 +296,7 @@ Abbildung&nbsp;1: TPACK-Modell <span class="citation" data-cites="koehler_what_2
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<div id="timer_9686ba48fef31587aa0ac4c894b0ce3086020885" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 2%;--countdown-padding: 5px 5px;">
+<div id="timer_cee606b964e0a4cea208509253fde2ed1c4c8d75" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 2%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -296,7 +327,7 @@ Abbildung&nbsp;1: TPACK-Modell <span class="citation" data-cites="koehler_what_2
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<div id="timer_9686ba48fef31587aa0ac4c894b0ce3086020885" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 2%;--countdown-padding: 5px 5px;">
+<div id="timer_cee606b964e0a4cea208509253fde2ed1c4c8d75" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 2%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -457,7 +488,7 @@ Petko, D. (2020). <em>Einführung in die <span>Mediendidaktik</span>: <span>Lehr
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide

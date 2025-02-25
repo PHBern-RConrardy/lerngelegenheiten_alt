@@ -148,6 +148,37 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      let timeElement = document.createElement('div');
+      
+      // Style the time element
+      timeElement.style.position = 'fixed';
+      timeElement.style.bottom = '10px';
+      timeElement.style.left = '0%';
+      timeElement.style.fontSize = '24px';
+      timeElement.style.fontWeight = 'bold';
+      timeElement.style.color = 'lightgrey';
+      timeElement.style.zIndex = '1000';
+      timeElement.style.backgroundColor = 'white';
+      timeElement.style.padding = '5px 10px';
+      
+      // Insert time element into the body
+      document.body.appendChild(timeElement);
+
+      // Function to update the time
+      function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      timeElement.innerHTML = `${hours}:${minutes}`;
+      }
+
+      // Update the time every second
+      updateTime();
+      setInterval(updateTime, 1000);
+  });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -363,7 +394,7 @@
 <div class="quelle">
 <p><span class="citation" data-cites="van_dormolen_didaktik_1978">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 49</a>)</span></p>
 </div>
-<div id="timer_b4567495db06f37326312e541ed269e01ec2ad88" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_ce4829a3d8b91c817272fc20dd191a6adf5e2f08" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -395,7 +426,7 @@
 </section>
 <section id="anschluss-an-den-anfangszustand" class="slide level2">
 <h2>Anschluss an den Anfangszustand</h2>
-<div id="timer_b4567495db06f37326312e541ed269e01ec2ad88" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_ce4829a3d8b91c817272fc20dd191a6adf5e2f08" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -417,7 +448,7 @@
 <section id="anordnung-von-lehrstoff" class="slide level2">
 <h2>Anordnung von Lehrstoff</h2>
 <p>Begriffe (höherer Ordnung) sollen nicht mit Definitionen eingeführt werden, sondern mit Beispielen und <strong>Gegenbeispielen</strong>.</p>
-<div id="timer_b4567495db06f37326312e541ed269e01ec2ad88" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_ce4829a3d8b91c817272fc20dd191a6adf5e2f08" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -515,7 +546,7 @@ Van Dormolen, J. (1978). <em>Didaktik der <span>Mathematik</span></em>. Vieweg+T
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide

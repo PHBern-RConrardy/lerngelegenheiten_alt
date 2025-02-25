@@ -126,6 +126,37 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      let timeElement = document.createElement('div');
+      
+      // Style the time element
+      timeElement.style.position = 'fixed';
+      timeElement.style.bottom = '10px';
+      timeElement.style.left = '0%';
+      timeElement.style.fontSize = '24px';
+      timeElement.style.fontWeight = 'bold';
+      timeElement.style.color = 'lightgrey';
+      timeElement.style.zIndex = '1000';
+      timeElement.style.backgroundColor = 'white';
+      timeElement.style.padding = '5px 10px';
+      
+      // Insert time element into the body
+      document.body.appendChild(timeElement);
+
+      // Function to update the time
+      function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      timeElement.innerHTML = `${hours}:${minutes}`;
+      }
+
+      // Update the time every second
+      updateTime();
+      setInterval(updateTime, 1000);
+  });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -585,7 +616,7 @@ Abbildung&nbsp;11: Koordinatensytem <a href="https://commons.wikimedia.org/wiki/
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide

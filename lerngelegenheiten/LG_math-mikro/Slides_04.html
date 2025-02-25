@@ -149,6 +149,37 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      let timeElement = document.createElement('div');
+      
+      // Style the time element
+      timeElement.style.position = 'fixed';
+      timeElement.style.bottom = '10px';
+      timeElement.style.left = '0%';
+      timeElement.style.fontSize = '24px';
+      timeElement.style.fontWeight = 'bold';
+      timeElement.style.color = 'lightgrey';
+      timeElement.style.zIndex = '1000';
+      timeElement.style.backgroundColor = 'white';
+      timeElement.style.padding = '5px 10px';
+      
+      // Insert time element into the body
+      document.body.appendChild(timeElement);
+
+      // Function to update the time
+      function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      timeElement.innerHTML = `${hours}:${minutes}`;
+      }
+
+      // Update the time every second
+      updateTime();
+      setInterval(updateTime, 1000);
+  });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -324,7 +355,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="beispiel-satz-des-pythagoras" class="slide level2 smaller">
 <h2>Beispiel: Satz des Pythagoras</h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -386,7 +417,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="lernziele-formulieren" class="slide level2">
 <h2>Lernziele formulieren</h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -400,7 +431,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -413,7 +444,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="kommunikation" class="slide level2">
 <h2>Kommunikation</h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -426,7 +457,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="abschluss-lernziele" class="slide level2">
 <h2>Abschluss Lernziele</h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -465,7 +496,7 @@ Abbildung&nbsp;1: QR-Code: <a href="https://pgigeruzh.github.io/informatik/">htt
 </section>
 <section id="anknüpfen" class="slide level2">
 <h2>Anknüpfen</h2>
-<div id="timer_b0f3c48f1c7c767813f0a419bfe48d3740fcf871" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_fdfd1e50560cf2f85c26ce499aca717628cfc30a" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -573,7 +604,7 @@ Van Dormolen, J. (1978). <em>Didaktik der <span>Mathematik</span></em>. Vieweg+T
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
