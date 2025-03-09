@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-347f181c56564ba5974f550cb4bd8174.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -162,7 +182,7 @@
 
 <section id="title-slide" data-background-image="../../images/logo cc-by-sa.svg" data-background-position="94% 99%" data-background-size="12%" class="quarto-title-block center">
   <h1 class="title">Mikroplanung Mathematik</h1>
-  <p class="subtitle">Sprachsensibler Unterricht</p>
+  <p class="subtitle">Aktivitäten der Lernenden</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -178,11 +198,182 @@
 </div>
 
 </section>
-<section class="slide level2">
-
-
-
+<section>
+<section id="symbole" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Symbole</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-active">
+<p>Symbole</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Eigene Lernumgebung</p>
+</div></li>
+</ol>
+</div>
 </section>
+<section id="visuelle-symbole" class="slide level2">
+<h2>Visuelle Symbole</h2>
+
+<img data-src="images/Rectangle.svg" class="r-stretch quarto-figure-center" id="fig-rechteck"><p class="caption">
+Abbildung&nbsp;1: Rechteck, umgeändert von <a href="https://commons.wikimedia.org/wiki/File:Rectangle.svg">XZise</a>, CC BY-SA 3.0
+</p></section>
+<section id="verbal-algebraische-symbole" class="slide level2">
+<h2>Verbal-Algebraische Symbole</h2>
+<p><span class="math display">\[\sqrt{21}\]</span></p>
+<p><span class="math display">\[a^2+b^2=x^2\]</span></p>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Wichtig</strong></p>
+</div>
+<div class="callout-content">
+<p>Der Mensch lernt mit Bildern.</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Offenbar begünstigen visuelle Symbole das intuitive Denken, wahrend deduktive Gedankengange besser durch verbal-algebraische Symbole unterstützt werden.</p>
+</blockquote>
+<div class="quelle">
+<p><span class="citation" data-cites="van_dormolen_didaktik_1978">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 67</a>)</span></p>
+</div>
+</div>
+</section>
+<section id="zusammengesetzte-symbole" class="slide level2">
+<h2>Zusammengesetzte Symbole</h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Rectangle.svg" class="r-stretch quarto-figure-center" id="fig-rechteck"><p class="caption">
+Abbildung&nbsp;2: Rechteck, <a href="https://commons.wikimedia.org/wiki/File:Rectangle.svg">XZise</a>, CC BY-SA 3.0
+</p></section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Umkreismittelpunkt.svg" class="r-stretch quarto-figure-center" id="fig-mittelsenkrechte"><p class="caption">
+Abbildung&nbsp;3: Mittelsenkrechte, <a href="https://commons.wikimedia.org/wiki/File:Umkreismittelpunkt.svg">Kmhkmh</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>
+</p></section>
+<section id="section-2" class="slide level2 scrollable">
+<h2></h2>
+<div id="exr-1" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 1 (Dynamische Geometriesoftware)</strong></span> Wir erstellen den Umkreis mit den Mittelsenkrechten in dynamischer Geometriesoftware.</p>
+</div>
+<div title="Geogebra">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Geogebra</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li>Geogebra 5 🧑‍💼 &gt; Geogebra 6 🫣 &gt; Webapp 🤡</li>
+<li>Input-Bar 🦸 &gt;&gt; Toolbar 🤮 (<code>disable</code> Toolbar)</li>
+<li>Befehle auf Englisch</li>
+<li>Koordinaten <code>A=(5,2.4)</code></li>
+<li>Datenaustausch über <code>.ggb</code> files oder Befehle.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="signale" class="slide level2">
+<h2>Signale</h2>
+<blockquote>
+<p>Ein Zeichen hat Symbolcharakter, wenn es ein kognitives Schema aufruft; es hat Signalcharakter, wenn es zu bestimmten Handlungen veranlasst, wie beispielsweise eine Verkehrsampel.</p>
+</blockquote>
+<div class="quelle">
+<p><span class="citation" data-cites="van_dormolen_didaktik_1978">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 70</a>)</span></p>
+</div>
+<h3 id="beispiel-kürzen">Beispiel kürzen</h3>
+<div class="fragment">
+<ul>
+<li>Symbol: Ich <strong>teile</strong> Zähler und Nenner durch den gleichen Faktor.</li>
+<li>Signal: Ich <strong>muss</strong> oben und unten dasselbe <strong>streichen</strong>.</li>
+</ul>
+</div>
+</section>
+<section id="einüben-von-automatismen" class="slide level2 scrollable">
+<h2>Einüben von Automatismen</h2>
+<ol type="1">
+<li>Willen zur Verbesserung</li>
+<li>mit Verstand</li>
+<li>unmittelbar kontrollierbar</li>
+<li>individualisiert</li>
+<li>kurz aber abwechslungsreich</li>
+<li>keine Strafe</li>
+</ol>
+<div class="quelle">
+<p><span class="citation" data-cites="van_dormolen_didaktik_1978">(vgl. <a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 74–75</a>)</span></p>
+</div>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div id="exr-2" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 2 (Rezeptives und selbstentdeckendes Lernen)</strong></span> Beantworten Sie Frage 17 <span class="citation" data-cites="van_dormolen_didaktik_1978">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 76</a>)</span>.</p>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Insofern scheinen sich gegenwärtig alle in einer Art Minimalkonsens darüber einig zu sein, dass Schulen weder eine Generation von Fachidioten noch eine Generation geschwätziger Dilletanten ausbilden sollten. Was das genau heißt, bleibt umstritten.</p>
+</blockquote>
+<div class="quelle">
+<p><span class="citation" data-cites="weinert_leistungsmessungen_2014">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Weinert, 2014, S. 28</a>)</span></p>
+</div>
+</div>
+</section></section>
+<section>
+<section id="eigene-lernumgebung" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Eigene Lernumgebung</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Symbole</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Eigene Lernumgebung</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="vorschlag-des-vorgehens" class="slide level2 scrollable">
+<h2>Vorschlag des Vorgehens</h2>
+<ol type="1">
+<li>Stoffauswahl und Sachanalyse</li>
+<li>Lernziele</li>
+<li>Vorwissen</li>
+<li>Sozialformen und Phasen</li>
+<li>Aufgaben</li>
+<li>Überleitung</li>
+</ol>
+</section>
+<section id="bibliographie" class="slide level2 smaller scrollable">
+<h2>Bibliographie</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-van_dormolen_didaktik_1978" class="csl-entry" role="listitem">
+Van Dormolen, J. (1978). <em>Didaktik der <span>Mathematik</span></em>. Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-84149-0">https://doi.org/10.1007/978-3-322-84149-0</a>
+</div>
+<div id="ref-weinert_leistungsmessungen_2014" class="csl-entry" role="listitem">
+Weinert, F. E. (Hrsg.). (2014). <em>Leistungsmessungen in <span>Schulen</span></em> (3., aktualisierte Aufl). Beltz.
+</div>
+</div>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

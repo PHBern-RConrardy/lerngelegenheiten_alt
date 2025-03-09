@@ -210,6 +210,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-videos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-videos'] = new List('listing-videos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -270,7 +298,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(62)</span></div><div class="category" data-category="RmFjaCAtIE1hdGhlbWF0aWs=">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFiZWwgLSBEaWdpdGFsaXTkdA==">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBGb3JtYXRpdmUgQmV1cnRlaWx1bmc=">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBLbGFzc2VuZvxocnVuZw==">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNYWtyb3BsYW51bmc=">Modul - Makroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNaWtyb3BsYW51bmc=">Modul - Mikroplanung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmc=">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBadXNhbW1lbmFyYmVpdCB1bmQgS29tbXVuaWthdGlvbg==">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(64)</span></div><div class="category" data-category="RmFjaCAtIE1hdGhlbWF0aWs=">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFiZWwgLSBEaWdpdGFsaXTkdA==">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBGb3JtYXRpdmUgQmV1cnRlaWx1bmc=">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBLbGFzc2VuZvxocnVuZw==">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNYWtyb3BsYW51bmc=">Modul - Makroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kdWwgLSBNaWtyb3BsYW51bmc=">Modul - Mikroplanung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9kdWwgLSBTdW1tYXRpdmUgdW5kIHByb2dub3N0aXNjaGUgQmV1cnRlaWx1bmc=">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TW9kdWwgLSBadXNhbW1lbmFyYmVpdCB1bmQgS29tbXVuaWthdGlvbg==">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -310,7 +338,7 @@ window.Quarto = {
 
 
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Lernumgebungen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Projekte</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Lernumgebungen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Videos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Projekte</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows. test</p>
@@ -383,7 +411,7 @@ Untertitel
 <span class="listing-subtitle">Präsenzkurs</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="TW9kdWwgLSBNaWtyb3BsYW51bmcsRmFjaCAtIE1hdGhlbWF0aWs=" data-listing-file-modified-sort="1740409008184" data-listing-reading-time-sort="2" data-listing-word-count-sort="227" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="LG_mikroplanungmath.qmd">
+<tr data-index="5" data-categories="TW9kdWwgLSBNaWtyb3BsYW51bmcsRmFjaCAtIE1hdGhlbWF0aWs=" data-listing-file-modified-sort="1741520755442" data-listing-reading-time-sort="2" data-listing-word-count-sort="229" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="LG_mikroplanungmath.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.html" class="title listing-title">Mikroplanung Mathematik</a>
 </td>
@@ -690,7 +718,7 @@ Untertitel
 <span class="listing-subtitle">Nachwuchskolloquium Fakultät 3</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1741215600000" data-listing-file-modified-sort="1741201721878" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="951" data-listing-title-sort="<small>Fail, flip, fix and feed in der Sekundarschule</small>" data-listing-filename-sort="2025_03_06_GDM.qmd">
+<tr data-index="2" data-listing-date-sort="1741215600000" data-listing-file-modified-sort="1741348291667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="951" data-listing-title-sort="<small>Fail, flip, fix and feed in der Sekundarschule</small>" data-listing-filename-sort="2025_03_06_GDM.qmd">
 <td>
 <span class="listing-date">06.03.2025</span>
 </td>
@@ -959,6 +987,60 @@ Keine Treffer
 </div>
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>Auflistung von Erklärvideos</p>
+<div id="listing-videos" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-videos-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-videos'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1741511800638" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Erklärungen Lernumgebung" data-listing-filename-sort="01_Erklärungen_LU.qmd">
+<td>
+<a href="./videos/01_Erklärungen_LU.html" class="title listing-title">Erklärungen Lernumgebung</a>
+</td>
+<td>
+<span class="listing-subtitle">Erwartungen an die LG und den LNW in Mikroplanung Mathematik</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1741511914342" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Kriterien für die Auswahl von Lehrstoff" data-listing-filename-sort="02_Kriterien_Stoffauswahl.qmd">
+<td>
+<a href="./videos/02_Kriterien_Stoffauswahl.html" class="title listing-title">Kriterien für die Auswahl von Lehrstoff</a>
+</td>
+<td>
+<span class="listing-subtitle">Ausführungen zur Mikroplanung Mathematik</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
 <p>Auflistung von getrennten Projekten welche in keine andere Kategorie passen.</p>
 <div id="listing-projekte" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
