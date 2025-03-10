@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Studie zu eine 4-Phasenmodell an der Hoschule</title>
+<title>Studie zu einem 4-Phasen-Unterrichtsmodell</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-592fc19d5c4a1bff56c90fe561edeec5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a2bfa3265ad8b8205fc5c1544001bc14.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -96,15 +125,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#herzlich-willkommen" id="toc-herzlich-willkommen" class="nav-link active" data-scroll-target="#herzlich-willkommen">Herzlich Willkommen</a>
+  <ul class="collapse">
+  <li><a href="#sie-erhalten" id="toc-sie-erhalten" class="nav-link" data-scroll-target="#sie-erhalten">Sie erhalten:</a></li>
+  <li><a href="#ihr-aufwand" id="toc-ihr-aufwand" class="nav-link" data-scroll-target="#ihr-aufwand">Ihr Aufwand:</a></li>
+  <li><a href="#wer-kann-mitmachen" id="toc-wer-kann-mitmachen" class="nav-link" data-scroll-target="#wer-kann-mitmachen">Wer kann mitmachen?</a></li>
+  <li><a href="#wer-sieht-meine-daten" id="toc-wer-sieht-meine-daten" class="nav-link" data-scroll-target="#wer-sieht-meine-daten">Wer sieht meine Daten?</a></li>
+  <li><a href="#was-passiert-mit-den-anonymen-daten" id="toc-was-passiert-mit-den-anonymen-daten" class="nav-link" data-scroll-target="#was-passiert-mit-den-anonymen-daten">Was passiert mit den anonymen Daten?</a></li>
+  <li><a href="#kann-ich-meine-daten-dennoch-löschen-lassen" id="toc-kann-ich-meine-daten-dennoch-löschen-lassen" class="nav-link" data-scroll-target="#kann-ich-meine-daten-dennoch-löschen-lassen">Kann ich meine Daten dennoch löschen lassen?</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Studie zu eine 4-Phasenmodell an der Hoschule</h1>
+<h1 class="title">Studie zu einem 4-Phasen-Unterrichtsmodell</h1>
 <p class="subtitle lead">Informationen zur Studienteilnahme</p>
 </div>
 
@@ -137,27 +180,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Herzliche Willkommen</strong></p>
-<p>Danke für Ihr Interesse an der Studie.</p>
-<section id="sie-bringen-mit" class="level3">
-<h3 class="anchored" data-anchor-id="sie-bringen-mit">Sie bringen mit:</h3>
+<section id="herzlich-willkommen" class="level1">
+<h1>Herzlich Willkommen</h1>
+<p>Sie kennen PADUA und AVIVA?</p>
 <ul>
-<li></li>
+<li><strong>Ja?</strong> <br> <span class="math inline">\(\Longrightarrow\)</span> helfen Sie mit ein neues Modell zu testen!</li>
+<li><strong>Nein?</strong> <br> <span class="math inline">\(\Longrightarrow\)</span> lernen Sie ein Phasenmodell selbst kennen!</li>
+</ul>
+<p>Im Rahmen meiner Doktorarbeit bei <a href="https://www.youtube.com/@pharithmetik">Prof.&nbsp;Dr.&nbsp;Christian Spannagel</a> bei erproben wir ein neuartiges 4-Phasen-Unterrichtsmodell an Hochschulen und wir suchen Studierende. <strong>Machen Sie mit!</strong></p>
+<p>Sie erhalten zwei Lektionen zu einem schulbezogenen Thema, welches Sie sehr wahrscheinlich noch nicht kennen.</p>
+<div class="mittig">
+<p><a href="https://forms.office.com/e/pm6KdeELwN" class="knopf">Mitmachen</a></p>
+</div>
+<section id="sie-erhalten" class="level2">
+<h2 class="anchored" data-anchor-id="sie-erhalten">Sie erhalten:</h2>
+<ul>
+<li>Selbstgebackene Kekse vor Ort (mmmhh Cookies 🍪🍪🍪 ).</li>
+<li>Einen professionell aufgearbeiteten Kurs nach dem 4-Phasenmodell.</li>
+<li>Persönliche Erfahrung mit einem Unterrichtsmodell für Ihren späteren Unterricht.</li>
+<li>Möglichkeit einen von mehreren Gutscheinen im Wert von <strong>200 Chf</strong> zu gewinnen!</li>
+<li>Möglichkeit für persönliche Beratung zum Phasenmodell oder der Durchführung wissenschaftlicher Experimente nach dem Experiment. Eine super Vorbereitung für die Masterarbeit!</li>
 </ul>
 </section>
-<section id="sie-erhalten" class="level3">
-<h3 class="anchored" data-anchor-id="sie-erhalten">Sie erhalten:</h3>
+<section id="ihr-aufwand" class="level2">
+<h2 class="anchored" data-anchor-id="ihr-aufwand">Ihr Aufwand:</h2>
 <ul>
-<li>Erfahrung in einer 4-Phasen-Unterrichtsmethode</li>
-<li></li>
+<li>Zweimal 50 Minuten Zeit (Daten stehen in der Umfrage).</li>
+<li>Zusätzliche Vorbereitungszeit zu Hause von 60 Minuten.</li>
 </ul>
+</section>
+<section id="wer-kann-mitmachen" class="level2">
+<h2 class="anchored" data-anchor-id="wer-kann-mitmachen">Wer kann mitmachen?</h2>
+<p>Alle eingeschriebene Personen der PHBern können mitmachen. Die Lektion wird zwar im Kontext der Mathematik stattfinden, sie wendet sich jedoch gleichermassen an Studierende aller A-Fächer und aller Studiengänge!</p>
+</section>
+<section id="wer-sieht-meine-daten" class="level2">
+<h2 class="anchored" data-anchor-id="wer-sieht-meine-daten">Wer sieht meine Daten?</h2>
+<p>Alle Daten der Studie sind <strong>anonymisiert</strong>. Sie verwenden ein Codewort, welches nur Sie kennen. Es werden keine personenbezogene Daten gesammelt, welche Sie identifizieren könnten.</p>
+</section>
+<section id="was-passiert-mit-den-anonymen-daten" class="level2">
+<h2 class="anchored" data-anchor-id="was-passiert-mit-den-anonymen-daten">Was passiert mit den anonymen Daten?</h2>
+<p>Die Daten werden ausgewertet um den Nutzen des Phasenmodells zu analysieren. Die Auswertung wird später in einem Paper (Artikel eines wissenschaftlichen Journals) publiziert.</p>
+</section>
+<section id="kann-ich-meine-daten-dennoch-löschen-lassen" class="level2">
+<h2 class="anchored" data-anchor-id="kann-ich-meine-daten-dennoch-löschen-lassen">Kann ich meine Daten dennoch löschen lassen?</h2>
+<p>Ja! Sie erstellen ein Codewort, welches nur Sie kennen. Es hilft die Daten des ersten Tagen mit denen des zweiten Tages zu verbinden. Sie können bis 3 Wochen nach dem Experiment durch Nennen des Codewortes Ihre Daten löschen lassen.</p>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (n.d.). <em>Studie zu eine 4-Phasenmodell an der
-Hoschule</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+Conrardy, R. (n.d.). <em>Studie zu einem
+4-Phasen-Unterrichtsmodell</em>. University of Teacher Education Bern.
+<a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
