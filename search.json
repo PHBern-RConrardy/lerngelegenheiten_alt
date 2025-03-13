@@ -1936,28 +1936,28 @@
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#samr---modell",
     "title": "Mediendidaktik",
     "section": "SAMR - Modell",
-    "text": "SAMR - Modell\n(puentedura?)"
+    "text": "SAMR - Modell\n\n\nAbbildung 2: Puentedura (o. J.)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lernen-mit-text-bild-und-ton",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lernen-mit-text-bild-und-ton",
     "title": "Mediendidaktik",
     "section": "Lernen mit Text, Bild und Ton",
-    "text": "Lernen mit Text, Bild und Ton\n\nLinearer Text\nHyptertext\nStatische Bilder\nVideos und Animationen\n\n\n(Petko, 2020, S. 57f)"
+    "text": "Lernen mit Text, Bild und Ton\n\nLinearer Text\nHypertext\nStatische Bilder\nVideos und Animationen\n\n\n(Petko, 2020, S. 57f)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#choose-your-own-adventure",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#choose-your-own-adventure",
     "title": "Mediendidaktik",
     "section": "Choose your own adventure",
-    "text": "Choose your own adventure\n\n\nAbbildung 2: Choose your own Adventure Quelle"
+    "text": "Choose your own adventure\n\n\nAbbildung 3: Choose your own Adventure Quelle"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#einführung-in-html-und-css",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#einführung-in-html-und-css",
     "title": "Mediendidaktik",
     "section": "Einführung in HTML und CSS",
-    "text": "Einführung in HTML und CSS\nWas sind HTML und CSS?\n\nHTML: HyperText Markup Language\n\nStruktur einer Webseite\nBeschreibt Inhalte: Texte, Bilder, Links, Tabellen\n\nCSS: Cascading Style Sheets\n\nGestaltung einer Webseite\nFarben, Schriften, Layouts"
+    "text": "Einführung in HTML und CSS\n\nHTML: HyperText Markup Language\n\nStruktur einer Webseite\nBeschreibt Inhalte: Texte, Bilder, Links, Tabellen\n\nCSS: Cascading Style Sheets\n\nGestaltung einer Webseite\nFarben, Schriften, Layouts"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#html-im-detail",
@@ -1967,11 +1967,18 @@
     "text": "HTML im Detail\nWichtige HTML-Elemente\n\nGrundstruktur:\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Meine Webseite&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Willkommen!&lt;/h1&gt;\n    &lt;p&gt;Dies ist meine erste Webseite.&lt;/p&gt;\n  &lt;/body&gt;\n&lt;/html&gt;"
   },
   {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-5",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#section-5",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Übungsaufgabe 4 (Inspect) Welche Farbpalette hat die Webseite der PHBern?\n\n\nÜbungsaufgabe 5 (Deeplinks) Auf welchem Server liegt das Bild “Choose your own adventure”?\n\n\nÜbungsaufgabe 6 (Hacking) Gehen Sie auf die mathbuch.info und laden Sie vom Mathbuch das Titelbild in Originalauflösung runter."
+  },
+  {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#bibliographie",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#bibliographie",
     "title": "Mediendidaktik",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nKerres, M. (2018). Mediendidaktik: Konzeption und Entwicklung digitaler Lernangebote (Fifth edition). Walter de Gruyter GmbH.\n\n\nKoehler, M. J., Mishra, P., & Cain, W. (2013). What is Technological Pedagogical Content Knowledge (TPACK)? Journal of Education, 193(3), 13–19. https://doi.org/10.1177/002205741319300303\n\n\nPetko, D. (2020). Einführung in die Mediendidaktik: Lehren und Lernen mit digitalen Medien (2. Auflage). Beltz."
+    "text": "Bibliographie\n\n\n\n\nKerres, M. (2018). Mediendidaktik: Konzeption und Entwicklung digitaler Lernangebote (Fifth edition). Walter de Gruyter GmbH.\n\n\nKoehler, M. J., Mishra, P., & Cain, W. (2013). What is Technological Pedagogical Content Knowledge (TPACK)? Journal of Education, 193(3), 13–19. https://doi.org/10.1177/002205741319300303\n\n\nPetko, D. (2020). Einführung in die Mediendidaktik: Lehren und Lernen mit digitalen Medien (2. Auflage). Beltz.\n\n\nPuentedura, R. R. (o. J.). SAMR, the EdTech Quintet, and Shared Practices: An Introduction§. hippasus.com/rrpweblog/archives/2018/01/SAMRTheEdTechQuintetAndSharedPractices_AnIntroduction.pdf"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html",
