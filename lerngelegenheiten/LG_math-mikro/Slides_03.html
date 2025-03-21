@@ -7,11 +7,11 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/countdown-0.5.0/countdown.js"></script>
 <link href="../../site_libs/quarto-contrib/countdown-0.5.0/countdown.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.40">
+  <meta name="generator" content="quarto-1.6.33">
 
   <meta name="author" content="Richard Conrardy">
   <title>Mikroplanung Mathematik</title>
@@ -53,7 +53,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-68c3590e910a49ded4a4f4afa1ea25e3.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5fd77c1c8f4af6e73da866e57b021067.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -392,7 +392,7 @@
 <div class="quelle">
 <p><span class="citation" data-cites="van_dormolen_didaktik_1978">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Van Dormolen, 1978, S. 49</a>)</span></p>
 </div>
-<div id="timer_c485d982a41dd9686d3500d1f55c63575c714bd7" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_6e76ea0961ef206093c090c40aaea66bf20992cf" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -424,7 +424,7 @@
 </section>
 <section id="anschluss-an-den-anfangszustand" class="slide level2">
 <h2>Anschluss an den Anfangszustand</h2>
-<div id="timer_c485d982a41dd9686d3500d1f55c63575c714bd7" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_6e76ea0961ef206093c090c40aaea66bf20992cf" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -446,7 +446,7 @@
 <section id="anordnung-von-lehrstoff" class="slide level2">
 <h2>Anordnung von Lehrstoff</h2>
 <p>Begriffe (höherer Ordnung) sollen nicht mit Definitionen eingeführt werden, sondern mit Beispielen und <strong>Gegenbeispielen</strong>.</p>
-<div id="timer_c485d982a41dd9686d3500d1f55c63575c714bd7" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
+<div id="timer_6e76ea0961ef206093c090c40aaea66bf20992cf" class="countdown" data-warn-when="0" data-update-every="30" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 2%;bottom: 1%;--countdown-padding: 5px 5px;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -796,6 +796,8 @@ Van Dormolen, J. (1978). <em>Didaktik der <span>Mathematik</span></em>. Vieweg+T
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')
