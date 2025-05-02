@@ -1802,7 +1802,7 @@
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
     "title": "Mediendidaktik",
     "section": "",
-    "text": "Teil\nThema\nSlides\nNachbereitung\n\n\n\n\n1\nRahmenbedingungen\nSlides\nRahmenbedingungen\n\n\n2\nLernverständnis\nSlides\nLernverständnis\n\n\n3\nUnterricht gestalten\nSlides\nUnterricht gestalten\n\n\n4\nLernorganisation\nSlides\nLernorganisation\n\n\n5\nAusblick und Trends\nSlides\nAusblick und Trends\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0UrheberrechteDieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard ConrardyZitatBitte zitieren Sie diese Arbeit als:\nNotari, M., & Conrardy, R. (2024, May 5). Mediendidaktik.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "text": "Teil\nThema\nSlides\nNachbereitung\n\n\n\n\n1\nRahmenbedingungen\nSlides\nRahmenbedingungen\n\n\n2\nLernverständnis\nSlides\nLernverständnis\n\n\n3\nUnterricht gestalten\nSlides\nUnterricht gestalten\n\n\n4\nLernorganisation\nSlides\nLernorganisation\n\n\n5\nH5P und LearningApps\nSlides\n\n\n\n6\nAusblick und Trends\nSlides\nAusblick und Trends\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0UrheberrechteDieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard ConrardyZitatBitte zitieren Sie diese Arbeit als:\nNotari, M., & Conrardy, R. (2024, May 5). Mediendidaktik.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
     "crumbs": [
       "Semesterübersicht"
     ]
@@ -4092,6 +4092,69 @@
     "title": "Mediendidaktik",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nDöbeli Honegger, B. (2017). Mehr als 0 und 1: Schule in einer digitalisierten Welt (2., durchgesehene Auflage). hep verlag.\n\n\nSchulmeister, R. (2005). Lernplattformen für das virtuelle Lernen: Evaluation und Didaktik (2. Auflage). Oldenbourg Verlag."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#ziel-der-doppelstunde",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#ziel-der-doppelstunde",
+    "title": "Mediendidaktik",
+    "section": "Ziel der Doppelstunde",
+    "text": "Ziel der Doppelstunde\n\nEinblick in zwei browserbasierte Tools: H5P und LearningApps\nEigene kleine Web-Anwendung erstellen\nReflexion über den Einsatz im eigenen Unterricht"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#warum-interaktive-module",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#warum-interaktive-module",
+    "title": "Mediendidaktik",
+    "section": "Warum interaktive Module?",
+    "text": "Warum interaktive Module?\n\nfördern aktive Auseinandersetzung mit Lerninhalten\nermöglichen Selbststeuerung & Feedback\nleicht zugänglich – keine Installation notwendig\nmedienpädagogisch & didaktisch vielseitig einsetzbar"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tool-1-h5p",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tool-1-h5p",
+    "title": "Mediendidaktik",
+    "section": "Tool 1: H5P",
+    "text": "Tool 1: H5P\n\nPlattform: h5p.org, Moodle, Ilias, Wordpress\nüber 40 Inhaltstypen, z. B.:\n\nInteraktives Video\nDrag & Drop\nQuizformate\n\nOpen Source, Inhalte wiederverwendbar"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#beispiel-interaktives-video-mit-h5p",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#beispiel-interaktives-video-mit-h5p",
+    "title": "Mediendidaktik",
+    "section": "Beispiel: Interaktives Video mit H5P",
+    "text": "Beispiel: Interaktives Video mit H5P\n\n\n\nDirektlink öffnen"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tool-2-learningapps",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tool-2-learningapps",
+    "title": "Mediendidaktik",
+    "section": "Tool 2: LearningApps",
+    "text": "Tool 2: LearningApps\n\nPlattform: learningapps.org\nFokus: kleine interaktive Übungen\n\nZuordnungsübungen\nLückentexte\nGruppenpuzzle u. v. m.\n\nsehr einfache Oberfläche\nRegistrierung freiwillig, aber empfohlen"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#beispiel",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#beispiel",
+    "title": "Mediendidaktik",
+    "section": "Beispiel",
+    "text": "Beispiel"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#ihre-aufgabe-60-min.",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#ihre-aufgabe-60-min.",
+    "title": "Mediendidaktik",
+    "section": "Ihre Aufgabe (60 Min.)",
+    "text": "Ihre Aufgabe (60 Min.)\n\nWählen Sie ein Tool: H5P oder LearningApps\nErstellen Sie ein interaktives Modul zu einem Unterrichtsthema Ihrer Wahl\nSpeichern Sie den Link oder Screenshot\nLaden Sie andere zum Testen ein"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#reflexion-20-min.",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#reflexion-20-min.",
+    "title": "Mediendidaktik",
+    "section": "Reflexion (20 Min.)",
+    "text": "Reflexion (20 Min.)\nDiskussion im Plenum:\n\nWelches Tool war für Sie zugänglicher?\nWo sehen Sie Einsatzmöglichkeiten im Unterricht?\nWas würden Sie beim nächsten Mal anders machen?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tools-links",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_06.html#tools-links",
+    "title": "Mediendidaktik",
+    "section": "Tools & Links",
+    "text": "Tools & Links\n\nh5p.org\nlearningapps.org\nToolFinder PHBern"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#teilgebiete-der-mathematik",
