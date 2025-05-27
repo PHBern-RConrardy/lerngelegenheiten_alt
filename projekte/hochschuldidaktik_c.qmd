@@ -1,0 +1,47 @@
+---
+format: html
+title: Entwicklungsdokumentation
+subtitle: Hochschuldidaktik Inhouse PHBern
+draft: true
+---
+
+Als Dozent für Digitalität und Mathematikdidaktik begann ich die Weiterbildung Hochschuldidaktik Inhouse mit dem Wunsch mich kontinuierlich und breit weiterzubilden. Mir war bewusst, dass ich mein Ziel erst auf dem Weg finden würde. Meine Einstellung ist, dass ich jede Gelegenheit nutzen möchte, etwas zu lernen. Mein Lernen ist jedoch selbstbestimmt, so dass nicht immer das Intendierte gelernt wird. Gerade dieser Umstand macht es hoffentlich spannend meine Entwicklung hier festzuhalten.
+
+### GEBF & Hugging Face
+
+Ein gewichtiger Teil meiner Weiterbildung verbrachte ich an Tagungen. An der [12. GEBF Tagung](https://www.sowi.uni-mannheim.de/gebf-2025) in Mannheim hatte ich nur nur meinen ersten [eigenen Beitrag](https://phbern-rconrardy.github.io/lerngelegenheiten/tagungsunterlagen/2025_01_27_Gebf.html) ausserhalb von Nachwuchstagungen, sondern ich konnte auch zahlreiche Vorträge anhören. Besonders beeindruckt haben mich die innovativen Forschungsmethoden. Im Gegensatz zum lokalen Forschungsdiskurs zu "künstlicher Intelligenz" wurde selten KI als disziplinfremder Forschungsgegenstand angeschaut, sondern KI im Titel bedeutete häufig, dass Machine Learning Ansätze typische statistische Ansätze zur Auswertung von Daten ergänzten oder ersetzten. Es war spannend zu bemerken, welche digitalen Kompetenzen empirische Bildungsforscher momentan an den Tisch bringen. Python Code auf Github, Fine-Tuning, KI-Modellvergleiche u.s.w. waren so allgegenwärtig und so selbstverständlich wie sonst induktive Statistik. Selbstverständlich gab es einen Selection Bias meinerseits, da ich aus dem reichhaltigen Angebot aus Symposien eine spezifische Auswahl traf.
+
+Der Workshop an der Nachwuchstag war dann auch "Using State-of-the-Art Machine Learning Models: An Introduction to the Hugging Face Ecosystem". [Dr. Steffen Brandt](https://ki-campus.org/node/1015) gab eine ganztägige Einführung in [Hugging Face](https://huggingface.co/) einem Marktplatz für KI. Markplatz bedeutet hier, dass es eine Trennung von Produkt und Service gibt. Das Produkt ist ein KI-Modell, also eine grosse Tabelle mit Zahlen, welche z.B. hilft aus einem Input einen neuen Output zu generien. Es gibt viele solcher Modelle, die meisten sind frei verfügbar, man kann sie also gratis auf dem eigenen Rechnen laufen lassen. Der eigene Rechner ist jedoch selten performant genug um die Modelle laufen zu lassen, weshalb es Anbieter gibt die Rechenleistung verkaufen auf der die KI dann betrieben werden kann. Ich sehe KI als eine Ressource: ein Fertigprodukt (Aufbackbrötchen) kostet mehr als ein Rohstoff (Mehl, Hefe, Ofen und Elektrizität). Die meisten mir bekannten Anbieter verkaufen Fertigkprodukte (OpenAI, Sonos, fobizz, ...) mit hohem Aufpreis, moderaten Mehrwert und vor allem einer hohem [lock-in](https://de.wikipedia.org/wiki/Lock-in-Effekt) Potential. Hugging face verwaltet den Rohstoff (freie KI-Modelle) kostenlos und liefert einen Marktplatz mit generischen Inferenz-Anbietern (Ofenbesitzer und Stromkosten). Zusammengefasst sorgt Hugging-Face dafür, dass KI ein [homogenes Gut](https://de.wikipedia.org/wiki/Homogenit%C3%A4t_(Wirtschaft)) ist, was sich positiv auf die Preise für Endverbraucher auswirkt als auch einen Lock-In Effekt verhindert. Was der eintägige Workshop leider nicht bot, war ein Workshop um KI über Hugging Face produktiv zu nutzen. Dies braucht wie jedes Handwerk Zeit, Erfahrung und Motivation. Ich bin jedoch sehr froh den Workshop besucht zu haben, weil es mir eine Richtung gibt welche ich ansteuern kann.
+
+### GDM
+
+An der Tagung der Gesellschaft der Mathematik durfte ich ebenfalls [einen Vortrag](https://phbern-rconrardy.github.io/lerngelegenheiten/tagungsunterlagen/2025_03_06_GDM.html) halten, am spannendsten war jedoch [der Vortrag meines Doktorvaters](https://www.youtube.com/watch?v=shGCZ69ScM0). 
+Er hat gezeigt wie man Wissenschaft mit sozialen Medien (Twitch und Discord) von der Hochschule in die Gesellschaft transferiert. Ich war bereits auf [seinem Discord Server](https://discord.gg/uHnwQxfn) drauf und schaue mir punktuell auch seine Videoaufnahmen an. Der Vortrag und die Reaktionen aus dem Publikum haben mich jedoch dazu bewogen gegen meine Zurückhaltung vis-à-vis sozialen Medien anzukämpfen und ebenfalls stärker den sozialen, videobasierten Austausch zu suchen. Mit diesem Vorsatz habe ich mit einem Arbeitskollegen den ersten Podcast aufgenommen.
+
+### Podcast
+
+Der erste Podcast wurde mehr improvisiert als geplant. Wir haben beim [Digileb](https://digileb.phbern.ch/) das Audiostudio reserviert. Ich kannte es bereits, da ich dort mein erstes Erklärvideo für meine Dissertation aufgenommen habe. Das Studio hat ein hervorragendes Mikrophon in einem eher kleinen Raum mit [akustischer Behandlung](https://boseprofessional.com/de/resources/insights/acoustic-treatment-vs-soundproofing-whats-the-difference) der Wände. Der erste Podcast verlief äusserst organisch, wir nahmen die Themen auf wie sie uns in den Sinn kamen und ergänzten einander im Gespräch. Es war eine Herausforderung an der Mimik des Gegenübers herauszuspüren ob er bewusst eine Denkpause einlegte oder ob er froh war, wenn man das Wort ergreift. Es war im Nachhinein äusserst beruhigend und befreiend zu spüren, dass die Chemie stimmte.
+
+Wir filmten uns mit einem Iphone. Die Bildqualität war uns sekundär, besonderen Wert legten wir auf die Tonspur, welche somit jedoch getrennt aufgenommen wurde. Nach der Aufnahme half uns das Digileb hmit [imovie](https://apps.apple.com/ch/app/imovie/id377298193) die bessere Tonspur auf das aufgenomme Video zu legen. Hier habe ich gelernt, dass es äusserst nützlich war, dass das Mobiltelefon selbst auch Ton aufgenommen hatte, das vereinfachte beide Tonspuren zu synchronisieren und somit die qualitativ hochwertigere Tonspur synchron zum Video zu bringen.
+
+
+
+
+
+# Bereich A
+
+| Datum | Titel | Anbieter |
+|------------------------|------------------------|------------------------|
+| 21.01.2025 | Besuch Leuphana Universität |  |
+| 03.01.2025 | Using State-of-the-Art Machine Learning Models: An Introduction to the Hugging Face Ecosystem | Nachwuchstagung GEBF |
+| 04.02.2025 | Von der Konzeption zur Publikation: Erfolgreiche Zeitschriftenartikel schreiben | Methodenschule PHZH |
+| 06.02.2025 | Item-Response-Theorie zur Kompetenzmodellierung und Skalierung PHZH | Methodenschule PHZH |
+| 14.02.2025 | Tag der Lehre | LEAD UNIBE |
+| 02.03.2025 | Digitalisierung & Selbst- + Zeitmanagement | Nachwuchstagung GDM |
+|  |  |  |
+
+## Reflexion
+
+# Bereich B
+
+#

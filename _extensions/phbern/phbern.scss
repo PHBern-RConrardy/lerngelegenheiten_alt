@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap');
+
+$barlow: 'Barlow', sans-serif;
+$font-family-sans-serif: $barlow !default;
+
+
+
+// Colors
+$phhd-blau: #09721c;
+$phhd-gelb: #1a9a47;
+$phhd-hellblau:#1cce84;
+$phhd-gruen: #26e152;
+$phhd-violett: #78b690;
+
+
+
+
+//Farbabstufungen: 100 75 50 25 15 oder 10 (alpha channel)
+
+
+$presentation-heading-font-weight: bold !default;
+
+$link-color: $phhd-blau !default;
+
+/*-- scss:rules --*/
+
+
+.slides h1 {
+            color: $phhd-blau!important;
+            text-decoration: none !important;
+            text-decoration-color: $phhd-gelb !important;
+        }
+h1.title small  {
+      text-decoration: none !important ;
+      text-decoration-color: $bordeaux ;
+}
+        
+.reveal h2 {
+    color: $phhd-gelb;
+    font-weight: normal; /* Ensures the text is not bold */
+        }
+.reveal h3 {
+    color: $phhd-blau;
+    font-size: 1em;
+        } 
+        
+.agenda-active {
+    color: $phhd-gelb !important;
+    font-weight: 700 !important;
+}
+
+.agenda-heading {
+    color: $phhd-blau;
+}
+
+.subtitle {
+    color: $phhd-gelb;
+}
+
+main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-link),
+.reveal a:not(.knopf) {
+    color: $phhd-blau !important;
+    text-decoration: underline !important;
+    font-weight: inherit !important;
+}
+
+.date {
+    font-size: 0.7em; /* Adjust size as needed */
+    color: $phhd-gelb;   /* You can also use a hex code like #d3d3d3 for more control */
+}
+
+.quarto-title-affiliation{
+    font-size: 0.4em !important;
+    text-align: left;
+}   
+
+.progress{
+    color: $phhd-blau !important;
+    height: 8px !important;
+}

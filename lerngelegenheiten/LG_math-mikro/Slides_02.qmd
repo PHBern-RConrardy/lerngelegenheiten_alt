@@ -1,0 +1,271 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Offene Aufgaben
+---
+
+# Lernziele
+
+## Studienplan 22
+
+:::{.callout-note}
+### Indikatoren Mikroplanung
+
+Die Studierenden
+
+* setzen Sozialformen, Methoden, Medien und Materialien lernfördernd und abwechslungsreich ein.
+
+:::quelle
+
+@phbern_studienplan_2022
+
+:::
+
+:::
+# Verschiedene Arten von offenen Aufgaben
+
+## Productive Failure
+
+* Phase 1 affords opportunity for students to generate and explore the affordances and constraints of multiple representations and solution methods (RSMs). 
+* Phase 2 affords opportunity for organizing and assembling the relevant student-generated RSMs into canonical RSMs.
+
+::: quelle
+[@kapur_productive_2014, p. 49]
+:::
+
+## Beispiel {.smaller}
+
+Wer ist der Basketballspieler der am gleichmässigsten spielt (dessen Leistung möglichst gleich bleibt)? 
+
+
+Mike und Dave sind die beiden besten Spieler in einer Basketball-Liga. Die Tabelle 
+zeigt die Anzahl der Punkte, die Mike und Dave im Laufe von 20 Spielen in der Liga erzielt haben. 
+
+Eine Auszeichnung muss an den Spieler **gleichmässigsten Leistung** gehen. Die 
+Entscheidung muss mathematisch getroffen werden. 
+
+Entwickle so viele **Berechnungsarten** von  Gleichmässigkeit wie möglich, um den Spieler mit der geringsten Variabilität zu ermitteln. 
+
+Alle Arbeitsschritte müssen schriftlich festgehalten werden. 
+
+## {.smaller}
+**Von Mike und Dave erzielte Punkte **
+
+| Spiel | Dave | Mike |
+|-------|------|------|
+| 1     | 24   | 23   |
+| 2     | 19   | 19   |
+| 3     | 24   | 26   |
+| 4     | 20   | 24   |
+| 5     | 25   | 20   |
+| 6     | 21   | 21   |
+| 7     | 25   | 23   |
+| 8     | 21   | 24   |
+| 9     | 26   | 25   |
+| 10    | 22   | 29   |
+| 11    | 26   | 24   |
+| 12    | 22   | 22   |
+| 13    | 27   | 25   |
+| 14    | 23   | 24   |
+| 15    | 27   | 27   |
+| 16    | 23   | 23   |
+| 17    | 28   | 24   |
+| 18    | 24   | 28   |
+| 19    | 29   | 24   |
+| 20    | 24   | 25   |
+
+:::quelle
+@kapur_productive_2014
+:::
+
+## Reichhaltige Aufgaben {.smaller}
+
+::: {.panel-tabset}
+
+### 1
+#### Die vier Qualitätsmerkmale reichhaltiger Aufgaben
+
+1. Kognitive Aktivierung
+    * Offenheit: Der Auftrag enthält so wenig Vorgaben und Informationen wie nötig, sodass mehrere und mehrdeutige Lösungen in Bezug auf Arbeitsschritte, Strategien und Ergebnisse möglich sind.
+    * Komplexität: [...]
+    * Repräsentation und Sprache: [...]
+2. Lebensweltbezug
+3. Differenzierung
+4. Eigenständigkeit und Zusammenarbeit
+
+:::quelle
+
+@balmer_was_2020, S.2
+
+:::
+
+### 2
+
+#### Was sind reichhaltige Aufgaben?
+
+Aufgaben gelten als reichhaltig, wenn sie vernetztes Denken einfordern, unterschiedliche  Lösungswege zulassen und sich auf mehrere Handlungsaspekte beziehen.
+
+:::quelle
+
+@nydegger_reichhaltige_2019, S.2
+:::
+
+
+### 3 
+
+#### Merkmale reichhaltiger Aufgaben
+
+Sie ermöglichen den Schülerinnen und Schülern individuelle Zugangsweisen. Sie können eine Aufgabe auf eigenen Wegen, mit individuellen Strategien und mit ihren individuellen Darstellungen bearbeiten.
+
+:::quelle
+
+@hirt_checkliste_2018, S.1
+
+:::
+
+### 4
+
+#### Checkliste
+
+Reichhaltige Aufgaben beziehen sich auf mehrere Handlungsaspekte der Matrix LP 21. [...]  Die  Aufgabenstellung gilt als reichhaltig, wenn alle drei Handlungsaspekte zum Tragen kommen  und sich die Aufgabe vielleicht sogar auch auf verschiedene Kompetenzbereiche bezieht.
+
+:::quelle
+
+@nydegger_checkliste_2019, S.1
+:::
+
+### 5
+
+#### Kriterien für gute, reichhaltige Aufgaben
+
+"Gute Aufgaben sollen einen aktiv-entdeckenden Zugang zu einem Lerngegenstand ermöglichen. [...] Der Aspekt der Steuerung von Lernprozessen ist in heterogenen Lerngruppen zentral. Die Steuerung kann dabei mehr oder weniger durch die Schülerin oder den Schüler erfolgen. Reusser (2013) unterscheidet hierfür enge, halboffene und offene Aufgabenstellungen."
+
+:::quelle
+
+@eckhart_reichhaltige_2020, S.50
+:::
+
+### Fazit?
+
+> es gibt somit keine klare Grenze zwischen reichhaltigen und nicht reichhaltigen Aufgaben"
+
+:::quelle
+
+@balmer_was_2020, S.1
+:::
+
+:::
+
+## Beispiel
+
+> Wie oft mal blinzelt ein Mensch in seinem Leben?
+
+:::quelle
+[@nydegger_reichhaltige_2019-1, S.2]
+:::
+
+## Fermi-Aufgaben {.smaller}
+
+:::::: {.columns}
+::: {.column width=20%}
+![Enrico Fermi; [Bildquelle](https://commons.wikimedia.org/wiki/File:Enrico_Fermi_1943-49.jpg)](Enrico_Fermi_1943-49.jpg)
+:::
+
+::: {.column width=80%}
+
+* the problems should present challenges and intrinsically motivate cooperation and interaction with peers,
+* the wording of the problems should not contain numbers in order to avoid that the children immediately start calculating without first analysing the context of the given situation, and to challenge students to engage in estimation and rough calculation and/or the collection of relevant data,
+* the problems should be based on a selection of real-world related situations that include reference contexts for third and fourth graders, and
+* the problems should be open-beginning as well as open-ended real-world related tasks that require decision making with respect to the modelling process.
+
+:::quelle
+[@peter-koop_teaching_2009, S.135]
+:::
+:::
+
+:::
+
+## Beispiel
+
+* How much paper does your school use in 1 month? 
+* How many children are as heavy as a polar bear? (van den Heuvel-Panhuizen, (1996) 
+* Your class is planning a trip to visit the Cologne Cathedral. Is it better to travel by bus or by train?
+
+:::quelle
+[@peter-koop_teaching_2009, S.135-136]
+:::
+
+## Rezeptives und selbstentdeckendes Lernen {.smaller}
+
+Er [Anm. Ausubel] unterscheidet rezeptives und selbstentdeckendes Lernen. Dabei weist er darauf hin, da das nicht dasselbe wie aktiv und passiv ist und da es sich auch nicht einfach um Gegensatze handelt.  
+
+Selbstentdeckendes Lernen ist nicht von vornherein besser als rezeptives Lernen. Wer so denkt, begeht nach Ausubel drei schwere Fehler.
+
+1. Man kann unmoglich von den Schülern erwarten, da sie in wenigen Jahren Begriffe und Eigenschaften entdecken, wahrend die Menschheit Jahrhunderte dazu benotigte.  
+2. Rezeptiv lernen bedeutet nicht dasselbe wie klaglos hinnehmen, was ,von oben' mitgeteilt oder aufgetragen wird.  
+3. Es gibt nicht nur das rezeptive Lernen auf der einen und das selbstentdeckende Lernen auf der anderen Seite. Zwischen den beiden Formen besteht vielmehr ein kontinuierlicher Obergang.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.75]
+:::
+
+
+
+
+# Was wirkt?
+
+## Keine Tests
+
+Die Wirkung von reichhaltigen Aufgaben scheint nicht erprobt worden zu sein.
+
+"Selbstentdecktes Lernen" hat erst schwache Evidenz. Ähnlich verhält es sich mit Fermi-Aufgaben.
+
+## Productive Failure
+
+
+:::{ style="font-size: 0.7em;" }
+
+| Moderating variables  | n   | g    | SE   |
+|-----------------------|-----|------|------|
+| **Education**          |     |      |      |
+| Junior high            | 11  | 0.65 | 0.16 |
+| High school            | 9   | 0.38 | 0.17 |
+| College                | 3   | 0.06 | 0.40 |
+| **Domain**             |     |      |      |
+| Science/math           | 20  | 0.50 | 0.13 |
+| Other                  | 3   | 0.06 | 0.40 |
+| **Duration**           |     |      |      |
+| ≤ 1 week               | 16  | 0.43 | 0.16 |
+| > 1 week               | 7   | 0.45 | 0.13 |
+
+:::
+
+:::quelle
+[@darabi_learning_2018]
+:::
+
+# Weiteres
+
+## Falsifizierbarkeitskriterium
+
+> Ein empirisch-wissenschaftliches System muß an der Erfahrung scheitern können.
+>
+:::quelle
+[@popper_logik_1935, S.13]
+:::
+
+## Objektivität
+
+> Die Schulfächer sind interessanterweise sehr stark an wissenschaftlichen Disziplinen orientiert
+> 
+> Die haben aber auch eine bestimmte Objektivität, das ist demokratietheoretisch sehr wichtig.
+> 
+2 und 2 ist 4, da kommt es nicht auf deine Meinung drauf an und die Lehrperson kann nicht sagen 2 und 2 gibt 5 weil ich bin hier die Autorität.
+>
+> Das ist eine inherenter Mechanismus gegen Indoktrination.
+>
+:::quelle
+[@bossart_roland_2024, ab 38. min]
+:::
+
+## Quellen

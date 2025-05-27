@@ -1,0 +1,57 @@
+---
+format: html
+title: Übungen zu Funktionen
+---
+::: {#exr-line}
+## Lineare Interpolation
+
+Schreiben Sie eine Funktion, die zwei Listen von x- und y-Werten entgegennimmt und den interpolierten y-Wert für einen gegebenen x-Wert berechnet.
+:::
+::: {#exr-line}
+## Binomialkoeffizienten mit Funktion
+
+Schreiben Sie eine Funktion, die den Binomialkoeffizienten für zwei gegebene Zahlen n und k berechnet und zurückgibt.
+:::
+::: {#exr-line}
+## Quadratische Gleichungen lösen
+
+Schreiben Sie eine Funktion, die die Koeffizienten einer quadratischen Gleichung entgegennimmt und deren Lösungen berechnet.
+:::
+::: {#exr-line}
+## Bestimmung des Modus
+
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und den Modus (häufigster Wert) berechnet.
+:::
+::: {#exr-line}
+## Median einer Liste
+
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und den Median berechnet.
+:::
+::: {#exr-line}
+## Standardabweichung
+
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und die Standardabweichung berechnet.
+:::
+::: {#exr-line}
+## Kombinationen generieren
+
+Schreiben Sie eine Funktion, die eine Liste und eine Zahl k entgegennimmt und alle möglichen Kombinationen von k Elementen der Liste zurückgibt.
+:::
+::: {#exr-line}
+## Häufigkeitsverteilung
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und eine Häufigkeitsverteilung (als Dictionary) zurückgibt.
+:::
+::: {#exr-line}
+## Grösster gemeinsamer Teiler
+
+
+Schreiben Sie eine Funktion, welche zwei Zahlen entgegennimmt und ihren grössten gemeinsamen Teiler (ggT) berechnet.
+
+*Erweiterung:* Schreiben Sie eine Funktion welche Zähler und Nenner entgegennimmt und sie so weit wie möglich kürzt.
+:::
+::: {#exr-line}
+## Kleinstes gemeinsames Vielfaches
+Schreiben Sie eine Funktion, die zwei Zahlen entgegennimmt und ihr kleinstes gemeinsames Vielfaches (kgV) berechnet.
+
+*Erweiterung:* Schreiben Sie eine Funktion welche zwei Brüche in Form von Listen mit je zwei Zahlen (Zähler und Nenner) entgegennimmt und sie addiert.
+:::

@@ -1,0 +1,51 @@
+---
+title: "Digitale Zusammenarbeit und Kommunikation"
+subtitle: Tools und Technologien kennenlernen
+format: html
+categories:
+  - Modul - Zusammenarbeit und Kommunikation
+  - Modul - Klassenführung
+  - Label - Digitalität
+draft: false
+date: 09/15/2024
+---
+
+::: {style="text-align: center;"}
+[Porta-QT-Digitalität](https://porta.phbern.ch/content/page/62694b41dd910c2dedc2d1d1){.knopf .knopf-klein target="_blank"}
+:::
+
+::: callout-note
+# Ziele der Lerngelegenheit
+
+Wir
+
+* benennen und erläutern sinnvolle Fragen zur Evaluation von digitalen Zusammenarbeit- und Kommunikationstools
+* beantworten diese Fragen für typische Kollaborationssoftware
+* reflektieren unsere Kommunikation in Bezug auf Situation und Zielgruppe.
+* wählen für die Arbeit geeignete Kommunikationsformen, -kanäle und medien.
+:::
+
+
+
+| Termin | Thema                                        |       Slides        |
+|:-----------:|:------------|:-----------:|
+|   1    | Tools und Technologien      | [Slides](Slides_01.qmd) |
+|   2    | Social Media | [Slides](Slides_02.qmd) |
+
+: {.striped .hover .table-sm}
+
+# Workload
+
+::: {#exr-1}
+Verschicken Sie über die Klapp-App eine Nachricht an alle Eltern einer Klasse. Sie erhalten in der Lerngelegenheit Zugriff auf einen Test-Server.
+:::
+
+::: {#exr-1}
+Verschicken Sie einen personalisierten Serienbrief mit einem Mail-Client.
+:::
+
+::: {#exr-1}
+Verschicken Sie einen personalisierten Serienbrief mit einer Programmiersprache Ihrer Wahl. 
+
+*Hinweise:* Python wird empfohlen. Sie dürfen Chatbots uneingeschränkt nutzen. Sie sollen jedoch den benutzen Programmcode in groben Zügen erklären können.
+:::

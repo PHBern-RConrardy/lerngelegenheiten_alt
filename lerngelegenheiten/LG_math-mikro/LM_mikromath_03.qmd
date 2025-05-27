@@ -1,0 +1,184 @@
+---
+format: html
+title: Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht
+date: 06/20/2024
+---
+
+:::: {.callout-note}
+
+## Indikatoren
+
+Wir 
+
+* strukturieren fachliche Inhalte ebenso korrekt wie zielgruppengerecht und formulieren entsprechende Lernerwartungen.
+* entwickeln analoge wie digitale fachliche, überfachliche wie fächerübergreifende Lernumgebungen mit entsprechenden sprachsensiblen Aufgaben. (Ebene c)
+* setzen Sozialformen, Methoden, Medien und Materialien lernfördernd und abwechslungsreich ein. (Ebene c)
+
+:::quelle
+[@phbern_leitfaden_2022, S.6]
+:::
+::::
+
+:::: {.callout-note}
+
+## Lernziele
+
+Wir 
+
+* begründen den Einfluss der Sprachkompetenz auf die Mathematikleistung mit Hilfe der Funktionen der Sprache.
+* erklären den Forschungsstand der Wirksamkeit von Sprachfördermassnahmen im Mathematikunterricht.
+* entscheiden theoriegleitet über die Implementierung von Praxisvorschlägen in unserem Unterricht.
+
+::::
+
+# Einstieg
+
+An welche sprachlichen Stolpersteine kannst du dich aus deinem Mathematikunterricht erinnern?
+
+In welchen Situationen wich die Lehrperson von der Schulsprache ab?
+
+::: {#exr-line}
+
+Übersetzen Sie folgende mathematische Aussage in Alltagssprache: 
+
+$$\lim_{x \to \infty} f(x) = L \quad \overset{\text{Def.}}{\Leftrightarrow} \quad \forall \epsilon > 0 \; \exists M > 0 \; \vert \; \forall x > M \; \left| f(x) - L \right| < \epsilon.$$
+
+:::
+
+::: {#exr-line}
+
+Übersetzen Sie folgenden Linuxbefehl in Alltagssprache: 
+
+```bash
+rm -rf /
+```
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Begriff: Sprachsensibler Fachunterricht
+
+Sprachsensibler Fachunterricht (SFU) geht auf die Arbeit von Leisen zurück  und war ursprünglich als Handbuch für Deutsch im Fachunterricht (DFU) für Deutsch als "Fremd- umd Fachsprache an deutschen Auslandschulen" gedacht, wurden jedoch später für Deutsch als Zweitsprache genutzt [vgl. @rottger_sprachsensibler_2019]. 
+
+> Der Begriff *sprachsensibler Unterricht* steht für unterschiedliche Unterrichtskonzepte, die Sprache bewusst als Mittel des Denkens und Kommunizierens einsetzen, um fachliches und sprachliches Lernen zu verknüpfen. [@giesau_basiswissen_2018, CC BY-ND 4.0]
+
+Zwischen Sprachbildung, Sprachförderung und sprachsensiblem Unterricht wird nicht durchgängig unterschieden. Ähnlich verhält es sich mit *sprachbewusst* und *sprachaufmerksamem* Unterricht. “Was unübersichtlich klingt, *ist* in der fachlichen Diskussion auch so,” [@rottger_sprachsensibler_2019, S. 91]
+
+:::
+
+# Funktionen von Sprache
+
+Sprache hat sowohl eine "kommunikative Funktion" wie auch eine "kognitive Funktion" [@prediger_sprachkompetenz_2015, S.20]. @giesau_basiswissen_2018 definieren sogar *sprachsensiblen Unterricht* mit Hilfe von beiden funktionen: "Der Begriff sprachsensibler Unterricht steht für unterschiedliche Unterrichtskonzepte, die Sprache bewusst als Mittel des Denkens und Kommunizierens einsetzen, um fachliches und sprachliches Lernen zu verknüpfen." [@giesau_basiswissen_2018, S.1]
+
+::: {#exr-line}
+
+Lesen Sie @pyers_language_2009. Ausgehend von diesem Artikel, erklären Sie in eigenen Worten die kognitive Funktion und somit die Relevanz der Sprachkompetenz für den Mathematikunterricht.
+
+:::
+
+# Einfluss von Sprachkompetenz auf Mathematikleistung
+
+::: {#exr-line}
+
+Lesen Sie @prediger_sprachkompetenz_2015. Vergleichen Sie den Einfluss des Sozioökonomischen Statuses mit dem der Sprachkompetenz auf die Mathematikleistung. Wie werden die Konstrukte operationalisiert?
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Teil-Lösungsvorschlag
+@prediger_sprachkompetenz_2015 zeigen, “dass die Sprachkompetenz einen erheblich stärkeren Zusammenhang zur Mathematikleistung in den ZP10-Mathematik aufweist, als Faktoren zum sozialen Hintergrund (SES, Migrationshintergrund und Zeitpunkt des Deutscherwerbs).” [@prediger_sprachkompetenz_2015, S.22]  
+
+> Die im amerikanischen Sprachraum oft festgestellte Relevanz der Sprachkompetenz für die Mathematikleistung (Abedi 2006; Secada 1992) konnte somit auch im deutschen Sprachraum vorgefunden werden, und zwar nicht nur, wie meist bisher, bzgl. der Sprachhintergründe oder der Lesekompetenz, sondern bzgl. einem breiter verstandenen und bildungssprachlich ausgerichteten Konstrukt von Sprachkompetenz. [@prediger_sprachkompetenz_2015, S.22]  
+:::
+
+# Wirksame Interventionsmassnahmen
+
+@souvignier_evaluation_2021 (CC BY 4.0) haben die Wirksamkeit von zwei Projekten zur Sprachförderung in Deutschland auf Sekundarstufe 1 gemessen. "Eine theoretische Analyse der beiden Materialsammlungen ergab zusammenfassend, dass sie mit einer Anleitung kognitiver und metakognitiver Strategien den aktuellen Forschungsstand zu einer Vermittlung selbstregulierten Lesens berücksichtigen." [@souvignier_evaluation_2021, S.886]
+
+Die Wirksamkeit beider Projekte war leider bescheiden. "Die Befunde zu Effekten der beiden Konzepte auf der Ebene der Schüler\*innen weisen nur sehr punktuell überlegene Entwicklungen gegenüber einer Kontrollbedingung ohne explizite Maßnahmen zur Leseförderung auf." [@souvignier_evaluation_2021, S.903]
+
+@rottger_sprachsensibler_2019 berichtet in seiner Standortbestimmung von einem ähnlichen Sachverhalt. Einseits sind die Dokumente zu SFU mehrheitlich theoretisch oder praxisorientiert. Andererseits hat sich der Abstand zwischen Lernenden mit und ohne Migrationshintergrund nach zahlreichen SFU-Projekten nicht reduziert. 
+
+@leiss_im_2020 berichten vom amerikanischen LRT-Framework, merken jedoch auch an: “Dieses Konzept verbleibt jedoch bisher auf einer normativ-theoretischen Ebene und bedarf erst noch der empirischen Evaluation.” [@leiss_im_2020, p. 196] Ein Evaluationsprojekt zur Sprachförderung im Mathematikunterricht hat nicht zu einer signifikanten wahrgenommenen Verständlichkeit geführt. Zusätzlich hat in einigen Klassen das *Ressentiment*  gegenüber von Textaufgaben weiter zugenommen. Die Autoren beschreiben diesen Ausgang als "unbefriedigende Kompetenzentwicklung" [@leiss_im_2020, p. 226].
+
+Empfehlungen zum SFU, wie z.B. die "Entlastung" [vgl. @abshagen_praxishandbuch_2015], sind im Moment nicht empirisch überprüft. @leiss_im_2020 formulieren ebenfalls "theoretisch plausible Leitlinien" [@leiss_im_2020, S.196], haben sie jedoch ebenfalls nicht empirisch validiert.
+
+@meyer_sprachenvielfalt_2012 differenziert zwischen *defensiven* Ansätzen, welche die Sprache vereinfachen [vgl. @abshagen_praxishandbuch_2015] und so das Erlernen von Fachinhalten erleichtert und *offensiven* Ansätzen, welche Lernende zum Bewältigung sprachlicher Herausforderungen befähigen. Meyer argumentiert, dass defensive Ansätze an den Bildungszielen vorbei gehen. @erziehungsdirektion_des_kantons_bern_lehrplan_2016-1 gibt ihm recht.
+
+Die Empfehlung keine *Mathegeschichten* ("math stories") sondern authentische Mathematiktexte mit Prozedurbeschreibungen oder Argumentationen in Bezug auf Theoreme einzusetzen werden gemäss @schleppegrell_linguistic_2007 von der Forschung @johnson_students_1998 getragen, allerdings handelt es sich hierbei um eine deskriptive Studie mit $n=24$.
+
+# Praxistipps
+
+## Multisemiotismus der Mathematik
+
+@leisen_praktische_2011 kategorisiert die Sprachebenen ordinal gemäss ihrer Abstraktion. Er differenziert zwischen der nonverbalen Sprache, der Bildsprache, der Verbalsprache, der Symbolsprache und der Formalsprache. 
+
+@meyer_sprachenvielfalt_2012 wählt eine ähnliche Aufteilung. Er unterteilt vier Darstellungformen: die verbale, die grafische, die numerische und die symbolisch-algebraische Darstellungsform.
+
+:::{.callout-tip}
+
+Mathematik wird mehrheitlich auf der Formalsprache, bzw. in der symbolisch-algebraische Darstellungsform betrieben.
+
+Sie dürfen, und sollen, jedoch mehrere Ebenen benutzen.
+:::
+
+Vergleichbar mit diesen Sprachebenen fasst @schleppegrell_linguistic_2007 die sprachliche Herausforderung in Mathematik wie folgt zusammen:
+
+> The linguistic challenges include the multi-semiotic formations of mathematics, its dense noun phrases that participate in relational processes, and the precise meanings of conjunctions and implicit logical relationships that link elements in mathematics discourse. [@schleppegrell_linguistic_2007, S.139]
+
+:::{.callout-tip}
+@schleppegrell_linguistic_2007 fügt jedoch auch hinzu: "But it is also important to recognize that students need to learn to deal with the dense and technical language." [@schleppegrell_linguistic_2007, S.156]
+:::
+
+Interessanterweise stellt @johnson_students_1998 in einer Unterrichtsbeobachtung (5. Klasse Grundschule) fest, dass die Verwendung mehrerer Sprachebenen (Verbalsprache, zusätzlich zur Formalsprache) von vielen Lernenden als hilfreich empfunden und bereitwillig angenommen wird, dass aber mathematisch besonders begabte Lernende es vorziehen, bei der reinen Formalsprache zu bleiben. Er schlägt vor, die Verbalsprache nicht vorzuschreiben, wenn die Formalsprache beherrscht wird.
+
+## Sprachregiser
+
+Sprache kann ebenfalls nach Kontext differenziert werden.  @meyer_sprachenvielfalt_2012 unterteilt Alltagssprache, Bildungssprache und Fachsprache. @abshagen_praxishandbuch_2015 nimmt die gleiche Unterteilung vor, sieht Fachsprache jedoch als Teil der Bildungssprache. Im Englischen nennt man die mathematische Fachsprache "register of mathematics" [@wilkinson_learning_2019; @schleppegrell_linguistic_2007]. 
+
+"Während für bildungssprachlich benachteiligte Lernenden kaum Differenzen zwischen Fach- und Bildungssprache bestehen, machen Lehrkräfte oft einen entscheidenden Unterschied: Fachsprachliche Sprachmittel werden im Unterricht meist explizit eingeführt, die bildungssprachlichen dagegen oft nicht." [@meyer_sprachenvielfalt_2012, S.4]
+
+:::{.callout-tip}
+
+## Praxisempfehlung
+
+Nehmen Sie das Verständnis der fachfremden, präzisen Bildungssprache nicht als gegeben hin. Leisten Sie auch hier einen Beitrag zur Sprachförderung.
+
+
+:::
+
+In der mathematischen Fachsprache gibt es besonders viele Kollokationen. Ihnen ist besondere Aufmerksamkeit zu widmen.
+
+### Kollokation
+
+Kollokationen sind häufig vorkommende Wortverbindungen. In der Mathematik handelt es sich meist um Verbindungen von Nomen und Verben.
+
+> Sie bezeichnen entweder mathematische Handlungen (z. B. „einen Bruch erweitern/kürzen“, „eine Gleichung aufstellen/auflösen“, „eine Wurzel ziehen“), bei denen der oder die Mathematiker*in das handelnde Subjekt ist (also z. B. „Ich erweitere den Bruch“ etc.). Oder sie bezeichnen mathematische Zustände (z. B. „ein Ereignis tritt ein“; „die Gerade schneidet [den Kreis]“); hier liegt die Vorstellung des mathematischen Gegenstands als handelndem Subjekt zugrunde (Maier und Schweiger 1999, S. 22). Auf fachspezifische Kollokationen ist im Unterricht besonders zu achten – zum einen, weil die jeweiligen Bestandteile für sich genommen (oft) in anderer Verwendungsweise auch in der Alltagssprache vorkommen, zum anderen, weil sich die Substantive und Verben nicht beliebig variieren lassen. Hinzu kommt, dass die mathematische Bedeutung sich nicht immer leicht erschließen lässt, selbst wenn die Bestandteile für sich genommen bekannt sind (vgl. Tajmel 2011, 2017). Fachspezifische Kollokationen müssen daher im jeweiligen mathematischen Kontext gelernt werden. [@schacht_sprachbildung_2022, S.26]
+
+:::{.callout-tip}
+Wenn Sie einen neuen Begriff oder eine Kollokation im Unterricht verwenden. Thematisieren Sie den Begriff explizit. 
+
+In der Praxis werden die Lernenden aufgefordert, einen Begriff mit eigenen Worten zu erklären (z.B. "Algebra"). So kann die Lehrperson Missverständnisse möglichst früh erkennen.
+:::
+
+## Dilemmas 
+
+@adler_language_1998 charakterisiert auf Grund einer *action research* in Botswana drei Dilemmas in Bezug auf Sprache im Mathematikunterricht. @schleppegrell_linguistic_2007 merkt an, dass das *dilemma of mediation* und das *dilemma of transparency* nicht aufgelöst werden können, sondern ein Spannungsverhältnis verursachen, dessen man sich als Lehrperson bewusst sein muss.
+
+### Dilemma of code-switching
+
+Dieses Dilemma wurde von @adler_language_1998 in Afrika untersucht, gilt aber auch für den Mathematikunterricht in der Schweiz. Die Unterrichtssprache (Englisch) unterscheidet sich von der gemeinsam gesprochenen Sprache (Setswana). Die Lehrperson muss situativ entscheiden, ob sie die Unterrichtssprache beibehält oder zum besseren Verständnis in die gemeinsame Sprache wechselt.
+
+### Dilemma of mediation
+
+Lehrerinnen und Lehrer, insbesondere in Mathematik, müssen oft entscheiden, ob sie die Antworten der Schülerinnen und Schüler korrigieren oder bestätigen sollen. Die Aussagen sind oft nicht ganz korrekt, aber eine Korrektur wird von den Lernenden oft als Nichtanerkennung ihres Beitrags verstanden. Dieses Dilemma wird von @adler_language_1998 als *dilemma of mediation* bezeichnet.
+
+### Dilemma of transparency
+
+Einerseits hilft es, sprachliche Hürden explizit anzusprechen. Auf der anderen Seite wollen Lehrpersonen nicht zu viel Zeit für Erklärungen aufwenden. Eine Fokussierung auf Sprache im Mathematikunterricht kann vom mathematischen Verständnis ablenken und nicht zu diesem führen. Dieses Dilemma wird von @adler_language_1998 als *dilemma of transparency* bezeichnet.
+
+## Fragend-entwickelnder Unterricht
+
+In der eigenen Forschung ist anekdotisch aufgefallen, dass Lernende einfach versuchen, das richtige Ergebnis zu nennen. Es erscheint sinnvoll, regelmässig nachzufragen "Wie kommst du auf das Ergebnis?", "Warum ist das so?" etc. Einerseits werden die Lernenden darauf hingewiesen, dass eigentlich der Lösungsweg und nicht die Lösung im Zentrum der Mathematik steht, andererseits erhalten sie die Möglichkeit, sich sprachlich auszudrücken. 
+In der Hochschuldidaktik gibt es auch die Technik, über Ergebnisse abzustimmen (E-Voting) und bei knappen Ergebnissen die Studierenden untereinander diskutieren zu lassen, bis sich eine klare Mehrheit für eine Lösung ergibt. 

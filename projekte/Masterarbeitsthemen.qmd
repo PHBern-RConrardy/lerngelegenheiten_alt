@@ -1,0 +1,27 @@
+---
+format: html
+title: mögliche Masterarbeitsthemen
+date: 10/12/24
+---
+
+# Begabtenförderung im Kanton Bern
+
+Empirische Untersuchung zur tatsächlichen Durchführung der Begabtenförderung.
+
+# Datenschutz im Kanton Bern
+
+Empirische Untersuchung zur Definition von besonders Schützenswerten Daten im Kanton Bern.
+
+# Sonderpädagogische Massnahmen im Kanton Bern
+
+Empirische Untersuchung zur Diagnose und Verbreitung von sonderpädagogischen Massnahmen.
+
+# OER Lernumgebungen gestalten, verbessern, vereinheitlichen
+
+Leisten Sie einen Beitrag zu guten Lernumgebungen in Mathematik und Medien und Informatik für die Sekundarste 1
+
+Sie können sich auch auf Ebene Makroplanung einbringen
+
+# Verbesserungen Quarto oder GitHub
+
+Ich publiziere vieles in Quarto auf Github. Arbeiten Sie sich in Tools ein, analysieren Sie Bedürfnisse welche noch nicht abgedeckt sind und machen Sie Verbesserungsvorschläge. 

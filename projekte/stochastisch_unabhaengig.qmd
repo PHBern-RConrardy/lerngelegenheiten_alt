@@ -1,0 +1,23 @@
+---
+format: html
+title: Stochastisch Unabhängig
+subtitle: Lokal und paarweise
+---
+
+::: {#def-1}
+## Stochastisch Unabhängig
+
+Eine Menge von Zufallsvariablen $X_1, X_2, \dots, X_n$ ist **stochastisch unabhängig**, wenn die gemeinsame Wahrscheinlichkeitsverteilung das Produkt der Randverteilungen ist:
+
+$$
+P(X_1 = x_1, X_2 = x_2, \dots, X_n = x_n) = P(X_1 = x_1) \cdot P(X_2 = x_2) \cdots P(X_n = x_n)
+$$
+
+für alle möglichen Werte \( x_1, x_2, \dots, x_n \).
+
+:::
+
+
+Problem 1
+
+

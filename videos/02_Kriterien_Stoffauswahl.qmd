@@ -1,0 +1,9 @@
+---
+format: html
+title: Kriterien für die Auswahl von Lehrstoff
+subtitle: Ausführungen zur Mikroplanung Mathematik
+---
+
+bezieht sich auf @van_dormolen_didaktik_1978
+
+https://tube.switch.ch/videos/eeFNL1mbnv

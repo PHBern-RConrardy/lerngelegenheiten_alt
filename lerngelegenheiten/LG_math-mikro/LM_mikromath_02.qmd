@@ -1,0 +1,120 @@
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: Lernumgebungen
+---
+
+# Unterrichtsstrukturierung
+
+## Phasenmodelle
+
+Mikroplanung umfasst gemäss der an der PHBern gebräuchlichen Definition zwei bis vier Lektionen. Die Gliederung des Unterrichts wird jedoch typischerweise nach anderen "unterrichtsbestimmende Bauelemente" [@wollring_kennzeichnung_2008, S. 9] aufgeteilt. Diese Aufteilung kann sich auf Phasenmodelle stützen:
+
+-   PADUA: [vgl. @aebli_zwolf_1983]
+-   AVIVA: [@stadeli_aviva_2020]
+-   KAFKA und SAMBA: [Reusser 1999 nach @leuchter_rolle_2009])
+
+::: callout-tip
+Lernphasen werden in der Lerngelegenheit "Planungsarbeit im Fokus" vertieft.
+:::
+
+## Lernumgebungen
+
+Eine andere Einteilung ist diejenige in *Lernumgebungen* oder "Arbeitsumgebung" [@wollring_kennzeichnung_2008, S. 9]. Gewisse Autoren (/Dozierende) setzen diese gleich mit dem Begriff des *Lernarrangement*, andere definieren sie leicht unterschiedlich.
+
+@van_dormolen_didaktik_1978 beschreibt eine frühe Form von Lernumgebungen, nämlich den Unterrichtsarbeitsplan:
+
+> Ein Unterrichtsarbeitsplan beschreibt die Aktivitäten, von denen Lehrer und Schüler meinen, dass sie zum Lernziel führen. Er beschreibt weniger die Stunden selbst als vielmehr die Art der Aktivitäten und wie man die Ergebnisse testen kann. Ferner werden sowohl der Lehrstoff als auch die Hilfsmittel, die benutzt werden sollen, ausgewählt.
+>
+> ::: quelle
+> [@van_dormolen_didaktik_1978, S.1]
+> :::
+
+Der Fokus von Unterrichtsarbeitsplänen liegt somit auf Aktivitäten und die dafür benötigten Hilfsmittel. Lernumgebungen führen diese Begriffe etwas weiter aus. Eine frühe Definition von *Lernumgebung* findet man in @friedrich_analyse_1997:
+
+> Unter Lernumgebung wird hier das Arrangement der äußeren Lernbedingungen (Personen und Institutionen, Geräte und Objekte, Symbole und Medien, Informationsmittel und Werkzeuge) und Instruktionsmaßnahmen (Lernaufgaben, Sequenz der Lernschritte, Methoden u. a.) verstanden, die Lernen ermöglichen und erleichtern.
+>
+> ::: quelle
+> [@friedrich_analyse_1997, S.258]
+> :::
+
+Eine neuere Definition beschränkt sich auf die wesentlichen vier Anforderungen.
+
+> Eine durch den Unterricht hergestellte Lernumgebung besteht aus einem Arrangement von Unterrichtsmethoden, Unterrichtstechniken, Lernmaterialien, Medien.
+>
+> ::: quelle
+> [@krapp_unterrichten_2010, S.615]
+> :::
+
+Beide Definitionen lenken die Aufmerksamkeit darauf, dass Lernumgebungen nicht *one size fits all* erstellt werden, sondern eigentlich die Realisierung eines spezifischen Unterrichts entsprechen.
+
+“Hier stellt gerade die Grundschule umfassende Anforderungen an das Implementieren, die in den konfektioniert vorbereiteten Unterrichtsmaterialien nicht berücksichtigt sein können, sondern von dem Lehrenden spezifische Entscheidungen und Strukturierungen verlangen, die der konkreten Situation Rechnung tragen.” [@wollring_kennzeichnung_2008, S.4]
+
+Eine für den Mathematikunterricht nützliche Sichtweise auf Lernumgebungen lautet, dass es sich um eine "flexible grosse Aufgabe" handelt. Diese wiederum besteht aus einem "Netzwerk kleinerer Aufgaben" [@wollring_kennzeichnung_2008, S.5].
+
+::: callout-tip
+An einer Pädagogischen Hochschule (und auch in einem Verlag) können keine *one size fits all* Materialien erstellt werden. Freie Lizenzen ermöglichen es jedoch Lehrpersonen Unterrichtsmaterialien für ihren Unterricht anzupassen.
+:::
+
+## Kernfragen
+
+Damit man bei der Erstellung einer Lernumgebung nicht überwältigt wird, hilft es sich möglichst früh auf gewisse Eckpfeiler zu einigen.
+
+Das Modell eines Unterrichtsarbeitsplanes, gemäss @van_dormolen_didaktik_1978, schlägt folgende vier Kernfragen vor:
+
+> -   Lernziele, "Was würde ich gerne meine Schüler erreichen lassen?"
+> -   Anfangszustand, "Wo können meine Schüler anfangen?"
+> -   Unterrichtssituation, "Wie kann ich Lerninhalte vermitteln und wie können meine Schüler sie lernen?"
+> -   Auswertung, "Wie ermittelt man den Lehrerfolg?"
+>
+> ::: quelle
+> [@van_dormolen_didaktik_1978, S. 2-3]
+> :::
+
+Diese vier Leitfragen sind selbstverständlich voneinander abhängig und sie ähneln somit dem *constructive alignment* von @biggs_enhancing_1996 .
+
+> -   teachers need to be clear about what they want their students to learn, and how they would manifest that learning in terms of "performances of understanding". For .example, memorising and paraphrasing are not performances of understanding, recognising an application in a novel context is. 
+> -   the performance objectives thus emerging need to be arranged in a hierarchy from most acceptable to barely satisfactory, which hierarchy becomes the grading system.
+> * students need to be placed in situations that are judged likely to elicit the required learnings.
+> * students are then required to provide evidence, either by self-set or teacher-set tasks, as appropriate, that their learning can match the stated objectives. Their grade becomes the highest level they can match convincingly.
+>
+:::quelle
+[@biggs_enhancing_1996, S.360-361]
+:::
+
+
+::: callout-tip
+
+Um zu wissen worauf man hinaus möchte, braucht es Erfahrung und Wissen, welches Sie womöglich noch nicht haben. Holen Sie sich frühzeitig Feedback!
+
+:::
+
+## Leitideen
+
+Sind die Kernfragen geklärt, kann die Lernumgebung detaillierter geplant werden. @wollring_kennzeichnung_2008 schlägt vor die Lernumgebung, als Bündelung kleiner Aufgaben, an Leitideen auszurichten:
+
+> -   Gegenstand und Sinn, Fach-Sinn und Werk-Sinn
+> -   Artikulation, Kommunikation, Soziale Organisation
+> -   Differenzieren
+> -   Logistik
+> -   Evaluation
+> -   Vernetzung mit anderen Lernumgebungen
+>
+> ::: quelle
+> [@wollring_kennzeichnung_2008, S.5]
+> :::
+
+::: callout-tip
+
+Lesen Sie die Ausführungen zu den Leitideen im Originalartikel aufmerksam durch. 
+
+:::
+
+## Unterrichtszentrum
+
+Falls Sie den Behaviourismus, Kognitivistismus und Konstruktivismus noch nicht kennen, lesen Sie @krapp_unterrichten_2010, ab S.617. Die beiden ersten Positionen werden als "technologische Position" zusammengefasst. Diese Perspektiven können ebenfalls durch ihren Fokus unterschieden werden: Learner centered, Knowledge centered, Assessment centered, Community centered [@krapp_unterrichten_2010, S. 618]
+
+
+

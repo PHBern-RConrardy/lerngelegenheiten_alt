@@ -1,0 +1,25 @@
+---
+format: html
+title: Sprechstunden
+subtitle: Anleitung für Beratungstermine bei Richard Conrardy
+date: 26 11 2024
+---
+
+::: {.callout-note}
+Diese Seite wendet sich Studierende der PHBern  welche gerne ein Gespräch mit mir abmachen möchten.
+:::
+
+Sprechstunden sind grundsätzlich **Montags zwischen 8:00 und 18:00**. Bei starken Überschneidungen können Sprechstunden ebenfalls an Randzeiten von 7:00 bis 21:00 gelegt werden.
+
+Nutzen Sie Ihren PHBern-Kalender in Outlook (z.B. über [https://outlook.office.com](https://outlook.office.com)), stellen Sie sicher, dass Sie mit ihrem PHBern Account angemeldet sind.
+
+1. Erstellen Sie einen Kalendereintrag mit passendem Titel, z.B. "Coachinggespräch - Grundlagen der Beurteilung".
+2. Wählen Sie aus ob es ein Teams-Meeting (Videobesprechung) oder vor Ort sein soll. Falls es vor Ort ist, können Sie beim Raum einen freien Raum (z.B. D346, D355, D337) buchen. Ich bin meist vor Ort und bevorzuge vor Ort.
+3. Wählen Sie unter "invite required attendees" mich aus. Sie erhalten jetzt die Information ob ich "available" bin. Falls es ein Gruppengespräch ist, wählen Sie alle Teilnehmer an.
+4. Falls sowohl ich, wie auch der Raum verfügbar sind, schicken Sie die Einladung. Falls ich Sie nicht innert 2 Arbeitstagen annehme oder begründet ablehne, dürfen Sie sich gerne nochmals per Mail melden.
+
+::: {.callout-warning}
+Die Verfügbarkeiten ausserhalb vom Montag werden im Kalender nicht unbedingt korrekt angezeigt.
+
+Für Termine welche ausserhalb vom Montag stattfinden müssen oder zeitkritisch sind, bitte ich Sie eine Mail mit mehreren Terminvorschlägen zu schicken.
+:::

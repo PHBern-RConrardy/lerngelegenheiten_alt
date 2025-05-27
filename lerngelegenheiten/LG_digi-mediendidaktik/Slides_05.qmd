@@ -1,0 +1,32 @@
+---
+format: revealjs
+title: Mediendidaktik
+subtitle: Trends und Prognosen
+---
+
+## Innovationstypen
+
+::: {#fig-1}
+
+![](slides_05/doebeli.png)
+
+[@dobeli_honegger_mehr_2017, CC BY-SA 4.0]
+
+:::
+
+## Hype-cycle
+
+::: {#fig-1}
+
+![](slides_05/doebeli3.png)
+
+[@dobeli_honegger_mehr_2017, CC BY-SA 4.0]
+
+:::
+
+## VR / AR
+
+* [Augmented Reality (AR) im Unterricht – Potenzial und Herausforderungen](https://www.ilz.ch/blog/augmented-reality-ar-im-unterricht-potenzial-und-herausforderungen)
+* [VR im Fremdsprachenunterricht](https://ttim.phbern.ch/2023/vr-im-fremdsprachenunterricht/)
+
+## Bibliographie

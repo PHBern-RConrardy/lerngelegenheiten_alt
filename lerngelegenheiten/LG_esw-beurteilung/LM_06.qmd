@@ -1,0 +1,109 @@
+---
+format: html
+title: Lernbegleitung und Lerncoaching
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  In diesem Lernmodul geht es um die «Lernbegleitung».
+---
+::: callout-note
+# Ziele des Lernmoduls
+
+Die Studierenden ...
+
+* kennen grundlegende Definitionen und Konzepte von Lernbegleitung.
+* lernen Ideen kennen, zur individuellen Förderung und Unterstützung von Schüler*innen.
+* können Lernende beim selbstständigen Lernen begleiten und motivieren. 
+* verstehen, wie sie das Konzept des Cognitive Apprenticeship im Klassenraum umsetzen können. * kennen die Bedeutung von Feedback und wissen, was konstruktives Feedback beinhaltet.
+:::
+
+# Lernbegleitung und Lerncoaching
+
+Lernen Sie in [diesem Screencast](https://tube.switch.ch/embed/PKPxYEKltE?title=hide) ([Slides](screencast_slides/LM_06_01_Lernbegleitung_und_Lerncoaching.pdf)) mehr über das Thema der Lernbegleitung.
+
+
+### Zusatz
+
+Im [Folgenden](https://phbern365.sharepoint.com/:b:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/LM_06/Muster%20Lernbegleitung%20Lerncoaches%20.pdf?csf=1&web=1&e=bEiK0x) wurde von @perkhofer-czapek_begleiten_2016, ein Versuch gemacht, mittels Eingrenzungen ein Muster der Rolle Lernbegleiter*innen sowie Lerncoaches zu entwickeln. Dieses sollte Lehrpersonen unterstützen, eine Vorstellung davon zu entwickeln, wie sie den Anspruch, Lernende bei ihren Lernprozessen zu begleiten, professionell erfüllen können. 
+
+
+# Cognitive Apprenticeship
+
+Im Zusammenhang mit dem Thema der Lernbegleitung und speziell auch mit den verschiednene Phasen (Modeling, Coaching, Fading) möchten wir Ihnen den Ansatz des Cognitive Apprenticeship näherbringen [vgl. @seel_encyclopedia_2012; @spielmann_e-portfolio_2017; @tomsett_collins_2021].
+
+Cognitive Apprenticeship ist ein Bildungsansatz, der die traditionelle Handwerkslehre in einen kognitiven, also geistigen Kontext überträgt. Dabei wird der Fokus auf das Erlernen von Denkprozessen und Problemlösungsstrategien durch Beobachtung und Anleitung eines erfahrenen Lehrers gelegt. Dieser Ansatz betont die Bedeutung von praktischen Übungen, die in authentischen Kontexten durchgeführt werden, und ermöglicht es den Lernenden, implizites Wissen durch explizite Lehrmethoden zu erwerben.
+
+### Cognitive Apprenticeship: Überblick 
+
+Cognitive Apprenticeship ist ein umfassender Ansatz, der die soziale Lerntheorie, strukturierte Unterrichtsmethoden und einen Schwerpunkt auf kontextuell sinnvolle Praxis kombiniert, um das Lernen und die Entwicklung von Fähigkeiten zu verbessern.
+Der Ansatz basiert auf sozial-konstruktivistischen Ansätzen zur Anleitung.
+Er betont authentische Aufgaben und Situationen sowie die Interaktionen zwischen erfahreneren und weniger erfahrenen Personen.
+Der Ansatz zielt darauf ab, metakognitive Strategien und bereichsspezifische Problemlösungsfähigkeiten zu entwickeln. Dabei liegt der Fokus auf der Entwicklung kognitiver Fähigkeiten.
+
+### Cognitive Apprenticeship - Konkret: Methoden
+
+1. Modeling: Der Experte führt eine Aufgabe aus, sodass die Schüler*innen die notwendigen Schritte und Denkprozesse beobachten können. 
+2. Coaching: Schüler*innen erhalten Hinweise, Feedback und Erinnerungen, die für die erfolgreiche Erledigung einer Aufgabe relevant sind. 
+3. Scaffolding: Lehrer bieten Unterstützung in dem Masse an, wie es notwendig ist, und reduzieren diese Unterstützung, wenn sich die Fähigkeiten der Schüler*innen verbessern. 
+4. Artikulation: Schülerinnen werden ermutigt, ihre Strategien und ihr Verständnis des Fachgebiets zu verbalisieren. 
+5. Reflexion: Schülerinnen analysieren ihre Leistung, um ihren Lernprozess zu verstehen. 
+6. Exploration: Schüler*innen werden ermutigt, neue Probleme im Fachgebiet zu suchen und zu definieren, um gelernte Fähigkeiten anzuwenden und zu übertragen. 
+
+
+
+### Cognitive Apprenticeship: Theoretischer Hintergrund
+
+Experten besitzen eine umfangreiche Menge an vernetztem Wissen und Strategien, deren Ausführung für Novizen oft mühelos erscheint. Traditioneller Schulunterricht isoliert Informationen oft von relevanten Kontexten, während kognitive Lehrlingsausbildungen den Fokus auf kontextuell eingebettete Praxis von Fähigkeiten legen, was für die Entwicklung von Expertise entscheidend ist. Die Rolle des Lehrers wechselt von einem Informationsanbieter zu einem **Coach** und **Facilitator**, der die Schüler in sinnvolle Problemlösungsaktivitäten einbindet.
+
+
+# Feedback
+
+Schauen Sie sich [den Screencast](https://tube.switch.ch/embed/o2zd2cLpKt?title=hide) ([Slides](screencast_slides/LM_06_02_Feedback.pdf)) zum Thema Feedback an. Forschungen im Bereich der Pädagogik zeigen, dass Feedback von Lehrern eine wesentliche Rolle für das Lernen und Verständnis der Schüler spielt (Hattie, 2013 und Köller, 2012). Solche Rückmeldungen informieren die Schüler darüber, wo sie in ihrem Lernprozess stehen und weisen darauf hin, wie sie ihre Fähigkeiten ausbauen und ihre Leistungen verbessern können (Köller, 2012). Die Schüler erfahren dadurch Unterstützung und bekommen Raum, um eigene Gedanken zu entwickeln. Durch konstruktive und sachliche Rückmeldungen, sowohl mündlich als auch schriftlich, werden die Lern- und Denkprozesse der Schüler weiter gefördert. Diese Hilfestellungen können sich sowohl auf Inhalte als auch auf den Lernprozess beziehen. Solche unterstützenden Rückmeldungen ermöglichen es den Schülern, ihre Herangehensweise oder ihre Antworten zu überdenken (Kobarg & Seidel, 2007).
+
+
+# Peer-Feedback
+
+Im folgenden Video "Austins's Butterfly: Models, Critique and Descriptive Feedback" sehen Sie eine Möglichkeit wie Peer-Feedback geübt werden kann. Schauen Sie sich den Film an und lösen Sie den Verarbeitungsauftrag unten.
+
+:::{#fig-peer-feedback}
+{{< video https://www.youtube.com/watch?v=E_6PskE3zfQ  width="50%">}}
+
+Video zu Peer-Feedback
+
+:::
+
+## Verarbeitungsauftrag 
+
+Beantworten Sie für sich die folgenden Fragen.
+
+* Was gefällt Ihnen an dieser Methode?
+* Was schätzen Sie an dieser Methode als eher kritisch ein?
+* Inwiefern lässt sich diese Methode auf der Sekundarstufe I umsetzen?
+* Wie würden Sie persönlich diese Methode oder auch nur Teile davon umsetzen?
+
+Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.
+
+# Verarbeitungsauftrag
+
+Machen Sie sich nun zu den folgenden Reflexionsfragen Gedanken und notieren Sie wichtige Erkentnisse in Ihrem Beurteilungskonzept:
+
+1. Welche Erfahrungen haben Sie mit Lernbegleitung (als Lehrperson oder als Lernende) bereits gemacht? Wie hat dies Ihre Einstellung zum Unterricht beeinflusst (z.B. in Bezug auf Lernstrategien, Motivation, etc.)?
+2. Wie könnten Sie die Prinzipien des Cognitive Apprenticeship in Ihrer zukünftigen beruflichen Laufbahn anwenden und welche Vorteile erwarten Sie sich davon? Machen Sie ein konkretes Beispiel. 
+3. Denken Sie an ein spezifisches Feedback, das Sie erhalten haben. Wie hat dieses Feedback Ihre Sichtweise auf Ihren eigenen Lernprozess verändert oder beeinflusst? Wie möchten Sie die Feedback-Kultur in Ihrem Unterricht umsetzen?

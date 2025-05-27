@@ -1,0 +1,20 @@
+%% load packages
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{scrlayer-scrpage}
+\usepackage{fontspec}
+
+% Define title formatting
+
+%% Set font sizes for sections and subsections
+\sectionfont{\fontsize{11}{16}\selectfont\bfseries} % Arial 14pt bold
+\subsectionfont{\fontsize{10}{14}\selectfont} % Arial 12pt
+
+\lehead[test1]{\pagemark}
+\cehead[]{}
+\rehead[test 2]{\leftmark}
+\lohead[{\fontsize{8}{10}\selectfont\upshape\textbf{Institut Sekundarstufe I}} \\
+\fontsize{8}{10}\selectfont\upshape Fabrikstrasse 8, CH-3012 Bern \\
+\fontsize{8}{10}\selectfont\upshape T +41 31 309 21 15, contactdesk@phbern.ch, www.phbern.ch
+]{\rightmark}
+\rohead[PHBern]{}

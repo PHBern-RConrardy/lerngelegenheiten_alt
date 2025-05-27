@@ -1,0 +1,92 @@
+---
+title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
+subtitle: Grundlagen für den Unterricht <br> Woche 2
+format: revealjs
+toc-depth: 2
+---
+
+# Lehrplan21
+
+## Qualitätsmerkmal: Umfassend
+
+> Umfassende Beurteilung: Alle Kompetenzbereiche bzw. Handlungsaspekte und die überfachlichen Kompetenzen werden innerhalb eines Schuljahres in die Beurteilung miteinbezogen.
+
+::: blockquote-footer
+@erziehungsdirektiondeskantonsbern2016
+:::
+
+## Lehrplan21 - Webseite
+
+<https://be.lehrplan.ch>
+
+<iframe src="https://be.lehrplan.ch/index.php?code=b|5|0&amp;la=yes" width="100%" height="400" frameborder="0" allowfullscreen>
+
+</iframe>
+
+## Lehrplan21 - Legende {.unlisted}
+
+$\sum_{0}^\infty a_n$
+
+:::{layout="[100]"}
+
+
+![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/100/abb_2.jpg)
+:::
+
+## Grundansprüche
+
+> Grundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.
+
+::: blockquote-footer
+@erziehungsdirektiondeskantonsbern2016
+:::
+
+> Die Beschreibungen der vorangehenden Kompetenzstufen werden im Text der Grundansprüche nicht wiederholt. Sie gehören zu den Grundansprüchen.
+
+::: blockquote-footer
+@erziehungsdirektiondeskantonsbern2016
+:::
+
+## Handlungsaspekte
+
+> Bei der Bewertung von Lernkontrollen stehen Kompetenzen zum Erforschen & Argumentieren meistens nicht im Fokus. Ergebnisse von Trainingsphasen zu Fertigkeiten (z. B. Blitzrechnen, Kopfrechentraining) werden nicht bewertet
+
+::: blockquote-footer
+@erziehungsdirektiondeskantonsbern
+:::
+
+# Auswahl des Lehrstoffs
+
+## Anforderungen an die Lehrperson
+
+-   Sie müssen erkennen können, welcher Lehrstoff im Buch fehlt.
+-   Sie müssen feststellen können, welcher Lehrstoff im Buch schlecht angeordnet ist.
+-   Sie müssen gut angeordneten Lehrstoff des Buchs erkennen können.
+-   Sie müssen in der Lage sein, zusammen mit Kollegen ein für Ihre Schule geeignetes Lehrbuch auszusuchen.
+
+:::blockquote-footer
+@vandormolen1978
+:::
+
+## Concept Map
+
+Erstellen wir eine Concept Map am Beispiel von "linearen Gleichungssystemen", vgl. [MA.1.A.4.m](https://be.lehrplan.ch/101Gt47XGXuJMAcvuXXX8TpzNSxJ9BUaN)
+
+## Aufnahmeprüfungen {.unlisted}
+
+### Auftrag
+
+
+Verschaffen Sie sich einen Überblick über die Anforderungen der Aufnahmeprüfungen Sek I - Sek II.
+
+[Webseite](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html)
+
+# Projekt
+
+## Empfehlung - Inhalt
+
+* Halten Sie das wichtigste Wissen ihres Themengebiets fest.
+* Erstellen Sie eine [Concept Map](https://de.wikipedia.org/wiki/Concept-Map) zu den Inhalten des Leistungsnachweises. Halten Sie fest welches Wissen vorausgesetzt wird, welches Wissen abgefragt wird und auf welches Wissen es vorbereitet.
+
+
+## Bibliographie {.unnumbered .unlisted}

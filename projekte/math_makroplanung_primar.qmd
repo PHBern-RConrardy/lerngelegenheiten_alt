@@ -1,0 +1,20 @@
+---
+format: html
+title: Beispiel einer Makroplanung für die Primarschule
+draft: true
+---
+
+| Klasse        | Inhalt |
+|----|-------------------|
+| 1. Klasse HS  |Zahlenraum 1-20, Addition, Subtraktion        |
+| 1. Klasse FS  |Zahlenraum 1-100, Abakus, halbschriftlich rechnen        |
+| 2. Klasse HS  |Multiplikation, Einmaleins, Division, Abakus, Kombination Strichrechnung und Punktrechnung (Punkt vor Strich)         |
+| 2. Klasse FS  | Halbschriftlich Multiplikation und Division (Zahlen > 10); Zahlenraum bis 100 oder 1000, Zählverfahren (10er Bündel)      |
+| 3. Klasse HS  | Halbschriftlich rechnen bis 1000, Überschlagen       |
+| 3. Klasse FS  | Ähnlichkeit (visuell vergleichen und Häuschen zählen)       |
+| 4. Klasse HS  | Bruchbilder (Rechteck- und Kreismodell)       |
+| 4. Klasse FS  | Kommazahlen, Masseinheiten (mm, m, ...), Division mit Rest       |
+| 5. Klasse HS  | Negative Zahlen (3-7)       |
+| 5. Klasse FS  |        |
+| 6. Klasse HS  | Dreiecke (rechtw., stumpf, spitz)       |
+| 6. Klasse FS  | Kreisberechnungen       |

@@ -1,0 +1,112 @@
+---
+title: "Lineare Funktionen und ihre Bedeutung"
+subtitle: "Entdeckendes Lernen – Von zwei Punkten zur Geradengleichung"
+format: html
+date: 12 06 2024
+
+toc: true
+toc-expand: 3
+
+abstract: > 
+    In einer Doppellektion wird angeschaut, wie man Funktionen findet, welche durch mehr als 2 Punkte gehen.
+  
+
+copyright: "Diese Lernumgebung wurde mehrheitlich von einer generativen KI geschrieben."
+
+---
+
+## Lernziele
+
+Wir
+
+- rechnen zwischen Punkten und Geraden um.
+- analysieren Ansätze für Funktion auf Basis von mehr als zwei Punkten.
+
+::: {#exr-1}
+
+Zeichnen Sie folgende Punkte in ein Koordinatensystem:
+
+$P_1=(1,3) \quad P_2 =(-3,2) \quad P_3=(5,5)$
+
+$P_4=(0,4) \quad $
+
+1. Zeichnen Sie eine Gerade welche $P_1, P_2$ und $P_3$ so gut wie möglich annähert.
+2. Zeichnen Sie eine Gerade welche $P_4, P_5$ und $P_6$ so gut wie möglich annähert.
+
+Vergleichen Sie das Vorgehen untereinander.
+
+:::
+
+## Theorie: Die lineare Funktion
+
+Eine **lineare Funktion** hat die Form $y = mx + b$, wobei:
+
+- $m$: die **Steigung** – gibt an, wie stark und in welche Richtung die Gerade geneigt ist.
+- $b$: der **$y$-Achsenabschnitt** – beschreibt, wo die Gerade die $y$-Achse schneidet.
+
+Um die Gleichung einer Geraden zu bestimmen, benötigt man mindestens zwei Punkte. Die Steigung berechnet sich aus:
+
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
+
+---
+
+## Arbeitsblatt 1: Die Geradengleichung aus zwei Punkten
+
+**Name:** ______________________  
+**Datum:** _____________________  
+
+### Aufgabe 1: Punkte zeichnen und verbinden  
+1. Zeichne die Punkte $A(2, 3)$ und $B(5, 7)$ in das Koordinatensystem.  
+2. Verbinde die Punkte mit einer Geraden.
+
+### Aufgabe 2: Steigung berechnen  
+Nutze die Formel $m = \frac{y_2 - y_1}{x_2 - x_1}$, um die Steigung zu berechnen:  
+- Punkt $A(2, 3)$: $x_1 = 2$, $y_1 = 3$  
+- Punkt $B(5, 7)$: $x_2 = 5$, $y_2 = 7$
+
+Berechnung:  
+$m = \frac{7 - 3}{5 - 2} = \_\_\_$
+
+### Aufgabe 3: $y$-Achsenabschnitt bestimmen  
+Setze die Koordinaten eines Punktes und die berechnete Steigung in die Geradengleichung $y = mx + b$ ein, um $b$ zu finden:  
+- $y = \_\_\_$, $m = \_\_\_$, $x = \_\_\_$  
+
+Rechnung:  
+$b = \_\_\_$
+
+Schreibe die Gleichung der Geraden:  
+$y = \_\_\_x + \_\_\_$
+
+---
+
+## Arbeitsblatt 2: Datenexperiment – Lineare Zusammenhänge entdecken
+
+**Name:** ______________________  
+**Datum:** _____________________  
+
+### Aufgabe: Daten sammeln und analysieren  
+1. Miss die Abhängigkeit zwischen der Zeit und der zurückgelegten Strecke bei einem Laufexperiment.  
+2. Notiere mindestens fünf Messwerte in einer Tabelle:
+
+| Zeit (s) | Strecke (m) |
+|----------|-------------|
+|          |             |
+|          |             |
+|          |             |
+
+3. Zeichne die Messpunkte in ein Koordinatensystem.
+
+4. Finde die Geradengleichung, die die Punkte möglichst gut beschreibt.
+
+5. Überlege: Gibt es Punkte, die nicht auf der Geraden liegen? Warum?
+
+---
+
+## Reflexion und Ausblick
+
+- Wo begegnen euch lineare Zusammenhänge im Alltag?  
+- Wie könnte ein Computer die "beste Gerade" berechnen?  
+
+**Vorschau:** In der nächsten Lektion lernen wir die Grundlagen der linearen Regression mit Hilfe von Technologie.

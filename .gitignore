@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+.DS_Store
+
+.quarto
+_publish.yml
+
+/docs

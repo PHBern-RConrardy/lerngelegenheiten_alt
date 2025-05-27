@@ -1,0 +1,93 @@
+---
+format: html
+title: Noten und Beurteilungsberichte
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  Im kommenden Lernmodul geht es um die Frage, wie das Zeugnis im Kanton Bern (Dokumentenmappe mit Beurteilungsbericht) genau aussieht, welche Formulare es enthalten kann und wie man ganz konkret Noten macht und einen Notenmassstab festlegt.
+
+  Bevor Sie sich allerdings mit diesen Fragen beschäftigen, ist es wichtig, dass Sie sich in diesem Lernmodul auch grundsätzlich mit der Frage nach der Sinnhaftigkeit, Notwendigkeit, Brauchbarkeit und der Aussagekraft von Noten auseinandersetzen. Das Lernmodul beginnt deshalb mit der «Notenfrage».
+  
+---
+::: callout-note
+# Ziele des Lernmoduls
+Die Studierenden ...
+
+* setzen sich mit der Sinnhaftigkeit, Brauchbarkeit, Notwendigkeit und Aussagekraft von Noten im Allgemeinen auseinander.
+* verschaffen sich einen Überblick über die Inhalte der AHB (Kapitel 5.2).
+* kennen die wichtigsten beurteilungsrelevanten Formulare zuhanden der Dokumentenmappe (mit Beurteilungsbericht).
+* kennen verschiedene Möglichkeiten konkret Noten zu machen (Notenmassstäbe bzw. Notenschlüssel).
+:::
+
+# Notenfrage
+Für eine kritische Auseinandersetzung mit dem Konzept der Noten in unserem Schulsystem ist es zwingend notwendig, dass Sie sich etwas Zeit nehmen und sich damit beschäftigen. Wenn schulische Noten weder reliabel, noch valide und schon gar nicht objektiv sein sollen, stellt sich schon die Frage, weshalb wir dennoch daran festhalten. Es muss ganz offensichtlich auch Gründe für den Einsatz von Noten geben.
+
+::: {.callout-caution collapse="true"}
+## Auftrag auf LearningView
+
+Aber wo stehen Sie? Wie sehen Sie das? Wie positionieren Sie sich z.B. in Bezug auf die folgenden beiden Aussagen?
+
+*Noten sind aussagekräftig und sind deshalb für die Schule und die Gesellschaft unabdingbar!*
+
+*Noten sind subjektiv und nicht aussagekräftig und gehören deshalb abgeschafft!*
+
+:::
+
+### Auftrag:
+
+1. Sichten Sie die unten zur Verfügung gestellten Texte  [@betschert_es_1997; @dzelili_noten_2009; @jurgens_zensurengebung_2008; @kronig_leistungsbewertung_2007; @kronig_schulnoten_2009; @nolte_schule_2021; @oelkers_sind_2023; @comtesse_noten_2021; @winter_noten_2018]. Analysieren Sie diese im Hinblick auf Argumente *für* oder *gegen* Noten, *für* oder *gegen* Tests oder Prüfungen.
+2. Sammeln und halten Sie alle Pro- sowie Kontra-Argumente fest, die Sie z.B. im Rahmen eines Streitgesprächs überzeugend finden oder als haltbar erachten.
+3. Hören Sie sich nun die Argumentationen von Philippe Wampfler in den beiden unten stehendem Videos zur Frage an, [«warum man keine Noten und keine Prüfungen machen sollte»](https://phbern365.sharepoint.com/:v:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/Philippe%20Wampfler%202022%20-%20Von%20Noten%20wegkommen.mp4?csf=1&web=1&e=CfomRk) bzw. [«von Noten wegkommen»](https://phbern365.sharepoint.com/:v:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/Philippe%20Wampfler%202022%20-%20Von%20Noten%20wegkommen.mp4?csf=1&web=1&e=CfomRk).
+4. Lassen Sie sich von diesen Argumenten provozieren und herausfordern oder dann bestärken und überzeugen. Versuchen Sie dort, wo Sie nicht einverstanden sind, argumentativ zu entgegnen, zu entkräftigen und dort, wo Sie einverstanden sind, zu untermauern oder zu bekräftigen. Ergänzen Sie damit Ihre Pro-Kontra-Liste.
+5. Entwickeln Sie davon ausgehend eine eigene, persönliche Haltung oder Stellungnahme zur Notenfrage, die Sie auch Eltern sowie Kolleginnen und Kollegen gegenüber überzeugend und differenziert vertreten und abschliessend auch in Ihr Beurteilungskonztept integrieren können.
+
+# Gütekriterien
+
+Wenn in der Schule Leistungen und Kompetenzen überprüft, gemessen und evaluiert werden, dann ist die Beachtung von Testprinzipien oder Testgütekriterien bei der Erstellung, Druchführung und Bewertung von Beurteilungsanlässen unerlässlich. Im [folgenden Screencast](https://tube.switch.ch/embed/Je0H4VW3sh?title=hide) ([Slides](screencast_slides/Guetekriterien.pdf)) werden die wichtigsten Gütekriterien erläutert.
+
+# Überblick über die AHB
+
+In [diesem Screencast](https://tube.switch.ch/embed/fIzEcKR1Ta?title=hide) gehen wir auf einige für das vorliegende Thema wichtige Stellen der «Allgemeinen Hinweise und Bestimmungen» [@erziehungsdirektion_des_kantons_bern_lehrplan_2016-1, S.3-48] ein.
+
+# Verarbeitungsauftrag
+
+Sichten Sie die unten zur Verfügung gestellten [7 Beurteilungsformulare](https://phbern365.sharepoint.com/:f:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/LM_04_Noten%20und%20Beurteilungsberichte?csf=1&web=1&e=coa8ju).
+
+Beantworten Sie für sich die folgenden Fragen:
+
+* Welche Bedeutung haben diese Formulare für Ihre zukünftige Tätigkeit als Lehrperson?
+* Welche Bedeutung haben sie für Klassenlehrpersonen?
+* Welche Bedeutung haben sie für Fachlehrpersonen?
+* Welche Bedeutung haben sie für Eltern und Schülerinnen und Schüler?
+
+Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.
+
+Da es sich beim sechsten Formular um eines handelt, das fachspezifisch auszufüllen ist, bietet die Bildungs- und Kulturdirektion des Kantons Bern (BKD) diese auf [ihrer Homepage pro Fach](https://www.erz.be.ch/erz/de/index/kindergarten_volksschule/kindergarten_volksschule/beurteilung-lehrplan-21/dokumentationen-zur-summativen-beurteilung.html) an.
+
+Zusätzlich zum **leeren Formular** ist für jedes Fach auch eine **Illustrierte Lernsituation** sowie ein **Musterbeispiel** eines ausgefüllten Formulars zugänglich. Für die Fächer NT, WAH und ERG ist keine Illustration und auch kein Musterbeispiel vorhanden. Für diese Fächer gelten exemplarisch die Illustration und das Musterbeispiel für RZG.
+
+# Dokumentenmappe
+
+Damit Sie sich eine Vorstellung darüber machen können, wie die soeben analysierten Formulare den Schülerinnen und Schülern im Kanton Bern am Ende eines Schuljahres abgegeben werden, stellen wir Ihnen in [diesem Screencast](https://tube.switch.ch/embed/2025f6e8?title=hide) die neue «Dokumentenmappe» (Zeugnis) vor.
+
+
+# Noten machen konkret
+
+In [diesem Slidecast](https://tube.switch.ch/embed/FXV3SvLHWe?title=hide) diskutieren wir verschiedene Möglichkeiten, wie Notenmassstäbe einzelner Lernkontrollen oder Produktbewertungen zustande kommen können.

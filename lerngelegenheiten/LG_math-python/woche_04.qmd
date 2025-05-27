@@ -1,0 +1,69 @@
+---
+format: html
+title: Übungen zu Listen
+---
+::: {#exr-line}
+## Quadratzahlen erstellen
+
+Schreiben Sie ein Programm, das eine Liste der Quadratzahlen von 1 bis n erstellt.
+:::
+::: {#exr-line}
+## Mittelwert berechnen
+
+Schreiben Sie ein Programm, das den Mittelwert einer Liste von Zahlen berechnet.
+:::
+::: {#exr-line}
+## Maximum und Minimum finden
+
+Schreiben Sie ein Programm, das das Maximum und Minimum in einer Liste von Zahlen findet.
+:::
+::: {#exr-line}
+## Primzahlen in einer Liste
+
+Schreiben Sie ein Programm, das alle Primzahlen in einer gegebenen Liste findet.
+:::
+::: {#exr-line}
+## Sortieren einer Liste
+
+Schreiben Sie ein Programm, das eine Liste von Zahlen in aufsteigender Reihenfolge sortiert (ohne eingebaute Sortierfunktionen).
+:::
+::: {#exr-line}
+## Teiler einer Zahl finden
+
+Schreiben Sie ein Programm, das alle Teiler einer gegebenen Zahl in einer Liste speichert.
+:::
+::: {#exr-line}
+## Liste von Zufallszahlen
+
+Schreiben Sie ein Programm, das eine Liste von n zufälligen Zahlen zwischen 1 und 100 generiert.
+:::
+::: {#exr-line}
+## Gleichheit zweier Listen prüfen
+
+Schreiben Sie ein Programm, das prüft, ob zwei Listen die gleichen Elemente enthalten (unabhängig von der Reihenfolge).
+:::
+::: {#exr-line}
+## Palindromzahlen finden
+
+Schreiben Sie ein Programm, das alle Palindromzahlen in einer gegebenen Liste findet.
+:::
+::: {#exr-line}
+## Vorkommen von Elementen zählen
+
+Schreiben Sie ein Programm, das zählt, wie oft jedes Element in einer Liste vorkommt.
+:::
+::: {#exr-line}
+## Pythagoreische Tripel
+
+Schreiben Sie ein Programm, das alle Pythagoreischen Tripel $(a, b, c)$ mit $a, b, c \leq n$ findet.
+:::
+::: {#exr-line}
+## Elementweise Addition zweier Listen
+
+Schreiben Sie ein Programm, das zwei Listen gleicher Länge elementweise addiert.
+:::
+::: {#exr-line}
+## Kleinste und größte Differenz
+
+Schreiben Sie ein Programm, das die kleinste und größte Differenz zwischen zwei aufeinanderfolgenden Elementen in einer Liste berechnet.
+:::

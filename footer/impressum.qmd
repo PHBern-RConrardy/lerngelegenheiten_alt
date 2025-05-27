@@ -1,0 +1,14 @@
+---
+title: "Impressum"
+format: html
+---
+
+Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss [Art. 322 StGB](https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_322).
+
+Auf ein formelles Impressum wird verzichtet.
+
+Soweit nicht anders gekennzeichnet, stehen alle Inhalte auf dieser Website unter der Lizenz welche in `LICENSE` im Repository zu finden ist, namentlich der CC BY-SA 4.0 Lizenz.
+
+[University of Teacher Education Bern](https://phbern.ch), [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
+
+Die Marke PHBern sind von der vorliegenden Lizenz unberührt.

@@ -1,0 +1,77 @@
+---
+title: "Structural Equation Model Diagram"
+format: html
+---
+```{mermaid}
+
+flowchart LR
+
+  %% Latent Variables
+total1["Total1"]
+procedural1["Procedural1"]
+conceptual1["Conceptual1"]
+transfer1["Transfer1"]
+
+total2["Total2"]
+procedural2["Procedural2"]
+conceptual2["Conceptual2"]
+transfer2["Transfer2"]
+
+  %% Relationships between Latent Variables
+total1 --> procedural1
+  total1 --> conceptual1
+  total1 --> transfer1
+
+total2 --> procedural2
+  total2 --> conceptual2
+  total2 --> transfer2
+
+  %% Regressions
+mentl_ffrt_tg1["Mental Effort TG1"]
+engagement_tg1["Engagement TG1"]
+Note["Note"]
+SchulniveSpzSk["Schulnive Special"]
+SchulniveauSek["Schulniveau Sek"]
+Schlklss8["8th Class"]
+Schlklss9["9th Class"]
+GeschlechtF["Gender Female"]
+
+mentl_ffrt_tg2["Mental Effort TG2"]
+engagement_tg2["Engagement TG2"]
+
+  %% Arrows for total1 regressions
+total1 -->|0.002| mentl_ffrt_tg1
+total1 -->|-0.001| engagement_tg1
+total1 -->|0.038| Note
+total1 -->|0.144| SchulniveSpzSk
+total1 -->|0.025| SchulniveauSek
+total1 -->|-0.018| Schlklss8
+total1 -->|-0.050| Schlklss9
+total1 -->|-0.008| GeschlechtF
+
+  %% Arrows for total2 regressions
+total2 -->|0.017| mentl_ffrt_tg1
+total2 -->|0.008| engagement_tg1
+total2 -->|-0.022| mentl_ffrt_tg2
+total2 -->|0.002| engagement_tg2
+total2 -->|0.121| Note
+total2 -->|0.166| SchulniveSpzSk
+total2 -->|0.033| SchulniveauSek
+total2 -->|0.052| Schlklss8
+total2 -->|0.030| Schlklss9
+total2 -->|-0.002| GeschlechtF
+
+  %% Covariances
+total1 <-->|0.014| total2
+
+  %% Variances
+classDef variance fill:#f9f,stroke:#333,stroke-width:2px;
+procedural1:::variance
+conceptual1:::variance
+transfer1:::variance
+procedural2:::variance
+conceptual2:::variance
+transfer2:::variance
+```
+
+This diagram captures the latent variable relationships, regression pathways, covariances, and variances for the structural equation model described.

@@ -1,0 +1,3 @@
+Das Konzept des adaptiven Feedbacks im Mathematikunterricht fördert das Lernen, indem es gezielt auf individuelle Lösungsstrategien eingeht (Mason & Evans, 2023). Eine experimentelle Studie mit 200 Sekundarschüler*innen untersuchte dessen Wirksamkeit.
+
+Das Experiment verglich zwei Feedback-Modelle: Die Experimentalgruppe erhielt adaptives, auf Fehlvorstellungen eingehendes Feedback, während die Kontrollgruppe standardisiertes Feedback bekam. Beide Gruppen bearbeiteten identische Aufgaben unter gleichen Bedingungen. Zur Sicherung der internen Validität war die Bearbeitungszeit identisch. Eine Folgestudie soll die externe Validität erhöhen, indem das adaptive Feedback in digitalen Lernumgebungen zu Hause getestet wird.

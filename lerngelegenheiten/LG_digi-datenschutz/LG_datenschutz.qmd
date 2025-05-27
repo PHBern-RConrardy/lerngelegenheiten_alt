@@ -1,0 +1,60 @@
+---
+title: "Digitalität und Datenschutz"
+format: html
+categories:
+  - Modul - Summative und prognostische Beurteilung
+  - Label - Digitalität
+toc-depth: 3
+draft: false
+---
+
+::: callout-warning
+Diese LG hat nur einen Präsenztermin. Es wird erwartet, dass Sie die volle Zeit vor Ort sind, den Vorbereitungsauftrag (Lernmodul) vollständigt erledigt haben und aktiv mitarbeiten.
+
+Bitte klären Sie Ihre Verfügbarkeit für dieses Datum möglichst früh ab.
+:::
+
+## Organisatorisches
+
+| Teil | Thema       |            Vorbereitung            |            Slides            |
+|:----:|:------------|:----------------------------------:|:----------------------------:|
+|  1   | Datenschutz | [Lernmodul](LM_datenschutz_01.qmd) | [Slides](slides_datenschutz) |
+
+: {.striped .hover .table-sm}
+
+### Learning Outcomes des Seminars
+
+Die Studierenden ...
+
+-   ... kennen die für Lehrpersonen relevanten, rechtlichen Rahmenbedingungen im Zusammenhang mit Datenschutz im Kanton Bern.
+-   ... erklären die besonderen Herausforderungen und Verantwortungen in Bezug auf digitale Personendaten.
+-   ... leiten alltagstaugliche Methoden der digitalen Datenverarbeitung innerhalb des Lehrauftrags ab.
+-   ... erklären die Wichtigkeit des Datenschutzes in einer digitalisierten Welt.
+
+### Intention des Seminars
+
+Das Seminar vermittelt den Lernenden eine sachliche Grundlage für den Umgang mit Personendaten in ihrem zukünftigen Arbeitsalltag. Die Lernenden sehen Datenschutz nicht als Hemmnis für die Verarbeitung von Personendaten sondern als notwendige Bedingung für letzteres.
+
+## Vorbereitungsauftrag
+
+### Inhalt & Unterlagen
+
+-   [Weitergabe von Personendaten in der Schule](https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/bss/schulamt/downloads-1/xy/weitergabe-personendaten.pdf/download)
+-   [Datenschutz (Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter)](https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/ueberblick/datenschutz.html)
+-   [Leitfaden Datenschutz in den Volksschulen im Kanton Bern](https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/schulleitungen/datenschutz-in-der-schule/leitfaden/leitfaden-datenschutz-d.pdf)
+-   [TTIM Beitrag zum neuen Datenschutzgesetz](https://ttim.phbern.ch/2023/kompetent-in-sachen-datenschutz-hilfreiches-material-fuer-lehrpersonen/comment-page-1/#comment-33)
+
+## Präsenzlektion
+
+### Lernziele
+
+-   Wir verstehen die Hürden im Umgang mit Datenschutzrecht in der Berufsausübung anhand von Beispielen.
+-   Wir erklären allgemeine Lösungsstrategien für Lehrpersonen beim Umgang mit Datenschutzrecht.
+-   Wir sind gewillt im Unterricht auf die Problematik des Datenschtzes aufmerksam zu machen.
+
+### Inhalte
+
+-   [Präsentation](slides_datenschutz.qmd)
+-   <https://www.lehrperson-bern.ch/>
+-   [Lehrmittel Edöb](https://www.edoeb.admin.ch/dam/edoeb/de/Dokumente/datenschutz/lehrmittel_datenschutz_basismodul.pdf.download.pdf/Lehrmittel%20Basismodul%20DE.pdf)
+-   [OINF](https://oinf.ch/kurs/informationsgesellschaft/datenschutz/)

@@ -1,0 +1,75 @@
+---
+title: "Lineare Funktionen und Geradengleichungen"
+subtitle: "Doppellektion 8. Klasse"
+author: "Mathematik"
+format: revealjs
+---
+
+## Lernziele
+
+- **Verstehen**: Zusammenhang zwischen Punkten und Geraden erkennen.  
+- **Anwenden**: Geradengleichung $y = mx + b$ bestimmen.  
+- **Entdecken**: Bedeutung von Steigung $m$ und Achsenabschnitt $b$.  
+- **Übertragen**: Einblick in lineare Regression.
+
+---
+
+## Theorie: Lineare Funktionen
+
+- Geradengleichung: $y = mx + b$  
+  - $m$: Steigung  
+  - $b$: $y$-Achsenabschnitt  
+
+- Steigung berechnen:  
+\[
+m = \frac{y_2 - y_1}{x_2 - x_1}
+\]
+
+- Achsenabschnitt $b$:  
+Setze einen Punkt und die Steigung in $y = mx + b$ ein.
+
+---
+
+## Aufgabe 1: Punkte verbinden
+
+**Gegeben:** $A(2, 3)$ und $B(5, 7)$  
+1. Zeichne die Punkte in ein Koordinatensystem.  
+2. Berechne die Steigung:  
+   \[
+   m = \frac{y_2 - y_1}{x_2 - x_1}
+   \]  
+3. Bestimme $b$ und schreibe die Geradengleichung.  
+
+---
+
+## Aufgabe 2: Datenexperiment
+
+**Fragestellung:** Wie hängt Zeit und Strecke zusammen?  
+1. Messe Daten mit deiner Gruppe:  
+   - Tabelle erstellen (Zeit/Strecke).  
+2. Zeichne die Punkte in ein Koordinatensystem.  
+3. Finde eine passende Geradengleichung.  
+4. Reflexion: Warum liegen manche Punkte nicht exakt auf der Gerade?  
+
+---
+
+## Lineare Regression
+
+- **Definition**: Verfahren zur Bestimmung der "besten" Gerade.  
+- **Anwendung**: Vorhersagen, z. B. Preis- oder Geschwindigkeitsberechnung.  
+
+**Beispiele:**  
+- Zusammenhang von Gewicht und Preis (Markt).  
+- Zeit vs. zurückgelegte Strecke (Experiment).
+
+---
+
+## Reflexion und Ausblick
+
+- **Frage:** Wo begegnen dir lineare Zusammenhänge im Alltag?  
+- **Nächste Lektion:** Lineare Regression mit Technologie (z. B. Geogebra).
+
+---
+
+## Danke für eure Aufmerksamkeit!
+**Fragen?**

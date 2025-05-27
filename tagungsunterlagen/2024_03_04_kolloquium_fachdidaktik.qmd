@@ -1,0 +1,399 @@
+---
+title: "How to flip the right way? Fail, flip, fix and feed in practice."
+subtitle: "Kolloquium Fachdidaktik"
+format: revealjs
+
+date: 04 03 2024
+toc-depth: 1
+author:
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    email: richard.conrardy@phbern.ch
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+---
+
+# Promotionsprojekt
+
+## Umriss
+
+-   [Promotionsprojekt](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)
+
+-   Fakultät für Natur- und Gesellschaftswissenschaften
+
+-   Mitgliedschaft: [Graduate School PH Heidelberg](https://www.ph-heidelberg.de/graduate-school/ueber-die-graduate-school/)
+
+-   Kumulative Promotion, 3 Artikel
+
+-   Betreuer: [Prof. Dr. Christian Spannagel](https://www.ph-heidelberg.de/mathematik/personen/lehrende/spannagel/)
+
+![](https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg){.absolute top="000" right="00" width="200"}
+
+## Geplanter Ablauf
+
+```{mermaid}
+gantt
+    title Ablauf
+    dateFormat YYYY-MM-DD
+    section Vorbereitung
+    section Doktorarbeit
+        Exposé: e0, 2023-01-08, 240d
+        Promotionsvereinbarung: pv, 2023-07-01, 30d
+        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d
+        Probedurchlauf: pdl, 2024-04-01,14d
+        Experiment 1          :  e1, 2024-05-01, 60d
+        Experiment 2    : e2, 2025-02-01, 120d
+        Experiment 3: e3, 2025-08-01, 110d
+        1. Artikel : art1, 2025-05-01, 365d
+        2. Artikel : art2, 2026-02-01, 365d
+        3. Artikel : art3, 2027-02-01, 365d
+        🎉🍾: cha, 2028-03-01,1d
+        Dissertationsförderung: diss, 2025-08-01, 365d
+
+    section Projekt
+        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d
+        Anschubfinanzierung: a1, 2024-08-01, 365d
+        Antrag Projekt: p0, 2025-01-01, 60d
+        Projekt: p1, 2026-08-01, 1100d
+        
+    section Innovationspool
+        Antrag Innovationspool: i0, 2023-02-01, 30d
+        Innovationspoolprojekt: i1, 2024-08-01, 365d
+        Treffpunkt Hochschuldidaktik: i2, 2024-03-01, 5d
+        Poster: i3, 2025-08-01, 5d
+```
+
+# Productive failure
+
+## Einordnung: Productive failure
+
+-   First Paper: @kapur_productive_2008
+-   Design: @kapur_designing_2012
+-   Fidelity Criteria: @sinha_when_2021
+-   Deutschsprachig: @loibl_knowing_2014
+-   Beyond STEM: @nachtigall_when_2020
+
+## Einordnung
+
+![](images/space_of_learning_designs.png){width="100%"}
+
+::: quelle
+@sinha_when_2021 [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+:::
+
+## Design
+
+-   2 Phasen:
+    -   Phase 1: generation and exploration phase
+    -   Phase 2: consolidation phase
+
+::: quelle
+@kapur_designing_2012
+:::
+
+-   Typischer Unterrichtsinhalt:
+
+    -   Standardabweichung, bzw. Varianz
+
+::: quelle
+vgl. @kapur_productive_2008, @kapur_productive_2014, @kapur_preparatory_2015, @loibl_knowing_2014, @brand_students_2023, @hartmann_productive_2022, @hartmann_examples_2020
+:::
+
+## Erhobene Variablen
+
+::: columns
+::: column
+-   math ability
+-   prior knowledge
+-   number of solutions
+-   mental effort
+-   engagement
+:::
+
+::: column
+-   procedural knowledge
+-   conceptual understanding
+-   transfer
+:::
+:::
+
+::: quelle
+vgl. @kapur_preparatory_2015
+:::
+
+## Effekte individuell
+
+conceptual knowledge: $p<0.001$, $\eta^2=0.26$
+
+::: quelle
+@hartmann_examples_2020
+:::
+
+conceptual understanding: $p<0.001$, $d = 2.00$
+
+transfer $p<0.001$, $d=1.52$
+
+::: quelle
+@kapur_productive_2014
+:::
+
+transfer $p < 0.005$, $d = 0.67$
+
+::: quelle
+@kapur_preparatory_2015
+:::
+
+:::quelle
+
+| Effektstärken | klein | mittel | gross |
+|---------------|-------|--------|-------|
+| Cohens $d$    | 0.2   | 0.5    | 0.8   |
+| Hedges $g$    |  0.05     |  0.15      |  0.25     |
+| $\eta^2$      | 0.01  | 0.06   | 0.14  |
+|               |       |        |       |
+
+:::
+
+:::quelle
+[vgl. @cohen_power_1992]
+:::
+
+## Collaboration
+
+#### Unterschied kollaborativ - individuell
+
+Primar (quasi-experimentell): $p=0.28$, $\eta^2_p=0.005$
+
+::: quelle
+@mazziotti_probing_2019, p.2
+:::
+
+Sekundarklassen (quasi-experimentell): $p = 0.437$
+
+::: quelle
+@brand_students_2023
+:::
+
+## Boundary conditions?
+
+> there is evidence that element interactivity provides an explanatory variable for the presence or absence of a problem-solving first advantage.
+>
+> ::: quelle
+> @ashman_problem-solving_2020, p.242f
+> :::
+
+> the beneficial effect \[...\] only comes to bear if the teacher compares typical student solutions and contrasts them to the canonical solution during instruction
+>
+> ::: quelle
+> @loibl_knowing_2014, p.84
+> :::
+
+# Flipped Classroom
+
+## Flipped Classroom - a brief history
+
+-   *classroom flip*: @baker_classroom_2000
+-   *inverted classroom*: @lage_inverting_2000
+-   **Ursprung**: @bergmann_flipped_2011 und @tucker_flipped_2012
+-   kein präzises Modell: @lo_toward_2017, @tucker_flipped_2012
+-   **Metastudie**: @kapur_fail_2022
+
+## Definition *flipped class*
+
+> The traditional definition of a flipped class is:
+>
+> -   Where videos take the place of direct instruction
+> -   This then allows students to get individual time in class to work with their teacher on key learning activities.
+> -   It is called the flipped class because what used to be classwork (the "lecture" is done at home via teacher-created videos and what used to be homework (assigned problems) is now done in class.
+
+::: quelle
+@bergmann_flipped_2011
+:::
+
+## Definition *flipped classroom*
+
+> set of pedagogical approaches that:
+>
+> (1) move most information-transmission teaching out of class
+>
+> (2) use class time for learning activities that are active and social and
+>
+> (3) require students to complete pre- and/or post-class activities to fully benefit from in-class work.
+>
+> ::: quelle
+> @abeysekera_motivation_2015
+> :::
+
+## Definition *flipped learning*
+
+2 Phasen
+
+> 1.  getting students to learn basic content online and prior to class.
+> 2.  make use of the freed-up in-class time to clarify students’ understandings of the concept and design learning strategies that will enable students to engage deeply with the targeted concept.
+>
+> ::: quelle
+> @kapur_fail_2022
+> :::
+
+## Effekte - Flipped Classroom
+
+-   46 meta-analyses, 173 studies
+-   Von $d=0.25$ bis $d=2.29$ in meta-analysis.
+-   Asian: $g=0.75$, Western: $g=0.53$
+-   Math: $g=0.26$
+
+presence of publication bias on effect size level
+
+There need to be at least 6,424 unpublished studies with a mean of 0; however, to overturn the claim that flipped learning has a positive impact on student learning.
+
+::: quelle
+@kapur_fail_2022
+:::
+
+## Key findings
+
+1.  quality of implementation \[...\] not consistent
+2.  greatest impact \[...\] in-class included a lecture
+3.  effects on learning \[...\] due to active learning
+4.  problem-solving prior to a lecture \[...\] can be effective
+
+::: quelle
+@kapur_fail_2022
+:::
+
+# 4F-Modell <br> Fail, flip, fix and Feed
+
+## 4F-Modell
+
+1.  [Fail]{style="color: blue; font-weight: bold;"} - diagnose, check, and understand what was and was not understood
+2.  [Flip]{style="text-decoration: underline;color: magenta; font-weight: bold;"} - pre-exposure to the ideas in the upcoming class (as simple as providing a video of the class)
+3.  [Fix]{style="color: blue; font-weight: bold;"} - misconceptions are explored and opportunity to re-engage in learning the ideas
+4.  [Feed]{style="color: blue; font-weight: bold;"} - feedback to the students and instructor
+
+::: quelle
+@kapur_fail_2022
+:::
+
+::: quelle
+[synchron]{style="color: blue; font-weight: bold;"}
+
+[asynchron]{style="text-decoration: underline;color: magenta; font-weight: bold;"}
+:::
+
+## Leitfrage:
+
+Is the 4F-model flipped the right way?
+
+## Alternative Model
+
+1.  [Fail]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}
+2.  [Instruct]{style="color: blue; font-weight: bold;"}
+3.  [Fix]{style="color: blue; font-weight: bold;"}
+4.  [Feed]{style="color: blue; font-weight: bold;"}
+
+::: quelle
+[synchron]{style="color: blue; font-weight: bold;"}
+
+[asynchron]{style="text-decoration: underline;color: magenta; font-weight: bold;"}
+:::
+
+# Untersuchungs-design
+
+## Eine Woche vor dem ersten Tag der Untersuchung
+
+| Min. | Gruppe 1 | Gruppe 2 |
+|------|----------|----------|
+| 20   | Pretest  | Pretest  |
+
+Es findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt.
+
+## Erster Tag der Untersuchung
+
+Klasse wird in 2 Gruppen räumlich getrennt.
+
+| Min. | Gruppe 1 (4F)                                                                  | Gruppe 2 (Alt)                                                                      |
+|-----------------|----------------------------|----------------------------|
+| 40   | [Fail koll.]{style="color: blue; font-weight: bold;"}                          | [Fail ind.]{style="text-decoration: underline;color: magenta ; font-weight: bold;"} |
+| 5    | Mental effort                                                                  | Mental effort                                                                       |
+| 20   | [Flip]{style="text-decoration: underline;color: magenta ; font-weight: bold;"} | [Instruct]{style="color: blue; font-weight: bold;"}                                 |
+| 5    | mental effort                                                                  | mental effort                                                                       |
+| 20   | Posttest                                                                       | Posttest                                                                            |
+
+::: quelle
+[synchron]{style="color: blue; font-weight: bold;"}
+
+[asynchron]{style="text-decoration: underline;color: magenta; font-weight: bold;"}
+:::
+
+## Zweiter Tag der Untersuchung
+
+Klasse wird zusammen unterrichtet.
+
+| Min. | Gruppe 1 (4F) | Gruppe 2 (Alt) |
+|------|---------------|----------------|
+| 20   | Fix           | Fix            |
+| 5    | mental effort | mental effort  |
+| 40   | Feed          | Feed           |
+| 5    | mental effort | mental effort  |
+| 20   | Posttest      | Posttest       |
+
+## Forschungsfragen und Hypothesen
+
+1.  Students in the 4F-model score higher in engagement than the non-flipped model.
+2.  Students in the 4F-model score higher on (a) procedural fluency and (b) concept knowledge than the alternative model.
+
+# Weitere 4-Phasen-Modelle
+
+## Padua-Modell
+
+4-Funktionen im Lernzyklus
+
+1.  Problemlösendes Aufbauen
+2.  Durcharbeiten
+3.  Üben und Wiederholen
+4.  Anwenden
+
+::: quelle
+@aebli_zwolf_1983 ?
+:::
+
+## LUKAS-Modell
+
+-   Konfrontationsaufgaben
+-   Erarbeitungsaufgaben
+-   Vertiefungs- und Übungsaufgaben
+-   Transfer- und Syntheseaufgaben
+
+::: quelle
+@luthiger_kompetenzforderung_2018
+:::
+
+## AVIVA-Modell
+
+5-Phasen
+
+1.  Ankommen und einstimmen
+2.  Vorwissen aktivien
+3.  Informieren
+4.  Verarbeiten
+5.  Auswerten
+
+::: quelle
+@stadeli_aviva_2020
+:::
+
+# Fragen
+
+## Fragen {.unlised}
+
+### Meinerseits:
+
+-   Ist es sinnvoll Padua, Lukas, usw. mitzuerwähnen?
+-   Wieviel Theorie braucht ein Paper?
+-   Anregungen zu zukünftigen Designs.
+
+### Eurerseits?
+
+## Bibliographie {.unlisted .scrollable}

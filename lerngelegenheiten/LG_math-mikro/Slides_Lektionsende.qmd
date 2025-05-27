@@ -1,0 +1,18 @@
+---
+format: revealjs
+title: Wie beende ich eine Lektion?
+---
+
+## {.incremental}
+
+* Zu vermeiden
+    * Zufall
+
+* Vorschläge:
+    * Reflektion (Exit-Tickets)
+    * Post-it (Was ist gut gelaufen? Womit habe ich noch Mühe?)
+    * Blitzlicht
+    * Test
+    * Rückblick
+    * 1 gemeinsame Lösung
+    * Transfer

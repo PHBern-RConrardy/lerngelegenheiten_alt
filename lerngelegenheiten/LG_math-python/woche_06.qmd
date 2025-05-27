@@ -1,0 +1,37 @@
+---
+format: html
+title: Erweiterte Übungen in Python
+
+---
+
+
+# Übungen
+::: {#exr-line}
+## Numerische Ableitung
+
+Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.
+:::
+::: {#exr-line}
+## Numerische Integration
+
+Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.
+:::
+::: {#exr-line}
+## Berechnung der Summe einer geometrischen Reihe
+
+Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.
+:::
+::: {#exr-line}
+## Erzeugen von Pascal'schem Dreieck
+Schreiben Sie eine Funktion, die Pascal'sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.
+:::
+::: {#exr-line}
+## Brüche addieren
+
+Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.
+:::
+::: {#exr-line}
+## Lösen von linearen Gleichungssystemen mit zwei Variablen
+
+Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen ($ax + by = c$ und $dx + ey = f$) löst.
+:::

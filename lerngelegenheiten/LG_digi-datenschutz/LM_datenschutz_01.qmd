@@ -1,0 +1,145 @@
+---
+title: Datenschutz
+subtitle: Digitalität und Datenschutz
+format: html
+categories:
+  - Label - Digitalität
+editor: 
+  markdown: 
+    wrap: 72
+draft: false
+---
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+- unterscheiden zwischen Datenschutz (als soziologischer Begriff), Datenschutzrecht und Datensicherheit
+- argumentieren die Gesellschaftsrelevanz von Datenschutz
+- entscheiden inwiefern Daten von Datenschutzrecht betroffen sind.
+- kennen die drei Schutzziele von Datensicherheit.
+- setzen good practices von Datensicherheit um.
+:::
+
+
+# Begriffsabgrenzung
+
+
+Schauen Sie @rehak_was_2018.
+
+- Notieren Sie sich welche Teilbereiche von Datenschutz berührt werden.
+
+# Datenschutz als soziologischer Begriff
+
+::: {#exr-line}
+## Weshalb Daten schützen?
+
+Eine Schülerin sagt, dass ihr Datenschutz egal ist, denn die grossen Tech-Unternehmen haben eh seine Daten. Wie reagieren Sie?
+:::
+
+::: {#exr-line}
+## "Aber Datenschutz!"
+
+Gesetzliche Vertreter (Eltern) sagen Ihnen, dass etwas nicht erlaubt ist, auf Grund von *Datenschutz*. Wie reagieren Sie?
+:::
+
+
+# Datenschutzrecht
+
+In der Schweiz regelt das [Datenschutzgesetz (DSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/de), bzw. das [kantonale Datenschutzgesetzt (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane [Art. 2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de). Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden [vgl. Art. 4 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7). Die [Datenschutzgrundverordnung (DSGVO)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679) ist das europäische Pendant. 
+
+::: {#exr-line}
+## Geltungsbereich
+
+Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzen gleich definiert?
+:::
+::: {#exr-line}
+## Bearbeitung durch Lehrpersonen
+
+Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen? 
+:::
+
+::: {#exr-line}
+## Besonders schützenswerte Daten
+
+Welche dieser Daten sind gemäss KDSG "besonders schützenswert"? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?
+:::
+
+::: {#exr-line}
+## Bussen
+
+Welche Bussen kennt das KDSG, das DSG und die DSGVO?
+:::
+
+### Leistungsbeurteilung und besonders schützenswerte Daten
+
+> Aus unserer Sicht kann eine Leistungsbeurteilung über einen längeren Zeitraum hinweg sensible Informationen über die betroffene Person offenlegen oder Rückschlüsse auf persönliche Aspekte dieser Person zulassen. Daher ordnen wir solche Leistungsbeurteilungen grundsätzlich dem persönlichen Geheimbereich nach [Art. 3 Bst. b KDSG](https://www.belex.sites.be.ch/data/152.04/de/art3) zu. Soweit unsere örtliche Zuständigkeit betroffen ist, erachten wir derartige Angaben über eine bestimmte oder bestimmbare Person demnach als «besonders schützenswerte» Personendaten. Mit der gleichen Überlegung können sozialpädagogische Massnahmen, aber auch im Einzelfall, je nach Inhalt, Selbsteinschätzungen von Schülerinnen und Schüler, grundsätzlich den «besonders schützenswerten» Personendaten zugeordnet werden. Es kommt somit nicht auf die Art der Beurteilung an (Beurteilungsanlass oder Beurteilungsbericht bzw. formative oder summative Beurteilung), sondern nur der Inhalt des Berichts ist entscheidend.
+>
+> Verantwortlich für den Datenschutz ist jene Behörde, die die Personendaten zur Erfüllung ihrer gesetzlichen Aufgaben bearbeitet oder bearbeiten lässt ([Art. 8 KDSG](https://www.belex.sites.be.ch/data/152.04/de/art8)). Sie sorgt für deren Sicherung ([Art. 17 KDSG](https://www.belex.sites.be.ch/data/152.04/de/art17)). Es ist Aufgabe der Behörde, zu prüfen, ob die gesetzlichen Voraussetzungen für die beabsichtigten Personendatenbearbeitungen erfüllt sind und ob die Schutzziele der Informationssicherheit (insb. Vertraulichkeit, Verfügbarkeit, Integrität) gewährleistet werden. Es liegt somit an der verantwortlichen Behörde, zu bestimmen, welche Informationen mit welchem Tool bearbeitet werden dürfen und welche nicht. 
+>
+:::quelle
+Mailverkehr vom 29.08.2024 mit der  [Datenschutzaufsichtsstelle des Kantons Bern (DSA)](https://www.be.ch/de/start/ueber-uns/datenschutzaufsichtsstelle.html)
+:::
+
+#### Zusatz für Hochschuldaten
+
+> Die DSA (Datenschutzaufsichtsstelle) des Kantons Bern definiert für die Hochschulen zwei ganz bestimmte Attribute als «besonders schützenswerte» Personendaten:
+>
+> * Leistungsnachweise (genauer, eine Serie von Leistungsnachweisen einer Person)
+> * Portrait-Bild einer Person
+>
+> Die beiden Attribute werden damit begründet, dass sich bspw. in einer Serie schwächer werdender Leistungen ggf. ein sich verändernder Gesundheitszustand ablesen liesse. Das gleiche gilt auch für das Portrait-Bild einer Person.
+>
+:::quelle
+Mailverkehr vom 03.09.2024 mit der PHBern Information Security Group
+:::
+
+### Unternehmensinterne Bestimmungen
+
+Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf oder Industriespionage. Diese *berechtigten Interessen* haben Sie *in guten Treuen zu wahren* ([Art. 321a Abs. 1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_a)). Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.
+
+### Haftung
+
+"Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt." ([Art. 321e Abs. 1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_a))
+
+# Datensicherheit
+
+Datensicherheit (IT Security) hat drei übergeordnete Ziele [vgl. z.B. @wegener_informationssicherheits-management_2016 S.3].
+
+* Integrität
+* Vertraulichkeit
+* Verfügbarkeit
+
+Integrität beschreibt, dass die Daten nicht von fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.
+
+Vertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.
+
+Verfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.
+
+::: {#exr-line}
+## Private Massnahmen
+Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?
+:::
+::: {#exr-line}
+## Berufliche Massnahmen
+Welche Sicherheitsvorkehrungen nehmen Sie beruflich?
+:::
+::: {#exr-line}
+## Pflicht zur Sicherheit
+Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?
+:::
+::: {#exr-line}
+## Zielkonflikte
+
+Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.
+:::
+
+Es gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen "digital unterschrieben" wurde.
+
+Der Datenschutz wird von drei Säulen getragen [@wegener_informationssicherheits-management_2016 S.5]
+
+* Personen
+* Prozesse
+* Technik
+
+

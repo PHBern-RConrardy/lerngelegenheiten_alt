@@ -1,0 +1,104 @@
+---
+title: "Learning Analytics"
+subtitle: "Woche 8"
+format: revealjs
+---
+
+## Diskussion
+Eigenentwicklung   /   von der Stange ?
+
+# Stages
+## 5 Stages
+
+> 1. Capture
+> 2. Report
+> 3. Predict
+> 4. Act
+> 5. Refine
+>
+:::quelle
+[@pardo_designing_2014, S.18]
+:::
+
+## 1. Capture
+
+> * What data is being collected?
+>
+:::quelle
+[@pardo_designing_2014, S.18]
+:::
+
+### Frage:
+
+Datenbasiert oder zielbasiert?
+
+## Mögliche Ziele
+
+* Leistungen der Studierenden
+* Engagement und Verhalten
+* Lernverläufe
+* Vorhersageanalysen
+* Interventionen und Unterstützung
+* Kursgestaltung und Curriculumverbesserung
+* Feedback und Bewertung
+* Soziale Interaktionen
+* Nutzung von Ressourcen
+* Institutionelle Effektivität
+* …
+
+:::quelle
+Vorschläge von GPT 3.5, 2023
+:::
+
+## Zukünftige Ziele
+
+Halten Sie mögliche Ziele für Ihre zukünftige Tätigkeit auf dem Padlet (Ilias) fest.
+
+## 5. Refine
+
+>Are the produced reports useful? Are they reaching the appropriate stakeholders?
+>
+:::quelle
+[@pardo_designing_2014, S.18]
+:::
+
+# Scholarship of Teaching and Learning (SoTL)
+
+## Principles of Good Practice in SoTL 
+
+* Inquiry focused on student learning 
+* Grounded in context 
+* Methodologically sound 
+* Conducted in partnership with students 
+* Appropriately public
+
+:::quelle
+[@felten_principles_2013,S.122]
+
+# Fallbeispiel
+
+## Umfrage Organisationsblatt
+
+* Erhebungstool (MS-Forms)
+* Tabellenkalkulationsprogramm (MS-Excel)
+* Bei welchem Kurs was es im Mittelwert am verständlichsten?
+* Welcher Kurs hat am schnellsten geantwortet?
+
+## Auftrag
+
+* Laden Sie die Datei mit den Daten aus Ilias herunter.
+* Bereiten Sie die Daten auf (z.B. Umcodierung).
+* Analysieren Sie die Daten.
+
+# Vorbereitungsauftrag
+
+## ...
+
+* Downloaden Sie "Daten - Notenblatt" und bearbeiten Sie es mit einem Tabellenkalkulationsprogramm Ihrer Wahl (Empfehlung MS-Excel).
+* Sie sehen die Sitzordnung von Lernenden in einer 8. Klasse. 
+* Sie sehen Beurteilungsnoten für 3 Fächer über ein Semester. 
+* Der “Seed” ist eine beliebige natürliche Zahl (< 2^31). Für jede Zahl sind die Noten leicht unterschiedlich. Der Seed stellt den Zufall des Alltags dar.
+* Verändern Sie keine gegebenen Daten, bis auf den Seed. Legen Sie beliebig neue Sheets an um die Daten umzuschreiben.
+* Grundsätzlich soll jede Analyse welche Sie schreiben, automatisch für jeden möglichen Seed funktionieren.
+
+## Bibliographie {.unlisted}

@@ -1,0 +1,197 @@
+---
+title: Loops
+format: 
+  html: default
+subtitle: Python - Lernmodul 3
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+---
+# Loops (while, for) und Flussdiagramme
+
+## Lehr-Lernmaterialien
+
+Auf Wikipedia finden sie eine gute Zusammenfassung zum Thema
+[Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
+hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal
+ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon
+halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich
+Ihnen [draw.io](https://app.diagrams.net) (siehe “Flowchart”).
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[While-Schleife](https://www.youtube.com/watch?v=sXLicTuJzB4&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=13)
+und
+[For-Schleife](https://www.youtube.com/watch?v=pQh5Idw2sKM&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=17).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[While-Loop](https://www.w3schools.com/python/python_while_loops.asp)
+und [For-Loop](https://www.w3schools.com/python/python_for_loops.asp).
+
+Auf der Website von **Sylvia Lange** finden sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (17,
+18, 19, 20) und die Lösungen
+[17](https://sylvialange.de/python/python3/schleifen/Potenz.py)
+[18](https://sylvialange.de/python/python3/schleifen/Fakultaet.py)
+[19](https://sylvialange.de/python/python3/schleifen/Zweierpotenz.py)
+[20](https://sylvialange.de/python/python3/schleifen/SterneRechteck.py)
+zum Thema Loops/Schleifen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-2}
+
+
+### Auftrag 1
+
+Was ist der Output von diesem Programm? Übersetzen sie es in eine
+For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.
+
+``` python
+i = 2
+while i < 5:
+  print(i)
+  i = i + 1
+  print(i)
+```
+
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[i = 2]
+    B --> id4{i < 5}
+    id4 -- False --> id10([Ende])
+    id4 -- True --> id7[/Ausgabe von i/]
+    id7 --> id8[i = i+1]
+    id8 --> id9[/Ausgabe von i/]
+    id9 --> id4
+```
+
+### Auftrag 2
+
+Was ist der Output von diesem Programm? Übersetzen sie es in eine
+For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.
+
+``` python
+i = 5
+while i < 10:
+  i += 1  # Kurzform von i = i + 1
+  if i == 8:
+    print("Katze")
+  else:
+    print(i)
+```
+
+Lösungsvorschlag 
+```python
+# i = 5
+# while i < 10:
+#   i += 1 # Kurzform von i = i + 1
+#   if i == 8:
+#     print("Katze")
+#   else:
+#     print(i)
+
+for i in range(6, 11):
+  if i == 8:
+    print("Katze")
+  else:
+    print(i)
+```
+
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[i = 5]
+    B --> id4{i < 10}
+    id4 -- False --> id10([Ende])
+    id4 -- True --> id7[i=i+1]
+    id7 --> id8{i == 8}
+    id8 -- True --> id9[/Ausgabe Katze/]
+    id8 -- False -->id11[/Ausgabe i/]
+    id9 & id11--> id4
+```
+
+
+### Auftrag 3
+
+Erstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das
+Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.
+
+Lösungsvorschlag
+
+```python
+while True:
+	zahl = input("Geben sie eine Zahl oder 'quit' ein: ")
+	if zahl == "quit":
+		break
+	else:
+		quadrat = int(zahl)*int(zahl)
+		print(quadrat)
+```
+
+
+### Auftrag 4
+
+Erweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto
+nach 3 Fehlversuchen gesperrt wird.
+
+Lösungsvorschlag
+```python
+for i in range(0, 3):
+    benutzer = input("Benutzername eingeben: ")
+    passwort = input("Passwort eingeben: ")
+
+    if benutzer == "tom":
+        if passwort == "strudel123":
+            print("Herzlich Willkommen")
+            break
+        else:
+            print("Passwort nicht korrekt! Verbleibende Versuche: " + str(2 - i))
+    else:
+        print("Benutzer nicht gefunden! Verbleibende Versuche: " + str(2 - i))
+
+    if i == 2:
+        print("Zu viele Login-Versuche. Ihr Konto wurde aus Sicherheitsgründen gesperrt.")
+```
+
+
+### Auftrag 5
+
+Erstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus
+die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein
+Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken
+(SimpleClub)
+
+Lösungsvorschlag Code 
+```python
+n = int(input("Geben sie eine Zahl n ein: "))
+
+vorvorgaenger = 1
+vorgaenger = 1
+
+for i in range(0, n):
+    if i <= 1:
+        print("1")
+    else:
+        fib = vorgaenger + vorvorgaenger
+        vorvorgaenger = vorgaenger
+        vorgaenger = fib
+        print(fib)
+```
+
+
+Lösungsvorschlag Flussdiagramm
+```{mermaid}
+flowchart TD
+    A((Start)) --> id1[/Eingabe n/]
+    id1 --> id2[Vorgänger = 1]
+    id2 --> id3[Vorvorgänger = 1]
+    id3 --> id4[i=0]
+    id4 --> id5{i < n}
+    id5 -- False --> id10([Ende])
+    id5 -- True --> id7{i <= 1}
+    id7 -- True --> id8[/Ausgabe 1/]
+    id8 --> id5
+    id7 -- False --> id9[fib = vorgänger+vorvorgänger]
+    id9 --> id11[vorvorgänger=vorgänger]
+    id11 --> id12[vorgänger=fib]
+    id12 --> id13[/Ausgabe fib/]
+    id13 --> id5
+```

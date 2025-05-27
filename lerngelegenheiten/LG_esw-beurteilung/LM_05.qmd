@@ -1,0 +1,69 @@
+---
+format: html
+title: Förderorientierung
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  In diesem Lernmodul geht es um «Förderorientierung» und «Förderorientierte Diagnostik».
+---
+::: callout-note
+# Ziele des Lernmoduls
+
+Die Studierenden ...
+
+* werden sich der Grundhaltung förderorientierten Unterrichts bewusst.
+* kennen unterschiedliche Instrumente zur förderorientierten Diagnose.
+* lernen didaktische Settings für förderorientierten Unterricht kennen ...
+* und schätzen deren Umsetzbarkeit ein.
+:::
+
+# Förderorientierung
+
+Lernen Sie in [diesem Screencast](https://tube.switch.ch/embed/9kC6iEOr0a?title=hide) ([Slides](screencast_slides/Foerderorientierung_01_Input_Foerderorientierung.pdf)) eine Grundhaltung sowie grundlegende Überlegungen zu förderorientiertem Unterricht kennen.
+
+
+## Förderorientierung konkret - Das Churer-Modell
+
+In [diesem SRF Video](https://tube.switch.ch/embed/9f2bb6e8?title=hide) lernen Sie eine Möglichkeit einer didaktischen Umsetzung kennen, die einen förderorientierten Unterricht ermöglichen soll.
+
+Schauen Sie sich den Film an und lösen Sie den folgenden Verarbeitungsauftrag.
+
+::: {.callout-caution collapse="true"}
+## Auftrag auf LearningView
+
+Beantworten Sie für sich die folgenden Fragen:
+
+* Was gefällt Ihnen an diesem Modell?
+* Was schätzen Sie an diesem Modell als eher kritisch ein?
+* Inwiefern lässt sich dieses Modell auf der Sekundarstufe I umsetzen?
+* Wie würden Sie persönlich dieses Modell oder auch nur Teile davon umsetzen?
+
+Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.
+:::
+
+# Förderorientierte Diagnostik
+
+Lernen Sie in [diesem Input](https://tube.switch.ch/embed/b5vmCj1lsa?title=hide) ([Slides](screencast_slides/Foerderorientierung_02_Input_Foerderorientierte_Diagnostik.pdf)) Möglichkeiten und Instrumente zur förderorientierten Diagnostik kennen.
+
+## Umsetzungsbeispiel
+
+Mit dem [folgenden Screencast](https://tube.switch.ch/embed/go3UJXxybi?title=hide) ([Slides](screencast_slides/Foerderorientierung_03_Umsetzungsbeispiel.pdf)) stellen wir Ihnen ein Umsetzungsbeispiel vor, in welchem sowohl förderorientierter als auch kompetenzorientierter Unterricht, formative sowie summative Beurteilung zur Anwendung kommen.
+
+Setzen Sie sich damit auseinander und machen Sie sich Ihre eigenen Gedanken dazu. Lassen Sie sich dazu inspirieren - zuhanden Ihres Beurteilungskonzeptes, Ihre eigenen Vorstellungen und Verfahren zu entwickeln, wie man in Ihren Fächern Förderorientierung und Kompetenzorientierung umsetzen kann.

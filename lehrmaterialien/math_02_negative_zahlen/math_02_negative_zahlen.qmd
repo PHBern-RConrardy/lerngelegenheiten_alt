@@ -1,0 +1,736 @@
+---
+format: html
+title: Negative Zahlen
+subtitle: Addition, Subtraktion, Multiplikation und Division
+
+toc: true
+toc-expand: 1
+
+date: 09/22/2024
+
+authors: "Manon Brunner"
+  
+citation: 
+  author:
+    - Manon Brunner
+
+copyright: Diese Lernumgebung beruht auf einer Lernumgebung welche von Manon Brunner erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876799 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.
+licence: CC-BY-SA
+draft: false
+
+abstract: >
+  Zwei Doppellektionen zum Rechnen mit negativen Zahlen (Addition, Subtraktion, Multiplikation und Division) mit einer Mischung aus LP-Erklärungen und Gruppenaufgaben sowie einem unterrichtsbegleitenden Skript.
+  
+---
+
+# Lektion 1
+
+:::{.callout-note collapse="false"}
+
+## Lernziele
+
+Die Schülerinnen und Schüler...
+
+1. wenden die negativen Zahlen in einem realen Kontext an, z.B. bei Temperaturangaben auf dem Thermometer ablesen.
+2. vergleichen negative Zahlen mit positiven Zahlen und tragen sie auf der Zahlengerade richtig ein.
+3. führen die Grundoperationen (Addition, Subtraktion, Multiplikation und Division) mit negativen Zahlen korrekt aus
+:::
+
+
+##  Einstiegsaufgabe (20 Min.)
+
+::: {.callout-note collapse="true"}
+## Instructions
+
+Um in das Thema der negativen Zahlen etwas spielerisch Einzusteigen, befassen sich die SuS zunächst mit folgender Textaufgabe. Um sich an das Konzept der negativen Zahlen anzugewöhnen können sie mithilfe eines selbstgebastelten Thermometers arbeiten. Durch ein verschiebbare Temperaturanzeige soll es den Lernenden einfacher fallen die Aufgaben zu lösen. 
+:::
+
+::: {#exr-line}
+
+
+
+## Thermometer
+
+[MA.1.A.1.i](){.knopf .stufe} 
+
+* Die Temperatur beträgt am frühen Morgen -3°C. Im Laufe des Tages steigt die Temperatur um 6°C.
+  * Frage: Welche Temperatur herrscht am Abend?
+* Am Abend beträgt die Temperatur −2° Über Nacht sinkt die Temperatur um 5°C. 
+  * Frage: Wie warm ist es am nächsten Morgen?
+* Die Temperatur in Stadt A beträgt −8°C, und in Stadt B beträgt sie 2°C.
+  * Frage: Wie viel kälter ist es in Stadt A als in Stadt B?
+
+:::
+  
+![Selbstgebastelter Thermometer, [Druckvorlage](Thermometer.docx)](Thermometer.jpg){height=300px}
+
+
+## Kärtchenaufgabe (20 Min.) 
+
+In vierer Gruppen setzen sich die SuS an einen Tisch. Die LP verteilt ihnen je ein Couvert, welches 4 Kärtchen mit ganzen Zahlen enthält. Die SuS haben nun die Aufgabe, die erhaltenen Zahlen der Grösse (von der kleinsten zur grössten Zahl) nach zu ordnen ↔ gewissermassen, sollen sie eine persönliche Zahlengerade auf dem Tisch auslegen) 
+
+Sobald sich alle Gruppenmitglieder einig sind, kann ein weiterer Umschlag verlangt werden mit weiteren Kärtchen. Diese müssen in die bereits bestehende Zahlengerade integriert werden. Und so weiter (im Ganzen gibt es 4 Runden) 
+
+Das Ergebnis wird der LP gezeigt. Falls Fehler vorhanden sind, müssen die Gruppen ihre Einteilung nochmals überdenken. 
+
+
+::: {.callout-note collapse="true"}
+
+## Instructions
+
+### Einführen der Grundoperationen $\Longrightarrow$ zunächst Addition und Subtraktion 
+
+Schrittweises herantasten an das eigentliche Vorgehen. Durch Fragen an die Klasse. (**Induktives Vorgehen**) → Wer weiss wie man vorgehen könnte, um diese Aufgabe zu lösen? (Vorschlage anhören und mit den SuS durchspielen / falls sich niemand meldet auf den zuvor gezeichneten Zahlenstrahl hinweisen: Wie könnte diese Zeichnung hilfreich eingesetzt werden, um das richtige Resultat zu erhalten?)
+Vorgehen wiederholt vorzeigen und SuS auffordern eine Aufgabe vorzulösen (Vorgehen mündlich erklären
+Das Verschmelzen von Zeichen (+- / --) erklären: Merksätze einführen: Minus und Minus gibt Plus / Minus und Plus gibt Minus
+
+### Einführung der Grundoperationen: Multiplikation und Division
+
+Beispielaufgabe vorlösen (lautes Denken der LP) $\Longrightarrow$ SuS müssen dann das Vorgehen erkennen. Die Lösungen der anderen Aufgaben werden gemeinsam erarbeitet (**Deduktives Vorgehen**)
+Den SuS die Möglichkeit geben selbst über das Vorgehen nachzudenken 
+:::
+
+## Einführung in die Addition (7 Min.)
+
+$-10 + 4$
+
+$-15 + 20$
+
+$-4 + (-8)$
+
+$5 + (-10)$
+
+$-3 + (-9)$
+
+## Einführung in die Subtraktion (8 Min.)
+
+$-9 – 5$
+
+$5 – 20$
+
+$10 – 25$
+
+$4 – (-3)$
+
+$-12 – (-9)$
+
+$-35 – (-9)$
+
+
+
+
+::: {#exr-line}
+
+
+##  Übungsaufgaben Addition und Subtraktion 
+
+Berechne!
+
+1. $-14 + (-30) =$
+2. $-49 - 14 =$
+3. $-17 + (-2) =$
+4. $5 + 44 =$
+5. $41 - (-41) =$
+6. $6 + (-43) =$
+7. $35 + (-48) =$
+8. $-42 - (-9) =$
+9. $-42 + (-11) =$
+10. $5 + (-11) =$
+11. $10 + 39 =$
+12. $1 - 19 =$
+13. $-3 + 41 =$
+14. $-35 + (-19) =$
+15. $31 - 39 =$
+16. $0 - 16 =$
+17. $-39 - 40 =$
+18. $23 + (-7) =$
+19. $-4 + (-20) =$
+20. $46 + 39 =$
+21. $3 + (-37) =$
+22. $40 + 37 =$
+23. $46 + (-13) =$
+24. $46 - (-43) =$
+25. $-47 + (-21) =$
+26. $27 - (-11) =$
+27. $-8 - (-35) =$
+28. $28 + 10 =$
+29. $-49 + (-16) =$
+30. $-13 - (-25) =$
+
+⇒ vgl. Kopiervorlage Addition und Subtraktion
+
+:::
+
+## Auftrag für Schnelle
+
+Bearbeiten Sie im Skript (siehe unten) die Aufgaben 4 und 5.
+
+
+##  Übungs-Programm (10 Min.)
+
+Das Übungs-Programm eignet sich dafür das Kopfrechnen zu trainieren und zu automatisieren. Dabei kann ausgewählt werden, ob negative Zahlen in den Aufgaben integriert sind und ob Multiplikations- und Divisionsaufgaben gestellt werden. Zusätzlich zeigt das Programm an, wie viele der gestellten Aufgaben richtig beantwortet wurden. 
+
+Man findet es unter diesem [Link](Übungs-Programm )
+
+----
+
+# Lektion 2
+
+## Einsteigsaufgabe: Entwicklung eigener Textaufgaben: 
+
+Die SuS bilden Vierergruppen und setzen sich gemeinsam an einen Tisch. Nun muss jeder für sich eine eigene Textaufgabe zum Thema der negativen Zahlen entwickeln. (Vorgabe: Es darf sich nicht um eine Aufgabe handeln, die sich mit Temperatur / Thermometer befasst $\Longrightarrow$ Appell an die Kreativität der SuS)
+
+Sobald die alle SuS der Gruppe min. eine Aufgabe kreiert und eine Lösung erstellt haben. Können die Aufgaben unter den Gruppenmitgliedern ausgetauscht werden. So dass jeder SuS eine Aufgabe einer Mitschülerin oder eines Mitschülers löst. 
+
+Je nach dem, wie selbstständig die SuS arbeiten, kann den SuS vorgegeben werden, dass sie die selbstkreierten Aufgaben vor dem Austausch mit der LP besprechen müssen.   
+
+Bei Unklarheiten oder nicht übereinstimmenden Ergebnissen kann eine Beispielaufgabe anschliessend auch mit der gesamten Klasse besprochen werden. 
+
+$\Longrightarrow$ Es ist das Ziel, dass sich die SuS etwas stärker mit dem Alltagsbezug der negativen Zahlen auseinandersetzten und sich selbst eine Situation überlegen, in der negative Zahlen eine Rolle spielen. Hierbei soll zudem ihre Sprachkenntnisse verwendet und gefördert werden.
+
+Für das Ausführen dieser Aufgabe, wird den SuS genügend Zeit gelassen, damit die SuS ihrer Kreativität freien lauf lassen können (oder etwas länger über geeignete Beispiele nachdenken). 
+
+
+
+
+## Einführung in die Multiplikation (7 Min.)
+
+$-5 \cdot 4$
+
+$-8 \cdot 3$
+
+$7 \cdot (-7)$
+
+$-4 \cdot (-2)$
+
+## Einführung in die Division (8 Min.)
+
+$12 \div (-9)$
+
+$-3 \div 5$
+
+$-5 \div (-4)$
+
+::: {#exr-line}
+
+## Übungsaufgaben Multiplikation und Division (15 Min.)
+
+Berechne!
+
+1. $-5 \cdot 3 =$
+2. $-18 \div 3 =$
+3. $28 \div (-7) =$
+4. $-7 \cdot (-4) =$
+5. $-36 \div (-6) =$
+6. $6 \cdot (-8) =$
+7. $-9 \cdot 5 =$
+8. $-45 \cdot 5 =$
+9. $-3 \cdot (-2) =$
+10. $56 \div (-8) =$
+11. $-72 \div 9 =$
+12. $10 \cdot (-7) =$
+13. $-50 \div (-10) =$
+14. $-4 \cdot 6 =$
+15. $-11 \cdot (-3) =$
+16. $48 \cdot (-6) =$
+17. $-30 \div (-5) =$
+18. $12 \cdot (-5) =$
+19. $-8 \cdot 9 =$
+20. $15 \cdot (-2) =$
+21. $42 \div (-7) =$
+22. $-6 \cdot (-6) =$
+23. $14 \cdot (-3) =$
+24. $-24 \div 6 =$
+25. $36 \div (-12) =$
+26. $-10 \cdot 4 =$
+27. $7 \cdot (-7) =$
+28. $-81 \div (-9) =$
+
+:::
+
+-------
+
+## Üben (25 Min.)
+Arbeiten Sie weiter an den Aufgaben oben oder am Skript unten.
+
+## Abschluss / Ergebnissicherung (20 Min.)
+
+Auftrag: Erstelle auf einem leeren A4-Blatt ein Lernplakat, welches das Gelernte zum Thema negative Zahlen zusammenfasst. Enthalten muss es wichtige Regeln, Begriffe und dazugehörige Definitionen, Darstellungen und Beispiele. Des Weiteren solltest du mit verschiedenen Farben arbeiten, in gut leserlicher Schrift schreiben und den zur Verfügung gestellten Platz des Papieres ausnützen.
+
+So könnte ein solches Mini-Plakat aussehen: 
+![Beispielplakat](Mini-Lernplakat.jpg){height=300px}
+
+
+
+
+# Skript
+
+## Lernziele zum Thema „Negative Zahlen“
+
+Die nachfolgend aufgelisteten Lernziele werden dir helfen dich auf die Lernkontrolle optimal vorzubereiten.
+
+Du ...
+
+* kannst die Begriffe positive Zahlen, negative Zahlen, ganze Zahlen und
+Vorzeichen erklären.
+* kannst ganze Zahlen auf einem Zahlengerade eintragen.
+* kannst ganze Zahlen der Grösse nach ordnen und miteinander vergleichen.
+* kannst die negativen Zahlen in einem realen Kontext anwenden, z.B. bei
+Temperatur angaben auf dem Thermometer.
+* kannst die Grundoperationen (Addition, Subtraktion, Multiplikation und
+Division) mit geraden Zahlen ausführen.
+
+## Die negativen Zahlen
+
+::: {#exr-line}
+Ein Wissenschaftler arbeitet in einem Forschungslabor in der Arktis. Hier können die
+Temperaturen weit unter 0 °C fallen. Im Verlaufe des Tages notiert er sich immer wieder
+die beobachte ten Temperatur änderungen. Am frühen Morgen zeigt der Thermometer
+genau 1 °C an.
+
+1. Zunächst sinkt die Temperatur um 9 °C.
+2. Anschliessend steigt sie wieder um 4 °C.
+3. Danach sinkt sie erneut um 12 °C.
+
+Welchen Wert zeigt der Thermometer am Ende des Tages an ?
+
+Was bedeutet es, wenn die Temperatur unter 0 °C liegt ?
+
+Zeichne zusätzlich in die unten abgebildeten Zahlengerade deine Zwischenresultate ein.
+:::
+
+![Zahlenstrahl von -15 bis 15](skript_-15.png)
+
+:::{.callout-note}
+
+## Negative Zahlen
+
+Negative Zahlen sind Zahlen, die kleiner als null sind und auf einer Zahlengerade links
+von der Null liegen. Sie werden durch ein Minuszeichen (-) vor der Zahl dargestellt.
+Negative Zahlen stellen in vielen Kontexten das Gegenteil von positiven Zahlen dar.
+Eine negative Zahl n ist eine Zahl, die die Bedingung n < 0 erfüllt.
+
+:::
+
+::: {#exr-line}
+Suche weitere Beispiele aus dem Alltag, in denen dir negative Zah len bereits begegnet
+sind.
+:::
+
+:::{.callout-tip}
+## Hinweis
+
+Beim Rechnen mit negativen Zahlen ist es wichtig, dass du das Minuszeichen vor der negativen Zahl nicht mit dem Operationszeichen der Subtraktion verwechselst.
+
+Negative Zahl: -3
+
+Subtraktion: 3 - 2 = 1
+
+Um diese Verwechslung zu verhindern verwenden wir die Bezeichnungen «negativ» für das Vorzeichen und «minus» für die Subtraktion.
+:::
+
+Um uns die Position der negativen Zahlen auf der Zahlengerade besser einprägen zu kön-
+nen. Arbeiten wir zunächst mit unterschiedlichen Farben. **Rot** für die **positiven Zahlen** und **blau** für die **negativen Zahlen**.
+
+![Gegenzahlen](skript_gegenzahl.png)
+
+:::{.callout-tip}
+
+## Ganze Zahlen
+Die ganzen Zahlen sind die Menge aller positiven Zahlen ohne Kommastellen, aller
+negativen Zahlen ohne Kommastellen und der Null. Sie umfassen also sowohl die na-
+tür lichen Zahlen (1, 2, 3, ...), ihre negativen Gegenstücke (-1, -2, -3, ...) als auch die Null.
+
+Die Menge der ganzen Zahlen wird oft mit dem Symbol ℤ bezeichnet und kann als:
+ℤ = { ...,−3,−2,−1,0,1,2,3,...}
+beschrieben werden.
+:::
+
+::: {#exr-line}
+Trage die folgenden Zahlen auf den unten dargestellten Zahlengeraden an der richtigen
+Stelle ein:
+
+a) -1, 5, -17, -9, -25
+b) -7.5, -28.75, -20.3, -32.6
+
+![Zahlenstrahl von -14 bis 6](skript_-14.png)
+
+![Zahlenstrahl von -34 bis -16](skript_-34.png)
+:::
+
+:::{.callout-tip}
+## Die Addition
+
+Wenn du eine negative Zahl zu einer positiven Zahl addierst, bewegst du
+dich auf der Zahlengerade in Richtung der negativen Zahlen.
+
+4 + (-3) = 4 - 3 = 1
+
+Wenn du eine positive Zahl zu einer negativen Zahl addierst, bewegst du
+dich auf der Zahlengeradein Richtung der positiven Zahlen.
+
+-4 + 3 = -1
+
+Wenn du zwei negative Zahlen miteinander addierst bewegst du dich wei-
+ter in Richtung der negativen Zahlen.
+
+-3 + (-4) = -3 - 4 = -7
+:::
+
+:::{.callout-tip}
+Zwei ungleiche Rechenzeichen verschmelzen immer zu einem Minus.
+:::
+
+::: {#exr-line}
+### Berechne!
+
+1. −7 + 9 = 
+2. −5 + −7 = 
+3. −3 + 4 = 
+4. −9 + −10 = 
+5. −6 + 1 = 
+6. −4 + 5 = 
+7. −4 + −6 = 
+8. −9 + 5 = 
+9. −6 + −10 = 
+10. −2 + −11 = 
+11. −6 + −15 = 
+12. −7 + −13 = 
+13. −4 + −13 = 
+14. −5 + 8 = 
+15. −2 + 8 = 
+16. −5 + −3 = 
+17. −4 + −10 = 
+18. −7 + 4 = 
+19. −5 + −9 = 
+20. −2 + 5 = 
+21. −6 + 6 = 
+22. −4 + 7 = 
+23. −2 + −6 = 
+24. −5 + −4 = 
+:::
+
+:::{.callout-tip}
+## Die Subtraktion
+
+Wenn du von einer positiven Zahl eine negative Zahl subtrahierst, bewegst du dich auf der Zahlengerade in Richtung der positiven Zahlen.
+
+5 - (-2) = 5 + 2 = 7
+
+Wenn du von einer negativen Zahl eine positive Zahl subtrahierst, bewegst du dich auf der Zahlengerade in Richtung der negativen Zahlen.
+
+-2 - 5 = -7
+
+Wenn du eine negative Zahl von einer negativen Zahl subtrahierst, wanderst du auf der Zahlengerade nach rechts, also in Richtung der positiven Zahlen.
+
+-2 - (-5) = -2 + 5 = 3
+:::
+
+:::{.callout-tip}
+Zwei gleiche Rechenzeichen verschmelzen immer zu einem Plus.
+:::
+
+::: {#exr-line}
+
+## Berechne!
+
+
+1. $-6 - (-15) =$
+2. $-19 - (-2) =$
+3. $-19 - (-13) =$
+4. $3 - (-6) =$
+5. $-9 - (-12) =$
+6. $-3 - (-3) =$
+7. $-15 - (-2) =$
+8. $-7 - (-3) =$
+9. $-12 - (-1) =$
+10. $-9 - (-13) =$
+11. $-6 - (-13) =$
+12. $-9 - (-6) =$
+13. $-11 - (-10) =$
+14. $-13 - (-9) =$
+15. $-17 - (-8) =$
+16. $4 - (-11) =$
+17. $-2 - (-7) =$
+18. $-4 - (-6) =$
+19. $-8 - (-9) =$
+20. $-13 - (-12) =$
+21. $2 - (-7) =$
+22. $-16 - (-12) =$
+23. $-12 - (-10) =$
+24. $1 - (-12) =$
+
+:::
+
+::: {#exr-line}
+
+### Vermischte Aufgaben
+
+
+1. $-13 - (-47) =$
+2. $-39 + \ldots = -5$
+3. $-16 - 8 =$
+4. $-5 - (-50) =$
+5. $-42 - (-31) =$
+6. $-59 + \ldots = -36$
+7. $-21 + \ldots = -17$
+8. $-23 + \ldots = -11$
+9. $-9 - 8 =$
+10. $-73 + \ldots = -50$
+11. $-57 + \ldots = -18$
+12. $-30 + \ldots = -17$
+13. $-59 - (-43) =$
+14. $-38 - (-58) =$
+15. $4 - (-13) =$
+16. $-49 - 2 =$
+17. $-13 - (-25) =$
+18. $-17 + \ldots = 17$
+19. $-96 + \ldots = -136$
+20. $-3 - 4 =$
+21. $-55 + \ldots = -53$
+22. $3 - (-24) =$
+23. $-81 + \ldots = -127$
+24. $-28 + \ldots = -35$
+25. $3 - (-41) =$
+26. $-91 + \ldots = -85$
+27. $-12 - (-20) =$
+
+:::
+
+:::{.callout-tip}
+
+### Multiplizieren von negativen und positiven Zahlen
+
+Multiplizierst du eine negative und eine positive Zahl, so erhältst du ein negatives Resultat.
+
+$-8 \cdot 6 = -48$
+
+$7 \cdot (-5) = -35$
+
+Das Produkt zweier negativer Zahlen ist immer positiv.
+
+$-9 \cdot (-2) = 18$
+
+$-6 \cdot (-5) = 30$
+
+:::
+
+::: {#exr-line}
+
+### Berechne!
+
+1. $6 \cdot 1 =$
+2. $4 \cdot 9 =$
+3. $-9 \cdot 9 =$
+4. $5 \cdot 12 =$
+5. $-6 \cdot 11 =$
+6. $9 \cdot -3 =$
+7. $12 \cdot 9 =$
+8. $11 \cdot 4 =$
+9. $8 \cdot 6 =$
+10. $10 \cdot 12 =$
+11. $-2 \cdot 4 =$
+12. $-6 \cdot -1 =$
+13. $9 \cdot 11 =$
+14. $8 \cdot 12 =$
+15. $8 \cdot 1 =$
+
+:::
+
+:::{.callout-tip}
+### Die Division
+
+Dividierst du eine positive Zahl durch eine negative Zahl, ist das Ergebnis negativ.
+
+$6 \div (-3) = -2$
+
+Dividierst du eine negative Zahl durch eine positive Zahl, erhältst du ein negatives Resultat.
+
+$-6 \div 3 = -2$
+
+Dividierst du zwei negative Zahlen, ist das Resultat positiv.
+
+$-6 \div (-3) = 2$
+
+:::
+
+::: {#exr-line}
+### Berechne!
+
+1. $-48 \div -1 =$
+2. $8 \div -4 =$
+3. $-12 \div -4 =$
+4. $6 \div -6 =$
+5. $49 \div -7 =$
+6. $14 \div -2 =$
+7. $26 \div 13 =$
+8. $8 \div 4 =$
+9. $42 \div 3 =$
+10. $-44 \div -1 =$
+11. $-30 \div 3 =$
+12. $36 \div 4 =$
+13. $28 \div -7 =$
+14. $22 \div 2 =$
+15. $6 \div -6 =$
+
+:::
+
+::: {#exr-line}
+
+### Vermischte Aufgaben
+
+1. $-20 - 6 =$
+2. $-2 \cdot 6 =$
+3. $-17 + -18 =$
+4. $-5 + -16 =$
+5. $-5 \cdot 4 =$
+6. $2 - 7 =$
+7. $-10 \div 2 =$
+8. $-32 + -29 =$
+9. $-15 \div 5 =$
+10. $6 - 8 =$
+11. $-12 \cdot 2 =$
+12. $-32 - 1 =$
+13. $9 \cdot 5 =$
+14. $-26 + -6 =$
+15. $-3 \cdot 3 =$
+16. $-19 + -7 =$
+17. $-9 \cdot 9 =$
+18. $6 \cdot 4 =$
+19. $-47 + -5 =$
+20. $-45 + -40 =$
+21. $-13 - 5 =$
+22. $9 \cdot 8 =$
+23. $-21 + -37 =$
+24. $-43 - 7 =$
+25. $-47 - 7 =$
+26. $-36 - 9 =$
+27. $-7 - 3 =$
+
+:::
+
+::: {#exr-line}
+Trage die folgenden Zahlen auf der Zahlengerade ein:
+-80, -200, -215, -115
+
+![Zahlenstrahl](skript_-150.png)
+
+:::
+
+::: {#exr-line}
+Benenne die grün markierten Zahlen
+
+![Zahlenstrahl](skript_-55.png)
+:::
+
+::: {#exr-line}
+### Berechne!
+
+1. $(-7 - (-16)) + 15 =$
+2. $(-60 - (-13)) + (-6) =$
+3. $-10 + (-41 - 16) =$
+4. $(-26 - (-13)) + 2 =$
+5. $-30 + (-6 - 10) =$
+6. $-35 + (-17 - 0) =$
+7. $(-46 + (-2)) - 7 =$
+8. $-48 + (-38 - (-1)) =$
+9. $4 + (-5 - (-4)) =$
+10. $-17 + (-14 - 2) =$
+11. $32 + (-8 - (-5)) =$
+12. $(-87 - (-32)) + (-5) =$
+13. $-44 + (-24 - 7) =$
+14. $(10 - (-8)) + 9 =$
+:::
+
+::: {#exr-line}
+Tom hat ein Bankkonto, auf dem er im Moment 50.- hat. Er muss seine Miete von 120
+Franken bezahlen.
+
+a) Wie viel Geld hat Tom nach der Mietzahlung?
+b) Tom verdient am nächsten Tag 80 Franken. Wie viel Geld hat er jetzt?
+:::
+
+::: {#exr-line}
+In einem Spiel erhält Lukas für eine richtige Antwort 10 Punkte und verliert für eine fal-
+sche Antwort 15 Punkte. Lukas hat 5 richtige Antworten und 3 falsche Antworten gege-
+ben.
+
+a) Wie viele Punkte hat Lukas insgesamt durch die richtigen Antworten gesammelt?
+b) Wie viele Punkte hat Lukas insgesamt durch die falschen Antworten verloren?
+c) Wie viele Punkte hat Lukas am Ende insgesamt?
+:::
+
+::: {#exr-line}
+Ein Bergsteiger befindet sich auf einer Höhe von 800 Metern über dem Meeresspiegel.
+Er steigt zuerst 1500 Meter hinab in eine Schlucht, um einen besonderen Aussichtspunkt
+zu erreichen. Danach klettert er 900 Meter wieder hinauf.
+:::
+
+::: {#exr-line}
+Ein Unternehmen macht im ersten Quartal des Jahres einen Verlust von 15.000 Franken.
+Im zweiten Quartal wird ein Gewinn von 22.000 Franken erzielt. Im dritten Quartal verliert das Unternehmen wieder 8.000 Franken, und im vierten Quartal gibt es einen Gewinn von 12.000 Franken.
+
+Wie hoch ist der Gesamtgewinn oder -verlust am Ende des Jahres?
+:::
+
+
+# Kommentar für Lehrpersonen
+
+
+:::{.callout-note collapse="true"}
+
+## Kompetenzstufen
+
+[MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe}  Die Schülerinnen und Schüler verstehen und verwenden die Begriffe Vorzeichen, positive Zahlen, negative Zahlen.
+
+[MA.1.B.1.i](https://be.lehrplan.ch/101PMehfhGfDTwS57PhXq7U6StXKA6WR8){.knopf .stufe .zyklus2}  Die Schülerinnen und Schüler können heuristische Strategien verwenden: durch Fragen die Problemstellung klären, systematisch variieren, mit vertrauten Aufgaben vergleichen, Annahmen treffen, Lösungsansätze austauschen.
+
+[MA.1.B.1.k](https://be.lehrplan.ch/101TrS9Y3WNTDAYebE4WFSETV7vcRMUZ7){.knopf .stufe}  Die Schülerinnen und Schüler können arithmetische und algebraische Zusammenhänge erforschen, Strukturen auf andere Zahlbeispiele übertragen und Beobachtungen festhalten
+
+[MA.3.C.2.f](https://be.lehrplan.ch/101wG7NVzBtst6UTvh4Tm5TGEAym3RtyL){.knopf .stufe}  Die Schülerinnen und Schüler können Alltagssituationen (z.B. Flächeninhalt eines Zimmers; Geschwindigkeit eines Autos; Benzinverbrauch) in mathematische Sprache übersetzen, die richtigen Grössen identifizieren und geeignete Masseinheiten wählen.
+
+:::
+
+::: {.callout-tip collapse="true"}
+
+## Stolpersteine und mögliche Hilfestellungen
+Allgemein zum Operieren mit negativen Zahlen und nicht nur zu dieser Doppellektion (diese Stolpersteine gelten für den gesamten Themenblock «Negative Zahlen»)
+
+* Schüler verwechseln das Minuszeichen als Teil einer Zahl (z.B. -3) mit dem Minuszeichen als Subtraktionsoperator (z.B. 7 - 3).
+  * Von Beginn an konsequent klare Bezeichnungen verwenden: «negativ» für das Vorzeichen und «minus» für die Subtraktion. Evtl. können farbliche Markierungen helfen die Unterscheidung deutlicher
+hervorzuheben.
+* Schwierigkeiten zu verstehen, dass das Subtrahieren einer negativen Zahl das Gleiche ist wie das Addieren der positiven Zahl (z.B. 5−(−3) = 5+3)
+  * Einführung des Merksatzes: «Minus und Minus gibt Plus». Zu Beginn ist es sicherlich sinnvoll Aufgaben mit Hilfe des Zahlenstrahls zu lösen, um sich die Merkregel zu verinnerlichen. Hierbei ist
+wichtig, dass die SuS auch wirklich verstehen, wieso es sich so verhält und sich nicht nur das Vorgehen einprägen.
+* Vorzeichenwechsel bei Multiplikation und Division --> (−2)×(−3) = 6 oder (−4)÷(−2) = 2
+  * Den genauen Sachverhalt, kann den SuS durch konkrete Beispiele vor Augen geführt werden. Das Prinzip muss mit den SuS umfassend aufarbeitet werden, sodass sie sich darauf einlassen können
+und anschliessend selbstständig Übungen dazu lösen können.
+* Schüler neigen dazu, größere negative Zahlen als „größer“ im positiven Sinne zu betrachten (z.B. denken, dass -5 größer ist als -2)
+  * Wiederholtes Üben: Aufgaben mit dem Zahlenstrahl lösen, um das Verständnis visuell zu verstärken. Zudem kann das Arbeiten mit bekannten Konzepten helfen ein tieferes Verständnis aufzubauen:
+Temperatur: -2 °C wärmer ist als -10°C.
+* Einige Schüler haben eine Angst vor negativen Zahlen oder glauben, dass sie schwer zu verstehen sind, was ihr Lernen blockiert.
+  * Die SuS können durch kleine Erfolgserlebnisse ermutigt werden. Zudem kann der spielerische Zugang an das Konzept den ersten Zugang wesentlich erleichtern und das Interesse an der Thematik
+wecken.
+
+:::
+
+
+::: {.callout-tip collapse="true"}
+
+## Lernvoraussetzungen der Schüler*Innen
+
+* Natürliche Zahlen (1, 2, 3, ...) sind bekannt
+* Grundrechenarten (Addition, Subtraktion, Multiplikation und Division) sind bei den natürlichen Zahlen vertraut (werden beherrscht)
+* Die Zahlengeraden (mindestens der Zahlenstrahl) wurde schon min. einmal gesehen--> Zahlen sind in einer bestimmten Reihenfolge angeordnet
+* Zahlen Vergleichen (>, <, =) können die SuS
+* Schüler haben möglicherweise (mit ziemlicher Wahrscheinlichkeit) Erfahrungen mit Alltagssituationen gemacht, die negative Konzepte beinhalten
+
+→ Temperaturen können negativ sein --> sehr kalt
+
+→ Punkte verlieren
+
+→ Lift fahren
+
+→ Etc.
+
+:::

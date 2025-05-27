@@ -1,0 +1,66 @@
+---
+format: html
+title: Grundlagen der Beurteilung
+subtitle: Fallbasiert diskutiert, SOL mit Coaching-Angebot 
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+categories:
+  - Modul - Summative und prognostische Beurteilung
+  - Modul - Formative Beurteilung
+date: 09 01 2024
+draft: false
+---
+
+::: {style="text-align: center;"}
+[LearningView](https://learningview.org/){.knopf target="_blank"}
+:::
+
+# Ziele und Intention
+
+::: callout-note
+## Modulkompetenzen
+
+Abgedeckte Indikatoren aus dem Modul «Formative Beurteilung»:
+
+1.  Die Studierenden arbeiten mit den rechtlichen Vorgaben und den Empfehlungen zur formativen Beurteilung.
+2.  Die Studierenden nutzen Verfahren, um den Lernbedarf im Hinblick auf fachspezi-fische, fachübergreifende, methodische und sprachliche Kompetenzen zu ermitteln.
+3.  Die Studierenden verstehen einen Förderkreislauf und leiten Fördermassnahmen ab.
+
+Abgedeckte Indikatoren aus dem Modul «Summative und prognostische Beurteilung»
+
+1.  Die Studierenden arbeiten mit den rechtlichen Vorgaben und den Empfehlungen zur summativen und prognostischen Beurteilung.
+2.  Die Studierenden nutzen Strategien, um mit dem Dilemma zwischen Förderung und Selektion umzugehen.
+3.  Die Studierenden setzen ein Alignment zwischen Lernerwartungen, Lerninhalten und Leistungsbeurteilungen um.
+:::
+
+::: callout-note
+## Intention des Seminars
+
+Schüler\*innenbeurteilung und Schullaufbahnentscheide gehören zu den wichtigsten Tätigkeiten und Aufgaben der Lehrpersonen. Die Schulleitungen weisen darauf hin, dass Berufseinsteigende genau bei dieser Thematik manchmal in der Kritik von Erziehungsberechtigten stehen. Dies lässt sich vermeiden, wenn die Lehrpersonen von Anfang an mit einem differenzierten Beurteilungskonzept Transparenz schaffen. Differenziert meint, dass das «persönliche» Beurteilungskonzept die Umsetzung der übergeordneten Vorgaben (im Kanton Bern DVBS & AHB) im eigenen Unterricht aufzeigt. Lehrpersonen machen ihren Lernenden und den Erziehungsberechtigten damit transparent, wie sie die förderorientierte Beurteilung in den Unterricht integrieren (formative Beurteilung), wie überfachliche Kompetenzen beurteilt werden und wie die Noten und Prädikate in den Fachbereichen zustande kommen (summative Beurteilung).
+:::
+
+::: callout-note
+## Teilnahmeregelung
+
+Grundsätzlich wird die Teilnahme am [LearningView-Kurs](https://learningview.org/) erwartet.
+
+Ich fühle mich dafür verantwortlich, dass Sie sich mit den Inhalten beschäftigen und sich diese aneignen und nicht, dass Sie Ihre Zeit auf LearningView verbringen müssen. Deshalb werden verbindliche Anforderungen an die Qualität des Beurteilungskonzepts gestellt.
+
+Das bedeutet, dass anhand eines Kriterienrasters Qualitätsansprüche an den Workload «Beurteilungskonzept» gestellt werden. Dieses Raster wird sowohl als Rückmeldungsinstrument, als auch zur Einschätzung der Qualität desselben verwendet. Es ist deshalb möglich, dass das Beurteilungskonzept «nicht erfüllt» sein kann. In diesem Falle dürfen Sie selbstverständlich das Konzept überarbeiten.
+
+**Verpflichtende** Teilnahme an einem Coaching zum persönlichen Beurteilungskonzept:
+
+Wie Sie sicher bereits gesehen haben, gibt es Zeitgefässe, die ganz der individuellen Arbeit am Beurteilungskonzept gewidmet sind. Sie haben diese Zeit zur Verfügung, um das Konzept zu schreiben, aber auch, um ein formatives Feedback einzuholen. Dazu stehen Ihnen Zeitgefässe zur Verfügung, in denen Sie ein Coaching zu Ihrem Beurteilungskonzept erhalten können. Sie müssen bis zum Ende des Semesters mindestens einen Coachingtermin wahrgenommen haben, an dem ich Ihnen ein formatives Feedback auf Ihr Konzept geben kann.
+:::
+
+# Workload «Beurteilungskonzept»
+
+Am Ende des Semesters verfügen Sie über einen Entwurf eines persönlichen Beurteilungskonzepts, indem Sie an Ihren Vorkenntnissen anknüpfen und die wichtigsten Themen, Begriffe und Modelle aus dem Seminar (siehe Liste unten) in Ihre Argumentationen und Erläuterungen einbauen. Obwohl Ihre Argumentation persönlich ist, muss diese dennoch quellenbasiert erfolgen. Vergessen Sie also nicht, während des Verfassens des Konzepts konsequent und von Anfang an in Ihrem Lauftext die verwendeten Quellen anzugeben und sich allenfalls auch die Zitierweise von veranstaltunginternen Unterlagen anzueignen (siehe Vorschlag weiter unten). Sie entwickeln für Ihr Beurteilungskonzept eine eigene Struktur, welche Ihnen erlauben wird, alle künftigen Erfahrungen aus Unterricht und Praktika einzubauen.
+
+Das Beurteilungskonzept ist Bestandteil des Workloads des Seminars und muss den Anforderungskriterien genügen, die in den Informationen zum Beurteilungskonzept einsehbar sind. Anhand dieser Kriterien erhalten Sie eine Rückmeldung sowie ein Prädikat. Es ist folglich möglich, dass das Beurteilungskonzept das Prädikat «nicht erfüllt» erhält.
+
+Bei einem ungenügenden Beurteilungskonzept dürfen Sie dieses einmalig überarbeiten. Genügt dieses auch nach der Überarbeitung den Anforderungskriterien nicht, erfolgt ein Ausschluss aus der Veranstaltung.

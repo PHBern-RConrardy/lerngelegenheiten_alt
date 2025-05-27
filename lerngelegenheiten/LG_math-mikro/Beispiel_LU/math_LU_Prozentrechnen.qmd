@@ -1,0 +1,119 @@
+---
+format: html
+title: Prozentrechnen
+subtitle: Baumdiagramm
+author: Richard Conrardy
+license: "CC BY-SA"
+citation: 
+  author:
+    - Richard Conrardy
+date: 25 02 2025
+
+copyright: Generative KI half bei den Formulierungen, der Erstellung und der Lösungen der Aufgaben.
+abstract: >
+  Dieses Lernmodul umfasst eine Doppellektion und schliesst mehrstufige Experimente ab. 
+---
+
+:::{.center}
+[Slides](Slides.qmd){.knopf}
+:::
+
+# Übungen
+
+::: {#exr-Glücksrad}
+## Glücksrad
+Ein Glücksrad ist in drei gleich große Sektoren unterteilt: rot, blau und grün. Es wird zweimal hintereinander gedreht.
+
+1. Zeichne ein Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, zweimal dieselbe Farbe zu erhalten.
+3. Berechne die Wahrscheinlichkeit, mindestens einmal Blau zu erhalten.
+:::
+
+:::::{.callout-note title="Lehrpersonenkommentar" collapse="true"}
+
+### Vertiefung Motivation
+
+Gemäss @bovet_leitfaden_2020 und @wigfield_expectancyvalue_2000 als auch @ryan_self-determination_2000
+
+:::::
+
+::: {#exr-Münzwurf-Würfel}
+## Münzwurf und Würfel
+Es wird eine faire Münze geworfen und anschließend ein sechsseitiger Würfel geworfen.
+
+1. Zeichne das Baumdiagramm.
+2. Wie groß ist die Wahrscheinlichkeit, dass Kopf und eine gerade Zahl geworfen wird?
+3. Wie groß ist die Wahrscheinlichkeit, dass Zahl und eine ungerade Zahl geworfen wird?
+:::
+
+::: {#exr-Urnenmodell}
+## Urnenmodell
+In einer Urne befinden sich 3 rote, 2 blaue und 1 grüne Kugel. Es werden nacheinander zwei Kugeln ohne Zurücklegen gezogen.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, dass beide Kugeln rot sind.
+3. Berechne die Wahrscheinlichkeit, dass mindestens eine blaue Kugel gezogen wird.
+:::
+
+::: {#exr-Karten-ziehen}
+## Karten ziehen
+Ein Kartenstapel enthält 4 rote und 6 schwarze Karten. Es werden nacheinander zwei Karten mit Zurücklegen gezogen.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, zwei rote Karten zu ziehen.
+3. Berechne die Wahrscheinlichkeit, zwei verschiedenfarbige Karten zu ziehen.
+:::
+
+::: {#exr-Doppelte-Lotterie}
+## Doppelte Lotterie
+In einer Lotterie wird zuerst eine Zahl von 1 bis 5 gezogen und danach ein Buchstabe aus A, B oder C.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, die Zahl 3 und den Buchstaben B zu ziehen.
+3. Berechne die Wahrscheinlichkeit, eine ungerade Zahl und den Buchstaben A zu ziehen.
+:::
+
+::: {#exr-Würfelspiel}
+## Würfelspiel
+Zwei Würfel werden geworfen.
+
+1. Zeichne das Baumdiagramm für die Augensummen.
+2. Wie groß ist die Wahrscheinlichkeit, dass die Summe 7 beträgt?
+3. Wie groß ist die Wahrscheinlichkeit, dass mindestens eine 6 geworfen wird?
+:::
+
+::: {#exr-Kugeln-Zurücklegen}
+## Kugeln mit Zurücklegen
+In einer Urne befinden sich 4 gelbe und 3 blaue Kugeln. Es werden nacheinander zwei Kugeln mit Zurücklegen gezogen.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, zweimal eine gelbe Kugel zu ziehen.
+3. Berechne die Wahrscheinlichkeit, dass mindestens eine blaue Kugel gezogen wird.
+:::
+
+::: {#exr-Fußballturnier}
+## Fußballturnier
+Ein Team gewinnt mit Wahrscheinlichkeit 0.6, spielt unentschieden mit Wahrscheinlichkeit 0.3 und verliert mit Wahrscheinlichkeit 0.1. Es werden zwei Spiele gespielt.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, dass das Team beide Spiele gewinnt.
+3. Berechne die Wahrscheinlichkeit, dass das Team mindestens einmal verliert.
+:::
+
+::: {#exr-Schießen-Zielscheibe}
+## Schiessen auf eine Zielscheibe
+Ein Schütze trifft mit Wahrscheinlichkeit 0.7 das Ziel. Er schiesst zweimal.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, dass er beide Male trifft.
+3. Berechne die Wahrscheinlichkeit, dass er mindestens einmal trifft.
+:::
+
+::: {#exr-Losverfahren}
+## Losverfahren
+Es gibt 5 Lose in einer Box, von denen 2 gewinnen. Zwei Lose werden ohne Zurücklegen gezogen.
+
+1. Zeichne das Baumdiagramm.
+2. Berechne die Wahrscheinlichkeit, dass beide Lose gewinnen.
+3. Berechne die Wahrscheinlichkeit, dass mindestens eines gewinnt.
+:::

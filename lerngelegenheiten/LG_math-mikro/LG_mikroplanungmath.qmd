@@ -1,0 +1,26 @@
+---
+title: Mikroplanung Mathematik
+subtitle: Lernumgebungen entwickeln
+format: 
+  html: default
+categories:
+  - Modul - Mikroplanung
+  - Fach - Mathematik
+image: images/Mikroplanung.webp
+draft: true
+---
+
+::: {style="text-align: center;"}
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_grp_2127034.html){.knopf .knopf-klein target="_blank"}
+:::
+
+| Teil | Thema                   |         Slides          |
+|:----:|:---|:-----------------------|
+|  1   | Lernziele und Anfangszustand              | [Slides](Slides_04.html) |
+|  2   | Lehrstoff               | [Slides](Slides_03.qmd) |
+|  3   | Aktivitäten der Lernenden            |       [Slides](Slides_05.qmd)        |
+|  4   | Aufgaben|              |
+|  5   | Offene Aufgaben und Phasen                |       [Slides Aufgaben](Slides_02.qmd)  [Slides Phasen](Slides_01.qmd)         |
+
+
+: {.striped .hover .table-sm}

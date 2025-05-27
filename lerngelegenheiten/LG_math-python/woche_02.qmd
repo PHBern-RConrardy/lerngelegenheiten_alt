@@ -1,0 +1,106 @@
+---
+format: html
+title: Übungen mit Conditionals
+date: 07/18/2024
+---
+
+::: {#exr-line}
+## Gerade oder ungerade Zahl
+
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl gerade oder ungerade ist.
+:::
+
+::: {#exr-line}
+## Positiv, negativ oder null
+
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl positiv, negativ oder null ist.
+:::
+
+::: {#exr-line}
+## Zahlenmengen
+
+Schreiben Sie ein Programm, welches prüft, ob eine Zahl in $\mathbb{N}$, $\mathbb{Z}$ oder $\mathbb{Q}$ ist.
+:::
+
+::: {#exr-line}
+## Mehrfache von drei und fünf
+
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl sowohl ein Vielfaches von 3 als auch von 5 ist.
+:::
+::: {#exr-line}
+## Schaltjahr oder nicht
+
+Schreibe ein Programm, das ein Jahr als Eingabe nimmt und überprüft, ob es sich um ein Schaltjahr handelt.
+
+> Die gregorianische Schalttagsregelung besteht aus folgenden drei einzelnen Regeln: 
+> 1. Die durch 4 ganzzahlig teilbaren Jahre sind, abgesehen von den folgenden Ausnahmen, Schaltjahre.
+> 2. Säkularjahre, also die Jahre, die ein Jahrhundert abschließen (z.B. 1800, 1900, 2100 und 2200), sind, abgesehen von der folgenden Ausnahme, keine Schaltjahre.
+> 3. Die durch 400 ganzzahlig teilbaren Säkularjahre, zum Beispiel das Jahr 2000, sind jedoch Schaltjahre.
+>
+> Quelle: https://de.wikipedia.org/wiki/Schaltjahr
+:::
+
+::: {#exr-line}
+## Abweichung
+
+Schreiben Sie ein Programm, welche zwei Zahlen nimmt und augibt um wieviel Prozent die grössere Zahl grösser ist als die kleinere Zahl.
+:::
+::: {#exr-line}
+## Eintritspreis basierend auf dem Alter
+
+Schreiben Sie ein Programm, das das Alter einer Person als Eingabe nimmt und den Eintrittspreis basierend auf dem Alter berechnet: unter 18: 5Chf, 18-64: 10Chf, 65 und älter: 7Chf.
+:::
+:::: {#exr-line}
+## Maximalwert
+
+Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und den größten Wert ausgibt.
+
+:::{.callout-tip}
+
+## Maximalfunktion
+
+Die Maximalfunktion gibt sofort den grössten Wert aus: `max()` 
+
+:::
+::::
+::: {#exr-line}
+## Berechnung der Quadratwurzel
+
+Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurzel dieser Zahl berechnet. Überprüfen Sie dabei, ob die Zahl positiv ist.
+:::
+::: {#exr-line}
+## Dreieckstyp
+
+Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein Dreieck handeln kann und falls ja, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt. 
+:::
+::: {#exr-line}
+## Addition mit Überprüfung
+
+Schreibe ein Programm, das zwei Zahlen als Eingabe nimmt, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.
+:::
+:::: {#exr-line}
+## Zufällige Addition mit Überprüfung
+
+Schreibe ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.
+
+:::{.callout-tip}
+
+## Random-Package
+
+Das Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben. Jedes Mal wenn das Programm laufen gelassen werden neue zufällige Zahlen mit Hilfe der aktuellen Uhrzeit produziert.
+
+```python
+import random
+zahl1 = random.randint(1, 100)
+zahl2 = random.random()
+zahl3 = random.choice(-1,1)
+print(zahl1,zahl2,zahl3)
+```
+
+:::
+::::
+::: {#exr-line}
+## Zufällige Multiplikation mit Bewertung
+
+Schreiben Sie ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihr Produkt berechnet und überprüft, um wieviel das vom Benutzer eingegebene Resultat vom echten Resultat abweicht. Bei einer Eingabe von weniger als 2% soll "sehr gut" ausgegeben werden, bei einer Abweichung ovn weniger als 7% soll "gut" augegeben werden und bei einer Abweichung von mehr als 20% soll "schwach" ausgegeben werden. In allen anderen Fällen soll "gut genug" ausgegeben werden.
+:::

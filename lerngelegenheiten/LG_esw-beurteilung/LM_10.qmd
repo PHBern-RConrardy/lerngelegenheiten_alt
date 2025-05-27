@@ -1,0 +1,169 @@
+---
+format: html
+title: Nachteilsausgleich und individuelle Lernziele
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Barbara Rindlisbacher
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+date: 07/10/2024
+citation: 
+  author:
+    - Barbara Rindlisbacher
+copyright: Dieses Lernmodul basiert auf einem Lernmodul von Dr. Barbara Rindlisbacher. Diese hat die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt. 
+abstract: >
+  In diesem Lernmodul geht es Nachteilsausgleiche und individuelle reduzierte und erweiterte Lernziele.
+---
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+* benennen die rechtlichen Grundlagen bei sonderpädagogischen und unterstützenden Massnahmen.
+* unterscheiden zwischen Ausgleichsmassnahmen, reduzieren individuellen Lernzielen und erweiterten individuellen Lernzielen.
+
+:::
+
+# Arbeitsauftrag und Fallbeispiel
+
+Für die Bearbeitung des Lernmoduls gehen Sie nach den Schritten vor, die nachfolgend aufgeführt sind.
+ 
+1. Schauen Sie sich den [Screencast](https://tube.switch.ch/embed/2371de8d?title=hide) und den [Lernfilm zum Nachteilsausgleich](https://tube.switch.ch/embed/H0FEJsV2HW?title=hide) an. 
+
+:::{.callout-tip}
+Im Kanton Bern ist neben dem Begriff "Nachteilsausgleich" ebenfalls der Begriff "Ausgleich von Benachteilungen"[@erziehungsdirektion_des_kantons_bern_lehrplan_2016-1] und "Ausgleichsmassnahmen" [@bildungs_und_kulturdirektion_kanton_bern_information_2019] geläufig.
+:::
+
+2. Verschaffen Sie sich einen Überblick über @brunsting_dyslexie_2018, @knutti_nachteilsausgleich_2015, @sahli_lozano_vergabe_2020 und lesen Sie @bundesamt_fur_statistik_statistik_2020 das Kapitel 2.2 (S. 9-14). Lesen Sie die [VMR](https://www.belex.sites.be.ch/app/de/texts_of_law/432.271.1/art/11), sowie die [MRDV](https://www.belex.sites.be.ch/app/de/texts_of_law/432.271.11). Schauen Sie sich im Anschluss daran die den [Screencast zu den Ergebnissen des Forschungsprojekts von Sahli Lozano et al.](https://tube.switch.ch/embed/51fe2200?title=hide) an. Welche Übereinstimmungen erkennen Sie (z.B. Anteil SuS mit Migrationshintergrund, Geschlecht usw.)?
+4. Überlegen Sie sich, was bezüglich der beiden Massnahmen (Nachteilsausgleich / iLZ) für **Ihr Beurteilungskonzept** wesentlich sein könnte.
+5. Bearbeiten Sie anschliessend das Fallbeispiel (Text unten). Im Fallbeispiel steht, dass der Schüler Mario sowohl im Fach Deutsch, wie im Fach Mathematik reduzierte, individuelle Lernziele hat. Überlegen Sie, ob Sie diese Massnahme angemessen finden, oder ob es auch Argumente für eine andere Massnahme in einem der beiden Fächer gibt.
+Falls Sie sich für die Massnahme Nachteilsausgleich oder Beurteilung ohne Note nach [Art. 19 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) entscheiden, machen Sie sich auch Gedanken zu konkreten Massnahmen. Im Screencast auf der letzten Folie finden Sie dazu auch ein ausgefülltes Antragsformular mit Ideen.
+Bei der Bearbeitung des Fallbeispiels können Sie ausgehen vom Fach, welches Sie studieren. Wenn Sie weder Mathematik noch Deutsch studieren, dann machen Sie sich Gedanken zu möglichen Massnahmen, um die Symptome des ADS auszugleichen.
+
+
+
+### Fallbeispiel Mario  8. Klasse, Real
+ 
+Angaben zur familiären Situation
+
+* Familie: Mutter, Vater, zwei jüngere Brüder (13j. und 10j.)
+* Schweizer Familie, mit drei Kindern, Hund und Katze, einem Haus auf dem Land – Mittelstand
+* Eltern sind sehr um Mario bemüht und pflegen einen regen Austausch mit der Schule
+
+ 
+Angaben zur Schullaufbahn
+
+* riLZ (individuelle Lernziele) ab der 4. Klasse in Deutsch und Mathematik
+* Bereits Auffälligkeiten auf der Unterstufe, jedoch liegen keine Dokumente dazu vor
+* Grosse Schulunlust und Arbeitsverweigerung auf der Primarstufe – Mario verweigerte sich teilweise komplett
+
+ 
+Angaben zur Problematik (unsystematische Beobachtungen zum Problemfeld)
+
+* Mario fällt es schwer, sich auf den Unterricht zu konzentrieren
+* Er hat Schwierigkeiten, Gelerntes abzurufen und mit neuen Inhalten zu verknüpfen
+* Gemäss Aussagen der Eltern gibt es zuhause viel Streit, weil sich Mario verweigert und die Hausaufgaben nicht macht
+* Im Unterricht zeigt er auffälliges und provozierendes Verhalten
+* Er hat Schwierigkeiten beim Schreiben und im Leseverstehen
+* Mario hat Schwierigkeiten in Mathematik
+
+Zusammenfassung Lernstandserfassung Mathematik Anfang 8. Klasse
+
+* M. löst viele Aufgaben richtig. Dezimalsystem, Proportionalität, Grössenvorstellungen und Mathematisieren sind vorhanden bzw. verstanden.
+* Unsicherheiten zeigen sich bei der Beziehung Bruch – Dezimalbruch – Prozente. M. kennt einige Beziehungen, das Konzept scheint aber nicht wirklich verstanden.
+* Rechnen mit Dezimalbrüchen ist fehleranfällig, insb. Subtraktion und Division.
+
+ 
+Zusammenfassung Lese- und Schreibentwicklung
+
+* M. liest Texte flüssig vor, jedoch zeigen sich Schwierigkeiten im Textverständnis (bereits kurze altersadäquate Texte werden nicht im Detail erfasst)
+* M. hat Schwierigkeiten in der Textproduktion (Planung, Verschriftung, Überarbeitung) und in der Rechtschreibung. Die Verwendung des Computers ist motorisch für ihn schwierig.
+
+Angaben zu bisher getroffenen Massnahmen (Abklärungen, Spezialunterricht, iLZ, ...)
+
+* riLZ in den Fächern Mathematik und Deutsch
+* Seit der Primarschule Heilpädagogische Unterstützung
+
+ 
+Abklärungen zwischen Herbst und Frühling 7. Klasse bei
+
+* SPD, Psychologin
+* Neurologische Untersuchungen
+* Logopädische Untersuchung
+
+ 
+Resultate/Diagnosen:
+
+* ADS
+* schwere Sprachstörung (Grammatikverständnis, Schreibkompetenz, Wortschatz Dialekt – Hochdeutsch, Textverständnis)
+* minimale spastische cerebrale Bewegungsstörung und Dyspraxie
+
+ 
+NEU seit diesem Schuljahr drei zusätzliche GEF Lektionen (IF), 1 Lektion Logopädie
+Dispensation vom Französischunterricht
+
+## Übungsfragen
+
+::: {#exr-line}
+## Begabtenförderung
+Können Lehrpersonen Schülerinnen und Schüler für die Begabtenförderung nominieren? Welche Vorbedingungen sind nötig?
+:::
+
+::: {#exr-line}
+## Begabtenförderung
+Welcher IQ (Intelligenzquotient) ist notwendig um an einer Begabtenförderung teilnehmen zu können? Wieviel Prozent erreichen typischerweise diesen Wert?
+:::
+
+::: {#exr-line}
+## Begabtenförderung
+Welche Fächer/Themen werden in der Begabtgenförderung behandelt? Kann der übliche Lehrstoff behandelt werden?
+:::
+
+::: {#exr-line}
+## Erweiterte individuelle Lernziele
+Wie hängen eILZ und Begabtenförderung zusammen? Schliessen Sie sich gegenseitig aus, oder ist eins eine Voraussetzung für das andere?
+:::
+
+::: {#exr-line}
+## Individuelle Lernziele
+Was ist die Rolle der Fachlehrperson, der Schulleitung, der gesetzlichen Verteter (Eltern) und der Erziehungsberatung bei ILZ?
+:::
+
+::: {#exr-line}
+## Individuelle Lernziele
+Was ist bei ILZ im Beurteilungsbericht Pflicht und was ist optional: Ein Stern (*), ein Bericht, eine Note.
+
+Unterscheiden Sie zwischen rILZ und eILZ.
+:::
+
+::: {#exr-line}
+## Individuelle Lernziele
+Wer verantwortet den Unterricht gemäss ILZ? Wer verantwortet die periodische Überprüfung der Massnahmen? 
+:::
+
+::: {#exr-line}
+## Ausnahmen von der Beurteilung
+Nennen Sie 5 "wichtige Gründe" um von der Beurteilung abuzweichen. 
+:::
+
+::: {#exr-line}
+## Ausnahmen von der Beurteilung
+Was ist die Rolle der gesetzlichen Vertreter (Eltern), der Schulleitung, der Lehrperson, der Erziehungsberatung und von Fachstellen bei den Ausnahmen von der Beurteilung?
+:::
+
+::: {#exr-line}
+## Ausnahmen von der Beurteilung
+Was ist der Zusammenhang zwischen rILZ und Ausnahmen von der Beurteilung? Ist eins eine notwendige oder hinreichende Bedingung des anderen?
+:::
+
+::: {#exr-line}
+## Ausnahmen von der Beurteilung
+Nennen Sie 5 mögliche und häufige Massnahmen zum Ausgleich von benachteiligend wirkenden Behinderungen oder Beeinträchtigungen im Unterricht.
+:::
+
+::: {#exr-line}
+## Ausnahmen von der Beurteilung
+Erklären Sie in eigenen Worten die 5 Grundsätze bei Ausgleichsmassnahmen: Angemessenheit, Fairness, Vertretbarkeit, Verhältnismässigkeit und Verständlichkeit.
+:::

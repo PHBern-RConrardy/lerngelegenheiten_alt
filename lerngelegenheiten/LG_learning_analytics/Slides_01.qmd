@@ -1,0 +1,21 @@
+---
+title: "Learning Analytics"
+format: revealjs
+authors:
+  - name: Florian Keller
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Richard Conrardy
+    affiliations:
+      - ref: phbern
+---
+
+# Offene Fragen zu den Vorbereitungsaufträgen
+
+# Workload
+
+## Auftrag 
+
+## Gruppenbildung
+

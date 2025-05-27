@@ -1,0 +1,10 @@
+title: PH-Heidelberg
+author: Richard Conrardy
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      filters: []
+      theme: [default, phheidelberg.scss]
+      format-resources:
+       

@@ -1,0 +1,104 @@
+---
+title: "Lerngelegenheiten"
+subtitle: "Webseite für Lerngelegenheiten"
+format: html
+listing:
+  - contents: "lerngelegenheiten/*/LG_*.qmd"
+    type: table
+    fields: [title, subtitle]
+    categories: true
+    id: lerngelegenheiten
+    page-size: 100
+  - contents: "tagungsunterlagen/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [date, title,subtitle]
+    id: tagungsunterlagen
+    page-size: 100
+  - contents: "lerngelegenheiten/*/LM_*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle]
+    id: lernmodule
+    page-size: 100
+  - contents: "lehrmaterialien/*/math_*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle,authors]
+    id: lehrmaterialien
+    page-size: 100
+  - contents: "projekte/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle]
+    id: projekte
+    page-size: 100
+  - contents: "videos/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle]
+    id: videos
+    page-size: 100
+---
+
+:::{.callout-tip}
+## Experiment
+
+Im Rahmen meiner Doktorarbeit führe ich an der PHBern ein Experiment durch. Sie können mitmachen! Es läuft von April bis Mai 2025.
+
+:::mittig
+[Weitere Informationen zum Experiment](experiment/informationen.qmd){.knopf}
+
+[Mitachen! (PHBern)](https://forms.office.com/e/pm6KdeELwN){.knopf} [Mitmachen! (Andere)](https://forms.office.com/Pages/ResponsePage.aspx?id=zwAKJW1LckaxbMo0bk4R5VfPrF0Zps1KgKhjsB14s1xUNUpZWTI2MTY0OUhXRjc1Rk40QUxRNlhBRy4u){.knopf}
+
+:::
+
+:::
+
+:::: {.panel-tabset}
+# Lerngelegenheiten
+
+Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows. test
+
+:::{#lerngelegenheiten}
+:::
+
+# Lernmodule
+
+Auflistung aller Lernmodule welche eine thematische Lerneinheit bilden.
+
+:::{#lernmodule}
+:::
+
+
+
+# Konferenzen
+
+Auflistung von Slideshows für Konferenzen, Tagungen und Austauschgefässen.
+
+:::{#tagungsunterlagen}
+:::
+
+# Lernumgebungen
+
+Auflistung von Lernumgebungen welche von Studierenden erstellt wurden. 
+
+:::{#lehrmaterialien}
+:::
+
+# Videos
+
+Auflistung von Erklärvideos
+
+:::{#videos}
+:::
+
+
+# Projekte
+
+Auflistung von getrennten Projekten welche in keine andere Kategorie passen.
+
+:::{#projekte}
+:::
+
+::::

@@ -1,0 +1,96 @@
+---
+format: html
+title: Workload
+subtitle: Eigene Lernumgebung konzipieren
+---
+# Auftrag 
+
+Sie veröffentlichen eine Lernumgebung von 2 bis 4 Lektionen unter einer freien Lizenz (Vorschlag: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) und zitieren nach APA 7 [vgl. @american_psychological_association_publication_2020].
+
+Tragen Sie sich für bei der Themenauswahl in die [Themenliste](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B6d7b7b77-e701-495c-a734-95aa8c684020%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1725374697781&web=1&CID=2f77316a-b428-4c26-ed85-c19100b5eb17) ein. 
+
+Erstellen und veröffentlichen Sie ihre Lernumgebung auf [Switchportolio](https://portfolio.switch.ch/). 
+
+::: {.callout-tip collapse="false"}
+## Digileb Knowledge Base
+
+Das Digileb hat eine [eine Einleitung zu Switchportfolio](https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/switchportfolio-gestalten/) und zu [Open Educational Resources](https://digileb.phbern.ch/didaktisches-design/kollaboratives-lernen-und-arbeiten/oer-herstellen/) verfasst.
+:::
+
+
+Sie planen eine bis zwei Doppellektionen für eine niveaudurchmischte Klasse und geben folgende Materialien ab: 
+
+* Einführender Lehrpersonenkommentar inkl. zwei Vertiefungen (Motivation, Wirksamkeit, Lernphasen oder Wissenserwerb) 
+* Lernmaterialien, inkl Lektionsplanung
+
+:::{.callout-warning title="Hinweis"}
+Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar und Vertiefung. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.
+:::
+
+::: {.callout-tip collapse="false"}
+## Schreibberatung
+
+Die Institut Sekundarstufe 1 bietet Ihnen eine Schreibberatung an. Falls Sie wissenschaftlichen Schreiben, inkl. korrektes zitieren noch nicht beherrschen, können Sie sich an **schreibberatung-is1@phbern.ch** wenden.
+:::
+
+Sie begründen Ihre Planungen differenziert mathematikdidaktisch, lernpsychologisch und mit Bezügen zu den Querschnittsthemen. 
+
+Folgende Beurteilungskriterien dienen Ihnen zur Orientierung:
+
+* Die Lernumgebung enthält bedeutsame Inhalte, welche mit dem Lehrplan verbunden sind. 
+* Die Lernumgebung ist fachlich-inhaltlich korrekt. 
+* Die Lernumgebung ist zielgruppengerecht strukturiert.  
+* In der Lernumgebung sind die Lernerwartungen zielgruppengerecht formuliert. 
+* Der Lernprozess bei der Lernumgebung ist in sinnvolle Lernphasen gegliedert. 
+* Die Lernumgebung enthält analoge wie digitale, fachliche, überfachliche und fächerübergreifende Teile mit entsprechenden sprachsensiblen Aufgaben. 
+* Die Lernumgebung fördert partizipatives und individualisiertes Lernen. 
+* In der Lernumgebung werden Sozialformen, Methoden, Medien und Materialien lernfördernd und abwechslungsreich eingesetzt. 
+* Die Lernumgebung und zusätzlichen Erklärungen zeigen wie Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch gestaltet und begründet sind. 
+
+## Konventionen
+
+Grundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. 
+
+* Dezimalzahlen werden mit Komma ("4,32") geschrieben. 
+* Koordinaten werden mit Strichpunkt ("4,1;2,7") getrennt. 
+* Das Geteiltzeichen ist ein Querstrich ("1/2") oder besser ein Bruchstrich ("$\frac{1}{2}$"). 
+* Der Doppelpunkt bezeichnet ein Verhältnis ("4:3:2"). 
+* Das Multiplikationszeichen (falls vorhanden) ist ein Punkt ("$3\cdot 2$"). 
+* Geogebrabefehle und Tabellenkalkulationsprogrammbefehle sind auf Englisch.
+* Falls eine Programmiersprache vorausgesetzt wird, ist es Python.
+
+# Orientierung im Jahr
+
+Fürs Mathbuch [@affolter_mathbuch_2013-2] gibt es zwei Vorschläge für eine Jahresplanung [@walti_jahresplanung_2021]. Diese sind allerdings urheberrechtlich geschützt.
+
+Als Makroplanung orientieren wir uns an folgender Aufteilung:
+
+:::{.column-page}
+
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+|               | Form                           | Zahl                   | Raum                       | Variable          | Funktionen  | Daten und Zufall    | Erweiterung               |
++===============+================================+========================+============================+===================+=============+=====================+===========================+
+| 7.  Klasse HS | Vierecke, Symmetrien           | Primzahlen, kgV, ggT,  | Koordinatensystem,         | Variablen,        | Gleichungen | Diagramme, Prozente | Potenzen                  |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+| 7.  Klasse FS | Dreiecke, Kongruenzabbildungen | ganze Zahlen, Potenzen | Volumen, Oberfläche, Kreis | Termumformung     | Gleichungen | Ereignisse, Prozent | Wurzeln, Proportionalität |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+| 8.  Klasse HS | Thales                         | Rationale Zahlen       | Prismen,Kreissektoren      | Termumformung     | Gleichungen | Kennwerte           | wiss. Schreib.            |
+|               |                                |                        |                            |                   |             |                     |                           |
+|               | Pythagoras                     |                        |                            |                   |             |                     |                           |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+| 8.  Klasse FS | Pythagoras                     | Potenzen               | Pyramiden                  | Gleichungen       | Funktionen  | Mehrstuf. Exp.      | Textaufg.                 |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+| 9.  Klasse HS | Streckung, Strahlens.          | Termumf.               | Körper                     | Gleich.           | Lin. Funk.  | Komb., Zinsen       | Ungl.                     |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+| 9.  Klasse FS | Ähnlichkeit                    | Termumf.               | Kegel, Kugel               | Gleichungssysteme | Funkt.      | Komb                |                           |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+|               |                                |                        |                            |                   |             |                     |                           |
++---------------+--------------------------------+------------------------+----------------------------+-------------------+-------------+---------------------+---------------------------+
+
+: Übersicht des Jahresablaufes
+
+:::
+
+Pro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -\> Pro Feld 3 Wochen
+
+![Lektionentafel](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/92/ahb_kapitel_4.1.4.jpg)

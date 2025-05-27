@@ -1,0 +1,249 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: ein roter Faden <br> 7. Klasse HS
+---
+
+# Vierecke, Symmetrien
+
+## 7. Klasse Herbstsemester
+
+## 
+
+::: {#fig-vierecke}
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/48/Viereck-Hierarchie.png)
+
+Hierarchie (Haus) der Vierecke, von [Lars Rohwedder (Gemeinfrei)](https://commons.wikimedia.org/wiki/File:Viereck-Hierarchie.png)
+
+:::
+
+##
+
+
+::: {#fig-pc}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/39/Motoryacht_design_i.png)
+
+Vierecke in der Computergraphik [Freeformer CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Motoryacht_design_i.png)
+
+:::
+
+##
+
+::: {#fig-pc2}
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/fb/Dolphin_triangle_mesh.png)
+
+"Low Polygon"  [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Dolphin_triangle_mesh.png)
+
+:::
+
+##
+
+Erweiterung zu:
+
+* [Polygon Mesh](https://en.wikipedia.org/wiki/Polygon_mesh), Graphentheorie
+* [Drahtgitter](https://de.wikipedia.org/wiki/Polygonnetz) und [Abwicklungen](https://de.wikipedia.org/wiki/Abwicklung_(Technisches_Zeichnen))
+
+
+## 
+
+::: {#fig-symmetrien}
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f8/Asymmetric_%28PSF%29.svg)
+
+Symmetrie [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Asymmetric_(PSF).svg?lang=de)
+
+:::
+
+. . .
+
+### Weshalb?
+
+## 
+
+::: {#fig-castle-howard}
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f3/Castle_Howard_Vit_Brit2_edited.jpg
+)
+
+Castle Howard in Yorkshire, England, [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Castle_Howard_Vit_Brit2_edited.jpg)
+
+:::
+
+## 
+
+* Mathematik: Wissenschaft von Strukturen
+* Reduktion mit gleichzeitiger Abstraktion der Information
+* Pendant der Informatik: Schlaufen
+
+## 
+
+### Rotationssymmetrie
+
+### Achsensymmetrie
+
+### Punktsymmetrie 
+
+
+# Primzahlen, kgV, ggT  
+
+## 
+
+::: {#fig-klemmbaustein}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/32/Lego_Color_Bricks.jpg)
+
+Grundbausteine von Klemmbausteinkonstruktionen, [Alan Chia, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg)
+
+:::
+
+## 
+
+::: {#fig-klemmbaustein}
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/50/Primencomposite0100.svg)
+
+Grundbausteine der natürlichen Zahlen , [CC0](https://commons.wikimedia.org/wiki/File:Primencomposite0100.svg)
+
+:::
+
+##
+
+1. $12 = 2 \cdot 2 \cdot 3$  
+2. $18 = 2 \cdot 3 \cdot 3$  
+3. $20 = 2 \cdot 2 \cdot 5$  
+4. $30 = 2 \cdot 3 \cdot 5$  
+5. $42 = 2 \cdot 3 \cdot 7$  
+6. $56 = 2 \cdot 2 \cdot 2 \cdot 7$  
+7. $63 = 3 \cdot 3 \cdot 7$  
+8. $72 = 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3$  
+9. $84 = 2 \cdot 2 \cdot 3 \cdot 7$  
+10. $100 = 2 \cdot 2 \cdot 5 \cdot 5$  
+
+## 
+
+### Vielfache von 6
+
+$\{6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, ... \}$
+
+### Vielfache 9
+
+$\{9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144, 153, 162, 171, 180, ... \}$
+
+. . .
+
+### 🤔
+
+. . .
+
+$\{ 2;3 \}$
+
+$\{ 3;3 \}$
+
+### 💡
+
+## 
+
+Tabellenkalkulation:  `=XLOOKUP()`
+
+SQL: [INNER JOIN](https://www.w3schools.com/SQL/sql_join_inner.asp)
+
+Mengenlehre:
+
+::: {#fig-schnittmenge}
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg)
+
+Schnittmenge [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Venn0001.svg)
+
+:::
+
+## 
+
+
+Tabellenkalkulation:  `=XLOOKUP()`
+
+SQL: [OUTER JOIN](https://www.w3schools.com/SQL/sql_join_inner.asp)
+
+Mengenlehre:
+
+::: {#fig-vereinigung}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg)
+
+Vereinigungsmenge [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Venn0111.svg)
+
+:::
+
+##
+
+### Teiler von 24
+
+$\{1, 2, 3, 4, 6, 8, 12, 24\}$
+
+### Teiler von 18
+
+$\{1, 2, 3, 6, 9, 18\}$
+
+### 🤔
+
+24: $\{ 2,2,2,3 \}$
+
+18: $\{ 2,3,3 \}$
+
+# Koordinatensystem  
+
+## 1. Quadrant
+
+## 
+
+::: {#fig-thermometer}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/33/Thermometer.JPG)
+
+Thermometer [Muns, CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Thermometer.JPG)
+
+:::
+
+### "5 unter 0" oder "-5" ?
+
+##
+
+::: {#fig-koord}
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0e/Cartesian-coordinate-system.svg)
+
+Koordinatensytem [Gemeinfrei](https://commons.wikimedia.org/wiki/File:Cartesian-coordinate-system.svg)
+
+:::
+
+##
+
+* Vierecke im Koordinatnesystem
+* Symmetrien im Koordinatensystem
+* **Dynamische Geometriesoftware**
+
+
+# Variablen  
+
+##
+
+$a+a=2a=2\cdot a=a\cdot 2$
+
+##
+
+Temperatur: $t$
+Geschwindigkeit: $v$
+
+### Abgrenzung
+
+Einheiten
+
+# Gleichungen  
+
+# Diagramme, Prozente  
+
+# Potenzen  
+

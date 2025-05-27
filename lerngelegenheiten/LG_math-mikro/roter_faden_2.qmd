@@ -1,0 +1,83 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: ein roter Faden
+---
+
+# 7. Klasse FS
+
+## Dreiecke, Kongruenzabbildungen  
+
+## ganze Zahlen, Potenzen  
+
+## Volumen, Oberfläche, Kreis  
+
+## Termumformung  
+
+## Gleichungen  
+
+## Ereignisse, Prozent  
+
+## Wurzeln, Proportionalität  
+
+# 8. Klasse HS
+
+## Thales, Pythagoras  
+
+## Rationale Zahlen  
+
+## Prismen, Kreissektoren  
+
+## Termumformung  
+
+## Gleichungen  
+
+## Kennwerte  
+
+## wissenschaftliche Schreibweise  
+
+# 8. Klasse FS
+
+## Pythagoras  
+
+## Potenzen  
+
+## Pyramiden  
+
+## Gleichungen  
+
+## Funktionen  
+
+## Mehrstufige Experimente  
+
+## Textaufgaben  
+
+# 9. Klasse HS
+
+## Streckung, Strahlensätze  
+
+## Termumformung  
+
+## Körper  
+
+## Gleichungen  
+
+## Lineare Funktionen  
+
+## Kombinationen, Zinsen  
+
+## Ungleichungen  
+
+# 9. Klasse FS
+
+## Ähnlichkeit
+
+## Termumformung
+
+## Kegel, Kugel 	
+
+## Gleichungssysteme 	
+
+## Funktionen 	
+
+## Kombinatorik 	

@@ -1,0 +1,114 @@
+---
+title: "Digitalität und Datenschutz"
+format: revealjs
+categories:
+  - Summative und prognostische Beurteilung
+  - Digitalität
+toc-depth: 3
+---
+##
+
+:::{.callout-note}
+## Lernziele
+
+Wir
+
+* erklären den Wert von Datenschutz im soziologischen Sinne.
+* benutzen die Schweizer Datenschutzgesetze um gesetzeskonform zu handeln und sachkundig zu lehren.
+* lehren *good practice* in Datensicherheit.
+* leben *good practice* in Datensicherheit vor.
+
+:::
+
+# Datenschutz
+
+## Privatsphäre $\neq$ Datenschutz
+
+* "Es ist mir egal ob Google und andere Firmen meine Daten haben."​
+* Wie reagieren Sie?
+* Murmelgruppe – 3 Minuten
+
+## End to end encryption
+
+> "Es bestehen keine Bestrebungen, die Verschlüsselung in irgendeiner Form zu schwächen oder zu verbieten"
+>
+
+:::quelle
+[Sprecher des Dienstes für die Überwachung des Post- und Fernmeldeverkehrs ÜPF](https://www.srf.ch/news/panorama/verschluesselte-kommunikation-will-die-eu-verschluesselte-kommunikation-bei-whatsapp-verbieten)
+:::
+
+> "Bund und Kantone wollten deshalb ein vereinfachtes System, um die Verschlüsselung auszuhebeln."
+>
+:::quelle
+[NZZ](https://www.nzz.ch/technologie/chat-kontrolle-behoerden-wollten-die-verschluesselung-knacken-ld.1691401?reduced=true)
+:::
+
+* Nehmen Sie sachkundig Stellung.
+* Murmelgruppe – 3 Minuten
+
+## CSAM
+
+. . .
+
+![](james_01.png)
+
+:::quelle
+[@kulling_james_2022, S.65]
+:::
+
+## Datenschutz als Lerngegenstand
+
+* Wo im Lehrplan21 kommt Datenschutz vor?
+* Wie stark vertiefen Sie welche Themen?
+
+# Datenschutzrecht
+
+## Datenschutzrecht
+
+* [KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
+  * [EDÖB](https://www.edoeb.admin.ch/edoeb/de/home.html)
+* [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de)
+  * [Datenschutzaufsichtsstelle Bern](https://www.be.ch/de/start/ueber-uns/datenschutzaufsichtsstelle.html)
+    * Aufsichtsstellen
+
+## Datenschutzrecht
+
+> "Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt."
+>
+:::quelle
+[Art. 321e Abs.1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e)
+:::
+
+1. Halten Sie Arbeitssituationen fest in welchen Lehrpersonen mit Datenschutz(recht) konfrontiert werden. 
+2. Diskutieren Sie die Situation mit dem Sitznachbarn.
+
+## Datenschutzrecht als Lerngegenstand
+
+* Wo im Lehrplan21 kommt Datenschutzrecht vor?
+* Wie stark vertiefen Sie welche Themen?
+
+# Datensicherheit
+
+## IT Schutzziele
+
+* Vertraulichkeit
+* Integrität
+* Verfügbarkeit
+
+## Good Practice 
+
+. . .
+
+* Laptop sperren!
+* Passwortmanager
+* Datenminimierung
+* SSD-Encryption auf Laptops
+* Cloud-Synchronisation
+* … ?
+
+## Datenschutzrecht als Lerngegenstand
+
+* Wo im Lehrplan21 kommt Datensicherheit vor?
+* Wie stark vertiefen Sie welche Themen?
+
+## Bibliographie

@@ -1,0 +1,229 @@
+---
+format: html
+title: Gesetzliche Grundlagen
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  In diesem Lernmodul lernen Sie die gesetzlichen Grundlagen schulischer Beurteilung im Kanton Bern kennen. Grundsätzlich kennen alle schweizerischen Kantone solche Grundlagen. Es ist allerdings ganz im Sinne des Föderalismus nicht überall gleich und vor allem findet man diese Grundlagen auch nicht überall gleich schnell bzw. an denselben Orten. Falls Sie jetzt schon wissen, dass Sie später nicht im Kanton Bern unterrichten werden, lohnt es sich dennoch, die gesetzlichen Grundlagen für Ihren Kanton zu recherchieren und zu studieren.
+  
+---
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+-   kennen die wichtigsten gesetzlichen Grundlagendokumente im Kanton Bern und können deren Bedeutung einschätzen.
+-   erarbeiten sich die wichtigsten gesetzlichen Vorgaben in Bezug auf Beurteilung, Förderung und Schullaufbahnentscheide.
+:::
+
+# Input als Screencast
+
+Mit [diesem Screencast](https://tube.switch.ch/embed/xTav3e1any?title=hide) ([Slides](screencast_slides/Gesetzliche_Grundlagen_Input.pdf)) stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
+
+# Verarbeitungsauftrag
+
+Da die gesetzlichen Grundlagen für alle Lehrpersonen verbindlich sind, sollten nicht nur die Schulleitungen im Bilde sein, was in diesen Grundlagen alles geregelt ist, sondern auch Sie als zukünftige Lehrpersonen.
+
+In diesem Verarbeitungsauftrag setzen Sie sich vertieft mit den Inhalten der [DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) und auseinander. @bildungs_und_kulturdirektion_kanton_bern_information_2019 ergänzt Art. 19 DVBS.
+
+Da die @erziehungsdirektion_des_kantons_bern_lehrplan_2016-1 auch zu den Vorgaben des Kantons Bern gehören, wird hier ebenfalls darauf hingewiesen.
+
+Gehen Sie zur Vertiefung und zur Verarbeitung der gesetzlichen Grundlagen wie folgt vor.
+
+1. Lesen Sie die DVBS einmal durch und markieren Sie sich jene Artikel, von denen Sie das Gefühl haben, Sie seien wichtig. Es lohnt sich auch jene Artikel hervorzuheben, die für Sie neu sind oder Fragen und Irritationen auslösen.
+2.. Beantworten Sie die Fragen zu den folgenden Fallbeispielen, indem Sie die entsprechenden Artikel in der DVBS heraussuchen.
+3. Damit Sie Ihre Ergebnisse selbstständig auswerten und evaluieren können, stellen wir Ihnen Lösungen zur Verfügung (siehe unten).
+4. Halten Sie die wichtigsten Erkenntnisse und Überlegungen in Ihrem Beurteilungskonzept fest. Überlegen Sie sich z.B. auch, welche Artikel für Sie von zentraler Bedeutung sind und begründen Sie weshalb das so ist. Notieren Sie sich auch Ihre persönliche Position zu jenen Artikeln, die Sie als problematisch, nicht umsetzbar oder unrealistisch erachten. Begründen Sie auch hier, weshalb Sie das so einschätzen.
+
+## Fallbeispiele zum DVBS (Benotung)
+
+### 1. Verunsicherte Eltern
+
+Eine Mutter, deren Kind frisch von der 6. Klasse zu Ihnen gewechselt hat, verlangt bei Ihnen ein klärendes Gespräch bezüglich Ihrer Beurteilungspraxis. Sie hat sich offensichtlich gut vorbereitet und hat auf einem Zettel alles notiert, was sie von Ihnen wissen will. Unter anderem möchte Sie wissen, wieso noch immer kein Elterngespräch stattgefunden habe, da es doch üblich sei, bereits am Ende des ersten Semesters oder dann zumindest am Anfang des zweiten Semesters ein solches durchzuführen.
+
+1. Wie sieht hier die Sachlage für Sie als Lehrperson der Sekundarstufe I genau aus?
+2. Sie weisen die Mutter darauf hin, dass im 7. Schuljahr nun der LP21 gilt und man neu nicht mehr von «Elterngesprächen» spricht. Wie lauten die Begrifflichkeiten neu?
+
+<details>
+<summary>Lösung</summary>
+[Art. 7 Abs. 1 Information](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+
+1 Die **Schulleitung** sorgt für die rechtzeitige Information der Schülerinnen und Schüler sowie der Eltern, ins-
+besondere über Beurteilung, **Zeitpunkt des Standortgesprächs mit den Eltern**, Übertrittsverfahren, Schullaufbahnentscheide und Bildungsgänge.
+
+Art. 10 Standortgespräch
+
+1 Die Klassenlehrkraft führt mit den Eltern und in der Regel mit der Schülerin oder dem Schüler jährlich
+das Standortgespräch durch.
+2 Weitere Lehrkräfte können beigezogen werden.
+3 Das Standortgespräch umfasst
+a einen Rückblick über die wesentlichen Veränderungen seit dem letzten Standortgespräch,
+b Beobachtungen zum Entwicklungsstand,
+c Informationen über den Lernprozess und die Leistungen in den fachlichen Kompetenzen und
+d Beobachtungen zu den überfachlichen Kompetenzen.
+4 Grundlage des Gesprächs bilden die Beobachtungen der Lehrkräfte, die schulischen Arbeiten, die Selbstbe-
+urteilungen der Schülerin oder des Schülers sowie die Beobachtungen der Eltern.
+5 Die Durchführung des Standortgesprächs und allfällige Absprachen werden schriftlich festgehalten.)
+
+</details>
+
+
+### 2. Schullaufbahnentscheide
+
+Sie kommen mit einer Primarschullehrperson ins Gespräch, die ihre Rolle und ihren Aufwand bezüglich des Übertrittverfahrens von der Primarschule in die Sekundarstufe I betont. Während des Gesprächs findet die Primarschullehrperson auch, Sie hätten es einfacher, weil für Sie die Problematik Selektion vs. Förderung wohl kaum in diesem krassen Ausmass von Bedeutung sei. Sie will dann wissen, wo Sie denn als Lehrperson der Sekundarstufe I überhaupt Selektionsentscheide bzw. Schullaufbahnentscheide zu treffen hätten.
+
+1. Hat die Primarlehrperson recht? Welche Schullaufbahnentscheide müssen Sie als Sekundarlehrperson im Kanton Bern treffen und verantworten?
+
+<details>
+<summary>Lösung</summary>
+
+[Art. 11 Abs. 1 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) (insb. g bis k)
+
+</details>
+
+2. Sie weisen die Lehrperson darauf hin, dass Primarlehrpersonen den Übertritt in die Sekundarstufe I nicht alleine verantworten und auch nicht ganz alleine durchführen. Wie verläuft das Verfahren im Kanton Bern überhaupt und inwiefern sind die Sekundarlehrpersonen in das Übertrittsverfahren eingebunden?
+
+<details>
+<summary>Lösung</summary>
+
+[Art. 33 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) bis [Art. 45 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+
+Insb. [Art. 36 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+
+</details>
+
+### 3. Zeugnis am Ende eines Semesters oder Schuljahres
+
+Sie übernehmen neu eine 7. Klasse und werden an Ihrem ersten Elternabend von verunsicherten Eltern gefragt, wie das eigentlich mit den Zeugnissen auf der Sekundarstufe I genau abläuft.
+
+1. Die Eltern fragen sich, wann es Zeugnisnoten gibt, in welcher Form die Zeugnisnoten ausgestellt werden, ob es nur Noten gibt, ...? Sie antworten zunächst einmal, dass man nicht mehr von Zeugnis spreche, sondern von Beurteilungsbericht. Was gibt es noch zu berichten?
+
+<details>
+<summary>Lösung</summary>
+* [Art. 9 Abs.4 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+* [Art. 9 Abs.5 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+* [Art. 24 Abs. 4 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+
+
+
+</details>
+
+### 4. Promotionen, Übertritte und Niveauwechsel auf der Sekundarstufe I
+
+Für Ihren ersten Elternabend haben Sie sich vorgenommen, den Eltern in einer kleinen Präsentation das Promotionsreglement auf der Sekundarstufe I in verständlicher Sprache etwas genauer vorzustellen, weil Sie der Meinung sind, dass das im Sinne der Transparenz wichtig ist. Sie möchten zudem berücksichtigen, dass auch Eltern anwesend sein werden, die der deutschen Sprache nicht mächtig sind.
+
+1. Welches sind die wichtigsten Punkte, die aus Ihrer Sicht unbedingt in die Präsentation gehören?
+
+<details>
+<summary>Lösung</summary>
+
+[Art. 52 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) bis [Art. 58 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+
+</details>
+
+
+
+##  Fallbeispiele zur DVBS (Förderung)
+
+### 1. Beurteilung bei ILZ (individuelle Lernziele)
+
+Sie haben neu eine 7. Realklasse in einer Gemeinde übernommen, wo der Anteil an Fremdsprachigen sehr hoch ist. In Ihrer Klasse sitzen 23 Schülerinnen und Schüler, davon sechs, die einen Anspruch auf RiLZ (Reduzierte individuelle Lernziele) im Fach Deutsch haben. Ein weiterer Schüler fällt durch fortwährend unterdurchschnittliche Leistungen in Mathematik auf.
+
+
+Welche Beurteilungsmassnahmen sind für die RiLZ-Schülerinnen und -Schüler zu ergreifen?
+
+<details>
+<summary>Lösung</summary>
+* [Art. 21 Abs. 3 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+* [Art. 21 Abs. 4 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+</details>
+
+2. Gibt es eigentlich nur Reduzierte individuelle Lernziele für Schülerinnen und Schüler mit Schwierigkeiten oder
+auch das Gegenteil für solche Schülerinnen und Schüler, die mehr leisten können?
+
+<details>
+<summary>Lösung</summary>
+* [Art. 20 Abs. 2a DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+</details>
+
+
+### 2. Lernziele oder Kompetenzen?
+
+Sie unterrichten neu eine 7. Sekundarklasse. Eines Tages werden Sie von einem Vater darauf angesprochen, dass man neu ja nicht mehr von «Lernzielen» ausgehe, sondern von «Kompetenzen». Oder wie ist
+das jetzt genau?
+
+1. Was finden Sie dazu in der DVBS?
+
+<details>
+<summary>Lösung</summary>
+* Art. 5 Abs. 1 DVBS
+* Art. 5 Abs. 2 DVBS
+* Art. 23 DVBS
+</details>
+
+
+### 3. Was muss ich weshalb beurteilen?
+
+Sie übernehmen neu eine 7. Klasse und setzen sich mit der Beurteilung auf Ihrer Stufe auseinander. Beim Studieren Ihrer Unterlagen fragen Sie sich, was Sie eigentlich während des Semesters alles beurteilen müssen und wozu diese eigentlich dienen soll.
+
+1. Welche Antworten finden Sie diesbezüglich in der DVBS?
+
+<details>
+<summary>Lösung</summary>
+* Art. 3 Abs. 1 DVBS
+* Art. 4 DVBS
+* Art. 18 Abs. 1 DVBS
+</details>
+
+2. Aufgrund des allseits geforderten Förderpostulats fragen Sie sich auch, wann Sie eigentlich einen Schullaufbahnentscheid genau fällen müssen bzw. dürfen?
+
+<details>
+<summary>Lösung</summary>
+* Art. 9 Abs. 5 **also jederzeit!**
+</details>
+
+### 4. Selbstbeurteilungen
+
+Eine Mutter, deren Kind frisch von der 6. Klasse zu Ihnen gewechselt hat, verlangt bei Ihnen ein klärendes Gespräch bezüglich Ihrer Beurteilungspraxis. Sie hat sich offensichtlich gut vorbereitet und hat auf einem Zettel alles notiert, was sie von Ihnen wissen will. Sie will unter anderem wissen ...
+
+a) ... wieso auf der Sekundarstufe keine Selbstbeurteilungen durch die Schülerinnen und Schüler stattfin-
+den. Auf der Primarschulstufe sei es immer so gewesen, dass solche regelmässig stattgefunden hätten.
+
+* Sind Sie dazu verpflichtet?
+
+<details>
+<summary>Lösung</summary>
+
+* Art. 6 Abs. 1 DVBS
+* Art. 6 Abs. 2 DVBS
+
+</details>
+
+b) ... was mit den Selbstbeurteilungen durch die Schülerinnen und Schüler geschieht.
+
+* Finden Sie heraus, wofür die Selbstbeurteilungen im Verlauf des Schuljahres eingesetzt werden sollen.
+
+<details>
+<summary>Lösung</summary>
+
+* Art. 2 Abs. 1 DVBS
+* Art. 10. Abs. 4 DVBS
+
+</details>

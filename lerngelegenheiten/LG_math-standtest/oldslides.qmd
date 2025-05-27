@@ -1,0 +1,124 @@
+---
+title: "<small>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</small>"
+subtitle: "Teil Mathematik"
+format: 
+    revealjs:
+        self-contained: true
+draft: true
+---
+
+## Areas of Conflict {.unnumbered .unlisted}
+
+> Confusion of purposes
+>
+> Aggregation levels and sovereignty
+>
+> Influence on instruction
+>
+:::quelle
+>@imlig_towards_2018
+:::
+
+# Stellwerk
+
+## Hintergrund
+
+(7min)
+
+-   Wer betreibt den Stellwerktest? Gibt es Interessenskonflikte? Wieviel kostet es den Steuerzahler?
+-   Wird er im Kanton Bern durchgeführt? Wie oft? Zu welchem Zweck?
+-   Was gibt er an zu prüfen? Wie prüft er? Wie werden die Resultate berechnet und mitgeteilt?
+
+## Interpretation
+
+> Students, teachers, school boards and instructors in vocational education must learn how to read such results and interpret them in formative and summative ways."
+>
+:::quelle
+[@imlig_towards_2018, S.22]
+:::
+
+## Ein Beispiel {.unnumbered .unlisted}
+
+::: {#fig-stellwerk_beispiel}
+
+![](https://stellwerk.ch/wp-content/uploads/2021/02/Stellwerk-Profil-Ausschnitt-2021-1024x789.jpg)
+
+Stellwerk-Profil(Muster)
+
+:::
+
+## Umsetzung
+
+> Aus den Profilen dürfen keine Noten abgeleitet werden.
+>
+> Die Lehrperson darf die Stellwerk-Profile nur zur Förderplanung benutzen.
+>
+> Die Stellwerk-Profile können für Standortgespräche genutzt werden.
+>
+:::quelle
+@lehrmittelverlag_stgallen_stellwerk_nodate
+:::
+
+## Problematik
+
+> These evaluation practices illustrate the diminishing importance of the formative purpose of the eighth graders’ test and imply accountability mechanisms that go beyond mere classroom instruction.
+>
+:::quelle
+[@imlig_towards_2018, S. 19]
+:::
+
+## Problematik {.unnumbered .unlisted}
+
+> Students use their test results for applications (a usage recommended by officials), and administrators are informed about the results of classes, schools and cantons.
+>
+:::quelle
+[@imlig_towards_2018, S. 20]
+:::
+
+## Problematik {.unnumbered .unlisted}
+
+> Furthermore, in parallel to the Stellwerk tests, several training platforms were established. One of these platforms is directly connected to the tests themselves and serves as a possible preparation for the assessment.
+>
+:::quelle
+[@imlig_towards_2018, S. 22]
+:::
+
+## Testen wir es
+
+
+
+[Beispielaufgaben Mathematik](https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4)
+
+<div style="width: 100%; height: 50%; overflow: hidden;">
+<iframe src="https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Achten Sie auf mögliche Messfehler.
+
+# ÜGK 2016
+
+## Bericht
+
+
+-   Wieviele Lernende der 9. Klasse erreichten die Grundkompetenzen in Mathematik im Kanton Bern?
+-   Ordnen Sie dieses Ergebnis in der Bildungslandschaft ein.
+-   Welchen Einfluss hat das Geschlecht, die Herkunft oder die Muttersprache auf das Erreichen der Kompetenzen?
+-   Welchen Einfluss hat die Anzahl Mathematiklektionen auf das Erreichen der Kompetenzen?
+
+# Weitere Tests
+
+## Übersicht {.unnumbered .unlisted}
+
+-   Übertritt PRIM - Sek I Kontrollprüfung
+-   Überprüfung der Grundkompetenzen (2016)
+-   PISA
+-   Übertritt Sek I - Sek II
+
+## Auftrag {.unnumbered .unlisted}
+
+
+-   Teilen Sie sich in 4 Gruppen ein, je nach Interessenschwerpunkt.
+-   Sichten Sie die auf Ilias zur Verfügung gestellten Materialien.
+-   Halten Sie insbesondere Resultate (statistische Kennzahlen) fest, welche für Sie relevant sind.
+
+## Bibliographie {.unnumbered .unlisted .scrollable}

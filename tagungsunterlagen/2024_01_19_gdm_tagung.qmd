@@ -1,0 +1,205 @@
+---
+title: "Mathematikverständnis stärken in Zeiten von KI"
+subtitle: "Workshop Gesellschaft für Didaktik der Mathematik Schweiz"
+authors:
+  - name: Joel Adler
+    affiliations: PHBern
+  - name: Richard François Conrardy
+    affiliations: PHBern
+
+description: "Workshop an der Tagung der Gesellschaft für Didaktik der Mathematik"    
+date: 19 01 2024
+
+format: revealjs
+    
+footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch)  Joel Adler, Richard Conrardy"
+
+---
+
+## Was wir heute erreichen möchten: {.unnumbered .unlisted}
+
+-   *show and tell*
+-   Ideen für die LP-Ausbildung
+-   Ideen und Wünsche für Unterrichtsmaterial
+-   **einen angenehmen Austausch**
+
+## Sneak Peak {.unnumbered .unlisted}
+
+``` python
+import random
+import time
+
+anzahlRichtige = 0
+while anzahlRichtige < 10:
+    startzeit = time.time ()
+
+    x = int (50000 * random.random())
+    y = int (50000 * random.random())
+    
+    z = x+y     # korrekte Lösung = z
+
+    Lösung = input("Was ergibt " +  str (x) + " + " + str(y) + "? ")
+    endzeit = time.time()
+    anzahl_sekunden = int (endzeit - startzeit)
+    if int(Lösung) < z*1.03 and int (Lösung) > z*0.97:
+        anzahlRichtige = anzahlRichtige + 2
+        print("sehr gut gemacht!" + "Du hast " + str (anzahl_sekunden) + " Sekunden gebraucht.")
+
+    elif int(Lösung) < z*1.06 and int (Lösung) > z*0.94:
+        anzahlRichtige = anzahlRichtige + 1
+        print("gut gemacht!" + "Du hast " + str (anzahl_sekunden) + " Sekunden gebraucht.")
+
+    else:
+        print("Zu ungenau, dass wäre die korrekte Lösung: " + str (z) + " , du hast " + str(anzahl_sekunden) + " Sekunden gebraucht.")
+
+
+print (anzahlRichtige)
+```
+
+# Ausgangslage
+
+## Lehrplan 21 M&I
+
+::: {style="background-color: #DDDDD7; padding: 10px; border-radius: 10px;"}
+[MI.2.2.f](https://be.lehrplan.ch/101bUbEpzVbteMu2Yt7sPsyW3ZunBzPn9){.knopf .indikator .zyklus2 target="\"_blank"}
+
+können Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen.
+:::
+
+<br>
+
+::: {style="background-color: #DDDDD7; padding: 10px; border-radius: 10px;"}
+[MI.2.2.h](https://be.lehrplan.ch/101UtVudCvvtEYaGJ6pZKNDBVYTC2H2kB){.knopf .indikator target="\"_blank"}
+
+können selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren.
+
+::: {style="border-top: 5px dotted #CB3A27; "}
+:::
+:::
+
+## Lehrplan 21 M&I {.unnumbered .unlisted}
+
+</br>
+
+> Grundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.
+
+::: {style="text-align: right"}
+@erziehungsdirektiondeskantonsbern2016
+:::
+
+
+
+## Der Elephant im Raum 🐘 {.unnumbered .unlisted}
+
+::: columns
+::: {.column width="20%"}
+![](https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg){width="200px" height="400px"}
+:::
+
+::: {.column width="80%"}
+> Registration and Access Minimum Age. You must be at least 13 years old or the minimum age required in your country to consent to use the Services. If you are under 18 you must have your parent or legal guardian’s permission to use the Services.
+
+::: {style="text-align: right;text-size: 0.5rem"}
+@openai
+:::
+:::
+:::
+
+# Hands on!
+
+## Tools
+
+Wir benutzen heute folgende Webseiten:
+
+1.  <https://www.online-python.com/>
+2.  <https://chat.openai.com/> (benötigt Account)
+
+(Hinweis: Im Kurs werden [Rstudio](https://www.rstudio.com/categories/rstudio-ide/) oder [VSCode](https://code.visualstudio.com/) benutzt)
+
+## Selbst ausprobieren
+
+-   Primzahlen finden mit Sieb des Erathostenes
+-   Primzahlzerlegung
+-   Ggt, kgV
+-   Brüche addieren
+-   ...
+
+**Probiert eigene Ideen aus.**
+
+
+
+# Mathematikverständnis stärken
+
+## Was denken andere? {.unnumbered .unlisted}
+
+<br>
+
+> Ich empfand Mathematik als anstrengend, weil sie einen ungeheuer kreativen Umgang mit lose definierten formalen Systemen erfordert, während einem die Informatik Kreativität mit streng definierten formalen Systemen abverlangt.
+>
+> ::: blockquote-footer
+> Geoff Huston, in @ermert2023
+> :::
+
+## Interessante Diskussionen
+
+-   Wie unterscheidet sich der Begriff "Funktion" und "Variable" in Mathematik und Informatik?
+-   Was ist besser:
+    -   Differenz als Summe mit negativen Zahlen?
+    -   Differenz als Umkehroperation der Addition?
+
+## Weitere Ideen sammeln {.unnumbered .unlisted}
+
+https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13
+
+{{< qrcode https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13 width=300 height=300 >}}
+
+## Aufgaben erstellen? {.smaller .unnumbered .unlisted}
+
+Es folgt ein Python-Programm, welches mit Ihnen das Überschlagen von Summen und Differenzen von Dezimalzahlen übt.
+
+Eine “sehr gute” Lösung liegt +/- 3% von der richtigen Lösung weg, eine “gute” Lösung liegt +/- 6% von der richtigen Lösung weg.
+
+Üben Sie, bis Sie regelmässig gute Lösungen erreichen.
+
+**Herausforderung:** Schreiben Sie das Programm selbst! Benutzen Sie dazu die random library mit import random und generieren Sie eine zufällige Zahl zwischen 0 und 1 mit random.random() und mit random.choice(+,-) eine zufällige Operation.
+
+**Herausforderung:** Bauen Sie eine Stoppuhr in den Code ein, welche die Zeit bis zur Antwort zählt und ausgibt. (Tipp: import time und time.time() gibt die Zeit in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit) aus.)
+
+## Code von Studentin {.scrollable}
+
+``` python
+import random
+import time
+
+anzahlRichtige = 0
+while anzahlRichtige < 10:
+    startzeit = time.time ()
+
+    x = int (50000 * random.random())
+    y = int (50000 * random.random())
+    
+    z = x+y     # korrekte Lösung = z
+
+    Lösung = input("Was ergibt " +  str (x) + " + " + str(y) + "? ")
+    endzeit = time.time()
+    anzahl_sekunden = int (endzeit - startzeit)
+    if int(Lösung) < z*1.03 and int (Lösung) > z*0.97:
+        anzahlRichtige = anzahlRichtige + 2
+        print("sehr gut gemacht!" + "Du hast " + str (anzahl_sekunden) + " Sekunden gebraucht.")
+
+    elif int(Lösung) < z*1.06 and int (Lösung) > z*0.94:
+        anzahlRichtige = anzahlRichtige + 1
+        print("gut gemacht!" + "Du hast " + str (anzahl_sekunden) + " Sekunden gebraucht.")
+
+    else:
+        print("Zu ungenau, dass wäre die korrekte Lösung: " + str (z) + " , du hast " + str(anzahl_sekunden) + " Sekunden gebraucht.")
+
+
+print (anzahlRichtige)
+```
+
+## Wie weiter?
+
+![](images/classroom_discussion_1.jpg){fig-align="center"}
+
+## Bibliographie {.unnumbered .unlisted .scrollable}

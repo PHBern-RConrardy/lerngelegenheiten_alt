@@ -1,0 +1,67 @@
+---
+format: 
+  html: default
+  docx: default
+title: Thematische Einführung
+subtitle: Grundlagen der Beurteilung
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  In diesem Lernmodul erhalten Sie einen ersten Einblick in die Thematik «Beurteilung und Förderung». Der Dokumentarfilm «Mein Leben und der Notenschnitt» von Luzius Wespe zeigt auf eindrückliche Weise, was Kinder beim Übertritt von der Primar- in die Sekundarstufe bewegt und was «Noten» bei den Lernenden selber aber auch zu Hause in den Familien auslösen können.  
+---
+
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+-   lernen Gefühle und Gedanken bezüglich des Notendrucks von Kindern kennen.
+-   setzen sich mit der Sinnhaftigkeit und Notwendigkeit von Noten bzw. von Beurteilung auseinander.
+-   entwickeln ein Problembewusstsein in Bezug auf Noten und Leistungsbewertung.
+:::
+
+# Mein Leben und die Noten
+
+
+:::{.callout-caution collapse="true"}
+## Aufträge auf LearningView
+
+![Kind erhält Beurteilung ©Voltafilm](images/kind_ki.jpg){ #fig-kind width=50%} 
+
+Bevor Sie den Film schauen: Überlegen Sie sich kurz, was diesem Kind in @fig-kind gerade durch den Kopf geht.
+
+:::
+
+
+Schauen Sie sich nun den Film [Mein Leben und der Notenschnitt](https://phbern365.sharepoint.com/:v:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/SRF%20DOK%202021%20-%20Mein%20Leben%20und%20der%20Notenschnitt%20%E2%80%93%20Vom%20U%CC%88bertritt%20in%20die%20Oberstufe.mp4?csf=1&web=1&e=4cFyOu) von @wespe_mein_2022 an.
+
+Wenn Sie sich von diesem Film haben zum Nachdenken anregen und aufwühlen lassen, geht es in einem nächsten Schritt darum ein Problembewusstsein für die Problematik der Notengebung und der Leistungsbewertung zu entwickeln. 
+
+:::{.callout-caution collapse="true"}
+## Aufträge auf LearningView
+
+Machen Sie sich dabei Notizen, indem Sie unter anderem auch versuchen Antworten auf die folgenden Fragen zu finden.
+
+-   Wie sind Sie selber mit Noten in Ihrer Schulzeit umgegangen?
+-   Wie hat ihr Umfeld auf gute/schlechte Noten reagiert?
+-   Was für eine Einstellung gegenüber Noten hatten Lehrpersonen aus Ihrer Vergangenheit?
+-   Was für eine Haltung gegenüber Noten haben Sie als (zukünftige) Lehrperson?
+
+:::
+
+In den nun folgenden Lernmodulen, die Sie im Verlaufe des Semesters durcharbeiten werden, soll es immer wieder auch darum gehen, Antworten zu finden und Ihr Problembewusstsein zu schärfen.

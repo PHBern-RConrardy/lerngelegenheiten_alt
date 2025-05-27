@@ -1,0 +1,141 @@
+---
+format: html
+title: Übungen mit Typecasting
+date: 07/18/2024
+---
+# Übungen
+
+::: {#exr-line}
+## Fläche eines Rechtecks
+
+Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.
+:::
+
+::: {#exr-line}
+## Durchschnitt zweier Zahlen
+
+Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.
+:::
+
+::: {#exr-line}
+## Summe und Produkt von drei Zahlen
+
+Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.
+:::
+
+:::: {#exr-line}
+## Quadratzahlen
+
+Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.
+
+:::{.callout-tip}
+
+## Potenzen
+
+Potenzen werden in Python mit `**`angeschrieben: 
+
+$x^2 \longrightarrow$ `x**2`.
+
+Andere Computersprachen (z.B. LaTeX) benutzen stattdessen `^`, dann wird es `x^2` geschrieben.
+
+:::
+::::
+
+:::: {#exr-line}
+## Kreisumfang berechnen
+
+Schreiben Sie ein Programm, das den Radius eines Kreises als *Eingabe* nimmt und den Umfang des Kreises ausgibt.
+
+:::{.callout-tip}
+
+## Libraries
+
+Damit Sie $\pi$ erhalten müssen Sie mit `import math`, z.B. in der ersten Zeile des Programms, die *math library* importieren und können danach `math.pi` nutzen.
+
+```python
+import math
+print(math.pi)
+```
+
+:::
+::::
+
+::: {#exr-line}
+## Hypotenuse eines rechtwinkligen Dreiecks
+
+Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet. 
+
+
+:::
+
+::: {#exr-line}
+## Temperaturumrechnung
+
+Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel: 
+
+$$\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32$$
+
+**Vertiefung:** Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.
+:::
+
+::: {#exr-line}
+## Zinsrechnung
+
+Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: 
+
+$$ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}$$
+:::
+
+
+
+::: {#exr-line}
+## Volumen eines Zylinders
+
+Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: $$\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Hoehe}$$
+:::
+
+:::: {#exr-line}
+## Minuten
+
+Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.
+
+:::{.callout-tip}
+
+## Ganzzahldivision
+
+Python nutzt `/`als Divison. `//`ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.
+
+`7//3` ergibt 2, denn: $7/3=2 \text{ Rest } 1$
+
+:::
+::::
+
+:::: {#exr-line}
+## Anzahl der vollen Dutzend
+
+Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.
+
+
+
+:::{.callout-tip}
+
+## Modulo
+
+`%` ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.
+
+`7%3`, gelesen *7 modulo 3*, ergibt 1, denn $7/3=2 \text{ Rest } 1$.
+
+:::
+::::
+
+::: {#exr-line}
+## Wochen und Tage
+
+Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.
+:::
+
+::: {#exr-line}
+## Packungsgrösse und Restmenge
+
+Schreiben Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.
+:::

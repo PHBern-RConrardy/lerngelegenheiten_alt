@@ -1,0 +1,1 @@
+Bilder in diesem Folder sind rein AI-generiert und sollten somit keinem Urheberrecht unterliegen.

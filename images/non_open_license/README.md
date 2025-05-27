@@ -1,0 +1,2 @@
+All images in this folder are not under any known open license and belong to the corresponding license-holder.
+They are here since they are cited somehwere on the website. You'll find the source where they are cited.

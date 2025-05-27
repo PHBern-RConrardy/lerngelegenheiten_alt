@@ -1,0 +1,30 @@
+---
+format: html
+title: Digitale Medien in der Beurteilung einsetzen
+authors:
+  - name: Michele Notari
+    affiliations:
+        - ref: phbern
+  - name: Richard Conrardy
+    affiliations:
+        - ref: phbern
+citation: 
+  author:
+    - Michele Notari
+    - Richard Conrardy
+categories:
+  - Modul - Summative und prognostische Beurteilung
+  - Modul - Formative Beurteilung
+draft: true
+---
+
+| Woche | Thema                                           |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
+|:-----:|:------------------------------------------------|:------------------------------------------------------------------:|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|-----|
+|   1   | Variablen und Conditionals                      | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
+|   2   | Loops und Listen                                | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
+|   3   | Funktionen und Projektauftrag                   | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
+|   4   | Projekt 1 (asynchron)                           |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-1) |                                                                                  |     |
+|   5   | Überschlagen üben und Sieb des Eratosthenes     |         [<i class="bi bi-easel3-fill"></i>](woche_05.qmd)          |                                                 |                                                                                  |     |
+|   6   | Perfekte und narzistische Zahlen, Exp. Wachstum |                                                                    |                                                 |                                                                                  |     |
+
+: {.striped .hover .table-sm}

@@ -1,0 +1,308 @@
+---
+format: revealjs
+title: Inhalte effizient onlinebringen
+subtitle: Treffpunkt Hochschuldidaktik
+date: 18 03 2024
+toc-depth: 1
+author:
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    email: richard.conrardy@phbern.ch
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+---
+
+# Learning Outcomes
+
+## Expectation management
+
+::: {.incremental}
+* ~~besser~~ als Powerpoint, Word, Ilias, SWITCHportfolio etc.
+* ~~schlechter~~
+* erfrischend anders!
+:::
+
+## Learning Outcomes {.unlisted}
+
+1.  Wir erstellen eine Webseite in 5 Minuten.
+2.  Wir schreiben in 7 Sprachen.
+
+
+
+
+# Webseite erstellen und publizieren
+
+## 3 step plan {.unlisted}
+
+1.  Webseite erstellen
+2.  Webseite auf Ilias stellen
+3.  Webseite auf dem Internet publizieren
+
+# Inhalte erstellen
+
+ In der `about.qmd` Datei:
+
+## 1. Yaml
+
+```yaml
+---
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
+
+## 2. Markdown
+
+```markdown
+# Überschrift 1
+
+## Überschrift 2
+
+*kursiv*
+
+**fett**
+
+[Link zur PHBERN](https://www.phbern.ch/)
+
+![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)
+```
+*kursiv*
+
+**fett**
+
+[Link zur PHBERN](https://www.phbern.ch/)
+
+![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)
+
+
+## 3. HTML
+
+```html
+<details>
+<summary>Lösungsvorschlag</summary>
+3x+2
+</details>
+````
+<details>
+<summary>Lösungsvorschlag</summary>
+3x+2
+</details>
+
+### Videos:
+
+```html
+<iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
+</iframe>
+```
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
+</iframe>
+
+
+
+
+## 4. $\LaTeX$
+
+```html
+$\sqrt{\frac{3}{4}}$
+
+$$\sqrt{\frac{3}{4}}$$
+```
+
+$\sqrt{\frac{3}{4}}$
+
+$$\sqrt{\frac{3}{4}}$$
+
+
+## 5. Javascript (mermaid JS)
+
+
+````mermaid
+```mermaid
+graph LR
+  Start --> Stop--> Weiter
+  Start -->Weiter
+```
+````
+
+```{mermaid}
+
+graph LR
+  Start --> Stop--> Weiter
+  Start -->Weiter
+```
+
+
+## 6. R (oder Python, oder OJS)
+
+`{r}` damit es ausgeführt wird
+
+````r
+```r
+# Create data
+labels <- c("40%", "60%")
+sizes <- c(40, 60)
+colors <- c("#FF9999", "#66B2FF")  # You can change colors as per your preference
+# Create pie chart
+pie(sizes, labels = labels, col = colors, main = "Pie Chart: 40% - 60% Distribution")
+```
+````
+
+```{r}
+# Create data
+labels <- c("40%", "60%")
+sizes <- c(40, 60)
+colors <- c("#FF9999", "#66B2FF")  # You can change colors as per your preference
+# Create pie chart
+pie(sizes, labels = labels, col = colors, main = "Pie Chart: 40% - 60% Distribution")
+```
+
+
+
+## 7. CSS (in `styles.css`)
+
+```css
+h1 {
+    color: #800020;
+}
+```
+
+## 8. BibTeX
+
+```tex
+@ryan_self-determination_2000
+
+[vgl. @ryan_self-determination_2000,S.43]
+```
+
+@ryan_self-determination_2000
+
+[vgl. @ryan_self-determination_2000,S.43]
+
+::: {.callout-warning}
+Dies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!
+:::
+
+```tex
+::: {.callout-warning}
+Dies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!
+:::
+```
+
+## Extra: Slideshow
+
+```yaml
+---
+format: revealjs
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
+
+(wenig getestete Optionen: pdf, docx, pptx)
+
+interessant:
+```yaml
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
+
+## Webseite anpassen in `_quarto.yml`
+
+```yml
+project:
+  type: website
+
+website:
+  title: "test3"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+```
+
+# Theorie
+
+## Datenschutzrecht {.unlisted}
+
+> Dieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.
+>
+> ::: quelle
+> [Art. 4 Abs.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
+> :::
+
+> Personendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.
+>
+> ::: quelle
+> [Art.2 Abs.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
+> :::
+
+## Urheberrecht {.unlisted}
+
+> Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.
+>
+> ::: quelle
+> [Art.321e Abs.1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e)
+> :::
+
+> Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.
+>
+> ::: quelle
+> [Art.25 Abs.1 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_25)
+> :::
+> Das Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.
+>
+> ::: quelle
+> [Art.25 Abs.2 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_25)
+> :::
+
+## PHBern {.unlisted}
+
+> An der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung \> Ziff. 1.0) grundsätzlich die **Institutsleiterinnen und Institutsleiter** über die Nutzung immaterieller Arbeitsergebnisse \[...\]
+>
+> ::: quelle
+> [@padagogische_hochschule_bern_geistiges_2023,S.2]
+> :::
+
+## Angebotsentwicklung 2025
+
+> **Vorgabe 24 – Technologien / Digitale Medien II:** Sowohl in den Lernprozessen als auch bei Leistungsnachweisen gelten ausgehend von einem Grundverständnis des Konnektivismus als Teil des
+Lernkonzepts die Vorgaben Open Source und Open Internet.
+>
+:::quelle
+[@padagogische_hochschule_bern_eckpfeiler_2017,S.26]
+:::
+
+## Diskussion {.smaller}
+
+### Ziel - Innovationspoolprojekt 24/25
+
+*Anleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht*
+
+### Offene Fragen
+
+* Potential für Studierende?
+* Potential für Dozierende?
+* Welche Features sind wichtig?
+* Potential für Mitarbeiter?
+* Welche Lizenz ist die richtige?
+
+## Bibliographie {.unlisted}

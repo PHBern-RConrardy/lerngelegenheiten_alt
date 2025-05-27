@@ -1,0 +1,263 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: de #Sprache für die Webseite
+
+  
+date-format: "DD.MM.YYYY" # übliche Daten in der Schweiz
+
+bibliography:     # Liste mite allen Bibliographiedatei
+  - bibliographien/bibConrardyFull.bib
+csl: bibliographien/apa7.csl          # Zitierstil, wird automatisch angewandt
+
+link-external-newwindow: true  # damit Präsentationen in neuem Tab geöffnet werden.
+fig-align: center # Bilder werden zentriert, funktioniert nicht immer
+
+website:  # Menüs für die Webseite
+  #cookie-consent: false
+   # type: express
+  repo-url: https://github.com/PHBern-RConrardy/lerngelegenheiten
+  favicon: images/penguin.png
+  search: true
+  
+  navbar:
+    logo: "images/penguin.png"
+    background: white
+    tools:
+      - icon: github
+        href: https://github.com/PHBern-RConrardy/lerngelegenheiten
+      - icon: book-fill
+        href: https://www.zotero.org/groups/5512202/literatur_phbern_conrardy
+      - icon: camera-video-fill
+        href: https://tube.switch.ch/channels/lricCYZ2ID
+
+    
+  
+  sidebar:
+    - title: "Grundlagen der Beurteilung"
+      style: "docked"
+      background: none
+      foreground: none
+      contents:
+        - href: lerngelegenheiten/LG_esw-beurteilung/LG_grundbeurteilung.qmd
+          text: Semesterübersicht
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_01.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_02.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_03.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_04.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_05.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_06.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_07.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_08.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_09.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_10.qmd
+        - href: lerngelegenheiten/LG_esw-beurteilung/Auftrag_Beurteilungskonzept.qmd
+          text: Auftrag
+    - title: "Mikroplanung Mathematik"
+      contents:
+        - href: lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.qmd
+          text: Semesterübersicht
+        - href: lerngelegenheiten/LG_math-mikro/WL_workload.qmd
+          text: Workload
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_01.qmd
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_02.qmd
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_03.qmd
+    - title: "Mediendidaktik"
+      contents:
+        - href: lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.qmd
+          text: Semesterübersicht
+        - href: lerngelegenheiten/LG_digi-mediendidaktik/Workload.qmd
+          text: Workload
+
+    - title: "Verstehensorientiert prüfen in Zeiten von KI"
+      contents:
+        - href: lerngelegenheiten/LG_math-python/LG_mathpython.qmd
+          text: Semesterübersicht
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_math-python/LM_IDE_install.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_01.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_02.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_03.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_04.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_05.qmd
+        - text: "Übungsblätter"
+          contents: 
+          - href: lerngelegenheiten/LG_math-python/woche_01.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_02.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_03.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_04.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_05.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_06.qmd
+          - href: lerngelegenheiten/LG_math-python/aufgabensammlung.qmd
+        
+        
+        
+    - title: "Learning Analytics"
+      contents:
+        - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
+          text: Semesterübersicht
+        - auto: "/lernmodule/LM_analytics*"
+        - href: lerngelegenheiten/LG_learning_analytics/Auftrag_Learning_Analytics.qmd
+          text: Auftrag
+    - title: "Datenschutz"
+      contents:
+        - href: lerngelegenheiten/LG_digi-datenschutz/LG_datenschutz.qmd
+          text: Semesterübersicht
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.qmd
+
+    - title: "Chancen und Risiken von standardisierten Testverfahren"
+      contents:
+        - href: lerngelegenheiten/LG_math-standtest/LG_standtest.qmd
+          text: Semesterüberblick
+        - text: Lernmodule
+          contents:
+          - href: lerngelegenheiten/LG_math-standtest/LM_standtestmath_01.qmd
+        
+  page-footer: # Fusszeile
+    center: 
+      - text: "Impressum"
+        href: footer/impressum.qmd
+      - text: "Disclaimer"
+        href: footer/disclaimer.qmd 
+      - text: "Kontakt"
+        href: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy  
+    left: 
+      - text: "PHBern"
+        href: https://www.phbern.ch/
+    right: 
+      - text: <small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small>
+    background: $schwarz1
+    foreground: $schwarz4
+    
+mermaid:
+      theme: neutral
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  bullets: numbered
+  heading: Inhalt
+      
+format:
+  html: # Einstellungen nur für Webseiten
+    toc: true
+    toc-expand: true
+    toc-location: right
+    toc-depth: 2
+    license: "CC BY-SA"
+    page-layout: article
+    title-block-banner: false
+    code-line-numbers: true
+    fig-align: center
+    linkcolor: "#AC0101"
+    theme: [default,styles/phbernci.scss]
+
+      
+  revealjs: # Einträge nur für Präsentationen
+    toc: false
+    slide-number: false
+    chalkboard: false
+    toc-title: "Inhalt"
+    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent"
+    title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
+    scrollable: true
+    hide-inactive-cursor: true
+    theme: [default,styles/phbernci.scss]
+    header-includes:
+      - |
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let timeElement = document.createElement('div');
+            
+            // Style the time element
+            timeElement.style.position = 'fixed';
+            timeElement.style.bottom = '10px';
+            timeElement.style.left = '0%';
+            timeElement.style.fontSize = '24px';
+            timeElement.style.fontWeight = 'bold';
+            timeElement.style.color = 'lightgrey';
+            timeElement.style.zIndex = '1000';
+            timeElement.style.backgroundColor = 'white';
+            timeElement.style.padding = '5px 10px';
+            
+            // Insert time element into the body
+            document.body.appendChild(timeElement);
+
+            // Function to update the time
+            function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            timeElement.innerHTML = `${hours}:${minutes}`;
+            }
+
+            // Update the time every second
+            updateTime();
+            setInterval(updateTime, 1000);
+        });
+        </script>
+    
+  phheidelberg-revealjs:
+    scrollable: true
+    hide-inactive-cursor: true
+    title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
+    theme: [default,styles/phbernci.scss]
+    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy"
+
+
+  pdf:
+    documentclass: scrartcl
+    include-in-header: 
+       - "styles/phbern-style.tex"
+    mainfont: "Arial"
+    fontsize: 10pt
+    linkcolor: (3,1.5)
+    papersize: a4
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    fig-align: center
+    number-sections: true
+    number-depth: 3
+    
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+  - id: cori
+    name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+          
+affiliations:
+  - id: phbern
+    name: University of Teacher Education Bern
+    address: Länggassstrasse 35
+    city: Bern
+    postal-code: 3012
+    url: https://www.phbern.ch
+    department: Institut Sekundarstufe I
+    ror: https://ror.org/05jf1ma54
+  - id: phheidelberg
+    name: Pädagogische Hochschule Heidelberg
+    url: https://www.ph-heidelberg.de/
+    department: Institut Sekundarstufe I
+
+citation: 
+  type: webpage
+  URL: https://phbern-rconrardy.github.io/lerngelegenheiten/
+  publisher: University of Teacher Education Bern 
+appendix-cite-as: display

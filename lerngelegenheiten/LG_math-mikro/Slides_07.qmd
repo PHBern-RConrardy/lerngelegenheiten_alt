@@ -1,0 +1,15 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Mögliches Verständnis Fachdidaktik
+---
+# 
+
+## Pedagogical Content Knowledge
+
+|  | propositional knowledge    |            |            | case knowledge    |            |            | strategic knowledge |
+|-----------|------------|------------|------------|------------|------------|------------|--------|
+|           | Sub 1     | Sub 2     | Sub 3     | Sub 1     | Sub 2     | Sub 3     |        |
+| subject matter knowledge    | A1        | A2        | A3        | B1        | B2        | B3        | C1     |
+| pedagogical knowledge    | D1        | D2        | D3        | E1        | E2        | E3        | F1     |
+| curricular knowledge    | G1        | G2        | G3        | H1        | H2        | H3        | I1     |

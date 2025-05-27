@@ -1,0 +1,27 @@
+---
+format: html
+title: Mediendidaktik
+subtitle: Präsenzkurs
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard Conrardy
+citation: 
+  author:
+    - Michele Notari
+    - Richard Conrardy
+date: "5/05/2024"
+categories:
+  - Modul - Makroplanung
+  - Modul - Mikroplanung
+draft: false
+---
+
+| Teil | Thema                    |       Slides        | Nachbereitung                                      |
+|:------:|:-------------------------|:-------------------:|--------------------------------------------------|
+|   1    | Rahmenbedingungen        | [Slides](Slides_01.qmd) | [Rahmenbedingungen](https://ilias.phbern.ch/goto_phbern_fold_2423980.html) |
+|   2    | Lernverständnis          | [Slides](Slides_02.qmd) | [Lernverständnis](https://ilias.phbern.ch/goto_phbern_lso_2424005.html) |
+|   3    | Unterricht gestalten     | [Slides](Slides_03.qmd) | [Unterricht gestalten](https://ilias.phbern.ch/goto_phbern_fold_2424010.html) |
+|   4    | Lernorganisation         | [Slides](Slides_04.qmd) | [Lernorganisation](https://ilias.phbern.ch/goto_phbern_fold_2424004.html) |
+|   5    | H5P und LearningApps      | [Slides](Slides_06.qmd) | [pptx](Slides_06.pptx) |
+|   6    | Ausblick und Trends      | [Slides](Slides_05.qmd) | [Ausblick und Trends](https://ilias.phbern.ch/goto_phbern_fold_2424035.html) |
+
+
+: {.striped .hover .table-sm}

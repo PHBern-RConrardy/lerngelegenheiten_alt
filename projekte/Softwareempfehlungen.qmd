@@ -1,0 +1,31 @@
+---
+format: html
+title: Softwareempfehlungen
+---
+
+Essentials:
+
+-   [Xournal++](https://xournalpp.github.io/): Leere A4 Blätter und PDFs beschriften
+-   [Freetube](https://freetubeapp.io/): Youtube Videos werbefrei zeigen oder downloaden
+-   [Thunderbird](https://www.thunderbird.net/de/): Mails lesen ohne Werbung und BS (Hinweis, teilweise schwierig mit MS-Exchange)
+-   [Firefox](https://www.mozilla.org/de/firefox/new/): Browser der Werbeblocker uneingeschränkt unterstützt
+-   [uBlock Origin](https://ublockorigin.com/): Guter Werbeblocker auf Firefox
+-   [AdGuard AdBlocker](https://adguard.com/de/welcome.html): Auch guter Werbeblocker auf Firefox
+-   [Zotero](https://www.zotero.org/): Literaturverwaltung mit Plugins für [Word Processors](https://www.zotero.org/support/plugins)
+
+Nebensächlich:
+
+-   [Libre Office](https://de.libreoffice.org/download/download/): Weniger Logins und weniger 🤡 als MS-Office
+-   [Homebrew](https://brew.sh/): Paketverwaltungprogramm für **MacOS**
+-   [Chocolatey](https://chocolatey.org/): Paketverwaltungsprogramm für **Windows**. Mit MS-Account, auch [Winget](https://learn.microsoft.com/de-de/windows/package-manager/winget/)
+
+Advanced:
+
+-   [Visual Studio Code](https://code.visualstudio.com/): Spezieller Texteditor für programmieraffine Personen
+-   [Quarto](https://quarto.org/): Webseiten und Dokumente systematisch schreiben, besonders für mathematische Formeln geeignet.
+-   **Python** + **Gen-KI**, damit können Sie PDF mergen, Webseiten scrapen etc.
+-   [LM Studio](https://lmstudio.ai/): Lokale Gen AI, nur sinnvoll bei genügend performanten Laptops
+
+::: callout-tip
+Bei allen Programmen welche ihre Erwartungen nicht erfüllen, ist [Alternativeto](https://alternativeto.net/) eine nützliche Webseite um neue Software zu finden.
+:::

@@ -1,0 +1,104 @@
+---
+format: html
+title: Übungen mit Loops
+date: 07/18/2024
+---
+# Übungen
+
+:::: {#exr-line}
+## Summation von natürlichen Zahlen
+
+Schreiben Sie ein Programm, das die Summe der ersten n natürlichen Zahlen berechnet.
+
+*Hinweis:* Für die Berechnung gibt es ebenfalls eine Formel.
+::::
+
+::: {#exr-line}
+## Berechnung von Fakultäten
+
+Schreiben Sie ein Programm, das die Fakultät einer gegebenen Zahl $n$ berechnet.
+:::
+
+::: {#exr-line}
+## Fibonacci-Folge
+
+Schreiben Sie ein Programm, das die ersten n Zahlen der Fibonacci-Folge generiert.
+:::
+
+::: {#exr-line}
+## Primzahlen finden
+
+Schreiben Sie ein Programm, das alle Primzahlen zwischen 1 und n findet.
+:::
+
+::: {#exr-line}
+## Summe von geraden und ungeraden Zahlen
+
+Schreiben Sie ein Programm, das die Summe der geraden und ungeraden Zahlen bis zu einer bestimmten Zahl berechnet.
+
+**Hinweis:** Die Formel für Summe aller natürlichen Zahlen bis $n$ lässt sich anpassen, um auch diese Aufgabe lösen.
+:::
+:::: {#exr-line}
+## Berechnung von Pi mit Monte-Carlo-Methode
+
+Schreiben Sie ein Programm, das den Wert von Pi mit der Monte-Carlo-Methode approximiert.
+
+:::{.callout-tip}
+
+## Monte-Carlo-Methode
+
+Generieren Sie viele zufällige Punkte in einem Quadrat. Der Anteil der Punkte, welche sich im eingeschriebenen Kreis befinden, entspricht in etwa dem Anteil des Flächeninhalts eines Kreises relativ zur Gesamtfläche. 
+
+:::
+::::
+::: {#exr-line}
+## Binomialkoeffizienten
+
+Schreiben Sie ein Programm, das die Binomialkoeffizienten (Pascal'sches Dreieck) bis zu einer gegebenen Zeile berechnet.
+:::
+::: {#exr-line}
+## Heron-Verfahren zur Quadratwurzelberechnung
+
+Schreiben Sie ein Programm, das die Quadratwurzel einer Zahl mithilfe des Heron-Verfahrens approximiert.
+:::
+::: {#exr-line}
+## Zahlenraten-Spiel
+
+Schreiben Sie ein Programm, bei dem der Computer eine zufällige Zahl wählt und der Benutzer raten muss, welche es ist. Der Computer gibt Hinweise, ob die Zahl höher oder niedriger ist.
+:::
+::: {#exr-line}
+## Euler'sche Zahl (e) approximieren
+
+Schreiben Sie ein Programm, das die eulersche Zahl (e) durch die Summation einer Reihe approximiert.
+:::
+::: {#exr-line}
+## Berechnung der Harmonischen Reihe
+
+Schreiben Sie ein Programm, das die Summe der ersten n Terme der harmonischen Reihe berechnet.
+:::
+::: {#exr-line}
+## Collatz-Vermutung
+
+Schreiben Sie ein Programm, das die Collatz-Sequenz für eine gegebene Zahl berechnet.
+:::
+::: {#exr-line}
+## Primfaktorzerlegung
+
+Schreiben Sie ein Programm, das die Primfaktorzerlegung einer gegebenen Zahl findet.
+:::
+:::: {#exr-line}
+## Numerisches Lösungsverfahren
+
+Schreiben Sie ein Programm, welche für die Polynomfunktion $f(x)=x^3 - 5.5 x^2 - 27.18 x + 137.088$ eine positive einfache Nullstelle findet. 
+
+:::{.callout-tip collapse="true"}
+
+## Hilfestellung - Numerische Verfahren
+
+Angenommen wird, dass es eine positive einfache Nullstelle gibt. Die Nullstelle ist somit grösser als $0$ und bei der Nullstelle findet ein Vorzeichenwechsel statt.
+
+Ein Algorithmus kann somit bei $x=0$ starten und jeweils einen Schritt ($x=1$, $x=2$, ...) weitergehen. Falls bei einem Schritt ein Vorzeichenwechsel stattfindet, dann wird der Schritt verkleinert, damit man die Nullstelle ja nicht überspringt. Somit kann man sich der nächsten Nullstelle beliebig nahe annähern.
+
+Solche Verfahren nähern Lösungen *numerisch* an. Verschiedene Verfahren nähern die Lösung unterschiedlich schnell an.
+:::
+::::

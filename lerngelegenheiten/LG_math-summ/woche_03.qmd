@@ -1,0 +1,276 @@
+---
+title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
+subtitle: Grundlagen für den Unterricht <br> Woche 3
+format: revealjs
+---
+
+# Von Lehr- Lerninhalten zu Kompetenzen
+
+## Teilgebiete der Mathematik
+
+-   Arithmetik
+-   Algebra
+-   Analysis
+-   Geometrie
+-   Stochastik
+
+
+::: quelle
+@bruder2014
+:::
+
+- Mengenlehre
+- Logik
+
+## Leitideen
+
+-   **Zahl** $\longrightarrow$ Arithmetik
+-   **Symbol und Formalisierung** $\longrightarrow$ Algebra
+-   **Zuordnung und Veränderung** $\longrightarrow$ Analysis
+-   **Raum und Form** $\longrightarrow$ Geometrie
+-   **Daten und Zufall** $\longrightarrow$ Stochastik
+
+::: quelle
+@bruder2014
+:::
+
+## Kompetenzbereiche nach Lehrplan21
+
+-   Zahl und Variable
+-   Form und Raum
+-   Grössen, Funktionen, Daten und Zufall
+
+::: quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+## Zusammenhänge {.unlisted}
+
+::: {#fig-uebersicht}
+
+```{mermaid}
+
+graph LR;
+  b1[Arithmetik];
+  b2[Stochastik];
+  b3[Geometrie];
+  b4[Algebra];
+  b5[Analysis];
+  b6[Mengenlehre];
+  b7[Logik];
+  
+  i1[Symbol und Formalisierung];
+  i2[Zuordnung und Veränderung];
+  i3[Daten und Zufall];
+  i4[Form und Raum];
+  i5[Zahl];
+  
+  k1[Zahl und Variable];
+  k2[Grössen, Funktionen, Daten und Zufall];
+  k3[Form und Raum];
+  
+  edk1[Zahl und Variable];
+  edk2[Form und Raum];
+  edk3[Grösse und Masse];
+  edk4[Funktionale Zusammenhänge];
+  edk5[Daten und Zufall];
+  b1-->i5-->edk1-->k1;
+  b4-->i1-->edk1;
+  b5-->i2-->edk4-->k2;
+  b2-->i3-->edk5-->k2;
+  b3-->i4-->edk2-->k3;
+  edk3-->k2;
+  b6-->i2;
+  subgraph Teilgebiete
+    b1;
+    b2;
+    b3;
+    b4;
+    b5;
+  end
+  subgraph B[Kompetenzbereiche EDK]
+    edk1;
+    edk2;
+    edk3;
+    edk4;
+    edk5;
+  end
+  subgraph Leitideen
+    i1;
+    i2;
+    i3;
+    i4;
+    i5;
+  end
+  subgraph K[Kompetenzbereiche LP21]
+    k1;
+    k2;
+    k3;
+  end
+  
+classDef title font-size:14px
+classDef padding stroke:none,fill:none
+
+class main title
+class padding padding
+```
+
+Übersicht Fachinhalte und Fachkompetenzbereiche
+
+:::
+
+::: quelle
+Teilgebiete und Leitideen nach @bruder2014
+
+Kompetenzbereiche nach @edk2011
+
+Kompetenzbereiche LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+# Tätigkeiten
+
+## Axiomatische Theorie
+
+> In der weitesten Bedeutung des Wortes nennen wir die Entwicklung einer Theorie axiomatisch, wenn die Grundbegriffe und Grundvoraussetzungen als solche an die Spitze gestellt werden und aus ihnen der weitere Inhalt der Theorie mit Hilfe von Definitionen und Beweisen logisch abgeleitet wird. In diesem Sinne ist die Geometrie von Euklid, die Mechanik von Newton, die Thermodynamik von Clausius axiomatisch begründet worden.
+>
+:::quelle
+[@hilbert_grundlagen_1968-1,S.1]
+:::
+
+## Denkprozesse
+
+-   Begriffsbildung
+-   Problemlösen lernen
+-   Algorithmik
+-   Argumentieren und Beweisen
+-   Anwendungen und Modellieren
+-   Darstellen und Kommunizieren
+
+::: quelle
+@bruder2014
+:::
+
+## Handlungsaspekte
+
+-   Operieren und Benennen
+-   Erforschen und Argumentieren
+-   Mathematisieren und Darstellen
+
+::: quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+## Tätigkeiten {.unlisted}
+
+::: {#fig-uebersicht}
+
+
+```{mermaid}
+
+flowchart LR;
+m1[/logische Ableitung/]
+m2[Definitionen];
+m3[Beweise];
+m4[Grundvoraussetzungen];
+m5[Grundbegriffe];
+
+b1[Begriffsbildung];
+b2[Problemlösen lernen];
+b3[Algorithmik];
+b4[Argumentieren und Beweisen];
+b5[Anwendungen und Modellieren];
+b6[Darstellen und Kommunizieren];
+
+h1[Operieren und Benennen];
+h2[Erforschen und Argumentieren];
+h3[Mathematisieren und Darstellen];
+
+edk1[Wissen, Erkennen und Beschreiben];
+edk2[Operieren und Berechnen];
+edk3[Verwenden von Instrumenten und Werkzeugen];
+edk4[Darstellen und Kommunizieren];
+edk5[Mathematisieren und Modellieren];
+edk6[Argumentieren und Begründen];
+edk7[Interpretieren und Reflektieren der Resultate];
+edk8[Erforschen und Explorieren];
+
+m2-->b1-->edk1-->h1;
+b6-->edk4-->h3;
+m3-->b4-->edk6-->h2;
+b3-->edk2-->h1;
+b2-->edk7-->h2;
+b5-->edk5-->h3;
+edk8-->h2;
+edk3-->h1;
+b2-->edk8;
+m4-->m3;
+
+m1-.->m3;
+m1-.->m2;
+m5-->m2;
+
+subgraph axiomatische Theorie
+  m2;
+  m3;
+   m1;
+  m4;
+  m5;
+end
+
+subgraph Denkprozesse
+  b1;
+  b2;
+  b3;
+  b4;
+  b5;
+  b6;
+end
+subgraph Handlungsaspekte EDK
+  edk1;
+  edk2;
+  edk3;
+  edk4;
+  edk5;
+  edk6;
+  edk7;
+  edk8;
+end
+subgraph Handlungsaspekte LP21
+  h1;
+  h2;
+  h3;
+end
+
+```
+
+Übersicht der Prozesse und Handlungsaspekte
+
+:::
+
+::: quelle
+
+Axiomatische Theorie nach @hilbert_grundlagen_1968-1
+
+Denkprozesse nach @bruder2014 
+
+Handlungsaspekte EDK nach @edk2011
+
+Handlungsaspekte LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+Hinweise:
+
+* Beweise beweisen Aussagen welche dann je nach Kontext Theoreme, Sätze, Lemmas, Korrolare, u.s.w. genannt werden.
+* Grundvoraussetzungen werden heute Axiome genannt und werden typischerweise zu Axiomensystemen gebündelt.
+
+# Lehrplan 21
+
+##  {.unlisted}
+
+![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/5/mathe_1.jpg)
+
+::: quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+## Bibliographie {.unlisted}

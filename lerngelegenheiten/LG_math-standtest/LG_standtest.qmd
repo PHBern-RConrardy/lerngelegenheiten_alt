@@ -1,0 +1,25 @@
+---
+title: "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung"
+subtitle: "Teil Mathematik"
+format: html
+categories:
+  - Modul - Summative und prognostische Beurteilung
+---
+
+# Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Chancen%20und%20Risiken%20standardisierter%20Testverfahren%20(Teil%20Math)/Schreibrechte%20Studierende/Organisationsblatt_Chancen%20und%20Risiken.xlsx?d=wb4c8cf94896f420eb0fec503cf891a46&csf=1&web=1&e=AtIOII){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+------------------------------------------------------------------------
+
+|                    | Vorbereitung | Präsenz                           |
+|--------------------|--------------|-----------------------------------|
+| Block - Mathematik | [Lernmodul](LM_standtestmath_01.qmd)    | [Slidestest](oldslides.qmd) |
+
+: Aufwand: 4h Vorbereitung, 2h Präsenz {#tbl-letters}
+
+------------------------------------------------------------------------

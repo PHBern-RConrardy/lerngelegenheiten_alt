@@ -1,0 +1,157 @@
+---
+format: revealjs
+title: Mediendidaktik
+subtitle: Lernverständnis
+---
+
+#  Mediendidaktik als erziehungswissenschaftliche Disziplin 
+
+## 
+
+::: {#fig-2}
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png)
+
+TPACK-Modell [@koehler_what_2013] und [@kapur_fail_2022]
+:::
+
+##
+
+Wie verändert Ihr technisches Wissen ihren Unterricht?
+
+##
+{{< countdown "10:00" bottom=2% right=2% padding="5px 5px" >}}
+:::{#exr-1}
+## Lerntheoretische Positionen
+Lesen Sie Kerres [-@kerres_mediendidaktik_2018] ab Seite 146 die Lerntheoretischen Positionen
+:::
+
+:::{#exr-2}
+
+Lösen Sie die Übungen 1 und 2 in Kerres [-@kerres_mediendidaktik_2018] ab Seite 166 
+
+:::
+
+## Künstlich-intelligente Tutorsysteme
+
+:::quelle
+[vgl @kerres_mediendidaktik_2018, S.156]
+:::
+Wie ist künstliche Intelligenz definiert?
+
+[Lösung](https://gmls.phsz.ch/GMLS/WarumWirDenBegriffKIVermeiden)
+
+## 
+
+Wie funktionieren Chatbots?
+
+. . .
+
+[![](https://www.soekia.ch/soekiaGPT.png)](https://www.soekia.ch/gpt.html)
+
+
+## 
+{{< countdown "6:00" bottom=2% right=2% padding="5px 5px" >}}
+
+:::{#exr-1}
+
+## Medien im didaktischen Dreieck
+
+Lesen Sie in Petko [-@petko_einfuhrung_2020] Seite 120.
+
+Halten Sie jeweils fest welche Medien Sie dazu kennen und zu nutzen wissen und welche sie kennen aber noch nicht zu nutzen wissen.
+:::
+
+
+## SAMR - Modell
+
+:::{#fig-1}
+![](images/SAMR.png)
+
+
+@puentedura_samr_nodate
+
+:::
+
+## Lernen mit Text, Bild und Ton
+
+* Linearer Text 
+* Hypertext
+* Statische Bilder
+* Videos und Animationen
+
+::: quelle
+[@petko_einfuhrung_2020, S.57f]
+
+:::
+
+## Choose your own adventure
+
+::: {#fig-1}
+![](https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg)
+
+Choose your own Adventure [Quelle](https://en.wikipedia.org/wiki/File:Cave_of_time.jpg)
+:::
+
+# Etwas Websprachen
+
+## Einführung in HTML und CSS
+
+- **HTML**: HyperText Markup Language  
+  - Struktur einer Webseite
+  - Beschreibt Inhalte: Texte, Bilder, Links, Tabellen
+- **CSS**: Cascading Style Sheets  
+  - Gestaltung einer Webseite
+  - Farben, Schriften, Layouts
+
+---
+
+### Warum HTML und CSS lernen?
+
+- **Verständnis der digitalen Welt**:  
+  - Viele Anwendungen basieren auf Web-Technologien.
+- **Kreativität und Gestaltung**:  
+  - Eigene Webseiten erstellen und gestalten.
+- **Kompetenzvermittlung**:  
+  - Schüler:innen können einfache Webprojekte entwickeln.
+
+---
+
+## HTML im Detail
+
+### Wichtige HTML-Elemente
+
+- **Grundstruktur**:  
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meine Webseite</title>
+  </head>
+  <body>
+    <h1>Willkommen!</h1>
+    <p>Dies ist meine erste Webseite.</p>
+  </body>
+</html>
+```
+## 
+
+:::{#exr-2}
+### Inspect
+Welche Farbpalette hat die Webseite der PHBern?
+
+:::
+
+:::{#exr-2}
+### Deeplinks
+Auf welchem Server liegt das Bild "Choose your own adventure"? 
+:::
+
+
+:::{#exr-3}
+### Hacking
+
+Gehen Sie auf die mathbuch.info und laden Sie vom Mathbuch das Titelbild in Originalauflösung runter.
+:::
+
+## Bibliographie

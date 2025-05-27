@@ -1,0 +1,148 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Lehrstoff
+---
+
+## Kriterien für die Auswahl von Lehrstoff
+
+> * Der Lehrstoff muss mathematisch richtig sein.  
+> * Der Lehrstoff muss spätere Erweiterungen vorbereiten.  
+> * Der Lehrstoff muss an den Anfangszustand der Schüler anknüpfen.  
+> * Der Lehrstoff muss den gestellten Zielen entsprechen.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.36]
+:::
+
+## Begründung
+
+> * Sie müssen erkennen können, welcher Lehrstoff im Buch fehlt.
+> * Sie müssen feststellen können, welcher Lehrstoff im Buch schlecht angeordnet ist.
+> * Sie müssen gut angeordneten Lehrstoff des Buchs erkennen können.
+> * Sie müssen in der Lage sein, zusammen mit Kollegen ein für Ihre Schule geeignetes Lehrbuch auszusuchen.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.36]
+:::
+
+# Kantonale Vorgaben und Lehrmittel
+
+##
+
+> In der Mathematik und in den Fremdsprachen sind die aufgeführten Lehrmittel obligatorisch und unterrichtsleitend.
+
+::: quelle
+
+[@bildungs-_und_kulturdirektion_lehrmittelverzeichnis_nodate, S.1]
+:::
+
+. . .
+
+:::: {.callout-tip title="Einschränkung"}
+
+Dies bezieht sich ausschliesslich auf öffentliche Schulen im Kanton Bern.
+
+::::
+
+# Lehrmittel Mathematik 
+
+## Hinweise
+
+::: {.callout-caution title="Transparenzhinweis"}
+
+
+Zwei Arbeitskollegen sind (privat) am Mathbuch (Schulverlag Plus) beteiligt. 
+
+:::
+
+::: {.callout-tip title= "Einschränkung"}
+
+Im FS25 beschränken wir uns noch auf die Ausgabe 2013.
+:::
+
+## Mathbuch (Schulverlag Plus)
+
+-   **«mathbuch 1»** (7. Schuljahr, Ausgabe 2013): Schulbuch 1, Arbeitsheft 1 bzw. 1+ 
+    oder **«Mathbuch 1»** (7. Schuljahr, Neuausgabe 2025): Themenbuch, Arbeitshefte 1G und 1E, Denkspuren\
+-   **«mathbuch 2»** (8. Schuljahr): Schulbuch 2, Arbeitsheft 2 bzw. 2+\
+-   **«mathbuch 3»** (9. Schuljahr): Schulbuch 3 bzw. 3+, Arbeitsheft 3 bzw. 3+
+
+:::quelle
+[@bildungs-_und_kulturdirektion_lehrmittelverzeichnis_nodate, S.2]
+:::
+
+
+## Mathematik (LMVZ)
+
+- [Mathematik Sekundarstufe I](https://www.lmvz.ch/schule/mathematik-sekundarstufe-i) 
+- [Mathematik klick](https://www.lmvz.ch/schule/mathematik-klick) 
+- [https://www.lmvz.ch/schule/mathematik-top](https://www.lmvz.ch/schule/mathematik-top)
+
+# Kriterien für die Auswahl von Lehrstoff
+
+## Mathematische Korrektheit
+
+> Ein Lehrer muss also dann und wann Wasser in den Wein giessen. Dem Kriterium der mathematischen Korrektheit aber sollte man niemals Gewalt antun.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.49]
+:::
+
+{{< countdown "5:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+. . .
+
+:::{#exr-1}
+
+Lösen Sie Aufgaben 6,7,9 auf Seite 37 in @van_dormolen_didaktik_1978.
+:::
+
+## Vorbereitung späterer Erweiterungen
+
+Wie definieren Sie $z^{\frac{1}{4}}$?
+
+:::{.callout-note}
+
+Akkomodation und Assimilieren und ähnliches wird in der Lerngelegenheit (ESW) **Lernen als Prozess verstehen und entsprechenden Unterricht gestalten** vertieft behandelt.
+:::
+
+## Anschluss an den Anfangszustand
+
+
+{{< countdown "5:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+. . .
+
+:::{#exr-1}
+
+Lösen Sie Aufgaben 25, 26 und 27 auf Seite 48 in @van_dormolen_didaktik_1978.
+:::
+
+## Übereinstimmung mit den Lernzielen
+
+. . .
+
+Wählen Sie eine [Aufnahmeprüfung](https://www.bkd.be.ch/de/start/themen/bildung-im-kanton-bern/mittelschulen/gymnasium/aufnahmeverfahren-gymnasium/aufgaben-und-loesungen-aufnahmepruefungen-gymnasium.html) aus. Formulieren Sie zu einer Aufgabe konkrete Lernziele. 
+
+## Anordnung von Lehrstoff
+
+Begriffe (höherer Ordnung) sollen nicht mit Definitionen eingeführt werden, sondern mit Beispielen und **Gegenbeispielen**.
+
+{{< countdown "8:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+. . .
+
+:::{#exr-1}
+
+Lösen Sie Aufgaben 31 und 32 auf Seite 58 in @van_dormolen_didaktik_1978.
+:::
+
+# Arbeit am Workload
+
+## Digitale Lernumgebung, Vorschläge
+
+* [Switchportfolio](https://portfolio.switch.ch/) (kein PDF, Word, etc.)
+* [Quarto](https://quarto.org/)
+
+## Bibliographie

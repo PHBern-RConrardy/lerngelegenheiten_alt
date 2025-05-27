@@ -1,0 +1,169 @@
+---
+format:
+  revealjs: default
+  pdf: default
+title: Mikroplanung Mathematik
+subtitle: Lernziele und Anfangszustand
+---
+
+# Lernumgebungen
+
+## Studienplanbezug
+
+:::: callout-note
+### Indikatoren Mikroplanung
+
+Die Studierenden
+
+-   entwickeln analoge wie digitale fachliche, überfachliche und fächerübergreifende Lernumgebungen mit entsprechenden sprachsensiblen Aufgaben.
+-   gestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.
+
+::: quelle
+@phbern_studienplan_2022
+:::
+::::
+
+## Prinzipien und Maximen
+
+:::{#def-line}
+
+## Lernumgebung
+
+Eine durch den Unterricht hergestellte Lernumgebung besteht aus einem Arrangement von Unterrichtsmethoden, Unterrichtstechniken, Lernmaterialien, Medien.
+:::
+
+::: quelle
+[@krapp_unterrichten_2010, S.615]
+:::
+
+## Praxisbeispiel
+
+:::{#fig-1 .center}
+<center>
+{{< qrcode https://pgigeruzh.github.io/informatik/ >}}
+</center>
+
+QR-Code: [https://pgigeruzh.github.io/informatik/](https://pgigeruzh.github.io/informatik/)
+:::
+
+## Mögliches Vorgehen
+
+1.  Stoffauswahl
+2.  Lernziele
+3.  Vorwissen
+4.  Sozialformen
+5.  Sozialformen und Phasen
+6.  Aufgaben
+7.  Überleitung
+
+# Stoffauswahl
+
+## Themenliste
+
+Es wird eine [Themenliste](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B6d7b7b77-e701-495c-a734-95aa8c684020%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1725374697781&web=1&CID=2f77316a-b428-4c26-ed85-c19100b5eb17) geführt. Tragen Sie sich dort ein, sobald Sie wissen, was Sie nehmen möchten.
+
+## Sachanalyse
+
+Wählen Sie ein Thema aus.
+
+Geben Sie Ihrem Sitznachbarn einen "Elevator Pitch" zum Thema. Erklären Sie in nur 2 Minuten, weshalb das Thema wichtig ist und nicht vom Lehrplan gestrichen werden soll.
+
+# (Kurzfristige) Lernziele
+
+## Beispiel: Satz des Pythagoras {.smaller}
+{{< countdown "6:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+::: {#exr-1}
+
+## Zuordnung Aktivität zu Lernziel
+Beantworten Sie in @van_dormolen_didaktik_1978 die Frage 14 auf Seite 16.
+:::
+
+## Mögliche Formulationen
+
+Wir ...
+
+Sie ...
+
+Du ...
+
+Ich ...
+
+. . .
+
+::: {.callout-tip title="Vorschlag"}
+Wir ...
+:::
+
+## Hilfestellung 1
+
+-   SMART (specific, measurable, achievable, reasonable, time-bound)
+-   Anwendungskompetenzen [@erziehungsdirektion_des_kantons_bern_lehrplan_2016-1]
+    -   Operieren und benennen
+    -   Erforschen und argumentieren
+    -   Mathematisieren und darstellen
+
+## Hilfestellung 2
+
+-   Matrixform mit Taxonomie [@van_dormolen_didaktik_1978, S.26]
+    -   Theorie
+    -   Algorithmen
+    -   Problemlösung
+    -   Logischer Zusammenhang
+    -   Kommunikation
+
+## Lernziele formulieren
+{{< countdown "10:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+:::{#exr-line}
+Finden Sie im Mathbuch  [@affolter_mathbuch_2013-1] ein Kapitel zu ihrem Thema. Formulieren Sie ein mögliches Lernziel dieser LU.
+
+Formulieren Sie anschliessend Lernziele zu ihrer zukünftigen Lernumgebung.
+:::
+
+## 
+{{< countdown "6:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+::: {#exr-1}
+
+## Lang- und kurzfristige Lernziele
+Beantworten Sie in @van_dormolen_didaktik_1978 die Fragen 2 bis 5 auf Seite 9.
+:::
+
+## Kommunikation
+{{< countdown "10:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+::: {#exr-5}
+
+## Kommunikation
+Beantworten Sie in @van_dormolen_didaktik_1978 die Fragen 24 bis 28 auf Seite 22.
+:::
+
+## Abschluss Lernziele
+
+{{< countdown "10:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+::: {#exr-6}
+
+## Kommunikation
+Beantworten Sie in @van_dormolen_didaktik_1978 die Frage 31 Seite 26f.
+:::
+
+# Anfangszustand
+
+## Anknüpfen
+
+{{< countdown "10:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+::: {#exr-7}
+
+## Vorwissen
+
+Beantworten Sie in @van_dormolen_didaktik_1978 die Frage 1 Seite 32.
+:::
+
+# Aufträge
+
+## 
+
+* Lesen Sie sich in ihr Thema ein (Lehrmittel, Youtube Videos, Wikipedia, ...).
+* Informieren Sie sich über Möglichkeiten für **digitale** Lernumgebungen.
+
+## Bibliographie

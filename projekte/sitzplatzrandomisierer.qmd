@@ -1,0 +1,132 @@
+---
+title: "Classroom Arrangement"
+format: revealjs
+
+---
+
+## Randomized Seating Arrangement
+
+<style>
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .table {
+        border: 2px solid #4CAF50;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        background-color: #f9f9f9;
+        width: 200px;
+        height: 80px;
+    }
+
+    .seat {
+        font-weight: bold;
+        text-align: center;
+        width: 45%;
+        padding: 5px;
+        border-radius: 4px;
+        background-color: #FFDDC1;
+        font-size: 16px; /* Default font size */
+    }
+
+    .seat.left {
+        background-color: #FFDDC1;
+    }
+
+    .seat.right {
+        background-color: #C1E1FF;
+    }
+</style>
+
+<script>
+    const names = [
+        "Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", "Ian", 
+        "Jack", "Karen", "Leo", "Mia", "Nina", "Oscar", "Paul", "Quincy", "Rachel", 
+        "Steve", "Tina", "Uma", "Victor", "Wendy", "Xander", "Yasmine"
+    ];
+
+    // Adjust font size based on the length of the name
+    function adjustFontSize(name) {
+        if (name.length > 10) {
+            return "12px"; // Smaller font for longer names
+        } else if (name.length > 6) {
+            return "14px"; // Slightly smaller font for medium names
+        } else {
+            return "16px"; // Default font size for short names
+        }
+    }
+
+    // Seed-based shuffle function
+    function seededShuffle(array, seed) {
+        function random() {
+            const x = Math.sin(seed++) * 10000;
+            return x - Math.floor(x);
+        }
+
+        const result = [...array];
+        for (let i = result.length - 1; i > 0; i--) {
+            const j = Math.floor(random() * (i + 1));
+            [result[i], result[j]] = [result[j], result[i]];
+        }
+        return result;
+    }
+
+    // Generate a seed from the current date
+    function getDateSeed() {
+        const now = new Date();
+        return now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+    }
+
+    // Generate the table layout
+    function generateSeating() {
+        const seed = getDateSeed();
+        const shuffled = seededShuffle([...names], seed);
+        const seatingDiv = document.getElementById('seating');
+        seatingDiv.innerHTML = "";
+
+        let tableCount = 0;
+
+        for (let i = 0; i < 4; i++) {
+            const rowDiv = document.createElement('div');
+            rowDiv.classList.add('row');
+
+            for (let j = 0; j < 4; j++) {
+                const tableDiv = document.createElement('div');
+                tableDiv.classList.add('table');
+
+                const tableNames = shuffled.slice(tableCount * 2, tableCount * 2 + 2);
+
+                tableDiv.innerHTML = `
+                    <div class="seat left" style="font-size: ${adjustFontSize(tableNames[0] || " ")}">${tableNames[0] || " "}</div>
+                    <div class="seat right" style="font-size: ${adjustFontSize(tableNames[1] || " ")}">${tableNames[1] || " "}</div>
+                `;
+
+                rowDiv.appendChild(tableDiv);
+                tableCount++;
+            }
+            seatingDiv.appendChild(rowDiv);
+        }
+    }
+
+    // Generate seating on page load
+    window.onload = generateSeating;
+
+    // Reshuffle seating when button is clicked
+    function reshuffleSeating() {
+        generateSeating();
+    }
+</script>
+
+<div id="seating" style="margin-top: 30px;"></div>
+
+<div class="controls">
+    <button class="reshuffle-button" onclick="reshuffleSeating()">Reshuffle</button>
+</div>

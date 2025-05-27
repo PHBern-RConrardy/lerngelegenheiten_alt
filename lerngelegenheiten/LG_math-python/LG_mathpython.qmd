@@ -1,0 +1,177 @@
+---
+title: "Verstehensorientiert prüfen in Zeiten von KI"
+subtitle: "Programmieren im Mathematikunterricht"
+format: 
+  html: default
+categories:
+  - Modul - Formative Beurteilung
+  - Modul - Summative und prognostische Beurteilung
+  - Label - Digitalität
+  - Fach - Mathematik
+authors:
+    - name: Richard Conrardy
+      orcid: 0009-0004-2063-6898
+      id: 00383195
+      email: richard.conrardy@phbern.ch
+      url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+      affiliations:
+        - ref: phbern
+    - name: Joël Adler
+      url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
+      affiliations:
+          - ref: phbern
+          
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+date: 17 09 2024
+citation: 
+  author:
+    - Peter Giger
+    - Richard Conrardy
+    - Joel Adler
+abstract: >
+  In dieser Lerngelegenheit lernen Sie wie sie Pythonprogrammierübungen im Mathematikunterricht der Sekundarstufe 1 einbauen und beurteilen können. Sie können zudem Chatbots lernförderlich einsetzen.
+draft: true
+---
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Beurteilung%20Mathematik%20Verstehensorientiert%20pr%C3%BCfen%20in%20Zeiten%20von%20KI/Studierende_Schreibrechte/Organisationsblatt%20Verstehensorientiert%20KI.xlsx?d=wf38b17f72e1f471bbdb882f9f7a981de&csf=1&web=1&e=6yfZvS){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"} [Porta-QT-Digitalität](https://porta.phbern.ch/content/page/62694b41dd910c2dedc2d1d1){.knopf .knopf-klein target="_blank"}
+:::
+
+# Wochenüberblick
+
+| Woche | Thema                                 |                           Vorbereitung                           |         Präsenz         | Nachbereitung |
+|:-------------:|:--------------|:-------------:|:-------------:|:-------------:|
+|   1   | Variablen, Datentypen und Typecasting | [Install IDE](LM_IDE_install), [Lernmodul](LM_mathpython_01.qmd) | [Übungen](woche_01.qmd) |               |
+|   2   | Conditionals                          |                [Lernmodul](LM_mathpython_02.qmd)                 | [Übungen](woche_02.qmd) |               |
+|   3   | Loops                                 |                [Lernmodul](LM_mathpython_03.qmd)                 | [Übungen](woche_03.qmd) |               |
+|   4   | Listen                                |                [Lernmodul](LM_mathpython_04.qmd)                 | [Übungen](woche_04.qmd) |   Projekt 1   |
+|   5   | Funktionen                            |                [Lernmodul](LM_mathpython_05.qmd)                 | [Übungen](woche_05.qmd) |               |
+|   6   |                                       |                                                                  | [Übungen](woche_05.qmd) |   Projekt 2   |
+
+: Aufwand: 12h Vorbereitung, 12h Präsenz {.striped .hover .table-sm #tbl-letters}
+
+<hr>
+
+:::: {.callout-tip collapse="true"}
+### Flipped Classroom
+
+Diese Lerngelegenheit folgt dem *flipped classroom* Ansatz [vgl. @bergmann_flipped_2011], im Hochschulkontext auch *inverted classroom* genannt [vgl. @handke_inverted_2017].
+
+Diverse Autoren legen das Modell unterschiedlich aus. @abeysekera_motivation_2015 hält die Schnittmenge der meisten Definitionen wie folgt fest:
+
+> 1.  move most information-transmission teaching out of class
+> 2.  use class time for learning activities that are active and social and
+> 3.  require students to complete pre- and/or post-class activities to fully benefit from in-class work.
+>
+> :::quelle
+> [@abeysekera_motivation_2015, S.3]
+> :::
+
+Wichtig ist somit, dasss Sie sich auf den Präsenzunterricht vorbereiten. Falls Sie Schwierigkeiten bei der Vorbereitung haben, wird erwartet, dass Sie dies mit den Dozierenden **vor** dem Präsenzunterricht klären, z.B. per Mail. 
+::::
+
+## Packages installieren (numpy)
+
+Im `Terminal`folgenden Befehl eingeben: `pip install numpy`. Falls Fehler gemeldet werden folgendes beachten:
+
+1.  Im `Terminal` folgendes eingeben: \`pip --version\`\`
+2.  In der Ausgabe den *path*, insb. Versionsnummer merken, z.B. `from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)`
+3.  In Rstudio im Menü unter `Tools > Global Options` bei `Python` genau diesen Interpreter wählen und speichern.
+4.  Nun Library im `Terminal`mit `pip install numpy`installieren.
+
+------------------------------------------------------------------------
+
+## Projekt 1 {#projekt-1}
+
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA){.knopf .stufe} oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd){.knopf .stufe}. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
+
+Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+
+Sie können die Arbeit als Partnerarbeit erledigen.
+
+<details>
+
+<summary>Lösungsvorschlag 1</summary>
+
+Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+
+``` python
+# Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz
+import random
+auftrag = input("Löse die nachfolgenden Aufgaben!")
+while True:
+  random_numberone=random.randint(1,1000)
+  random_numbertwo=random.randint(1,1000)
+  print(random_numberone, "von", random_numbertwo,flush=True)
+  lösung= float(input("Schätze den prozentualen Anteil ab. Wie viel erhältst du?"))
+  richtiges_resultat = (random_numberone / random_numbertwo) * 100
+  if abs(lösung - richtiges_resultat)<10:
+    print("Gut gemacht ... weiter so!",flush=True)
+  else:
+    print("Versuch es nochmals.",flush=True)
+  weiter = input ("Möchten sie fortfahren? (ja/nein)")
+  if weiter == "ja":
+    continue
+  else:
+    break
+```
+
+</details>
+
+<details>
+
+<summary>Lösungsvorschlag 2</summary>
+
+Dieser Lösungsvorschlag von Liv Streit ist unter einer CC0 Lizenz.
+
+``` python
+import random
+def Aufgabe():
+  while True:
+    random_num1 = random.randint(1,100)
+    random_num2 = random.randint(1,100)
+    operation = random.choice (['+', '-'])
+    try:
+      user_answer = int(input(f"Was ist {random_num1} {operation} {random_num2}?"))
+      richtiges_resultat = eval(f"{random_num1} {operation} {random_num2}")
+      abweichung = abs(float(user_answer)-richtiges_resultat)
+      abweichung_prozentsatz = (abweichung / richtiges_resultat) * 100
+      toleranz = 10
+      if -toleranz <= abweichung_prozentsatz <= toleranz:
+        print ("Juhu, deine Antwort ist richtig!",flush=True)
+        break
+      else:
+        print ("Deine Antwort ist leider falsch, versuche es gleich noch einmal.",flush=True)
+    except ValueError:
+      print("gib bitte eine Zahl ein.")
+Aufgabe()
+```
+
+</details>
+
+------------------------------------------------------------------------
+
+## Projekt 2 {#projekt-2}
+
+Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW){.knopf .stufe}. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
+
+Halten Sie schriftlich fest:
+
+-   wie diese Übung zur formativen Beurteilung beiträgt.
+-   wie Sie mit diesem Übungssetting Unterrichtsmaterial und Medien zur Rückmeldung verwenden und auf eine konkrete Unterrichtssituation anpassen.
+-   wie dieses Übungssetting die Entwicklung bildungssprachlicher Kompetenzen im Zusammenhang mit fachlichem Lernen fördert.
+
+::: callout-tip
+## Leistungsnachweis: Formative Beurteilung
+
+Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung sein. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
+:::
+
+Interessante Aufgaben kann man hier finden:
+
+-   [Informatikbiber](https://www.informatik-biber.ch/aufgabensammlung/) (Lizenz CC BY-NC-SA)
+-   [Mathekänguru](https://www.mathe-kaenguru.de/chronik/aufgaben/index.html)
+
+------------------------------------------------------------------------

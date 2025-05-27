@@ -1,0 +1,424 @@
+---
+format: html
+
+title: Gleichungen
+subtitle: Einführung und Theorie
+
+toc: true
+toc-expand: 1
+
+date: 09/22/2024
+
+authors: "David Grossenbacher"
+  
+citation: 
+  author:
+    - David Grossenbacher
+
+copyright: Diese Lernumgebung beruht auf einer Lernumgebung welche von Lynn Gurtner erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876949 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.
+licence: CC-BY-SA
+draft: false
+
+abstract: >
+  Eine Doppellektion zur Einführung in Gleichungen
+---
+# Lektion
+
+## Lernziele
+
+In dieser Lernumgebung werden folgende Lernziele angepeilt:
+
+- Die SuS können einfache Gleichungen mit einer Variablen durch reines Einsetzen und Kopfrechnen ermitteln.
+- Die SuS können Gleichungen ausgehend von Texten aufschreiben.
+- Die SuS füllen Wertetabellen für Gleichungen mit 2 Variablen korrekt aus.
+- Die Schüler erstellen keine "Gleichheitsketten" und verwenden das Äquivalenzzeichen korrekt. Bsp:
+
+  $3x + 1 = 10 \leftrightarrow x = 3$
+
+  und nicht
+
+  $3x + 1 = 10 = x = 3$
+
+
+## Zusatzaufgabe: 
+
+Mache einen Eintrag in deinem Merkheft, in welchem du die wichtigsten Erkenntnisse festhältst:
+
+    Was ist eine Variable?
+    Was ist ein Term?
+    Was ist eine Gleichung und wie kann man sie lösen?
+    Wofür wird das Äquivalenzzeichen verwendet?
+    ...
+
+## Arbeitsblatt – Gleichungen I
+
+Welche Werte müssen für x eingesetzt werden, damit die Gleichungen erfüllt sind?
+
+### a.)
+1. $x + 3 = 7$
+2. $2x = 10$
+3. $\frac{x}{2} = 6$
+4. $x - 7 = 8$
+5. $4x = 16$
+6. $x + 2 = 5$
+7. $5x = 20$
+8. $3x = 15$
+9. $x + 4 = 9$
+10. $x - 5 = 2$
+
+### b.)
+1. $x + 4 = 9$
+2. $3x = 12$
+3. $x - 3 = 7$
+4. $2x + 1 = 9$
+5. $5x = 25$
+6. $\frac{x}{3} = 6$
+7. $x + 8 = 14$
+8. $4x - 2 = 14$
+9. $\frac{x}{3} = 5$
+10. $7x = 28$
+
+### c.)
+1. $x - 5 = 11$
+2. $3x + 2 = 17$
+3. $\frac{x}{4} = 7$
+4. $6x = 36$
+5. $x + 3 = 10$
+6. $2x - 4 = 8$
+7. $5x + 5 = 30$
+8. $x - 6 = 3$
+9. $4x + 1 = 21$
+10. $\frac{x}{5} = 4$
+
+### d.)
+1. $x + 15 = 25$
+2. $3x = 36$
+3. $2x + 8 = 30$
+4. $5x - 10 = 50$
+5. $4x = 44$
+6. $\frac{x}{2} = 20$
+7. $7x = 56$
+8. $7x = 70$
+9. $x - 30 = 40$
+10. $9x + 18 = 108$
+
+### e.)
+1. $8x = 64$
+2. $8x + 8 = 88$
+3. $10x = 100$
+4. $\frac{x}{5} = 15$
+5. $2x + 20 = 100$
+6. $6x - 10 = 50$
+7. $4x + 20 = 80$
+8. $\frac{x}{3} + 5 = 38$
+9. $x - 5 = 95$
+10. $3x + 10 = 55$
+
+### f.)
+1. $2x + 40 = 100$
+2. $5x - 50 = 150$
+3. $\frac{x}{2} + 150 = 500$
+4. $3x + 100 = 400$
+5. $\frac{x}{5} + 60 = 260$
+6. $7x = 490$
+7. $5x - 200 = 300$
+8. $9x + 90 = 990$
+9. $\frac{x}{4} + 50 = 200$
+10. $4x + 80 = 960$
+
+## Übung 2
+
+### Erstellung von Gleichungen aus Textaufgaben
+
+#### a.)
+Lisa hat 3 Äpfel. Wenn sie weitere $x$ Äpfel bekommt, hat sie insgesamt 8 Äpfel.  
+Stelle eine Gleichung auf und berechne, wie viele Äpfel $x$ sind.
+
+#### b.)
+Ein Zug fährt mit einer Geschwindigkeit von 60 km/h. Nach $x$ Stunden hat er 240 km zurückgelegt.  
+Stelle eine Gleichung auf und berechne $x$.
+
+#### c.)
+Tom hat doppelt so viele Murmeln wie Sam. Wenn Sam $x$ Murmeln hat, hat Tom 12 Murmeln.  
+Stelle eine Gleichung auf und bestimme $x$.
+
+#### d.)
+Ein Wasserspeicher enthält 500 Liter Wasser. Jeden Tag entnimmt eine Maschine $x$ Liter Wasser. Nach 5 Tagen sind noch 100 Liter Wasser übrig.  
+Wie viel Wasser entnimmt die Maschine pro Tag? Erstelle eine Gleichung und bestimme $x$.
+
+#### e.)
+Ein Lehrer verteilt 120 Aufgabenblätter an $x$ Schüler. Wenn jeder Schüler 6 Blätter erhält, wie viele Schüler sind in der Klasse?  
+Erstelle eine Gleichung und berechne $x$.
+
+#### f.)
+Ein LKW kann 2000 kg Fracht transportieren. Wenn eine Kiste 100 kg wiegt, wie viele Kisten ($x$) können maximal transportiert werden, wenn 1200 kg schon geladen sind?  
+Erstelle eine Gleichung und berechne $x$.
+
+#### g.)
+Eine Reihe eines Achterbahn-Zuges hat 4 Plätze. Wie viele Reihen $x$ hat der gesamte Zug, wenn bei einer Fahrt insgesamt 36 Passagiere mitreiten können.  
+Stelle eine Gleichung auf und bestimme $x$.
+
+#### h.)
+Bei der in Aufgabe g.) genannten Achterbahn verlässt alle 60 Sekunden ein Zug die Station.  
+Stelle eine Gleichung auf und berechne, wie viele Passagiere in einer Stunde die Fahrt genießen können.  
+(Das Resultat entspricht ungefähr der Kapazität der Achterbahn Silver Star im Europa Park)
+
+### Zusatzaufgabe: Erstelle eigene Beispiele!
+
+**Möglichkeit 1:** Erstelle ein eigenes Beispiel wie in den obigen Aufgaben. Schreibe das Beispiel auf ein A5-Blatt und die entsprechende Lösung auf die Rückseite. Tausche die Aufgabe mit anderen Schüler*innen aus!
+
+**Möglichkeit 2:** Schreibe für eine/n andere/n Schüler*in eine zufällige Gleichung mit einer Variable auf. Sie/Er soll ein Alltagsbeispiel erfinden, welches die entsprechende Gleichung beschreibt.
+
+**Bsp.:** $2x = 30$  
+Mögliche Antwort: "In einer Schule hat es 30 Schüler*innen. Insgesamt hat es 2 Klassen, wobei es in jeder Klasse $x$ Schüler*innen hat."  
+$2x = 30 \leftrightarrow x = 15$
+
+## Übung 3 
+
+Ausfüllen von Wertetabellen bei Gleichungen der Form $y = mx + b$
+
+a.) $y = 2x$
+
+| $x$ | 1  | 2  | 3  | 4  | 5  | 10 |
+|-----|----|----|----|----|----|----|
+| $y$ | 2  | 4  | 6  | 8  | 10 | 20 |
+
+b.) $y = 3x - 2$
+
+| $x$ | 1  | 2  | 3  | 4  | 5  | 10 |
+|-----|----|----|----|----|----|----|
+| $y$ | 1  | 4  | 7  | 10 | 13 | 28 |
+
+c.) $y = \frac{x}{2} + 2$
+
+| $x$ | 2  | 4  | 6  | 8  |    | 12 |
+|-----|----|----|----|----|----|----|
+| $y$ | 3  | 4  | 5  | 6  |    | 8  |
+
+d.) $y = 7x - 6$
+
+| $x$ | 1  | 2  | 5  |    | 10 |
+|-----|----|----|----|----|----|
+| $y$ | 1  | 8  | 29 |    | 64 |
+
+e.) $y = \frac{x}{4} + 4$
+
+| $x$ | 4  | 8  |    |    | 20 |
+|-----|----|----|----|----|----|
+| $y$ | 5  | 6  |    |    | 9  |
+
+# Weitere Gleichungen
+
+Weitere Gleichungen:
+
+Fülle die folgenden Tabellen selbst aus, indem du eigene, passende $x$-Werte einsetzt. Gib auch an, wie viele verschiedene Lösungen es gibt! Gibt es genau eine Lösung, gibt es unendlich viele Lösungen, keine Lösung, o.a.?
+
+f.) $y + x = 20$
+
+| $x$ |    |    |    |    |    |    |
+|-----|----|----|----|----|----|----|
+| $y$ |    |    |    |    |    |    |
+
+g.) $y + 3 = y + x$
+
+| $x$ |    |    |    |    |    |    |
+|-----|----|----|----|----|----|----|
+| $y$ |    |    |    |    |    |    |
+
+h.) $2x + 3 = 2x + 4$
+
+| $x$ |    |    |    |    |    |    |
+|-----|----|----|----|----|----|----|
+| $y$ |    |    |    |    |    |    |
+
+i.) $y + 2 = 100$
+
+| $x$ |    |    |    |    |    |    |
+|-----|----|----|----|----|----|----|
+| $y$ |    |    |    |    |    |    |
+
+Zusatzaufgabe: Erstelle eine passende Gleichung ausgehend von den Daten der Wertetabelle und fülle die restlichen Felder aus.
+
+Gleichung:
+
+| $x$   | 1  | 2  |    |    | 11 | 12 |
+|-------|----|----|----|----|----|----|
+| $y$   | 12 | 15 |    |    | 30 | 39 |
+
+Gleichung:
+
+| $x$   | 2  | 4  |    |    | 20 | 38 |
+|-------|----|----|----|----|----|----|
+| $y$   | 2  | 3  |    |    | 4  | 10 |
+
+
+# Lehrerkommentar
+
+## Kompetenzstufen
+
+[MA.1.A.4.i](https://be.lehrplan.ch/101E8xmhHHgram3LHqgCx2Gwdg3vJ6cPY){.knopf .stufe}  können ein Produkt mit gleichen Faktoren als Potenz schreiben und umgekehrt (z.B. $15 \cdot 15 \cdot 15 = 15^3$ ; $a \cdot a \cdot a \cdot a = a^4$
+).
+
+[MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe}  	Erweiterung: können lineare Gleichungen mit einer Variablen mit Äquivalenzumformungen lösen (z.B. $5x + 3 = 7$)
+
+[MA.3.c.3.g](https://be.lehrplan.ch/101eyUHN5UTpNM7eNmb25PVMKdrYH99AJ){.knopf .stufe}  	Erweiterung: können Buchstabenterme, Formeln und lineare Funktionsgleichungen mit Sachsituationen konkretisieren (z.B. die Funktionsgleichung y = 2x + 3 mit Preis = 2 · Anzahl + 3).
+
+# Lehrpersonenkommentar
+
+Die vorliegende Lernumgebung dient als Einführung und erste Annäherung an das Thema «Gleichungen» für 7. Klässler im ersten Semester. Die beigelegte Lektionsplanung ist für etwa 3-4 Lektionen ausgelegt.
+
+## Vorangehende Kompetenzen
+
+Folgende **vorangehende Kompetenzen** sollten die SuS behandelt haben:
+
+- Die SuS wissen, was eine Variable ist und sie kennen die einfachen Term-Vereinfachungsregeln (Bspw.: $x + 2x = 3x$).
+- Die SuS beherrschen die Grundoperationen.
+
+## Grundlegende Stolpersteine
+
+Weiter sind die folgenden grundlegenden **Stolpersteine** zu beachten:
+
+- Die SuS kennen die Rechenregeln von ganzen und rationalen Zahlen noch nicht. Die Lösungen und die in den Aufgaben gebrauchten Zahlen sind also immer rein natürliche Zahlen. Folgendes Beispiel ist dementsprechend nicht Inhalt der LU:
+
+![Bild]()
+  
+- Die SuS können Gleichungen noch nicht umstellen. Die Variable $x$ wird durch reines Einsetzen und Kopfrechnen ermittelt.
+- Die SuS haben noch kein oder ein falsches Verständnis dafür, was das Gleichheitszeichen bedeutet. In der Primarstufe wird oftmals gesagt "eins und eins gibt zwei". Daraus könnte sich das Fehlkonzept entwickeln, dass $1 + 1$ irgendwie zu $2$ führt. Das Verständnis dafür, dass beide Terme auf der linken und rechten Seite des Gleichheitszeichens ausgewertet gleich groß sein müssen, wäre dementsprechend nicht vorhanden.
+- Termumformungen sind in dieser LU kein Thema.
+
+## Lernziele
+
+In dieser Lernumgebung werden folgende Lernziele angepeilt:
+
+- Die SuS können einfache Gleichungen mit einer Variable durch reines Einsetzen und Kopfrechnen ermitteln.
+- Die SuS können Gleichungen ausgehend von Texten aufschreiben.
+- Die SuS füllen Wertetabellen für Gleichungen mit 2 Variablen korrekt aus.
+- Die Schüler erstellen keine "Gleichheitsketten" und verwenden das Äquivalenzzeichen korrekt. Bsp:
+
+  $3x + 1 = 10 \leftrightarrow x = 3$
+
+  und nicht
+
+  $3x + 1 = 10 = x = 3$
+
+## Arbeitsunterlagen für SuS
+
+- Da das Thema "Gleichungen" erst eingeführt wird, haben die Übungen nicht sehr viel Anwendungscharakter.
+- Die Aufgabenstellungen sind nicht sehr differenziert, sie sollten aber in allen Klassen für die Erarbeitung der Grundlagen hilfreich sein. Bei sehr heterogenen Klassen müssen allenfalls zusätzliche Arbeitsunterlagen den Bedürfnissen entsprechend angeschafft werden.
+- Das AB1 ist relativ repetitiv. Es muss nicht das gesamte AB gelöst werden, bevor die SuS zu Übung 2 übergehen.
+- Die Übung 3 ist grundsätzlich nach der Einführung zu den Wertetabellen zu bearbeiten. Nach eigenem Ermessen dürfen die SuS auch noch an den vorherigen Aufträgen weitermachen.
+- Die unten aufgeführten .html Dateien orientieren sich an der Aufgabenstellung des AB1 ($x$ herausfinden) und an den ersten 5 Wertetabellen-Aufgaben (Wertetabellen_Generator).
+  
+### Zusatzaufgaben für schnelle SuS:
+
+- Erstelle eigene Textaufgaben (siehe Übung 2).
+- Erstelle einen Merkhefteintrag, wo die wichtigsten theoretischen Inhalte festgehalten werden.
+- Übe weiter in den Rechenprogrammen.
+
+### Weitere Übungsmöglichkeiten, sollte die gesamte Klasse sehr schnell arbeiten:
+
+- Die von den SuS erstellten Textaufgabenbeispiele können im Plenum zusammen gelöst werden.
+
+## Unterrichtsmaterialien
+
+Die LP benötigt eine Visualisierungshilfe (Visualiser, Tafel, o.ä.). Die Arbeitsaufgaben für die SuS können in dieser Form weiterverwendet und ausgedruckt werden. Weiter sollen A5-Blätter für die Zusatzaufgabe in Übung 2 bereitgehalten werden.
+
+## Ergebnissicherung
+
+Es ist keine konkrete Art der Ergebnissicherung eingeplant. Es ist Auftrag der LP, während der individuellen Lernphasen Erkenntnisse über den Lernstand der individuellen SuS zu sammeln. Für die Lernprozess- / formative Beurteilung kann ein Merkhefteintrag eingefordert werden.
+
+## Unterrichtsmethoden
+
+Makromethodisch findet der Unterricht in einem fremdgesteuerten Setting statt. Die LP instruiert und die SuS führen vorbereitete Aufgaben/Übungen aus.
+
+- **Direkte Instruktionen:** 
+    - Es sind zwei Frontalunterrichts-Sequenzen eingeplant. Hier werden hauptsächlich theoretische Inhalte vermittelt und auch kurze Einstiegsbeispiele gezeigt.
+    - Es wird versucht, am Vorverständnis der SuS anzuknüpfen.
+    - Die Bedeutung des Gleichheitszeichens und Äquivalenzpfeils werden im Plenum vermittelt.
+
+- **Partnerarbeiten:**
+    - Während den Frontalunterrichtssequenzen werden kurze Murmelphasen eingeplant, um die Anteilnahme der SuS zu fördern. Hier dürfen sich die SuS kurz miteinander austauschen.
+    - Während den Arbeitsphasen können sich die SuS zusammensetzen und Probleme gegebenenfalls miteinander betrachten.
+
+- **Individuelles Lernen (Offener Lernunterricht):**
+    - Die SuS arbeiten selbstständig an den Übungsaufgaben. Hier können sie sich im eigenen Tempo in das Gehörte vertiefen.
+    - Die LP agiert als Coach und hilft wo nötig.
+
+- **Digitale Medien:**
+    - Die Aufgaben können den SuS digital gezeigt werden.
+    - Es gibt zwei verschiedene Rechenprogramme, mit Hilfe von welchen SuS weiterüben können.
+
+- **Deduktive Vorgehensweise:**
+    - Es werden zuerst theoretische Inhalte vermittelt. In den Übungsaufgaben werden dann eher konkrete Fälle betrachtet.
+
+## Unterrichtstechniken
+
+In der vorliegenden Unterrichtsplanung werden verschiedene Unterrichtstechniken eingesetzt.
+
+- **Visualisierungshilfen:**
+    - Um das Erzählte zu unterstützen, zeigt die LP an der Wandtafel (oder am Visualiser, o.ä.) die Rechnungen und Skizzen auf.
+
+- **Fragetechniken:**
+    - Während den Einführungen werden verschiedene Fragen gestellt:
+        - *Rhetorische Fragen:* Es werden Fragen aufgeworfen, welche noch keine Antwort von den SuS verlangen. Bsp.: "Was bedeutet das Gleichheitszeichen?" Eine konkrete Antwort wird erst nach dem Betrachten der Waage angeschaut.
+        - *Konkrete Fragen:* Es werden im Plenum Fragen gestellt, welche dann im Plenum besprochen werden.
+
+- **Aktivierungstechniken:**
+    - Um Antworten bei den jeweiligen Fragen zu generieren, werden hauptsächlich Murmelgruppen verwendet. Hier besprechen die SuS mit ihrem Pultnachbar die Fragen, um den Einstieg zu erleichtern.
+
+- **Reflexionstechniken:**
+    - Es besteht die Möglichkeit, dass die SuS einen Merkhefteintrag erstellen, in welchem sie das Gelernte nochmals festhalten.
+
+- **Schritt-für-Schritt Erklärungen:**
+    - Die SuS werden in verschiedenen Aufgaben angeleitet, damit sie das Lösungsvorgehen bei Gleichungen verstehen lernen.
+
+## Didaktische Prinzipien (Mathematik)
+
+- **Anknüpfen an Vorwissen + Einführung in neue Konzepte**
+  - Die Lernphase (LP) beginnt mit der Wiederholung des bereits bekannten Themas „Variablen“.
+  - Dies stellt sicher, dass das Vorwissen aktiviert wird und die Schülerinnen und Schüler (SuS) die Möglichkeit haben, auf bereits Gelerntes zurückzugreifen.
+  - Danach wird schrittweise das neue Konzept „Gleichungen“ eingeführt.
+
+- **Verständnis von Begriffen und Symbolen (Variable, Term, Gleichheitszeichen, etc.)**
+  - Bezüglich der Sprachsensibilität im Mathematikunterricht müssen diese Begriffe im Unterricht explizit verwendet werden.
+  - Dies fördert ein klares Verständnis und eine präzise Verwendung von mathematischen Begriffen.
+
+- **Förderung des funktionalen Denkens**
+  - Die LP zeigt beispielsweise lineare Beziehungen auf.
+  - Es wird erklärt, wie sich die Werte in der Zweierreihe durch Multiplikation von \(x\) mit 2 ergeben.
+  - Dieses Verständnis legt die Basis für weiterführende Themen wie lineare Funktionen und Graphen.
+
+- **Veranschaulichung der algebraischen Strukturen**
+  - Durch das Hinzufügen weiterer Summanden zu einer Gleichung (von \(y=2x\) zu \(y=2x+3\)) wird den SuS verdeutlicht, wie sich die mathematische Struktur verändert.
+  - Dies zeigt auf, was diese Veränderung für die Lösungsmenge bedeutet.
+  - Dies ist ein wichtiger Aspekt der algebraischen Denkweise, die es den SuS ermöglicht, allgemeine Strukturen in Gleichungen zu erkennen und zu analysieren.
+
+- **Exploratives Arbeiten**
+  - Um der rein deduktiven Vorgehensweise entgegenzuwirken, können die SuS eigene Textaufgabenbeispiele erstellen.
+  - Hier geht es darum, Alltagsbeispiele zu mathematisieren.
+
+# Lernwirksamkeit & Lernphasen
+
+Zur Lernwirksamkeit im Unterricht:
+
+Man kann argumentieren, dass die vorliegende Lektion methodisch nicht besonders abwechslungsreich sei. Jedoch ist zu beachten, dass Abwechslung nicht erzwungen werden muss. Die Unterrichtsverlaufsplanung ist sehr einfach gehalten, da es jeweils nur eine Frontalunterrichtssequenz für den Einstieg und eine anschliessende Arbeitsphase für die SuS gibt. Damit die echte Lernzeit, ein Merkmal lernförderlichen Unterrichts, möglichst gross ist, soll die Einstiegsphase möglichst kurz gehalten werden.
+
+Frontalunterricht ist heutzutage etwas aus der Mode gekommen, dennoch haben kurze Frontalunterrichtsphasen ein sehr hohes Potenzial dafür, dass das Lernen lernwirksam wird. Man arbeitet direkt an vorgegebenen Zielen, die Lernschritte bleiben für die LP und die SuS überschaubar und es bietet einen höheren fachlichen Lernerfolg, gerade dann, wenn keine Vorkenntnisse vorhanden sind. Weiter kann die LP durch direkte Instruktionen Strukturen im Klassenzimmer aufbauen, was gerade zu Beginn in der 7. Klasse sehr wichtig ist.
+
+Ein offeneres Lernarrangement ist nur möglich, wenn die nötigen Kompetenzen und Grundhaltungen dafür erworben worden sind. Dies muss kontinuierlich eingeübt werden, weshalb Zeiten eingeplant werden müssen, während welchen SuS selbstständig und selbstorganisiert an Aufträgen arbeiten können. Dies erhöht die Selbstwirksamkeit und hat positive Einflüsse auf die Motivation. Weiter sind folgende Merkmale wie inhaltliche Klarheit, eine gute Lernatmosphäre und eine vorbereitete Umgebung vorteilhaft für die Lernwirksamkeit.
+
+In der vorliegenden Planung nimmt die LP zwei verschiedene Rollen ein. So ist sie zum einen ein Tutor, welcher während den Einführungen reines Faktenwissen vermittelt und dann in den anschliessenden SOL-Teilen mehr als Coach agiert. Im letzteren Teil ist es auch ihre Aufgabe, dem/der einzelnen Schüler*in die eigene Verantwortung für das Lernen beizubringen.
+
+Hierbei ist es auch wichtig, dass den SuS klargemacht wird, was die Lernziele sind. Diese sollten kommuniziert werden, damit die SuS wissen, was erwartet wird, und es muss eine gewisse Sinnvermittlung stattfinden, damit die SuS wissen, weshalb das Thema "Gleichungen" relevant ist. Gemäss den Taxonomie-Stufen von Bloom haben die Lernziele vorerst nur Wissens- / Verstehens-Charakter. Die Anwendungsstufe ist hier noch nicht besonders relevant.^[Bodenmann Neda (2024), Mikroplanung, Unveröffentlichte Unterlagen zur LG: Wirksame Lehre und Unterrichtsmethoden, Bern: PHBern, IS1]
+
+## Zu den Lernphasen
+
+![Bild Aviva Lernphasen^[Daniel Ingrisani (2023), Persönliche und Professionelle Entwicklung, unveröffentlichte Unterlagen zur LG: Ringvorlesung, Bern: PHBern, IS1]]()
+
+Der Unterricht wurde mit Hilfe des AVIVA-Modells geplant. Demzufolge gibt es zu Beginn der Lektion eine instruktionale Phase, während welcher zuerst das Vorwissen der Schüler aktiviert wird. In diesem Zusammenhang wird das Thema Variablen repetiert. Auf diesem Vorwissen wird nun aufgebaut, indem nun das Thema Gleichungen eingeführt wird (siehe Lektionsplanung).
+
+Dieser Teil dient dem «Informieren» (AVIVA), da nun neue Theorien eingeführt werden. So wird hier über die Identität des Gleichheitszeichens gesprochen. Die Rolle des Gleichheitszeichens ist den meisten SuS zu diesem Zeitpunkt unbekannt, weshalb die LP dessen Bedeutung aufzeigt und die SuS entsprechend anleitet. Analog wird zeitgleich der Äquivalenzpfeil eingeführt.
+
+Die erwähnten Konzepte werden beim anschliessenden «Verarbeiten» (AVIVA) vertieft, indem die SuS das Gehörte und Gesehene in Übungen einüben. Das «Auswerten» (AVIVA) ist nicht in der Lektionsplanung ersichtlich: Die SuS nutzen die gesamte Zeit bis zum Ende der Lektion zur Bearbeitung der Aufgaben und es ist entsprechend Auftrag der LP genügend Informationen für die Ergebnissicherung zu sammeln, indem sie durch die Reihen geht und den Lernstand der SuS überprüft. Sollten Aufgaben bei einzelnen SuS Schwierigkeiten bereiten, dann können diese beispielsweise bei einem zukünftigen Lektionseinstieg im Plenum besprochen werden. Um die LU abzurunden, kann von der LP ein Merkhefteintrag eingefordert werden.
+
+Das AVIVA-Modell wurde für diese Unterrichtssequenz gewählt, da es eine instruktionale und LP-gesteuerte Vorgehensweise befürwortet. Der Theorieteil unterstützt dementsprechend eine deduktive Vorgehensweise, da das Wissen durch die LP vermittelt wird und die SuS das Wissen in verschiedenen Aufgaben einüben. Dies ist meines Erachtens in dieser Situation hilfreich, da neue Konzepte wie die Bedeutung des Gleichheitszeichens in Gleichungen vermittelt werden müssen. Ein Selbsterarbeiten (induktiver Vorgang) durch die SuS wäre entsprechend zeitlich weniger effizient und brächte keinen beachtlichen Mehrwert.

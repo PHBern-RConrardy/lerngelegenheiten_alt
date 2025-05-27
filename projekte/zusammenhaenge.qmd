@@ -1,0 +1,200 @@
+---
+title: Inhaltliche Zusammenhänge
+format: 
+    html:
+      embed-resources: true
+      page-layout: full
+---
+
+```{mermaid}
+%%|fig-width: 16
+%%|fig-height: 11
+%%|fig-responsive: false
+
+flowchart LR;
+  subgraph Mathematik Lehr- Lerninhalte des Lehrplans 21
+  subgraph Arithmetik
+    MA_AR_1[Ganze Zahlen];
+    MA_AR_2[Rationale Zahlen];
+    MA_AR_3[Reelle Zahlen];
+    MA_AR_5[Potenzieren];
+    MA_AR_6[Wurzel ziehen];
+    MA_AR_7[Prozentrechnen];
+    MA_AR_8[Wissenschaftliche Schreibweise];
+    MA_AR_9[Umkehroperationen];
+    MA_AR_10[Primzahlen]
+    subgraph Grundoperationen
+      MA_GO_1["+"];
+      MA_GO_2["-"];
+      MA_GO_3["*"];
+      MA_GO_4["/"];
+    end
+  end
+  
+  
+  subgraph Algebra
+    MA_AL_1[Variablen];
+    MA_AL_2[Gleichungen];
+    MA_AL_3[Lineare Gleichungen];
+    MA_AL_4[Terme];
+    MA_AL_5[Ungleichungen];
+    MA_AL_6[Polynome];
+    MA_AL_7[Monome];
+    MA_AL_8[2x2 lineare Gleichungssysteme];
+    MA_AL_9[Binome];
+  end
+  
+  subgraph Analysis
+    MA_AN_1[Funktionen];
+    MA_AN_2[Umkehrfunktionen];
+    MA_AN_3[Lineare Funktionen];
+    MA_AN_4[exponentielles Wachstum];
+    MA_AN_8[quadratisches Wachstum];
+    subgraph sichtweisen[Sichtweisen von Funktionen]
+    MA_AN_5[Wertetabelle];
+    MA_AN_6[Funktionsgraphen];
+    MA_AN_7[Funktionsgleichungen];
+    end
+  end
+  
+  subgraph Geometrie
+    MA_GE_4[Koordinatensystem];
+    MA_GE_5[Einheitsstrecke];
+    MA_GE_11[Winkel];
+    subgraph "Ebene Geometrie"
+      MA_GE_1[Dreiecke];
+      MA_GE_2[Vierecke];
+      MA_GE_3[Kongruenzabbildungen];
+      MA_GE_15[Symmetrien];
+      MA_GE_16[Ähnlichkeitsabbildungen];
+      MA_GE_9[Satzgruppe von Pythagoras];
+      MA_GE_10[Satz von Thales];
+      MA_GE_12[Kreise];
+      MA_GE_13[Polygone];
+      MA_GE_14[Rechtwinklige Dreiecke];
+    end
+    subgraph "Räumliche Geometrie"
+      MA_GE_6[Prismen];
+      MA_GE_7[Zylinder];
+      MA_GE_8[Pyramiden];
+    end
+  end
+  
+  subgraph Nichtaxiomatische Mathematik
+    MA_NI_1[SI-Einheiten];
+    MA_NI_2[Diagramme];
+    MA_NI_3[Überschlagen];
+    MA_NI_4[Masseinheiten];
+    MA_NI_5[Flussdiagramm];
+    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];
+  end
+  
+  subgraph Stochastik
+    MA_ST_1[Wahrscheinlichkeit];
+    MA_ST_2[Baumdiagramm];
+    MA_ST_3[Arithmetisches Mittel];
+    subgraph Kombinatorik
+      MA_KO_1[Fakultät];
+      MA_KO_2[mehrstufige Zufallsexperimente];
+      MA_KO_3[4 Auswahlprozesse]
+    end
+  end
+  end
+  
+  subgraph "Medien und Informatik"
+    MI_PR_1[Variablen];
+    MI_PR_2[Unterprogramme, Funktionen];
+    MI_PR_3[Schleifen];
+    MI_PR_4[Listen];
+    MI_PR_5[Flussdiagramm];
+    MI_PR_6[Parameter];
+    MI_PR_7[Bedingte Anweisungen]
+  end;
+  
+  MA_AR_1-->MA_AR_2-->MA_AR_3;
+  MA_AN_1-->MA_AN_2;
+  MA_AN_1-->MA_AN_3;
+  MA_ST_2<-->MI_PR_5;
+  MI_PR_1<-->MA_AL_1;
+  MI_PR_2<-->MA_AN_1;
+  MA_GO_1-->MA_AR_1;
+  MA_GO_2-->MA_AR_1;
+  MA_GO_3-->MA_AR_2;
+  MA_GO_4-->MA_AR_2;
+  MA_AR_6-->MA_AR_3;
+  MA_AR_5-->MA_AR_6;
+  MA_AR_9-->MA_AR_6;
+  MA_AR_2-->MA_AR_7-->MA_ST_1;
+  MA_AR_5-->MA_AR_8;
+  MA_AN_1<-->sichtweisen;
+  MA_AL_2-->MA_AN_7;
+  MA_AL_1-->MA_AL_4-->MA_AL_2-->MA_AL_3-->MA_AL_8;
+  MA_AL_2-->MA_AL_5;
+  MA_AR_9-->MA_GO_2;
+  MA_AR_9-->MA_GO_4;
+  MA_GO_1-->MA_GO_3-->MA_AR_5;
+  MA_AR_9-->MA_AN_2;
+  MA_AL_4-->MA_AL_7-->MA_AL_9;  
+  MA_AL_7-->MA_AL_6;
+  MA_AL_3-->MA_AN_3;
+  MA_GE_4-->MA_AL_8;
+  MA_GE_4-->MA_AN_6;
+  MA_GE_1-->MA_GE_9;
+  MA_GE_13-->MA_GE_6;
+  MA_GE_12-->MA_GE_7;
+  MA_GE_13-->MA_GE_1;
+  MA_GE_13-->MA_GE_2;
+  MA_GE_14-->MA_GE_10;
+  MA_GE_11-->MA_GE_14;
+  MA_GE_13-->MA_GE_8;
+  MA_GE_1-->MA_GE_13;
+  MA_GE_4-->MA_GE_3;
+  MA_GE_4-->MA_GE_5;
+  MA_ST_1-->MA_AN_4;
+  MA_AL_9-->MA_AL_3;
+  MA_AN_5<-->MA_AN_7;
+  MA_AN_5<-->MA_AN_6;
+  MA_AN_6<-->MA_AN_7;
+  MA_KO_2-->MA_ST_2;
+  
+  
+subgraph Hochschulmathematik - Lerngelegenheiten
+   subgraph Fachkompetenz
+      PH_FK_1[Arithmetik];
+      PH_FK_2[Grundlagen der Geometrie];
+      PH_FK_3[Grundlagen der Mathematik];
+      PH_FK_4[Abbildungsgeometrie];
+    end
+    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];
+    PH_MA_1[Erforschen und Argumentieren - Makroplanung];
+    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];
+    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];
+    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
+  end;
+  
+  
+  classDef PH_FK_1 stripedBackground;
+  classDef PH_FK_2 fill:#F0EFCd;
+  classDef PH_FK_3 fill:#d8b5c9;
+  classDef PH_FK_4 fill:#0eb6d9;
+  classDef PH_MI_1 fill:#e95e84
+  classDef PH_MA_1 fill:#F5BF7F
+  classDef PH_FB_1 fill:#FFE806
+  classDef PH_FB_2 fill:#AD9595
+  classDef PH_SB_1 fill:#8fe7a5
+
+
+  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;
+  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;
+  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;
+  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;
+  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;
+  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;
+  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;
+  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;
+  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;
+```
+
+
+
+

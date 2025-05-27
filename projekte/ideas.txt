@@ -1,0 +1,2 @@
+- Randomisierte Sitzliste in einer Klasse auf einer Slide
+- Lautstärkemessung von Schülern

@@ -1,0 +1,198 @@
+---
+title: "Summative Beurteilung im Mathematikunterricht"
+subtitle: "Grundlagen für den Unterricht"
+format: html
+categories:
+  - Modul - Summative und prognostische Beurteilung
+  - Fach - Mathematik
+---
+:::::{.panel-tabset}
+# Präsenzkurs
+## Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/Pr%C3%A4senzkurs_Schreibrechte_Studierende/Organisationsblatt_Summ_Praes.xlsx?d=wf606fa7c49d4435a8505a9f2c621dd67&csf=1&web=1&e=czb7Xz){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+| Woche | Thema                                 |                               Slides                               |
+|:----------------------:|:-----------------------|:----------------------:|
+|   1   | Constructive Alignment                | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |
+|   2   | Lehrplan21                            | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |
+|   3   | Mathematische Inhalte und Tätigkeiten | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |
+|   7   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |
+|   8   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |
+|   9   | Algorithmen                           |         [<i class="bi bi-easel3-fill"></i>](woche_09.qmd)          |
+
+: {.striped .hover .table-sm}
+
+## Workload
+
+### Fünf Lernkontrollen
+
+Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **8. Klasse** im deutschsprachigen Teil des Kantons Bern.
+
+Die Lernkontrollen sind unter einer freien Lizenz([CC BY](https://creativecommons.org/licenses/by/4.0/) oder [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+
+Teilen Sie sich gleichmässig auf 5 Themenblöcke auf. Vorschlag:
+
+1.  Zahl und Variable (Arithmetik): Bruchrechnen, Prozentrechnen, SI-System
+2.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen, lineare Gleichungssysteme, Exponentialfunktionen
+3.  Grössen, Funktionen, Daten und Zufall (Stochastik): Wahrscheinlichkeitsrechnen, Kombinatorik
+4.  Zahl und Variable (Algebra): Termumformung, Binome, quadratische Gleichungen
+5.  Form und Raum (Geometrie): Satz von Thales, Satzgruppe des Pythagoras, Volumen und Oberflächen von geraden Prismen, Pyramiden
+
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an.
+
+
+
+
+# SOL
+## Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/02_Asynchroner_Teil/SOL_Order%20mit%20Studierendenschreibrechte/asynchron_Organisationsblatt_summative%20Beurteilung%20Math1.xlsx?d=w09fe9a34cde14766bac334c925187760&csf=1&web=1&e=g55BTe){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+## Workload
+
+::: {.callout-tip collapse="true"}
+### SOL $\neq$ alleingelassen
+
+Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, regulieren und beurteilen." [@hilbe_selbst_2011, S.8]
+
+Dem Dozierenden "kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für das Gelingen des Lernprozesses zu schaffen, Lernstrategien zu vermitteln und die Schülerinnen und Schüler bei Schwierigkeiten zu unterstützen." [@hilbe_selbst_2011, S.8]
+
+Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es inhaltlich, organisatorisch oder anderer Art.
+
+:::
+
+::: {.callout-warning collapse="true"}
+### Open Educational Resources (OER)
+
+Sie werden in dieser Lerngelegenheit Materialien unter eine [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) stellen. Sie entscheiden selbst wer seinen Namen in welcher Reihenfolge auf dem Material haben möchte oder welcher weggelassen wird. Die Materialien werden von mir einheitlich Layoutet und gemäss der Lizenz ins Web gestellt, damit andere davon profitieren können.
+
+Beachten Sie das [URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) und geben Sie bei selbsterstellten Graphiken (z.B. Funktionsgraphen) eine Anleitung welche ausreicht um die Graphen neu zu erstellen.
+
+Hinweis: Es ist unwahrscheinlich, dass Sie [Zitatrecht](https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken) in Anspruch nehmen können in diesem Setting.
+:::
+
+### Fünf Lernkontrollen
+
+Sie (alle Teilnehmende) erstellen gemeinsam (alle) fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **7. Klasse** im deutschsprachigen Teil des Kantons Bern.
+
+Die Lernkontrollen sind unter der [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+
+Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
+
+1.  Zahl und Variable (Arithmetik): Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)
+2.  Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen
+3.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. leichtem Zusammenhang mit Programmieren)
+4.  Grössen, Funktionen, Daten und Zufall (Analysis): Lineare Funktionen
+5.  Form und Raum (Geometrie): Flächen- und Volumenberechnungen, Dreiecke und Vierecke
+
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an. 
+
+Weitere Interpretationen des Lehrplan21 finden Sie in schulischen Lehrplänen, z.B. [KSAlpenquai LU](https://ksalpenquai.lu.ch/dokumente/Lehrplaene_Untergymnasium) oder [KSBG SG](https://www.sg.ch/bildung-sport/mittelschule/lehrplaene-und-stundentafeln/untergymnasium.html) oder [KBW ZH]().
+
+------------------------------------------------------------------------
+
+### Vier Produkte und eine Prozessbeurteilung
+
+Sie (alle Teilnehmende) erstellen gemeinsam (alle) 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **7. Klasse** im deutschsprachigen Teil des Kantons Bern.
+
+Die Beurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+
+Die Prozessbeurteilung ist verbunden mit, und abhängig von, einer Produktbeurteilung Ihrer Wahl. Tauschen Sie sich mit dem jeweiligen Team aus. Beachten Sie die 5 Aspekte der Prozessbeurteilung und grenzen Sie sie klar ab von der Produktbeurteilung.  
+
+Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
+
+1.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. Programmieren)
+2.  Form und Raum (Geometrie): Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)
+3.  Grössen, Funktionen, Daten und Zufall (Stochastik & Kombinatorik und beschreibende Statistik): Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)
+4.  Zahl und Variable (Arithmetik und Algebra): Übersicht über alle bekannten Rechenregeln und Operationen (inkl. digitale Hilfsmittel)
+
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an.
+
+------------------------------------------------------------------------
+
+## Theorie
+
+### Ausgangslage
+
+-   Wie viele Lernkontrollen pro Schuljahr empfielt die Bildungsdirektion des Kantons Bern in @hirt2022?
+-   Welche Handlungsaspekte sollen bei Lernkontrollen im Fokus stehen gemäss @erziehungsdirektiondeskantonsbern ?
+-   Welche Qualitätsmerkmale gibt es für die Beurteilung gemäss @bildungs-undkulturdirektiondeskantonsbern2016 ?
+-   Verschaffen Sie sich einen Überblick über die Übertrittsprüfungen vor und am Ende der Sekundarstufe. Folgende Fragen können bei der Lektüre helfen:
+    -   Übertrittsprüfung PRIM-Sek1: Welche Vorkenntnisse/Kompetenzen werden die Lernenden mitbringen, wenn sie ins 7. Schuljahr eintreten?
+    -   Überittsprüfung Sek1-Sek2: Welche Kenntnisse/Kompetenzen müssen die Lernenden bei mir erwerben? Welche Erwartungen können die Lehrpersonen der nächsten Schule (FMS, Gym) stellen?
+
+##### Materialien
+
+-   [Dokumentation der summativen Beurteilung](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY4Z36w4s2RMk3hfj__oeysB_Xh6fqGgyqmJuuXfbNLAWw?e=ZRRxB3)
+-   [Übertritt PRIM - Sek I](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-prim-sek-i-kontrollpruefung.html)
+-   [Übertritt Sek I - Sek II (Bern)](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html)
+
+------------------------------------------------------------------------
+
+### Reichhaltige Aufgaben
+
+-   Lesen Sie @hirt2018 und überlegen Sie wie "bedeutsam" in folgendem Zitat definiert ist: "Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe [DVBS](https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de)), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung."
+-   Lesen Sie @nydegger2019 und argumentieren Sie in wiefern sie vereinbar ist mit den Merkmalen.
+-   Lesen Sie die @erziehungsdirektiondeskantonsbern und überlegen Sie in wiefern reichhaltige Aufgaben in die summativen Beurteilung einfliessen können.
+-   Lesen Sie alle Teile in @hirt2022 welche sich auf die summative Beurteilung im Zyklus 3 beziehen.
+-   Lesen Sie @eckhart2020 (Kapitel 3.1) zu den vier Merkmalen reichhaltiger Aufgaben.
+
+##### Materialien
+
+-   [Umsetzung des Lehrplans 21 im Fachbereich Mathematik](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/ETWTCT-3n8BNmspye4zpRUYBuVZR9ew6iwxBNj3ygOM6Tw?e=cv9NfX)
+-   [Allgemeine Hinweise zu reichhaltigen Aufgaben](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY0Ztq7-zulHoK-0PSRQYSoBP4sF3skd4CwhkPytIIYUug?e=XKTrcf)
+-   [Checkliste zur Einschätzung der Reichhaltigkeit einer Aufgabe](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EYD1iXOziGBPtQU0jbYU7_4B9tjEEelTNRfDOINlur8ZgA?e=mgdcTk)
+-   [Dokumentation der summativen Beurteilung Kanton Bern](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY4Z36w4s2RMk3hfj__oeysB_Xh6fqGgyqmJuuXfbNLAWw?e=HXfWiy)
+
+------------------------------------------------------------------------
+
+### Core mathematics vs. mathematical science
+
+Lesen Sie @quinn_revolution_2012. Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: \* Inwiefern haben Sie Unterricht im Sinne von *Core Mathematics*, bzw. im Sinne von *Mathematical Science* erhalten? \* An welchen konkreten Beispielen machen Sie dies fest?
+
+#### Inhalt und Unterlagen
+
+-   [Padlet](https://phbern.padlet.org/richardconrardy/padlet-zu-quinn-2012-iodxajz5mvihuipp)
+-   [Quinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. Notices of the American Mathematical Society, 59(01), 31.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQtQpV3Gx8BBo2ZpG5S866ABLB2eppux-YnON8M4Y9W0bA?e=YiBnAx) <https://doi.org/10.1090/noti787>
+
+------------------------------------------------------------------------
+
+### Concept Map der Mathematik
+
+Arbeiten Sie kollaborativ am Miroboard, um einen [gerichteten Graphen](https://de.wikipedia.org/wiki/Gerichteter_Graph) der innermathematischen Themen der Schulzeit (Fokus Sek1) zu erstellen.
+
+-   Haftnotizen stellen die Themen dar.
+-   Themen, welche eine [notwendige Bedingung](https://de.wikipedia.org/wiki/Notwendige_und_hinreichende_Bedingung) (Vorwissen) darstellen, sollen mit einem Pfeil verknüpft werden.
+-   Die Stärke des Zusammenhangs kann mit einer [Gewichtung](https://de.wikipedia.org/wiki/Kantengewichteter_Graph) (zwischen 0 und 1) als Text auf dem Pfeil erwähnt werden.
+
+Unten ist zusätzlich das Video "Map of Mathematics" verlinkt. Es handelt sich hier um eine Empfehlung um einen Überblick über das gesamte Fachgebiet (insb. Hochschulmathematik) zu erhalten. Hinweis: Das Poster eignet sich besonders gut um einen Schulraum zu schmücken.
+
+-   [Auftrag (Videoerklärung)](https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EYsRDr6UYRlBo0QVaQaT9HUB1aqgVQC_7aXyw0_HBdo8CA?e=Jdehgv)
+-   [Miroboard (Passwort: "Mathematik")](https://miro.com/app/board/uXjVM7-2Hec=/)
+-   [Map of Mathematics (Video)](https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EZyDEaI5lmNMthBzF3XErkQBcYbKIKDUol-LLXZtKM8jHQ?e=IyHpCk) - [Poster](https://phbern365.sharepoint.com/:i:/s/IS1_Z_FachteamMathematik/EbRVbbP5515EsW0taqyzyf8B3ZL-KWk-J7eZfXFas9S5qA?e=yajq8e)
+-   [Teilgebiete der Mathematik (Wikipedia)](https://de.wikipedia.org/wiki/Teilgebiete_der_Mathematik)
+
+------------------------------------------------------------------------
+
+### Constructive Alignment
+
+Lesen Sie @vandormolen1978 Kapitel 2.4, es zeigt wie der Satz des Pythagoras auf 5 verschiedene Arten gelehrt (und beurteilt) werden kann.
+
+Lesen Sie @vandormolen1978 Kapitel 4.2, es beschreibt nach welchen Kriterien Sie in der Mikro-, Makroplanung Unterrichtsstoff untersuchen sollen.
+
+@biggs1996 beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.
+
+Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet (vgl. Sachanalyse) und die Learning Outcomes sinnvoll ausgewählt worden sein.
+
+-   [Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr)
+
+:::::

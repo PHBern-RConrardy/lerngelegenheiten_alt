@@ -1,0 +1,15 @@
+---
+format: revealjs
+title: Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>
+subtitle: Praxislehrpersonen-Tagung
+date: 20 03 2024
+author:
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    email: richard.conrardy@phbern.ch
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+
+---

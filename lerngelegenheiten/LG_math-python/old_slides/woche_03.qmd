@@ -1,0 +1,193 @@
+---
+title: "Verstehensorientiert prüfen in Zeiten von KI"
+subtitle: "Woche 3"
+format: revealjs
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+      - name: Joel Adler
+        email: joel.adler@phbern.ch
+        degrees: Dr.
+        url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+      - name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        id: 00383195
+        email: richard.conrardy@phbern.ch
+        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+
+footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
+---
+
+# Funktionen
+
+## Was sind Funktionen?
+
+Funktionen kennen sie bereits aus der Mathematik, z. B. `f(x) = 2x`.
+
+In Python werden Funktionen mit `def` und `return` definiert und meistens verwendet,
+um Code besser zu strukturieren:
+
+```python
+# Definition einer Funktion
+def meine_funktion(x):
+  return 2*x
+
+# Funktionen können mehrmals aufgerufen werden
+print(meine_funktion(2))
+print(meine_funktion(4))
+# Output: 4 8
+```
+
+## Parameter bzw. Argumente
+
+Funktionen können (müssen aber nicht) Argumente haben:
+
+```python
+def funktion_ohne_argument():
+  print("hello")
+
+def funktion_mit_argument(x):
+  print(x)
+
+# Funktionen haben immer Klammern (mit oder ohne Argumente)
+funktion_ohne_argument()
+funktion_mit_argument("world")
+# Output: hello world
+```
+
+Die Argumente sind nur innerhalb der Funktion erreichbar:
+
+```python
+def meine_funktion(x):
+  print(x) # x ist das Argument/Parameter
+
+print(x) # x wird nicht gefunden
+```
+
+## Rückgabewert
+
+Funktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:
+
+```python
+def funktion_ohne_rückgabewert(x):
+  y = 2*x
+
+def funktion_mit_rückgabewert(x):
+  y = 2*x
+  return y
+
+v1 = funktion_ohne_rückgabewert(5)
+v2 = funktion_mit_rückgabewert(5)
+
+print(v1) # Output: None
+print(v2) # Output: 10
+```
+
+## Reine vs. Modifizierte Funktionen {.unlisted}
+
+In der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!
+
+## Beispiel
+
+```Python
+globaleVariable = 0 # Das ist eine globale Variable
+
+def reine_funktion(x):
+  return 2*x
+
+def modifizierte_funktion(x):
+  global globaleVariable # auf globale Variable zugreifen
+  globaleVariable = globaleVariable + 1
+  return 2*x*globaleVariable
+
+reine_funktion(4) # Output: 8
+reine_funktion(4) # Output: 8
+modifizierte_funktion(4) # Output: 8
+modifizierte_funktion(4) # Output: 16 --> anderer Output
+
+````
+
+## Auftrag: Brief Adressieren
+
+Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:
+
+Vorname, Name, Strasse, Strassennr, Plz, Ort
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+```python
+def formatiere_adresse(vorname, nachname, strasse, strassen_nr, plz, ort):
+    print("==========================")
+    print(vorname+" "+nachname)
+    print(strasse+" "+strassen_nr)
+    print("CH-"+plz+" "+ort)
+    
+# Beispieladressen aufrufen
+formatiere_adresse("Max", "Mustermann", "Musterstraße", "123", "12345", "Musterstadt")
+formatiere_adresse("Anna", "Schmidt", "Hauptweg", "456", "54321", "Stadtmitte")
+```
+</details>
+    
+
+
+# Packages
+
+## Ausprobieren {.unlisted}
+
+```python
+import numpy as np
+
+# Access the value of pi from NumPy
+pi_value = np.pi
+
+# Print the value of pi
+print("Die Zahl Pi lautet: ", pi_value)
+
+```
+
+## Zufällige Zahlen
+
+```python
+import random
+
+random_number = random.randint(1, 5)
+print(random_number)
+```
+
+
+# Projekt
+
+## Förderkreislauf
+
+:::{#fig-kreislauf}
+![](images/foerderkreislauf.svg)
+
+Förderkreislauf  [@kuratle_kompetenzorientierte_2021, S.3]
+
+:::
+
+## Projekt 1
+
+::: {style="text-align: center;"}
+
+[Auftrag auf der Webseite](math_ki.qmd){.knopf target="_blank"}
+
+:::
+
+## Bibliographie {.unlisted}

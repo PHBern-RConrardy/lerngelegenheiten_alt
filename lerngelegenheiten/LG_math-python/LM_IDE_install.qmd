@@ -1,0 +1,96 @@
+---
+format: html
+title: Installationsanleitung IDE
+subtitle: Kurzanleitung wie man RStudio oder VSCode für Python und Quarto nutzt
+abstract: >
+  Spezielle Texteditoren vereinfachen die Programmierarbeit. In diesem Lernmodul wird die Installation zwei solcher Programme erklärt. 
+date: 07/19/2024
+---
+
+# RStudio
+
+RStudio ist ein freies (Open Source) Programm. Es ist ursprünglich für die Programmiersprache *R* gedacht, kann aber auch für andere Programmiersprachen genutzt werden.
+
+::: panel-tabset
+## Windows 🪟
+
+Grobe Installationsanleitung unter Windows:
+
+1.  Installieren Sie R, [Webseite](https://cran.rstudio.com/bin/windows/base/).
+2.  Installieren Sie RStudio, [Webseite](https://posit.co/download/rstudio-desktop/).
+3.  Installieren Sie RTools, [Webseite](https://cran.r-project.org/bin/windows/Rtools/).
+4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
+5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
+
+## MacOS 🍎
+
+Grobe Installationsanleitung unter MacOS:
+
+Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:
+
+1.  [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2.  [RStudio (+R)](https://formulae.brew.sh/cask/rstudio#default) im *Terminal* installieren: `brew install --cask rstudio`
+3.  In der *Console* in Rstudio: `install.packages("reticulate")`.
+4.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
+
+Empfehlung: Installieren Sie Software grundsätzlich über [Homebrew](https://brew.sh/) (Paketmanager für MacOS).
+
+Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: `brew update && brew upgrade && brew upgrade --cask && brew cleanup`
+
+## GNU/Linux 🐧
+
+Komm vorbei für einen gratis ☕️.
+
+Installation hängt von der Distro ab.
+:::
+
+::: callout-note
+Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. LLMs (Chatbots/KI) liefern ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.
+:::
+
+Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.
+
+``` python
+print("Hello, World!")
+```
+
+# Visual Studio Code (VSCode)
+
+Visual Studio Code ist die Gratisversion von Visual Studio. Ein Teil von VSCode ist Open Source und es gibt einige Open Source Varianten welche ähnlich funktionieren und aussehen, namentlich [VSCodium](https://vscodium.com/) und [Positron](https://github.com/posit-dev/positron).
+
+::: panel-tabset
+## Windows 🪟
+
+Grobe Installationsanleitung unter Windows:
+
+1. Installieren Sie VSCode über [ihre Webseite](https://code.visualstudio.com/).
+2. Installieren Sie Python über [ihre Webseite](https://www.python.org/downloads/).
+3. Installieren Sie in VSCode die Extension für Python.
+
+## MacOS 🍎
+
+Grobe Installationsanleitung unter MacOS:
+
+Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:
+
+1.  [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2.  [Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code#default) im *Terminal* installieren: `brew install --cask visual-studio-code`
+3. [Python3](https://formulae.brew.sh/formula/boost-python3#default) im *Terminal* installieren: `brew install boost-python3`
+4. Installieren Sie in VSCode die Extension für Python.
+
+Empfehlung: Installieren Sie Software grundsätzlich über [Homebrew](https://brew.sh/) (Paketmanager für MacOS).
+
+Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: `brew update && brew upgrade && brew upgrade --cask && brew cleanup`
+
+## GNU/Linux 🐧
+
+Komm vorbei für einen gratis ☕️.
+
+Installation hängt von der Distro ab.
+:::
+
+Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.
+
+``` python
+print("Hello, World!")
+```

@@ -1,0 +1,113 @@
+---
+format: 
+  html: default
+title: Conditionals
+subtitle: Python - Lernmodul 2
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+---
+# Conditionals (if-elif-else) und Flussdiagramme
+
+## Lehr-Lernmaterialien
+
+Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema
+[Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
+hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal
+ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon
+halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich
+Ihnen [draw.io](https://app.diagrams.net) (siehe “Flowchart”).
+
+Auf **Youtube** finden Sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[If-Anweisung](https://www.youtube.com/watch?v=b6KzYbM-Hvg) und
+[If-Elif-Else](https://www.youtube.com/watch?v=f3YdEdYSNdk).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Conditionals](https://www.w3schools.com/python/python_conditions.asp).
+
+Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (7, 8,
+9, 10, 11) und die Lösungen
+[7](https://sylvialange.de/python/python3/verzweigung/Quader.py),
+[8](https://sylvialange.de/python/python3/verzweigung/Rabatt.py),
+[9](https://sylvialange.de/python/python3/verzweigung/Rueckgeld.py),
+[10](https://sylvialange.de/python/python3/verzweigung/pqFormel.py),
+[11](https://sylvialange.de/python/python3/verzweigung/BMI.py) zum Thema
+Conditionals/Verzweigungen.
+
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = "Hello"
+y = "Tom"
+
+if x != "Hello":
+  y = "Tim"
+else:
+  y = "Tina"
+
+print(y)
+```
+
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[x = Hello]
+    B --> id3[y = Tom]
+    id3 --> id4{x != Hello}
+    id4 -- False --> id5[y = Tina]
+    id4 -- True --> id6[y= Tim]
+    id5 --> id7[/Ausgabe von y/]
+    id6 --> id7
+    id7 --> id8([Ende])
+```
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = 5
+
+if x < 0:
+  print("a")
+elif x > 0:
+  if x == 5:
+    print("b")
+  print("c")
+else:
+  print("d")
+```
+
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[x = 5]
+    B --> id4{x < 0}
+    id4 -- True --> F[/Ausgabe a/]
+    id4 -- False --> c{x > 0}
+    c -- True --> D{x == 5}
+    c -- False --> E[/Ausgabe d/]
+    D -- True --> T[/Ausgabe b/]
+    D -- False --> U[/Ausgabe c/]
+    T --> U
+    F & E & U --> id8([Ende])
+```
+
+------------------------------------------------------------------------
+
+Erstellen Sie ein Programm, welches Schweizer Noten in das
+[amerikanische
+Notensystem](https://gpacalculator.net/grade-conversion/switzerland/)
+umrechnet.
+
+| Schweiz | US  |
+|:-------:|:---:|
+|  5.5-6  |  A  |
+| 4.5-5.4 |  B  |
+| 4.0-4.4 |  C  |
+|   < 4   |  F  |

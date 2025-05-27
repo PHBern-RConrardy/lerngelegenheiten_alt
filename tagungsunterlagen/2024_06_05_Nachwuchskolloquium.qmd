@@ -1,0 +1,204 @@
+---
+title: <small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>
+subtitle: "Nachwuchskolloquium PH Heidelberg"
+format: phheidelberg-revealjs
+date: 05 06 2024
+toc-depth: 1
+author:
+      - id: cori
+        name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        email: richard.conrardy@phbern.ch
+        url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
+        affiliation:
+          - ref: phheidelberg
+title-slide-attributes: 
+      data-background-image: "https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg"
+      data-background-size: 16%
+      data-background-position: 98% 5%
+---
+
+# Ausgangslage
+
+## Bildungskontext
+
+**Schweiz**, geprägt vom *Kantönligeist* und von ...
+
+Phasenmodellen: PADUA, AVIVA, KAKFA und SAMBA, ...
+
+:::quelle
+PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reusser 1999  nach  @leuchter_rolle_2009]
+:::
+
+**Berner** (Mathematik-) Didaktik, geprägt von Heuristiken:
+
+- SOL - Selbstorganisiertes Lernen 
+- Reichhaltige Aufgaben 
+- ...
+
+:::quelle
+SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: [@eckhart_31_2020; @nydegger_reichhaltige_2019]
+:::
+
+## Eigene Forschungsschwerpunkte
+
+- Flipped Classroom Methode
+- Phasenmodell
+- Aufgaben mit mehreren *representations and solution methods*
+- Empirische Forschung
+
+:::quelle
+representations and solution methods: [vgl. @kapur_productive_2014, S.49]
+:::
+
+# 4F-Modell
+
+## Empirische Forschung
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Studie
+
+* Meta-Metastudie 
+* *flipped classrooms*
+
+$$n=173$$
+
+:::
+::: {.column width="50%"}
+
+### 4F, ein Phasenmodell
+
+1.  [**Fail**]{}
+2.  [**Flip**]{}
+3.  [**Fix**]{}
+4.  [**Feed**]{}
+
+:::
+::::
+
+(>1500 berücksichtigt, 173 eingeschlossen)
+
+::: quelle
+[@kapur_fail_2022, S.14]
+:::
+
+## Productive Failure
+
+> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts prior to instruction. 
+
+:::quelle
+[@hartmann_productive_2022, S.1219]
+:::
+
+#### Design in 2 Phasen:
+
+-   Phase 1: *generation and exploration phase*
+-   Phase 2: *consolidation phase*
+
+::: quelle
+[@kapur_designing_2012, S.49]
+:::
+
+## Flipped Classroom
+
+> set of pedagogical approaches that: (1) move most information-transmission teaching **out of class**; (2) use class time for learning activities that are **active and social** and; (3) require students to complete **pre-** and/or post-**class activities** to fully benefit from in-class work.
+>
+> ::: quelle
+> [@abeysekera_motivation_2015, S.3]
+> :::
+
+#### Design in 2 Phasen:
+* Phase 1: *learn basic content online and prior to class*
+* Phase 2: *in-class time to clarify students’ understandings [...] enable students to engage deeply [...]*
+
+::: quelle
+[@kapur_fail_2022, S.1]
+:::
+
+# Leitfrage & Forschungsdesign
+
+## Leitfrage
+
+<br>
+<br>
+
+Is the 4F-model flipped the right way?
+
+## Untersuchungsdesign
+
+:::: {.columns}
+::: {.column width="40%"}
+### 4F-Modell
+
+1.  [**Fail**]{style="color: #1c87ce"}
+2.  [**Flip**]{style="text-decoration: underline;color: #9478b6"}
+3.  [**Fix**]{style="color: #1c87ce"}
+4.  [**Feed**]{style="color: #1c87ce"}
+:::
+
+::: {.column width="60%"}
+### Alternativmodell
+
+1.  [**Fail (Flipped)**]{style="text-decoration: underline;color: #9478b6"}
+2.  [**Instruct**]{style="color: #1c87ce"}
+3.  [**Fix**]{style="color: #1c87ce"}
+4.  [**Feed**]{style="color: #1c87ce"}
+:::
+::::
+
+
+
+[synchron]{style="color: #1c87ce"}; [asynchron]{style="text-decoration: underline;color: #9478b6"}
+
+## Forschungsfragen
+
+1. Students in the 4F-model score higher in **engagement** than the alternative model.
+2. Students in the 4F-model score higher on (a) **procedural fluency** and (b) **concept knowledge** than the alternative model.
+
+
+
+## Untersuchungsdesign
+
+### Pretest
+
+Eine Woche vor dem ersten Tag der Untersuchung
+
+| Min. | Gruppe 1      | Gruppe 2      |
+|------|---------------|---------------|
+| 20   | Pretest       | Pretest       |
+
+Es findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt.
+
+<br>
+
+### Erster Tag der Untersuchung
+
+Klasse wird in 2 Gruppen räumlich getrennt.
+
+| Min. | Gruppe 1      | Gruppe 2      |
+|------|---------------|---------------|
+| 35   | Fail koll.    | Fail ind.     |
+| 5    | Mental effort | Mental effort |
+| 20   | Flip          | Instruct      |
+| 5    | mental effort | mental effort |
+| 15   | Posttest      | Posttest      |
+
+<br>
+
+### Zweiter Tag der Untersuchung
+
+Klasse wird zusammen unterrichtet.
+
+| Min. | Gruppe 1      | Gruppe 2      |
+|------|---------------|---------------|
+| 35   | Fix           | Fix           |
+| 5    | mental effort | mental effort |
+| 20   | Feed          | Feed          |
+| 5    | mental effort | mental effort |
+| 15   | Posttest      | Posttest      |
+
+
+
+## Bibliographie {.unlisted .scrollable}

@@ -1,0 +1,75 @@
+---
+format: revealjs
+title: Digitale Zusammenarbeit und Kommunikation
+subtitle: Tag 1
+---
+
+# Erfahrungsaustausch
+
+## Unterscheidung digitale Tools und Technologien
+
+## Wie arbeiten Sie digital zusammen
+
+- mit der Schulkommission?
+- mit der Schulleitung?
+- mit der Lehrerschaft?
+- mit den Eltern (Erziehungsberechtigten)? 
+
+- mit externen Fachpersonen, bzw. Behörden?
+- mit Schülerinnen und Schülern?
+
+> Schulkommission, Schulleitung, Lehrerschaft und Eltern sind gegenseitig zur Zusammenarbeit verpflichtet.
+>
+:::quelle
+[Art. 31 Abs. 2 VSG](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210/art/73)
+:::
+
+# Tools
+
+## Typische Tools im Kanton Bern
+
+* Klapp
+* Lehreroffice
+* Outlook
+* Teams
+* ...?
+
+# Technologien
+
+## In der Kommunikation eingesetzte Technologien
+
+* Symmetrische Verschlüsselung
+* Asymmetrische Verschlüsselung
+* Transportverschlüsselung
+* E2E-Encryption
+* Mail (SMTP/IMAP)
+  * HTML / Plaintext
+  * PGP / S/MIME
+* 2FactorAuthentification
+
+
+# Gesetze
+
+## Datenschutzgesetz (DSG)
+
+* Personendaten - [(Art. 5 lit. a DSG)](https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5)
+* Besonders schützenswerte Personendaten - [(Art. 5 lit. c DSG)](https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5)
+
+
+## Datenschutzgesetz (KDSG) (Bern)
+
+* Personendaten - [(Art. 2 Abs. 1 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+* Besonders schützenswerte Personendaten - [(Art. 3 Abs. 1 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+
+>Wer Personendaten bearbeitet, sorgt für ihre Sicherung. 
+>
+:::quelle
+[(Art. 17 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
+
+## Meldepflichten und Rechte
+
+* Berufsgeheimnis
+* Amtsgeheimnis
+  * Anzeigepflicht - [Art. 48 EG ZSJ](https://www.belex.sites.be.ch/app/de/texts_of_law/271.1)
+  * Befreiung - [Art. 61a VSG](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210)

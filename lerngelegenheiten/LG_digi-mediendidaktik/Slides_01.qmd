@@ -1,0 +1,360 @@
+---
+format: revealjs
+title: "Mediendidaktik"
+subtitle: "Rahmenbedingungen"
+
+---
+
+# Begriffsdefinitionen 
+
+## 
+
+::: {#fig-merz}
+![](slides_01/merz.png)
+
+[@merz_unterricht_2012, S.6]
+:::
+
+## Austausch
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+::: {#exr-1}
+Lesen Sie in Merz et al. [-@merz_unterricht_2012, S.7] die Beschreibung der Handlungsfelder.
+
+:::
+
+### Pair 
+
+1. Besprechen Sie mit Ihrer Sitznachbarin in wiefern ihr Fachunterricht (nicht M\&I) **über** Medien ist.
+2. Suchen und besprechen Sie ein Beispiel von gutem Medieneinsatz im (eigenen) Unterricht.
+
+### Share
+
+##
+
+::: {#def-1}
+##  Medium
+
+#### Medium als stofflicher Vermittler
+
+Weil Stoffe Impuls und Energie übertragen, können sie auch Information übermitteln. Die Übertragung von Schall benötigt z. B. einen vermittelnden Stoff wie Luft.
+
+#### Medium als Kommunikationsmittel
+
+Von der stofflich vermittelten Informationsübertragung wurde der Begriff Medium auf Kommunikationsmittel beliebiger Art zwischen Sendern und Empfängern übertragen. Auch die ältere magische Bedeutung blieb in dieser Vorstellung erhalten.
+
+::: quelle
+[Wikipedia](https://de.wikipedia.org/wiki/Medium_(Kommunikation))
+:::
+:::
+
+
+## Digital
+
+
+
+::: {#def-2}
+## Binär
+Binär heisst, dass es nur zwei Zustände gibt. 
+
+:::
+. . . 
+
+::: {#prp-1}
+1 bit (0 xor 1) ist die kleinste Informationseinheit in der Informatik.
+
+(Herkömmliche) Computer speichern und verarbeiten binär.
+:::
+. . .
+
+::: {#def-1}
+## codiert
+
+Codiert heisst, dass es eine bijektive (eineindeutige) Abbildung zwischen zwei Mengen gibt.
+:::
+. . .
+
+::: {#def-1}
+## Digitale Medien
+
+Digital Medien sind Medien welche binär codiert sind.
+:::
+
+## 
+
+::: {#fig-merz}
+![](https://upload.wikimedia.org/wikipedia/commons/4/4c/USASCII_code_chart.svg)
+
+American Standard Code for Information Interchange (ASCII) - (CCO - [Quelle](https://commons.wikimedia.org/wiki/File:USASCII_code_chart.svg) )
+:::
+
+
+## Medium: Text
+
+::: {#exr-1}
+Wir
+
+* benutzen einen Texteditor.
+* schreiben eine .txt Datei ("plain text").
+* schreiben eine .html Datei mit korrekter HTML-Syntax.
+* unterscheiden *Markup* von *Style*.
+
+:::
+
+
+
+## 
+
+::: {#fig-ammann}
+![](slides_01/ammann.png)
+
+[@ammann_mit_2009, S.9]
+:::
+
+## Medienkompetenz
+
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+:::{#fig-1 .center}
+<center>
+{{< qrcode https://www.spiegel.ltd/ausland/Die-Ampel-bringt-die-deutsche-Wirtschaft-um-a-59c26d99-301d-4205-91f7-20a467543d66.html width=400 height=400 >}}
+</center>
+
+ [Spiegel](https://www.spiegel.ltd/ausland/Die-Ampel-bringt-die-deutsche-Wirtschaft-um-a-59c26d99-301d-4205-91f7-20a467543d66.html)
+:::
+
+::: {#exr-1}
+Geben Sie die wichtigsten Punkte vom Artikel wieder.
+:::
+
+
+
+##
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+### Think
+
+::: {#exr-1}
+Lesen Sie  Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@prenzel_kompetenzkonzepte_2008]
+
+:::
+
+### Pair
+
+Diskutieren mit der Sitznachbarin welche Medienkompetenz sie besitzen.
+
+Zeigen Sie in Lernmaterialien von ihrem Fach, wie Medienkompetenz gelehrt wird.
+
+
+## Was ist Informatik?
+
+::: {#fig-doebeli}
+![](slides_01/doebeli.png)
+
+[@dobeli_honegger_mehr_2017, CC BY-SA 4.0]
+:::
+
+## Definition
+
+::: {#def-inf}
+
+Informatik ist die Wissenschaft der strukturierten und automatischen Informationsverarbeitung.
+
+::: quelle
+[@dobeli_honegger_mehr_2017, S.85]
+:::
+
+:::
+
+
+## Themen der Informatik
+
+* Angewandte Informatik
+* Technische Informatik
+* Praktische Informatik
+* Theoretische Informatik
+
+## 
+
+**Medienbildung, Informatik und Anwendungskompetenzen sind nicht dasselbe**
+
+* Informatik
+  * Auto bauen & entwickeln
+* Anwendungskompetenzen
+  * Auto bedienen
+* Medienbildung
+  * Verkehrsgerecht fahren
+
+##
+
+::: {#exr-1}
+
+Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang.
+:::
+
+##  
+{{< countdown "5:00" right=2% padding="5px 5px" >}}
+
+::: {#exr-1}
+## Doppelgänger
+
+Lesen Sie sich in die Doppelgänger Kampagne ein [@bayerisches_landesamt_fur_verfassungsschutz_doppelganger_2024].
+
+Lesen Sie insbesondere S.16.
+:::
+
+# Medienderfahrung von Jugendlichen
+
+## James Studie
+
+Verschaffen Sie sich einen Überblick über die gesammelten Daten in der *James-Studie* 2024 [@kulling-knecht_ergebnisbericht_2024].
+
+
+## Jungendschutz
+
+### Crypto Wars
+
+Soll der Staat die Möglichkeit erhalten in private Kommunikationskanäle mitzulesen um insb. Pädokriminalität zu bekämpfen?
+
+### Alterssperren
+
+Sollen Platformen sicherstellen müssen, dass Kinder keine gefährdenden Inhalte zu sehen bekommen (vgl. Australien)?
+
+## Hash-Functions
+
+#### Problemstellung
+
+Anbieter muss Passwort vergleichen können ohne das Passwort zu besitzen. Wie geht das?
+
+. . .
+
+#### Gesucht
+
+- One-way-function
+- collision resistance
+
+#### Beispiele
+
+MD5, SHA-256, ... 
+
+## Reality Check
+
+1. Passwort
+2. Salt
+3. 100'000 Hash-Iterationen -> Hash
+4. Speichere *Salt* und *Hash*
+5. Beim Login wird das Passwort mit dem Salt verbunden, gehasht und der Hash verglichen.
+
+::: {.callout-note}
+## Cryptographic Hash Function
+
+CHF haben noch viele andere praktische Anwendungen!
+:::
+
+# Organisation der ICT an Schulen
+
+## Wunschausstattung
+
+* Welche Ausstattung (Hard-/ Software) würde Ihre Arbeit als Lehrperson optimal unterstützen?
+* Welche Unterstützung wünschen Sie sich von der Schule?
+
+## Zuständigkeit
+
+> Daraus ergibt sich auch die Zuständigkeit der Gemeinden für die Einrichtung der Schulen mit Netzwerken, Servern und Geräten für die Schülerinnen und Schüler, sowie für die Lehrpersonen. Das gleiche gilt für die Lehrmittel."
+>
+> 
+::: quelle
+@amt_fur_kindergarten_volksschule_und_beratung_akvb_infrastruktur_nodate
+:::
+
+
+## Empfehlungen
+
+> Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
+Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.
+>
+> Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
+Überprüfung eines ICT-Konzeptes, [...]
+
+:::quelle
+@erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+## 
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
+
+
+::: {#exr-1}
+## Kantonale Empfehlungen
+
+Lesen die kantonalen Empfehlungen.[@erziehungsdirektion_des_kantons_bern_medien_2016]
+:::
+
+## Weitere Empfehlungen
+
+* Arbeitsgeräte der Schülerinnen und Schüler
+* Arbeitsgeräte für Lehrpersonen
+* Vernetzung innerhalb der Schule und Bandbreiten ins Internet
+* Datenablage
+* Peripheriegeräte
+* Lizenzen und Nutzungsverträge
+
+:::quelle
+@erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+##
+
+::: {#fig-smi}
+
+![](slides_01/smi.png)
+
+Spezialistin/Spezialist Medien und Informatik (SMI) [@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
+
+:::
+
+## Kosten {.smaller}
+
+| **Kategorie**              | **Element**                                       | **Anzahl** | **Kosten (CHF)**    |
+|----------------------------|---------------------------------------------------|------------|---------------------|
+| **Schülergeräte**          | Chromebooks                                      | 275        | 123'750.00         |
+|                            | MacBook Air                                      | 30         | 33'870.00          |
+|                            | Kopfhörer, Drucker, Chromecast (div.)            | -          | 6'080.00           |
+| **Software/Lizenzen**      | Chrome OS EDU Lizenzen (Chromebooks)             | -          | -                  |
+|                            | G Suite Enterprise for EDU Lizenzen (Lehrpersonen)| -          | -                  |
+|                            | MS Office 365 Lizenzen (Unterrichtsvorbereitung) | -          | 11'100.00          |
+| **Totalkosten Sekundarstufe I** | -                                                | -          | **174'800.00**     |
+
+::: quelle
+[@grosser_gemeinderat_zollikofen_auszug_2020, S.3f]
+:::
+
+##
+
+:::{#def-1}
+
+## Prozessorarchitektur
+Die Prozessorarchitektur bezieht sich auf die spezifische Struktur und Organisation eines Prozessors, der ein wesentlicher Bestandteil von Computern und anderen elektronischen Geräten ist
+:::
+
+::: quelle
+[Wikipedia](https://de.wikipedia.org/wiki/Prozessorarchitektur)
+:::
+
+Beispiele: 
+
+x64, ARM, RISV-V
+
+
+# ICT-Konzepte
+
+## 
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
+::: {#exr-1}
+## ICT-Konzepte
+
+1. Lesen Sie 2 ICT Konzepte durch. 
+2. Was stellen Sie fest?
+:::
+
+## Bibliographie

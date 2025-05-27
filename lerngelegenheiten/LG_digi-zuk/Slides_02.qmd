@@ -1,0 +1,199 @@
+---
+format: revealjs
+title: <small>Digitale Zusammenarbeit und Kommunikation</small>
+subtitle: Tag 2 <br> Kommunikationskonzepte
+---
+
+# Aufträge
+
+## Think-Pair-Share
+
+## Programmvorschlag
+
+```python
+import yagmail
+
+smtp_server = "smtp-mail.outlook.com"  
+smtp_port = 587  
+sender_email = "richard.conrardy@phbern.ch"
+sender_password = input("Passwort")
+
+yag = yagmail.SMTP(sender_email, sender_password)
+
+recipients = {
+    "recipient1@example.com": "Liebe Alice,\n\nJakob arbeitet gut mit!",
+    "recipient2@example.com": "Liebe Frau und Herr Mustermann,\n\nMax hat schon wieder Kreide geworfen.",
+    "recipient3@example.com": "Liebe Eltern, \n Ihr Kind ist toll!"
+}
+subject = "Elternabend"
+
+for recipient, content in recipients.items():
+    yag.send(to=recipient, subject=subject, contents=content)
+```
+
+# Worum geht es?
+
+## Technologien > Tools
+
+::: {.callout-note}
+
+Relevant für digitale Kommunikation sind vor allem Technologien, umgesetzt in Tools.
+
+:::
+
+## Kategorisierung
+
+* E-Mail
+* Chat
+* Videokonferenz
+* Foren
+* Soziale Medien
+* Blogs
+* Wiki
+* RSS
+* ...
+
+## Einfacher
+
+* synchrone Kommunikation -> zeitgleich
+    * Telefon, Videochat: synchrone mediale Kommunikation
+* asynchrone Kommunikation ➔ zeitversetzt
+    * Messenger, SMS, Brief, E-Mail, Blogs, Foren, Social Media
+
+Die Grenzen verschwimmen auch häufig… (Chat/Messenger)
+
+## Anders
+
+* öffentliche Kommunikation
+    * Blog, Wiki Foren, Youtube
+* geschlossene Kommunikation
+    * SMS, Brief, E-Mail, Zoom
+
+## Aktivität
+
+Umgang mit der Informationsflut:
+
+* Wie schnell reagierst du als LP auf (welche)
+digitalen Nachrichten? (Eltern, LP-Team, SL etc.)
+* Wie vermeidest du Missverständnisse in deiner
+(online) Kommunikation?
+* Wie stellst du sicher, dass du wichtige
+Informationen/Nachrichten nicht verpasst?
+
+# Kommunikationstheorien
+
+## Sender-Empfänger-Modell
+
+![Bild von [Abby M.](https://commons.wikimedia.org/wiki/File:Sender-Empf%C3%A4nger-Modell_nach_Shannon_und_Weaver.jpg)](https://upload.wikimedia.org/wikipedia/commons/3/30/Sender-Empf%C3%A4nger-Modell_nach_Shannon_und_Weaver.jpg)
+
+## Modell der drei Wirklichkeiten
+
+![](https://digibasics.ch/wp-content/uploads/2024/04/A2_Wirklichkeiten-1024x724.png)
+
+## Vier-Seiten-Modell
+
+![Modell von Schulz von Thun](https://upload.wikimedia.org/wikipedia/commons/9/99/Vier-Seiten-Modell_de_2.svg)
+
+## Noviolent Communication
+
+![Marshall Rosenberg](https://upload.wikimedia.org/wikipedia/commons/1/17/MarshallRosenberg1990.jpg)
+
+
+
+# Kommunikationszonzepte
+
+
+## Use-Cases {.smaller}
+
+::: {.panel-tabset}
+
+### Ebene Schule
+
+- Informationsanlässe
+- Besuchstage
+- Feiern
+- Aufführungen
+- Märkte
+- Sporttag
+- Eltern-Lehrpersonen-Stammtische
+- Webseite
+- Schulbroschüre
+- Schulzeitung
+- Dolmetscherdienst
+- Weiterbildungen
+- Flyer für schulnahe Angebote sowie für Support und Beratung
+- Mentorat für Eltern
+- Angebote für Beratung und Elternbildung
+- Elternrat
+- Elternforum oder Elterncafé
+- Eigenständige Elternvereine
+- Mitwirkung in lokalen oder kantonalen Behörden (Schulpolitik)
+- Einbezug von unabhängigen Eltern- und Kulturvereinen
+- Mitgestaltung von Anlässen
+- Vernehmlassungen und Befragungen
+- Feedbackanlässe
+- Eltern-Lehrpersonen-Stammtische
+- Elterntraining
+
+### Ebene Klasse
+
+- Informationsanlässe
+- Besuche in der Klasse
+- Feste und Feiern
+- Aufführungen
+- Elternabende
+- Gemeinsame Feste und Ausflüge
+- Informationsmappe
+- Newsletter
+- Elternnewsletter
+- Informationen am Elternabend
+- Kollektive Elternbriefe
+- Mitwirkungsmöglichkeiten im Unterricht
+- Mitwirkung an Anlässen und Exkursionen
+- Befragungen
+- Feedbackanlässe
+- Elternrat
+- Einholen von Elternfeedback
+
+
+### Ebene Kind
+
+- Willkommensgespräche
+- Elterngespräche
+- Hausbesuche
+- Telefonanrufe
+- Elternbüchlein
+- Mitteilungsheft
+- Digitale Kommunikation
+- Einblick in Eintragungen auf dem Schulserver
+- Elterngespräche, evtl. Hausbesuche
+- Beurteilungs- und Standortgespräche
+- Schüler-Eltern-Lehrpersonengespräche
+- Elternsprechtage
+- Sprechstunde
+- Lernentwicklungsgespräch
+- Telefongespräche
+- E-Mails
+- Beratungsgespräche
+- Begleitung von Hausaufgaben und beim Berufswahlprozess
+- Teilnahme an Besuchstagen
+- Beratungsgespräche
+- Hinweise auf Fachstellen und Support
+- Elternunterstützung im Unterricht
+- Lesepate
+
+
+:::
+
+:::quelle
+
+kürzt aus https://ilias.phbern.ch/goto_phbern_copa_2393509.html
+
+:::
+
+
+## Kommunikationskonzepte
+
+Lesen Sie das Kommunikationszept der Schule und schauen Sie, ob alle Aktivitäten welche für Sie relevant sind, abgedeckt sind.
+
+## Bibliographie

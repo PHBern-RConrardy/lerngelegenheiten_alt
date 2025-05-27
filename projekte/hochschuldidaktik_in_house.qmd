@@ -1,0 +1,72 @@
+---
+format: 
+    html: default
+title: ~~CAS~~ Hochschuldidaktik in House
+subtitle: Strukturierte Vorschlagssammlung
+
+date: 28 10 24
+
+draft: true
+---
+
+| Kurse | ~~ECTS~~ AE[^1] |
+|-------|-------------|
+| 1. Github/Gitlab     | 2           |
+| 2. Quarto | 2 |
+| 3. Learning Analytics | 1 |
+
+[^1]: AE = Arbeits- und Entwicklungsstunden
+
+# Ideen
+
+## Git & Github: 
+
+* https://www.pc-college.de/seminare-schulungen-kurse/it-projekte-verwalten/git-einfuehrung-in-git-github-und-ci-cd-gih.php?smid=hcern77p48r54vsbcvvsfsra1e1 
+* Falls wir eine Lizenz haben für gitlab.switch.ch gitlab, bin am abklären. 
+
+## Quarto: 
+
+* https://www.gfu.net/seminare-schulungen-kurse/testmanagement_sk92/quarto-effizientes_dokumentenmanagement_s4022.html 
+
+## Security?  
+
+* https://www.comptia.org/certifications/security 
+
+## Learning Analytics: 
+
+* https://www.ffhs.ch/de/weiterbildung/mooc-learning-analytics-for-teachers 
+
+## Plotly: 
+
+* https://www.bfh.ch/de/weiterbildung/kurse/datenanalyse-mit-python/ 
+
+## CAS R-Datenvisualisierung (Vorkenntnisse knapp): 
+
+* https://www.zhaw.ch/de/engineering/weiterbildung/detail/kurs/cas-data-analysis/ 
+
+## Cinderella Workshop, falls auffindbar: 
+
+* https://cinderella.de/tiki-index.php 
+
+## Aktueller Stand der Lernpyschologie 
+
+* Eventuell Jobshadowing?
+
+## Sharepoint Credentials: 
+
+* https://learn.microsoft.com/en-us/credentials/browse/ 
+* Create and manage automated processes by using Power Automate 
+* Microsoft Certified Educator 
+
+## Lego Serious Play? 
+
+* https://theseriousplayer.com/start/ 
+
+ 
+## Irgendwas mit Josef Buchner PHSG: 
+
+* https://www.phsg.ch/de/team/dr-josef-buchner 
+
+
+
+CAS: https://www.rochester-bern.ch/programs/cas-digital-acceleration-and-ai/

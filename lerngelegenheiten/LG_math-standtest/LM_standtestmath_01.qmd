@@ -1,0 +1,99 @@
+---
+title: "Standardisierte Testverfahren in der Mathematik"
+format: html
+abstract: > 
+  In diesem Kapitel lernen Sie die wichtigsten standardisierten Tests in Mathematik kennen, welche im Kanton Bern durchgeführt werden. Sie werden darauf hingewiesen wo sie Beispielaufgaben und Berichte finden.
+---
+
+# Thematischer Einstieg
+
+In seinem Video [Prüfungen abschaffen](https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EXfwrFDtzjNArMaGyWiosRcB22QMC9y1QE48GTob05l-2A?e=th92S0) weist Jörn Loviscach darauf hin, dass seitens der Wirtschaft ein Interesse an vergleichenden, vergleichbaren Tests besteht. Falls die Schule diesem Bedürfnis nicht gerecht wird, kann es zu vermehrtem *Assessment* beim Bewerbungsprozess, mittels gewinnorientierten Assessmentzentren kommen.
+
+Amerika zeigt, wohin die Reise führen könnte. John Oliver geht in seiner Reportage über [Standardized Testing](https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EUjsTQSfUqBKqO5O4IHLjGcByhdi_l6QqreFOfjW0uiNrA?e=QdjpoN) auf die amerikanische Testindustrie und deren Nebeneffekte ein. Unternehmen, welche die Tests verwalten, bedienen ebenfalls den Markt für Nachhilfematerialien. Zusätzlich sorgen starre Algorithmen für Probleme bei Lernenden wie auch Lehrenden.
+
+## Konfliktareale
+
+@imlig_towards_2018 geben einen guten Referenzrahmen für potentielle Konflikte bei standardisierten Tests:
+
+* confusion of purposes
+* aggregation level and sovereignty
+* influence on instruction
+
+Standardisierte Tests sollten ein einziges klares Ziel haben, meist haben sie jedoch mehrere konfundierende Ziele (*confusion of purposes*). Tests zur formativen Beurteilung von Lernenden können zur Bewertung von Lehrpersonen oder der Schulleitung eingesetzt werden.
+
+Vor der Testdurchführung sollte geklärt sein bis auf welche Ebene die Resultate aufgeschlüsselt werden (Kantone, Schulen, Lehrpersonen oder sogar einzelne Schüler) (*aggregation level*). Zusätzlich sollte geklärt sein wer Zugriff auf die Resultate hat (nur die tiefste Stufe oder auch höhere Ebenen) (*sovereignty*).  
+
+Zuletzt hat nicht nur die Schule einen Einfluss auf die Testresultate, sondern die Tests selbst haben eine Einfluss auf die Schule. 
+
+# Internationale Tests 
+
+Ein **internationaler** Vergleich mittels standardisiertem Test erfolgt mittels [Programme for International Student Assessment (PISA)](https://www.oecd.org/pisa/publications/pisa-2018-results.htm) bei Lernenden welche das 15. Lebensjahr erreich haben. Das [Country Note - Switzerland](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EcYeJ2XBvdRPp28NTYD9W04BO1QMAOz18YZOlDue41v8SA?e=pwl4Cz) ist eine kurze Zusammenfassung für die Schweiz. 
+
+:::{.callout-tip}
+Beispielaufgaben finden Sie z.B. in @oecd_pisa_2011, neuere Aufgaben findne Sie auf [ihrer Webseite]( https://pisa2022-maths.oecd.org/de/index.html#Examples).
+:::
+
+# Nationale Tests
+
+## Überprüfung der Grundkompetenzen
+
+Ein **nationales**, staatliches Projekt bei welchem Lernende der Sekundarstufe regelmässig auf ihre Mathematikleistung geprüft wurden, ist die [Überprüfung der Grundkompetenzen (ÜGK) von 2016](https://www.uegk-schweiz.ch). Deren [ÜGK 2016 Schlussbericht](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EUJDu0pLGFFFjiDAmUHQlpsBRv9a3GJ-5AzNuCNfcwFa5Q?e=4l9mvo) ermöglicht einen nationalen Vergleich. Ab 2028 wird dieses Monitoring regelmässig durchgeführt [(vgl. EDK)](https://www.edk.ch/de/die-edk/blog/271023).
+
+Die Aufgaben sind nicht veröffentlicht.
+
+## Eignungstest für das Medizinstudium in der Schweiz
+
+Der Eignungstest für das Medizinstudium in der Schweiz (EMS) prüft ebenfalls Mathematikkompetenzen auf Niveau @ztd_unifr_beispielaufgaben_2021
+"EMS ist ein kognitiver Fähigkeitstest" [Quelle](https://www.swissuniversities.ch/service/anmeldung-zum-medizinstudium/eignungstest/aufbau-des-ems)
+
+Im Untertest "Quantitative und formale Probleme" wird explizit erwähnt:
+
+>Welche Mathematikkenntnisse sind erforderlich? Vorausgesetzt werden Kenntnisse der Mittelstufen-Mathematik, nicht jedoch Lerninhalte der Oberstufe.
+>
+>Folgendes müssen Sie beispielsweise kennen und beherrschen: Gängige Symbole wie >, ≥, <, ≤ (grösser, grösser/gleich, kleiner, kleiner/gleich), ≠, ~ (ungleich, proportional), die vier Grundrechenarten und die Dreisatzrechnung, das Rechnen mit Potenzen. Zum Beispiel: $a^\frac{1}{2}=\sqrt{a}$; $10^{-3}=\frac{1}{1000}$; $x^0=1$; $10^{-5} : 10^{-3} =10^{-2}$
+[@ztd_unifr_beispielaufgaben_2021, S.53]
+
+:::{.callout-tip}
+Beispielaufgaben sind verfügbar: @ztd_unifr_beispielaufgaben_2021
+:::
+
+## Stellwerktest (kantonsübergreifend)
+
+Der [Stellwerktest](https://stellwerk.ch/) ist ein kommerziell betriebener standardisierter Test vom *Lehrmittelverlag St.Gallen*, welches eine Abteilung des Amts für Volksschule des Bildungsdepartments des Kantons St.Gallen ist. Im Kanton Bern wird der Stellwerktest in Mathematik flächendeckend durchgeführt und das Ergebnis von "Stellwerk 8" fliesst ins Standortgespräch des 8. Schuljahres ein ([Quelle](https://www.lp-sl.bkd.be.ch/de/start/themen/berufliche-orientierung/weichen-stellen/stellwerk-8-und-9.html)). Die Kosten für Stellwerk 8 und 9 in Deutsch und Mathematik übernimmt dabei der Steuerzahler.
+
+Im Gegensatz zu anderen Tests ist der Stellwerktest *adaptiv*, das heisst, die Aufgaben passen sich der Güte der letzen Lösung an. 
+
+:::{.callout-tip}
+Beispielaufgaben sind auf [ihrer Webseite](https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4) verfügbar.
+:::
+
+# Kantonale Tests
+
+Auf **kantonaler** Ebene gibt es gewisse Prüfungen, welche ebenfalls als standardisiert bezeichnet werden können. Sie werden jährlich durchgeführt und messen kantonsweit die gleichen Standards.
+
+## Anfang Sekundarstufe 1
+
+Die [Übertritt PRIM - Sek I Kontrollprüfungen](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-prim-sek-i-kontrollpruefung.html) ist ein solches Beispiel. Das [Monitoring Kontrollprüfungen 2023](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/ETVJKe4XX45GmoWGze8pq6MB4lLQXPt7U9aqCshkvrVUEQ?e=3CJbXt) gibt hier Auskunft über die Resultate.
+Der [Referenzrahmen Mathematik](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EXiCoKrAXTlKj5-TaomEti0B2MoqY4YFD-Mn3ScFbtcD5g?e=wsclIZ) gibt dabei eine genauere Auskunft über die erreichenden Kompetenzen Ende 6. Klasse, bzw. welche Kompetenzen von Primarschülern in der 7. Klasse erwartet werden können.
+
+Da es mit dem Lehrplan21 eine gewisse Standardisierung (Homegenisierung) der obligatorischen Schulzeit gibt, sind die Daten des Bundesamts für Statistik auch vergleichbar. 
+
+
+## Ende der Sekundarstufe 1
+
+[Übertritt Sek I - Sek II](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html)
+  - [BFS - Maturitätsquote](https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/maturitaetsquote.html)
+
+:::{.callout-tip}
+Alle vergangen Tests sind online verfügbar auf der Webseite der BKD, sowohl für [GYM 1](https://www.bkd.be.ch/de/start/themen/bildung-im-kanton-bern/mittelschulen/gymnasium/aufnahmeverfahren-gymnasium/aufgaben-und-loesungen-aufnahmepruefungen-gymnasium.html) als auch für [die FMS Übertrittsprüfung](https://www.bkd.be.ch/de/start/themen/bildung-im-kanton-bern/mittelschulen/fachmittelschulen/aufnahmeverfahren/aufgaben-und-loesungen-aufnahmepruefungen-fachmittelschulen.html).
+:::
+
+
+--------------
+
+# Weitere Dokumente:
+
+- [BFS -  Selektion auf der Sekundarstufe I](https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/gleichstellun-frau-mann/bildung/bildungsstand.assetdetail.24485156.html)
+- [Evaluationen Kanton Bern](https://www.bkd.be.ch/de/start/themen/statistik-bildung-und-kultur/daten-publikationen/evaluationen-bildungsmonitoring.html)
+- [BFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung ](https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/gleichstellung-frau-mann/loehne/kompetenzniveau-bildung-berufliche-stellung.html)
+- [Artikel: der Bund](https://www.derbund.ch/die-ungerechtigkeit-ist-in-bern-eher-groesser-als-in-zuerich-325562265525)

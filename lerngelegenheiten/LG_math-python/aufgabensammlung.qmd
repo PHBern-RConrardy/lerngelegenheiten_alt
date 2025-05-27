@@ -1,0 +1,233 @@
+---
+format: html
+title: Aufgabensammlung
+---
+# Aufgabenvorschläge
+
+## Teilbarkeit
+
+Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind.
+
+## Vierquadratesatz von Lagrange
+
+-   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.
+
+Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.
+
+-   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
+-   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+Dieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+
+``` python
+# Lösung von Leandro Lüthi unter CC BY-SA 4.0 Lizenz
+def istSumVonQuadr(zahl, anz_quadrnr):
+  # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.
+  if anz_quadrnr == 2:
+    for i in range(1, int(zahl**0.5)+1):
+    # for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe
+    # Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist
+      for j in range(i, int(zahl**0.5)+1):
+        if i**2 + j**2 == zahl:
+          return True
+          # Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück
+    return False
+  else:
+    # Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen
+    for i in range(1, int(zahl**0.5) + 1):
+      # Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe
+      if istSumVonQuadr(zahl - i**2, anz_quadrnr - 1):
+        return True
+        """
+        Von der 'zahl' wird das Quadrat von i subdrahiert
+        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz
+        zwischen i**2 und zahl ergeben
+        """
+    return False
+
+# Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können
+summe_quadraten_zahlen = []
+print("Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:",flush=True)
+rangeOfQuadrNr = int(input("Zahl: "))
+quadrnr = int(input("Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "))
+# Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr
+for zahl in range(1, rangeOfQuadrNr):
+  if istSumVonQuadr(zahl, quadrnr):
+    """
+    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben
+    """
+    summe_quadraten_zahlen.append(zahl)
+# Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht
+
+# Ausgabe der gefundenen Zahlen
+print("Natürliche Zahlen kleiner als "+str(rangeOfQuadrNr)+", die Summe von "+str(quadrnr)+" Quadraten sind: ")
+for zahl in summe_quadraten_zahlen:
+  print(zahl)
+  # Alle Elemente unserer Liste, werden geprinted
+```
+
+</details>
+
+## Quadratzahlen
+
+[MA.1.B.3.e](https://be.lehrplan.ch/101V3HKgvvehukhLPNxAK3DGDwyZ3MWfb){.knopf .stufe} 
+
+Die SuS erkennen, dass jede natürliche Zahl $n$ als Summe von vier Quadratzahlen dargestellt werden kann.
+
+Nun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl $n$ für alle $s\leq n$, $s\in\mathbb{N}$, das kleinste $k$ mit $s=\sum_{i=1}^kx_i^3$ zu bestimmen.
+
+SuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen.
+
+## Stammbrüche
+
+Jeder Bruch $0<\frac{p}{q}<1$ kann als Summe verschiedener Stammbrüche dargestellt werden, zum Beispiel $\frac{4}{17}=\frac{1}{5}+\frac{1}{30}+\frac{1}{510}$.
+
+Schreiben Sie ein Programm, das bei Eingabe eines Bruchs $\frac{p}{q}$ eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.
+
+Man kann noch verlangen, dass die Eingabe $\frac{p}{q}$ auf die Bedingung $0<\frac{p}{q}<1$ getestet wird.
+
+## Collatz-Problem
+
+[MA.1.B.2.h](https://be.lehrplan.ch/101KHT3ut8tfgqxGYJ2wHnfxE9aBJvdNq){.knopf .stufe} 
+
+[Die Vermutung von Collatz](https://de.wikipedia.org/wiki/Collatz-Problem):
+
+Für jede Startzahl $n$ erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv $$a_0=n,\quad a_{n+1}=\begin{cases}\frac{a_n}{2} & a_n\text{ gerade }\\3a_n+1&a_n \text{ ungerade}\end{cases}$$
+
+definiert.
+
+Programmieren Sie die Funktion `collatz(n)`welche die Anzahl Schritte bis $a_n=1$ ausgibt.
+
+## Sieb des Eratosthenes
+
+[MA.1.B.1.l](https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG){.knopf .stufe} [MA.1.A.1.h](https://be.lehrplan.ch/101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc){.knopf .stufe}
+
+
+
+Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.
+
+Die Eingabe ist eine natürliche Zahl $n$, die Ausgabe die Liste aller Primzahlen kleiner gleich $n$.
+
+Bestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen $a$ und $b$ (mit $a>b$) bestimmt werden, indem für die Elemente der Liste der Teiler von $b$ beginnend mit dem gr?ssten Element getestet wird, ob sie $a$ teilen.
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+def primzahlen_bis_100():
+  liste_2_bis_100 = list(range(2, 101))
+  primzahlen = []
+  
+  while liste_2_bis_100:
+    # Erste Zahl aus der Liste wird den Primzahlen hinzugefügt
+      prime = liste_2_bis_100[0]
+      primzahlen.append(prime)
+    # Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:
+      for i in range(1,100):
+    # Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:
+        if i*prime in liste_2_bis_100:
+          liste_2_bis_100.remove(i*prime)
+
+  print(primzahlen)
+
+primzahlen_bis_100()
+```
+
+</details>
+
+## Potenz-, Exponentialfunktion
+
+[MA.1.C.2.k](https://be.lehrplan.ch/101y8NsVTP6MGVEGREXbWpkDCHSb9NXEa){.knopf .stufe} [MA.3.A.1.n](https://be.lehrplan.ch/101hWBWgYGRHp3hS5DNZFdz32rNScD4Ye){.knopf .stufe}
+
+Vergleich des Wachstums von Potenz- und Exponentialfunktionen.
+
+Ziel: Zur Eingabe zweier Zahlen $a$ und $b$, $a>1$, $b\in\mathbb{N}$, die kleinste natürliche Zahl $n$ bestimmen, für die $n^b<a^n$ gilt.
+
+Die SuS erkennen, dass jede Exponentialfunktion (auch für $a=1.0001$) schneller wächst als jede Potenzfunktion.
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+```python
+def vergleich(potenz,basis):
+  def f(x):
+    return x**potenz
+  def g(x):
+    return basis**x
+  n=2
+  while f(n)>g(n):
+    n=n+1
+  print (n)
+  
+
+potenz = float(input("Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: "))
+basis = float(input("Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: "))    
+vergleich(potenz,basis)  
+```
+</details>
+
+
+## Narzistische Zahlen
+
+[MA.1.B.1.k](https://be.lehrplan.ch/101TrS9Y3WNTDAYebE4WFSETV7vcRMUZ7){.knopf .stufe}
+
+
+Das Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl $n$
+
+Eine Zahl heisst $k=a_{n-1}a_{n-2}\ldots a_1a_0$ *narzistisch*, wenn $k=\sum_{i=0}^{n-1}a_i^n$ gilt.
+
+Beispiele narzistischer Zahlen sind 153 und 371 ($153=1^3+5^3+3^3$, $371=3^3+7^3+1^3$)
+
+## Perfekte Zahlen
+
+[MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe}
+
+Eine natürliche Zahl $n$ wird [perfekte Zahl](https://de.wikipedia.org/wiki/Vollkommene_Zahl) genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.
+
+Beispiel:
+
+$28$ hat als Teiler $1,2,4,7,14,28$ und $28=1+2+4+7+14$.
+
+Finden Sie alle perfekten Zahlen kleiner als $n$.
+
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+```python
+# eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.
+def teiler(n):
+  liste_teiler = []
+  # Wir müssen nur alle Zahlen bis die Hälfte probieren
+  for zahl in range(1,int(n//2+1)): 
+     # Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.
+     if n % zahl==0:
+       liste_teiler.append(zahl)
+  return liste_teiler
+
+# die Liste mit perfekten Zahlen startet als leere Liste
+perfNr = []
+
+eingegebene_Nummer = int(input("Nummer: "))
+for zahl in range (1, eingegebene_Nummer+1):
+# falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.
+  if sum(teiler(zahl))==zahl:
+    perfNr.append(zahl)
+      
+  
+print("Alle perfekten Zahlen bis "+ str(eingegebene_Nummer)+" sind: " + str(perfNr))
+```
+
+</details>
+
+## Befreundete Zahlen
+
+Programmieren Sie eine Funktion `befreundet(zahl1,zahl2)` welche überprüft ob zwei gegebene Zahlen [befreundete Zahlen](https://de.wikipedia.org/wiki/Befreundete_Zahlen) sind.
+
+Finden Sie alle befreundete Zahlen kleiner als $n$.

@@ -1,0 +1,61 @@
+---
+format: revealjs
+---
+
+## Wer möchte fürs studieren bezahlt werden?
+ <br>
+Richard Conrardy erprobt im Rahmen eines Experiments für seine Doktorarbeit ein 4-Phasenmodell für den Fachunterricht.
+<br> <br>
+Gesucht sind Studierende (alle Fächer, alle Institute) welche für 2 Einzellektionen mitmachen möchten.
+<br><br>
+
+:::mittig
+
+Informationen auf: [(http://)   conrardy.ch](http://conrardy.ch)
+
+:::
+
+## {.smaller}
+
+:::{.columns}
+
+:::{.column width="50%"}
+### Sie erhalten:
+
+
+* **Möglichkeit einen von mehreren Gutscheinen im Wert von 200 Chf zu gewinnen!** (oder als FEE-Praktikum für PHBern SP13)
+* Selbstgebackene Kekse vor Ort (mmmhh Cookies 🍪🍪🍪 ). 
+
+
+### Ihr Aufwand:
+* Zweimal 50 Minuten Zeit (Daten stehen in der Umfrage).
+* Zusätzliche Vorbereitungszeit zu Hause von 60 Minuten.
+
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="40%"}
+
+### Wann?
+
+* Dienstags, 08.04.2025 und 15.04.2025 - 16:15 - 17:15
+* Mittwochs, 23.04.2025 und 30.04.2025 - 10:15 - 11:15
+* Dienstags, 29.04.2025 und 06.05.2025 - 13:00 - 14:00
+* Mittwochs, 30.04.2025 und 07.05.2025 - 16:15 - 17:15
+* Donnerstags, 01.05.2025 und 08.05.2025 - 16:15 - 17:15 
+
+:::
+
+:::
+
+## Mitmachen
+
+:::mittig
+
+{{< qrcode https://forms.office.com/Pages/ResponsePage.aspx?id=zwAKJW1LckaxbMo0bk4R5VfPrF0Zps1KgKhjsB14s1xUNUpZWTI2MTY0OUhXRjc1Rk40QUxRNlhBRy4u  width=450 height=450 >}}
+
+**Webseite: https://phbern-rconrardy.github.io/lerngelegenheiten**
+
+:::

@@ -1,0 +1,15 @@
+---
+format: html
+title: Förderorientierung
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Lynn Gurtner
+
+copyright: Diese Lernumgebung beruht auf einer Lernumgebung welche von Lynn Gurtner 
+licence: CC BY ???
+draft: true
+
+abstract: >
+  In diesem Lernmodul geht es um «Förderorientierung» und «Förderorientierte Diagnostik».
+---

@@ -1,0 +1,47 @@
+---
+format: revealjs
+title: Mehrstufige Zufallsexperimente
+subtitle: Baumdiagramm
+---
+
+## Lernziele
+
+1.  Wir erklären Wahrscheinlichkeiten von abhängigen Ereignissen.
+2.  Wir berechnen Wahrscheinlichkeiten bei mehrstufigen Wahrscheinlichkeitsexperimenten.
+
+## Lektionsaufbau
+
+| Zeit | Inhalt  |
+|------|---------|
+| 10     |   Roulette      |
+| 35   | Übungen |
+| 5    | Pause   |
+|      |         |
+
+
+
+## Roulette
+
+Angenommen du spielst an einen Roulette-Tisch ohne 0. Wählst du die richtige Farbe, erhälst du dein Geld doppelt zurück.
+
+Dein Freund, [Martingale](), erzählt dir von seiner Gewinnstrategie:
+
+Jedes mal, wenn er verliert, legt er doppelt so viel Geld auf die gleiche Farbe und erhält somit seinen Verlust zurück. 
+
+Funktioniert das?
+
+::: notes
+Gemäss @bovet_leitfaden_2020 und @wigfield_expectancyvalue_2000 als auch @ryan_self-determination_2000
+:::
+
+## Einzelarbeit
+
+Arbeiten Sie an den Übungen.
+
+::: {.center style="font-size:200px;"}
+🤫
+:::
+
+{{< countdown "35:00" right=2% bottom = 1% padding="5px 5px" update_every=30 >}}
+
+## Bibliographie

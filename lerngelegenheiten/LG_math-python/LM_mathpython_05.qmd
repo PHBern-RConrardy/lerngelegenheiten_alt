@@ -1,0 +1,89 @@
+---
+title: Funktionen
+format: html
+subtitle: Python - Lernmodul 5
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+---
+# Funktionen
+
+## Lehr-Lernmaterialien
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen [Funktionen
+I](https://www.youtube.com/watch?v=LQCfN5HS9xI&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=18),
+[Funktionen
+II](https://www.youtube.com/watch?v=af9ORp1Pty0&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=19)
+und [Funktionen
+III](https://www.youtube.com/watch?v=ehSP-sYoKCY&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=20).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Funktionen](https://www.w3schools.com/python/python_functions.asp).
+
+## Übungen
+
+### Was ist der Output von diesem Programm?
+
+``` python
+def meine_funktion(x, y, z):
+    if x > y:
+        return z
+    else:
+        return z - 1
+
+x = meine_funktion(1, 2, 3)
+print(x)
+```
+
+
+
+### Was macht diese Funktion (in Worte gefasst)?
+
+```Python
+def meine_funktion(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+```
+### Würfel programmieren 
+
+Programmieren sie einen Würfel und würfeln sie 1000-mal. Um eine
+Zufallszahl zu generieren, können sie die Funktion “random()” verwenden.
+Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen
+sie jedoch die Funktion zuerst importieren:
+
+``` python
+from random import random # Import der Funktion random()
+
+def wuerfle():
+    zufallszahl = random() # Zufallszahl generieren
+    # Ihr Code kommt hier..
+```
+
+(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)
+
+Lösungsvorschlag
+```python
+from random import random
+
+def wuerfle():
+    zufallszahl = random()
+    if zufallszahl < (1/6):
+        return 1
+    elif zufallszahl < (2/6):
+        return 2
+    elif zufallszahl < (3/6):
+        return 3
+    elif zufallszahl < (4/6):
+        return 4
+    elif zufallszahl < (5/6):
+        return 5
+    elif zufallszahl < (6/6):
+        return 6
+
+for i in range(5):
+    print(wuerfle())
+
+print("...")
+```

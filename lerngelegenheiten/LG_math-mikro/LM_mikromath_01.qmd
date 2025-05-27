@@ -1,0 +1,53 @@
+---
+title: Lehrmittel
+subtitle: Mathematik
+format: html
+---
+
+# Beurteilungskriterien
+
+Im Kanton Bern werden Lehrwerke auf Grundlage von [levanto ®](https://www.ilz.ch/node/24), beziehungsweise deren Beurteilungskriterien, von (in der Regel) zwei Personen  beurteilt [@lehrplan-_und_lehrmittelkommission_hinweise_2023].
+
+::: {#exr-test}
+Lesen Sie in @interkantonale_lehrmittelzentral_beurteilungskriterien_2020 alle Kriterien welche für Mathematiklehrmittel relevant sind und benennen Sie redundante Kriterien.
+:::
+
+::: {#exr-line}
+"15. Das Lehrmittel weist explizit Grundanspruch und erweiterte Ansprüche aus." [@interkantonale_lehrmittelzentral_beurteilungskriterien_2020, S.2]
+Was bedeuten "erweiterte Ansprüche" im Kanton Bern?
+:::
+
+::: {#exr-line}
+"16. Das Lehrmittel enthält Hinweise zur Nutzung für Schülerinnen und Schüler mit besonderen pädagogischen Bedürfnissen." [@interkantonale_lehrmittelzentral_beurteilungskriterien_2020, S.2]
+Welche besonderen pädagogischen Bedürfnisse sind gemeint?
+:::
+
+
+# Freie Materialien
+
+Ihre Lernumgebungen muss unter einen freien Lizenz veröffentlicht werden und Sie müssen sich dabei selbstverständlich rechtskonform handeln. Sie dürfen jedoch Materialien mit kompatiblen Lizenzen nutzen.
+
+* @blochliger_mathematik_2021 Schweizer Materialien, insb. für die 9. Klasse, CC BY-SA Lizenz.
+* [Openstax](https://openstax.org/subjects/math/) - Englischsprachige Mathematikbücher unter einer CC BY Lizenz
+
+::: {#exr-test}
+Sichten Sie diese, oder andere, freie Lehrmaterialien.
+:::
+
+# Mathbuch
+
+Im Kanton Bern haben die meisten Fächer kein obligatorisches Lehrmittel. In Mathematik ist jedoch gemäss Lehrmittelverzeichnis das Mathbuch 1, 2 und 3 im Schuljahr 2024-2025 obligatorisch für öffentliche Schulen [@bildungs-_und_kulturdirektion_amt_fur_kindergarten_volksschulen_und_beratung_lehrmittelverzeichnis_2023].
+
+Studierende und Mitarbeitende PHBern haben einen konstenlosen Zugriff auf eine [online-only Version des Mathbuchs](https://www.mathbuch.info/). 
+
+::: {#exr-test}
+Lesen Sie sich ins Mathbuch 1, 2 und 3 ein. Falls Sie planen in einem anderen Kanton zu unterrichten, finden Sie heraus, ob es obligatorische Lehrmittel in Mathematik gibt, und gegebenenfalls welches es ist. Lesen Sie sich in das Lehrmittel ein.
+:::
+
+# Weitere Schweizer Lehrmittel 
+
+In (halb)privaten Schulen im Kanton Bern sind unter anderem die Lehrmittel von [Lehrmittelverlag Zürich (LMVZ)](https://www.lmvz.ch/schule/mathematik-klick), insbesondere die Version *Klick*, im Einsatz. *Klick* wendet sich an besonders schwache Lernende.
+
+::: {#exr-test}
+Lesen Sie sich in @keller_mathematik_2021 und @keller_mathematik_2022 ein.
+:::

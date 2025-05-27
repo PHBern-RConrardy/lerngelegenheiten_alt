@@ -1,0 +1,8 @@
+---
+format: html
+title: Forschungsethik
+subtitle: Learning Analytics
+draft: true
+---
+
+# Rechtliche Rahmenbedingungen

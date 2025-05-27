@@ -1,0 +1,341 @@
+/*-- scss:defaults --*/
+
+// Primärfarbe
+$phrotweb: #ad0101;
+$phrotppt: rgb(184,34,63);
+$phrot: $phrotweb;
+$linkfarbe: #ac0101;
+
+// CI
+$bordeaux: #ad0101;
+$bordeauxhover: #780101;
+$silber: #757575;
+$silberhover:#484848;
+$blau: #44748b;
+$blauhover: #2e5366;
+$flieder: #b46b93;
+$fliederhover: #804d69;
+$algaegruen: #8fe7a5;
+$algoegruenhover: #57db76;
+$schwarz: #000000;
+$schwarzhover: #484848;
+
+// Sekundärfarben Office
+
+$phblau: rgb(68,116,139);
+$phblau1: rgb(158,190,204);
+$phblau2: rgb(68,116,139);
+$phblau3: rgb(108,148,168);
+$phblau4: rgb(205,223,232);
+
+$phbeige: rgb(173,171,107);
+$phbeige1: rgb(240,239,205);
+$phbeige2: rgb(173,171,107);
+$phbeige3: rgb(205,204,153);
+$phbeige4: rgb(255,255,238);
+
+$flieder1: #b46b93;
+$flieder2: #c58dac;
+$flieder3: #d8b5c9;
+$flieder4: #f0e0ea;
+
+$schwarz1: #000000;
+$schwarz2: #3c3c3c;
+$schwarz3: #787878;
+$schwarz4: #b4b4b4;
+
+
+$coelineblau: #0eb6d9;
+$mandy: #e95e84;
+$purpleheart: #7c1fcb;
+
+
+// Tertiärfarben
+$phporta1: rgb(155,137,71);
+$phporta2: rgb(205,196,163);
+$phporta3: rgb(235,231,219);
+
+$phorange1: rgb(236,129,1);
+$phorange2: rgb(245,191,127);
+$phorange3: rgb(251,230,205);
+
+$phgelb1: rgb(255,232,6);
+$phgelb2: rgb(255,243,131);
+$phgelb3: rgb(255,250,205);
+
+$phviolet1: rgb(180,107,147);
+$phviolet2: rgb(216,181,201);
+$phbiolet3: rgb(240,224,234);
+
+$phbraun1: rgb(89,43,43);
+$phbraun2: rgb(173,149,149);
+$phbraun3: rgb(223,213,213);
+
+// Lehrplan21
+$Zyklus3: #97C941;
+$Zyklus2: #2F8FCE;
+$Zyklus1: #E39B2D;
+$LProt: #CD202C;
+
+$LPGrundanspruch: #DDDDD7;
+
+$titelfarbe: #1a1a1a;
+
+$linkhover: $bordeauxhover;
+
+$link-color: $linkfarbe;
+
+$font-family-sans-serif: sans-serif;
+
+
+/*-- scss:rules --*/
+
+//////////////////// For big screen
+@media screen and (min-width: 7680px){
+  h3 {
+    font-size: 1.5rem; /* Equivalent to $h3-font-size: 1.5rem; */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Equivalent to $h2-font-size: 2rem; */
+  }
+  
+  h1 {
+    font-size: 3.42rem; /* Equivalent to $h1-font-size: 3.42rem; */
+  }
+  
+  main{
+      line-height: 1.57rem; /* Equivalent to 33px / 21px */
+      font-size: 21px;
+  }
+  .abstract {
+    font-size: 1.7143rem; /* Equivalent to 36px / 21px */
+    line-height: 2.1429rem; /* Equivalent to 45px / 21px */
+  }
+  h1 {
+      line-height: 3.5714rem; /* Equivalent to line-height: 75px; for a base font size of 21px */
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  h2 {
+    line-height: 46px;
+    font-weight: 400;
+    letter-spacing: 0px;
+  }
+  
+  h3 {
+    line-height: 41px;
+    letter-spacing: 0px;
+  }
+}
+///////////////////////////////////////////////////////
+
+
+
+.reveal ol{
+  margin: 0 0 0 1.1em;
+  margin-bottom: 0rem;
+}
+
+.nav-footer a {
+    font-weight:700;
+}
+.nav-footer a:hover {
+    text-decoration: none!important;
+    color:$flieder1!important;
+}
+
+main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-link),
+.reveal a:not(.knopf):not(.quarto-title-author) {
+  color: $link-color;
+  text-decoration: none!important;
+  font-weight: 700;
+
+  &:hover {
+    color: $linkhover; 
+    text-decoration: underline;
+  }
+}
+
+.page-item.active .page-link{
+  background-color: $bordeaux;
+  border-color: $bordeaux;
+}
+
+h2{
+  border-bottom: 0px solid #dee2e6;
+  padding-bottom: 0rem;
+}
+
+h1, h2, h3{
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+
+hr {
+    border-top: 2px solid $phrot;
+    width: 60%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+
+.beispiel {
+    background-color: $phorange3;
+border-left: 1rem solid $phorange1;
+}
+
+.knopf {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: inherit;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: $bordeaux;
+  color: white !important;
+}
+.knopf:hover {
+  color: white; /* Change the text color on hover */
+  background-color:$bordeauxhover;
+}
+
+.knopf-klein {
+  background-color: $blau;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+.knopf-klein:hover {
+  background-color: $blauhover;
+}
+
+.indikator {
+  background-color: $Zyklus3;
+  padding: 0.2rem;
+  padding: 0px 10px;
+}
+
+.stufe {
+  background-color: $Zyklus3;
+  padding: 0.2rem;
+  padding: 0px 10px;
+}
+
+.zyklus2 {
+  background-color: $Zyklus2;
+}
+
+.accordion-button{
+  padding-bottom: 0rem;
+  padding-top:0rem;
+  background-color:#f0f0f0;
+}
+
+.accordion-header p {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.reveal blockquote{
+  font-style: italic;
+}
+
+
+
+.quelle {
+  text-align: right;
+  font-size: 0.85rem;
+  font-style: normal; 
+  color: $schwarz3;
+  display: block;
+}
+
+.quarto-title-banner{
+  padding-bottom: 0em;
+  background:inherit;
+}
+
+.quarto-title {
+  @extend .page-full !optional;
+  /* Additional styles for the quarto-title class */
+  color:$titelfarbe;
+  grid-column: body-content-start/body-content-end;
+}
+
+.dropdown-item{
+  color:$titelfarbe;
+}
+
+.header-section-number{
+  color:inherit;
+}
+
+.slides h1 {
+      text-decoration: underline;
+      text-decoration-color: $bordeaux;
+}
+
+.reveal .footer{
+  font-size: 0.7rem !important;
+}
+
+h1.title small  {
+      text-decoration: underline ;
+      text-decoration-color: $bordeaux ;
+}
+
+.callout.callout-style-default .callout-body {
+  font-size: inherit;
+}
+
+h1, .quarto-title-banner {
+color: $titelfarbe!important;
+} 
+
+.agenda-active {
+  color: $bordeaux;
+}
+
+.agenda-heading {
+  @extend h1;
+  font-size: 2em!important;
+}
+
+
+.quarto-float-caption-bottom.quarto-float-caption.quarto-float-fig {
+    text-align: center;
+}
+
+.quarto-title-affiliation{
+  font-size: 0.4em !important;
+}   
+.quarto-title-author{
+  font-size: 0.8em ;
+  text-align: left;
+  color: $schwarz3
+}
+
+.date{
+  color: $schwarz3;
+  font-size: 0.8em;
+}
+
+.progress{
+  height: 10px !important;
+}
+
+.subtitle{
+  margin-bottom: 4rem !important;
+}
+
+.mittig {
+  text-align: center;
+}

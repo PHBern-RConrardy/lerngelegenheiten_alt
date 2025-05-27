@@ -1,0 +1,34 @@
+---
+title: "<small>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</small>"
+subtitle: "Teil Mathematik"
+format: revealjs
+---
+
+# Lernziele
+
+## 
+
+::: {.callout-note}
+## Lernziele
+Wir:
+
+ - vergleichen standardisierte Tests in der Mathematik im Kanton Bern
+ - analysisieren die Aufgabenformulationen dieser Tests
+ - interpretieren die Ergebnisse dieser Tests
+ 
+:::
+
+# Tests
+
+## Welche kennen Sie?
+
+# Aufgaben
+
+## Auftrag
+
+Vorne liegen Auszüge oder  komplette Tests.
+
+Nehmen Sie sich einen beliebigen Stapel. Lösen Sie die Aufgaben.
+
+# Ergebnisse
+

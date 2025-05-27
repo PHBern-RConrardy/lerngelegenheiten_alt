@@ -1,0 +1,130 @@
+---
+format: revealjs
+title: Medien und Informatik
+subtitle: CAS Berufspraxis kompetent begleiten
+date: 07 05 2024
+author:
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    email: richard.conrardy@phbern.ch
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+---
+
+# Ziele
+
+## Ziele
+
+-   Sich Kennenlernen
+
+# Studienplan 22
+
+## Querschnittsthemen
+
+> “Die Querschnittsthemen sind zusätzlich in die Lerngelegenheiten und Leistungsnachweise der Bachelormodule integriert (weitere Informationen folgen).” ([PHBern, 2022, p. 14](zotero://select/library/items/JAUQG8QM)) ([pdf](zotero://open-pdf/library/items/N2GM9TYV?page=14&annotation=GKNLTIHD)
+
+## Ohne Fachbezug
+
+-   [Learning Analytics](https://ilias.phbern.ch/goto_phbern_crs_2224765.html)
+-   [Mediendidaktik](https://ilias.phbern.ch/goto_phbern_crs_2224566.html)
+-   [Digitalität und Datenschutz](../lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.qmd)
+-   [Digitale Zusammenarbeit und Kommunikation](https://ilias.phbern.ch/goto_phbern_crs_2224734.html)
+-   [Digitale Medien in der Beurteilung](https://ilias.phbern.ch/goto_phbern_crs_2224623.html)
+- ...  
+
+## Mit Fachbezug
+
+-   [Beurteilung Mathematik: Verstehensorientiert prüfen in Zeiten von KI](../lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.qmd)
+- ...  
+
+<br>
+<br>
+[Übersicht auf einem Miroboard](https://miro.com/app/board/uXjVKXSFcbs=/)
+
+## Im Modul Digitalität (Master)
+
+-   Standortbestimmung Digitalität
+-   Medien und Informatik unterrichten
+-   Schule und Digitalität - heute und morgen
+-   Medien als Lehrperson einsetzen
+
+# Lehrplan 21
+
+## Anwendungskompetenzen
+
+-   Handhabung
+-   Recherche und Lernunterstützung
+-   Produktion und Präsentation
+
+::: quelle
+[Lehrplan21](https://be.lehrplan.ch/index.php?code=e%7C10%7C4)
+:::
+
+## Medien
+
+1.  Die Schülerinnen und Schüler können sich in der physischen Umwelt sowie in medialen und virtuellen Lebensräumen orientieren und sich darin entsprechend den Gesetzen, Regeln und Wertesystemen verhalten.
+2.  Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen.
+3.  Die Schülerinnen und Schüler können Gedanken, Meinungen, Erfahrungen und Wissen in Medienbeiträge umsetzen und unter Einbezug der Gesetze, Regeln und Wertesysteme auch veröffentlichen.
+4.  Die Schülerinnen und Schüler können Medien interaktiv nutzen sowie mit anderen kommunizieren und kooperieren.
+
+::: quelle
+[Lehrplan21](https://be.lehrplan.ch/index.php?code=b%7C10%7C0&la=yes)
+:::
+
+## Informatik
+
+1.  Die Schülerinnen und Schüler können Daten aus ihrer Umwelt darstellen, strukturieren und auswerten.
+2.  Die Schülerinnen und Schüler können einfache Problemstellungen analysieren, mögliche Lösungsverfahren beschreiben und in Programmen umsetzen.
+3.  Die Schülerinnen und Schüler verstehen Aufbau und Funktionsweise von informationsverarbeitenden Systemen und können Konzepte der sicheren Datenverarbeitung anwenden.
+
+::: quelle
+[Lehrplan21](https://be.lehrplan.ch/index.php?code=b%7C10%7C0&la=yes)
+:::
+
+# Praxis
+
+## SMI
+
+![Aufgaben der/des SMI -  @erziehungsdirektion_des_kantons_bern_pflichtenheft_2018](images/smi-schema.png)
+
+::: quelle
+
+:::
+
+## Praktikas mit M&I
+
+## Medienbildung im Fach
+
+
+
+# Relevante Konzepte
+
+## Dagstuhldreieck
+
+::: {#fig-dagstuhl}
+![](https://mia.phsz.ch/pub/Dagstuhl/WebPreferences/w02886.png)
+
+Dagstuhldreieck
+:::
+
+::: quelle
+Quelle: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) [Beat Döbeli Honegger und Renate Salzmann](https://mia.phsz.ch/Dagstuhl/WebHome)
+:::
+
+## TPACK
+
+::: {fig-tpack}
+![TPACK - @koehler_what_2013](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png){width="50%"}
+:::
+
+::: quelle
+[Matthew Koehler](https://commons.wikimedia.org/wiki/File:TPACK-new.png), CC0, via Wikimedia Commons
+:::
+
+1.  @shulman_those_2013 - Content and Pedagogy
+2.  @koehler_what_2013 - TPACK
+3.  @huwer_von_2019 - DPACK
+
+## Bibliographie {.unlisted}

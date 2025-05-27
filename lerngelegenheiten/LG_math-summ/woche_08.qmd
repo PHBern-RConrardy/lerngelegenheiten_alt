@@ -1,0 +1,5 @@
+---
+title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
+subtitle: Grundlagen für den Unterricht <br> Woche 8
+format: revealjs
+---

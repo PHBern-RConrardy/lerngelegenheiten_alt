@@ -1,0 +1,165 @@
+---
+format: revealjs
+title: KI im Mathematikunterricht
+subtitle: Think Tank Medien und Informatik
+date: 02 05 2024
+toc: false
+filters:
+  - reveal-auto-agenda
+authors: 
+  - name: Philippe Sasdi
+    url: https://www.phbern.ch/ueber-die-phbern/personen/philippe-sasdi
+    affiliations:
+          - ref: phbern
+  - name: Andreas Richard
+    url: https://www.phbern.ch/ueber-die-phbern/personen/andreas-richard
+    affiliations:
+          - ref: phbern
+
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliations:
+        - ref: phbern
+---
+
+# Begriffseingrenzung und -abgrenzung {data-name="Regular slide"}
+
+## Machine Learning (ML)
+
+::: {#fig-uebersicht}
+
+```{mermaid}
+flowchart TD
+  A[Architektur];
+  TD[Training Data];
+  T[Tags];
+  F[Feedback];
+  App[Applikation];
+  P[Prompt]
+  K[Context]
+  O[Output]
+  Pa[Parameter]
+  R[Regeln]
+  I[Instruktionen]
+  SM[Modell]
+  UI[User Interface]
+  Temp[Temperatur]
+    
+    
+    Training-->Pa;
+    A-->SM;
+    Pa-->SM;
+    SM-->App;
+    Anbieter-->App;
+    Benutzer-->UI;
+    App-->UI;
+    UI-->O;
+    
+  subgraph Anbieter
+    R;
+    I;
+    Temp;
+  end
+  subgraph Hersteller
+    A;
+    TD;
+    T;
+    F;
+    Pa;
+    subgraph Training
+    TD;
+    T;
+    F;
+    end
+  end
+  subgraph Benutzer
+    P;
+    K;
+  end
+```
+
+Übersicht über Machine Learning (eigene Darstellung)
+
+:::
+
+# KI in der Beurteilung
+
+## Summative Beurteilung
+
+1. Datenschutz & Nutzungsrechte
+2. Ethische Aspekte
+3. KI $\neq$ KI
+4. KI $\neq$ Taschenrechner
+
+
+
+>participants were not able to detect AI-generated argumentative essays
+
+:::quelle
+[@fleckenstein_teachers_2024, p. 3]
+:::
+
+## {.unnumbered}
+
+<br>
+<br>
+<br>
+<br>
+
+>teachers may not be aware of their inability to identify AI-generated texts among student essays
+
+:::quelle
+[@fleckenstein_teachers_2024, p. 4]
+:::
+
+
+## Formative Beurteilung
+
+>Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt.
+
+:::quelle
+ [Wälti in @jones_was_2022,S.3]
+:::
+
+>Es soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen
+
+:::quelle
+[@kuratle_kompetenzorientierte_2021,S.10]
+:::
+
+## KI und Kinder? {.unlisted}
+
+<br>
+
+>Ja, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben.
+>
+>Aber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.
+>
+:::quelle
+Momo von @ende_momo_1973
+:::
+
+## {.unnumbered}
+
+<br>
+<br>
+<br>
+
+
+>Ich glaub', sagte sie leise, man kann sie nicht liebhaben.
+>
+:::quelle
+Momo von @ende_momo_1973
+:::
+
+
+
+
+# Problematische Erklärversuche von KI 
+
+# KI Applikationen {data-name="Regular slide2"}
+
+
+## Bibliographie {.unlisted}

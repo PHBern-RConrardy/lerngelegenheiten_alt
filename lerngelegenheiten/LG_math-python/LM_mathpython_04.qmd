@@ -1,0 +1,93 @@
+---
+format: html
+title: Listen
+subtitle: Python - Lernmodul 4
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+---
+# Listen
+
+## Lehr-Lernmaterialien
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen [Listen
+I](https://www.youtube.com/watch?v=ihF8bZoauBs&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=14),
+[Listen
+II](https://www.youtube.com/watch?v=_XzWPXvya2w&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=15)
+und [Listen
+iterieren](https://www.youtube.com/watch?v=ISo1uqLcVw8&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=16).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Listen](https://www.w3schools.com/python/python_lists.asp).
+
+Auf der Website von **Sylvia Lange** finden sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (13)
+und die Lösungen
+[13](https://sylvialange.de/python/python3/listen/WahlprogrammListen.py)
+zum Thema Conditionals/Verzweigungen.
+
+## Prüfungsvorbereitung 
+
+Was macht dieses Programm und was ist der Output?
+
+``` python
+x = [6, 3, 8, 5, 7, 2, 4, 0, 5]
+z = 0
+for y in x:
+    if y > z:
+        z = y
+print(z)
+```
+
+
+Eine Liste kann auch “Unterlisten” haben. Schreiben Sie ein Programm,
+welches die folgende Liste, Element für Element, ausgibt:
+
+``` python
+x = [[1, 2],[3, 4],[5, 6]]
+```
+
+Lösungsvorschlag
+
+```python
+x = [[1, 2],[3, 4],[5, 6]]
+
+for unterliste in x:
+    for element in unterliste:
+        print(element)
+```
+
+Wievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor?
+Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und
+Kleinschreibung) im folgenden Text zählt:
+
+``` python
+text = ["Lorem", "ipsum", "dolor", "sit", "amet", 
+        "consetetur", "sadipscing", "elitr", "lorem",
+        "sed", "lorem", "diam", "nonumy", "eirmod", "tempor",
+        "invidunt", "Lorem", "ut", "labore", "et", "dolore",
+        "magna", "aliquyam", "erat", "sed", "diam", "voluptuz",
+        "At", "lorem", "vero", "eos", "et", "accusam", "et",
+        "justo", "duo", "lorem", "dolores", "et", "ea"]
+```
+
+Quelle Lösungsvorschlag
+
+```python
+# source: https://www.computerwoche.de/a/13-wirklich-wahre-it-geschichten,3218843
+
+text = ["Lorem", "ipsum", "dolor", "sit", "amet", "consetetur", "sadipscing", "elitr", "lorem",
+        "sed", "lorem", "diam", "nonumy", "eirmod", "tempor", "invidunt", "Lorem", "ut", "labore",
+        "et", "dolore", "magna", "aliquyam", "erat", "sed", "diam", "voluptuz", "At", "lorem", 
+        "vero", "eos", "et", "accusam", "et", "justo", "duo", "lorem", "dolores", "et", "ea"]
+
+summe = 0
+for wort in text:
+    if wort == "lorem":
+        summe = summe + 1
+    if wort == "Lorem":
+        summe = summe + 1
+
+print(summe)
+```

@@ -1,0 +1,213 @@
+---
+title: Urheberrecht
+subtitle: Mediendidaktik
+format: html
+categories:
+  - Label - Digitalität
+editor: 
+  markdown: 
+    wrap: 72
+draft: false
+date: 06/22/2024
+abstract: >
+  In diesem Lernmodul behandeln wird das Schweizerische Urheberrechtsgesetz so behandelt, dass eine Lehrperson es lehrplankonform unterrichten kann und im Beruf umsetzen kann.
+---
+
+::: callout-note
+# Ziele des Lernmoduls
+
+Wir ...
+
+* beurteilen bei einer Verwendung von fremden Inhalt ob sie rechtskonform ist.
+* verwenden und veröffentlichen eigene Lehr-Lernmaterial rechtskonform.
+* können eine rechtskonforme Herstellung von eigenen und fremden Inhalten auf Niveau Sekundarstufe 1 lehren.
+
+:::
+
+# Einleitung
+
+Im Gegensatz zum Begriff *Datenschutz* bezieht sich der Begriff *Urheberrecht* ausschliesslich auf den juristischen Begriff. Lehrpersonen sind keine Juristen, der Autor dieses Lernmoduls ist kein Jurist. Daher konzentriert sich dieses Modul darauf, das Schweizerische Gesetz zu verstehen, ohne eine Interpretation auf Basis vergangener Gerichtsurteile zu erwarten.
+
+Darüber hinaus wird sowohl auf eine Behandlung des für die Veröffentlichung von Werken auf internationalen Diensten häufig relevanten Immaterialgüterrechts anderer Länder als auch auf eine Analyse der Nutzungsbedingungen der einzelnen Plattformen verzichtet. Auch das [Recht am eigenen Bild](https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/internet_technologie/umgang-fotos.html) bzw. die Abbildung erkennbarer Personen, die unter das [Datenschutzgesetz](https://www.fedlex.admin.ch/eli/cc/2022/491/de) fällt, wird nicht behandelt. 
+
+:::{.callout-warning}
+Bei juristischen Themen wird empfohlen, das Gesetz wörtlich zu zitieren und auf Paraphrasen zu verzichten. Verwenden Sie den genauen Wortlaut des Gesetzes und vermeiden Sie Synonyme, es sei denn, Sie sind sicher, dass die Wörter im rechtlichen Kontext gleichbedeutend sind.
+
+:::
+
+# Urheberrechtsgesetz (URG)
+
+[MI.1.3.g](https://be.lehrplan.ch/101yf4GkfZUYyuyL9s2wKV4zcac9kUxeT){.knopf .stufe} bedingt, dass Sie das Bundesgesetz
+über das [Urheberrecht und verwandte Schutzrechte vom 9. Oktober 1992 (Urheberrechtsgesetz, URG; SR 231.1)](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) im Unterricht behandeln.
+
+Lesen Sie das [URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de), sowie [Art. 321 bis Art. 321e OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321). Lösen Sie *anschliessend* die Fragen unten mit Hilfe der Gesetze.
+
+## Bearbeitungsfragen 
+
+::: {#exr-line}
+Der Urheber eines Werkes ist seit 80 Jahren verstorben. Ist die Übersetzung damit ebenfalls frei?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Nein. "Werke zweiter Hand sind selbständig geschützt." URG Art. 3 Abs. 3
+</details>
+::: {#exr-line}
+Einzelaufgaben wie z.B. $x^2-3x=0$ sind (vermutlich) nicht geschützt. Ist somit eine Aufgabe mit 10 von diesen Gleichungen ebenfalls nicht geschützt?
+:::
+
+<details>
+<summary>Lösungsvorschlag</summary>
+Doch. "Sammlungen sind selbständig geschützt, sofern es sich bezüglich Auswahl oder Anordnung um geistige Schöpfungen mit individuellem Charakter handelt." URG Art. 4 Abs. 1
+</details>
+
+::: {#exr-line}
+Dürfen Lehrmaterialien welche zur ausschliesslichen Verwendung in einem Kurs erschaffen wurden, zitiert werden?
+:::
+
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja, "Ein Werk ist veröffentlicht, wenn der Urheber oder die Urheberin es selber erstmals ausserhalb eines privaten Kreises im Sinne von Artikel 19 Absatz 1 Buchstabe a einer grösseren Anzahl Personen zugänglich gemacht oder einer solchen Veröffentlichung zugestimmt hat." URG Art. 9 Abs. 3
+
+
+"Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist." URG Art. 25 Abs. 1
+
+</details>
+
+::: {#exr-line}
+Dürfen Werke, deren Ursprung nicht bekannt ist, zitiert werden?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja. "Verwaiste Werke gelten als veröffentlicht. Sind in einem verwaisten Werk andere Werke oder Werkteile integriert, so gilt Absatz 2 auch für die Geltendmachung der Rechte an diesen Werken oder Werkteilen, sofern diese nicht in erheblichem Mass die Eigenart des Exemplars bestimmen." URG Art. 22b Abs. 3
+</details>
+
+::: {#exr-line}
+Darf ich fremde Unterrichtsmaterialien umändern und in meinem Unterricht benutzen?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Nein. "1 Der Urheber oder die Urheberin hat das ausschliessliche Recht zu bestimmen; a. ob, wann und wie das Werk geändert werden darf; b. ob, wann und wie das Werk zur Schaffung eines Werks zweiter Hand verwendet oder in ein Sammelwerk aufgenommen werden darf." URG Art. 11 Abs. 1
+</details>
+
+::: {#exr-line}
+Darf ich Unterrichtsmaterialien, welche ich von einer eng befreundeten Lehrperson (legal) erhalten habe, an meine Klasse für den Unterricht weitergeben?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Jein. Enge Freunde geben Ihnen Werke gemäss URG Art. 19 Abs. 1 lit. a weiter. Sie geben Ihrer Klasse es jedoch nach URG Art. 19 Abs. 1 lit. b weiter. URG Art. 19 Abs. 3 regelt, welche Werke nicht an die Klasse weitergegeben werden dürfen. Es handelt sich insbesondere um Werke der bildenden Kunst und weitgehend vollständige Werkexemplare.
+</details>
+
+::: {#exr-line}
+Erhalten Urheber eine Vergütung, falls ich für den Unterricht in meiner Klasse verwende?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja. "Wer zum Eigengebrauch nach Artikel 19 Absatz 1 Buchstabe b oder Buchstabe c oder wer als Drittperson nach Artikel 19 Absatz 2 Werke auf irgendwelche Art vervielfältigt, schuldet dem Urheber oder der Urheberin hiefür eine Vergütung." URG Art. 20 Abs. 2
+</details>
+
+::: {#exr-line}
+Meine Kollege benutzt die von mir (privat) erstellten Materialien. Schuldet er mir eine Vergütung?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja, aber nicht direkt sondern über eine Verwertungsgesellschaft. "Die Vergütungsansprüche können nur von zugelassenen Verwertungsgesellschaften geltend gemacht werden." URG Art. 20 Abs. 4 
+</details>
+
+::: {#exr-line}
+Wird ein nicht weitesgehend vollständiges Werkexemplar für den Unterricht vervielfältig, muss dann die Quelle angegeben werden?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Nein, denn hier handelt es sich um "Eigengebrauch" nach URG Art. 19 Abs. 1 lit. b und nicht um ein Zitat nach URG Art. 25
+</details>
+
+::: {#exr-line}
+Darf bildende Kunst zitiert werden?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja, allerdings nur "wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist." URG Art. 25
+
+Das IGE stellt hier klar: "Auch zitieren ist erlaubt: Zur Erläuterung, Veranschaulichung oder um auf etwas Bestimmtes hinzuweisen, darf jedermann Stellen aus veröffentlichten Werken wörtlich wiedergeben. Und zwar nicht nur aus Büchern, sondern auch aus Vorträgen, Musikstücken oder Filmen. Ob das Zitieren von Werken der bildenden Kunst und von Fotografien von der gesetzlichen Regelung auch erfasst ist, war lange umstritten. Die Botschaft zur Revision stellt klar, dass auch diese Werkkategorien unter Einhaltung der gesetzlich vorgegebenen Bedingungen zitiert werden können. " [IGE](https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken)
+</details>
+
+::: {#exr-line}
+Gibt es (gesetzliche) Regeln wie man die Quelle bei Zitaten korrekt angibt?
+:::
+
+<details>
+<summary>Lösungsvorschlag</summary>
+Nein. "Das Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben." URG Art. 25 Abs. 2
+</details>
+
+::: {#exr-line}
+Ist der Film "Modern Times" (1936) noch urheberrechtlich geschützt?
+:::
+
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja, bin zum Jahr 2027. Gemäss URG Art. 29 Abs. 2 b erlischt der Schutz 70 Jahre nach dem Tod des Urheberes. Nach Art. 30 Abs. 3 bezieht sich diese Zeitdauer auf den Tod des Regisseurs. Sir Charles Chaplin war der Regisseur des Films, er verstarb am 25.12.1977 [Quelle](https://www.imdb.com/name/nm0000122/?ref_=nm_mv_close), somit erlischt das Urheberrecht am 25.12.2027.
+</details>
+
+::: {#exr-line}
+Haftet die Lehrperson bei einem Urheberrechtsverstoss persönlich?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+"Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt." OR Art. 321e Abs. 1
+
+Fahrlässig ist nicht gesetzlich klar abgegrenzt. Eine Rechtsschutzversicherung oder eine Geldreserve für einen Anwalt ist vermutlich eine gute Investition.
+
+Weitere Empfehlung: Alle Handlungen als Lehrperson klar abgrenzen von privaten Handlungen.
+
+Beispiel: Eine Lehrperson hat über einen Cloudprovider sein Skript mit seiner Klasse über einen öffentlich verfügbaren Link geteilt. Das Skript enthielt eine Textaufgabe welche aus einem Schulbuch eines Verlages (teilweise) übernommen wurde. Der Verlag hat von der Lehrperson (privat) 10'000 Chf verlangt, damit es nicht vor Gericht geht. 
+</details>
+
+
+::: {#exr-line}
+Dürfen Filme und Serien gratis gedownloaded werden, falls davon auszugehen ist, dass diese unrechtmässig angeboten werden?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Gemäss dem Eidgenössischem Institut für Geistiges Eigentum ist das Downloaden für den Privatgebrauch nicht verboten:
+
+> "Das Herunterladen oder Streaming für den Privatgebrauch ist gesetzlich erlaubt. Dies gilt selbst dann, wenn Sie von illegalen Quellen herunterladen. Letzteres steht zwar nicht ausdrücklich im Gesetz, scheint aber heute unbestritten zu sein. Das Hochladen von Werken gehört hingegen nicht zum gesetzlich erlaubten Privatgebrauch." [Quelle: IGE](https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/urheberrecht-im-internet)
+
+</details>
+
+::: {#exr-line}
+Darf ein Werk (Statue oder Fassadenmalerei) auf einem Privathaus photographiert und das Photo veröffentlicht werden?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+Ja, Gemäss Art. 27 Abs. 1 URG dürfen Werke welche sich auf allgemein zugänglichem Grund befindet, abgebildet werden. Allgemein zugänglicher Grund schliesst Privatgrund nicht aus.
+
+Gemäss Art. 27 Abs. 2 URG darf die Abbildung jedoch nicht dreidimensional (z.B. eine Statue) sein und die Abbildung darf nicht zum gleichen Zweck vewendet werden, eine Fassadenmalerei darf z.B. nicht auf der eigenen Hausfassade abgebildet werden.
+</details>
+
+
+::: {#exr-line}
+Gehört das Werk, welches ein Programm dank maschinellem Lernen und einer Benutzereingabe erstellt hat, diesem Benutzer?
+:::
+<details>
+<summary>Lösungsvorschlag</summary>
+
+Die Rechtssprechung bei "KI"-Anwendungen ist im Moment (2024) noch dünn und eine gute Antwort kann weder national noch international gegeben werden.
+
+Klar ist, dass das Programm kein Urheber sein kann: "Urheber oder Urheberin ist die natürliche Person, die das Werk geschaffen hat." Art. 6 URG
+
+</details>
+
+
+# Gemeinsamer Tarif 7
+
+@prolitteris_gemeinsamer_2022 hält im gemeinsamen Tarif 7 (GT7) weitere Rechte für die Nutzung in Schulen fest. Diese gehen über die Rechte nach [Art. 19 Abs. 1 lit. b URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) hinaus. GT7 ist jedoch nicht anwendbar auf eine breitere Veröffentlichung.
+
+
+# Verwertungsrechte an eigenem Unterrichtsmaterial
+
+Lehrpersonen sind zwar Urheber von von ihnen erstelltem Unterrichtsmaterial, jedoch gehört das Material dem Arbeitgeber. 
+
+> Er hat dem Arbeitgeber auch alles sofort herauszugeben, was er in Ausübung seiner vertraglichen Tätigkeit hervorbringt. OR Art. 321b Abs. 2
+
+@hofmann_wer_2016 hat einen lesenswerten Beitrag spezifisch für Lehrpersonen verfasst.

@@ -1,0 +1,108 @@
+---
+format: 
+  html: default
+title: Auftrag und Informationen zum persönlichen Beurteilungskonzept
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+categories:
+  - Summative und prognostische Beurteilung
+---
+
+# Zielsetzung
+
+Am Ende des Semesters verfügen Sie über einen Entwurf eines persönlichen Beurteilungskonzepts. Dieses bildet den gegenwärtigen Stand Ihres Nachdenkens über Ihr pädagogisches Handeln ab. Erfahrungen mit Klassen beim und nach dem Berufseinstieg werden Ihr Beurteilungskonzept verändern. Es ist damit nichts Statisches, sondern als Basis für die Weiterarbeit im Studium und für den Berufseinstieg gedacht.
+
+# Ausgangslage
+
+Schülerinnen- und Schülerbeurteilung und Schullaufbahnentscheide gehören zu den wichtigsten Tätigkeiten und Aufgaben der Lehrpersonen. Die Schulleitungen weisen darauf hin, dass Berufseinsteigerinnen und -einsteiger genau bei dieser Thematik manchmal in der Kritik von Erziehungsberechtigten stehen. Dies lässt sich vermeiden, wenn die Lehrpersonen von Anfang an mit einem differenzierten Beurteilungskonzept Transparenz schaffen. «Differenziert» meint, dass das «persönliche» Beurteilungskonzept die Umsetzung der übergeordneten Vorgaben (zum Beispiel DVBS im Kanton Bern oder Beurteilungskonzept der eigenen Schule) aufzeigt. Lehrpersonen machen ihren Schülerinnen und Schülern und deren Eltern damit transparent, wie die Noten in den Fächern und die Beurteilung der überfachlichen Kompetenzen zustande kommen.
+
+> Beurteilung gehört – in welcher Form auch immer – zur Schule.
+>
+> ::: quelle
+> [@walti_alternative_2014, S.32]
+> :::
+
+Wenn wir davon ausgehen müssen, dass Beurteilung zur Schule gehört, darüber hinaus aber wohl sämtliche Aspekte der schulischen Beurteilung strittig sind, dann versteht es sich von selbst, dass es wichtig und unerlässlich ist, dass Sie Ihre Einstellungen, Meinungen, Haltungen und Überzeugungen in Bezug auf dieses Thema in einem eigenen Konzept offenlegen bzw. bedenken sollten.
+
+# Auftrag
+
+Sie arbeiten an einem eigenen Entwurf eines persönlichen Beurteilungskonzepts, indem Sie an Ihren Vorkenntnissen anknüpfen und die wichtigsten Themen, Begriffe und Modelle aus dem Seminar (siehe Liste unten) in Ihre Argumentationen und Erläuterungen einbauen. Obwohl Ihre Argumentation persönlich ist, muss diese dennoch quellenbasiert erfolgen. Vergessen Sie also nicht, während des Verfassens des Konzepts konsequent und von Anfang an in Ihrem Lauftext die verwendeten Quellen anzugeben und sich allenfalls auch die Zitierweise von veranstaltungsinternen Unterlagen anzueignen (siehe Vorschlag auf ILIAS). Sie entwickeln für Ihr Beurteilungskonzept eine eigene Struktur, welche Ihnen erlauben wird, alle künftigen Erfahrungen aus Unterricht und Praktika einzubauen.
+
+# Mögliches Vorgehen
+
+-   Sie überlegen sich einen Aufbau bzw. eine Struktur für Ihr Konzept. Als Strukturierungshilfe dient Ihnen der in der Veranstaltung vorgestellte «Beurteilungskreislauf» (→ weitere Kreisläufe & Strukturierungshilfen auf ILIAS).
+-   Eine weitere Ideenquelle oder Hilfe zur Strukturierung könnte das Studium der Beurteilungskonzepte von Schulen (einige Beispiele befinden sich auf ILIAS) sein.
+-   Sie integrieren im Beurteilungskonzept Ihre persönlichen Zusammenfassungen, Überlegungen, Haltungen und Reflexionen zu den Seminarinhalten.
+-   Sie reflektieren die eigenen schulischen Tätigkeiten (zum Beispiel in Praktika) und lassen diese Reflexionen einfliessen.
+-   Sie integrieren Unterlagen und Informationen aus anderen Veranstaltungen (insbesondere den Fachdidaktiken).
+-   Sie besprechen mit Personen aus der Volksschule (Lehrpersonen, SuS, Eltern, Schulleitungen) verschiedene und möglichst vielfältige Wege der Leistungsbeurteilung sowie der Einschätzung der überfachlichen Kompetenzen. Dabei bedenken Sie auch die Auswirkungen unterschiedlicher Sichtweisen, Einstellungen und Haltungen.
+-   Sie stellen Überlegungen zur Konkretisierung Ihrer Beurteilung an. Das kann heissen:
+    -   Ausgewogenes und stimmiges Verhältnis zwischen Selbst- und Fremdbeurteilung sowie zwischen formativer und summativer Beurteilung
+    -   Entwicklung konkreter Beurteilungsanlässe, Beurteilungsarten, Beurteilungsformen
+    -   Konkrete Umsetzung von schriftlichen und mündlichen Lernkontrollen, Produkten sowie die summative Bewertung des «Lernprozesses»
+    -   Konkreter «Beurteilungsfahrplan» für ein Fach skizzieren, Prozess der Beurteilung definieren (Wer? Wann? Was? Wie?)
+
+## Verpflichtende Themen
+
+Mit dem Beurteilungskonzept müssen folgende Themen, Begriffe und Modelle geklärt werden:
+
+| Thema, Begriff, Modell                                                                                                                                                                                                                                                                                                                                           | Infos in den folgenden Lernmodulen                                            |
+|----------------------------------------------------|--------------------|
+| Summative Beurteilung bzw. selektionsorientierter Unterricht Leistungsbewertung                                                                                                                                                                                                                                                                                  | «Theoretische Grundlagen» «Gesamturteil & PSK» «Noten & Beurteilungsberichte» |
+| Formative Beurteilung bzw. förderorientierter Unterricht Lernbegleitung                                                                                                                                                                                                                                                                                          | «Theoretische Grundlagen» «Förderorientierung»                                |
+| Prognostische Beurteilung Schullaufbahnentscheide                                                                                                                                                                                                                                                                                                                | «Theoretische Grundlagen» «Niveaus & Schulmodelle»                            |
+| Bezugsnormen der Bewertung (individuelle, soziale und kriteriale Bezugsnorm)                                                                                                                                                                                                                                                                                     | «Theoretische Grundlagen»                                                     |
+| Beurteilungsgerechtigkeit (Leistungs-, Bedürfnis- und Gleichheitsprinzip)                                                                                                                                                                                                                                                                                        | «Theoretische Grundlagen»                                                     |
+| Gesetzliche Grundlagen (LP21, AHB, DVBS)                                                                                                                                                                                                                                                                                                                         | «Gesetzliche Grundlagen»                                                      |
+| Summative Beurteilungsgegenstände (im Kanton Bern Produkte, Lernkontrollen, Lernprozess)                                                                                                                                                                                                                                                                         | «Gesamturteil & PSK»                                                          |
+| Notenfrage, Notengebung, Notenmassstäbe und Bewertungskriterien                                                                                                                                                                                                                                                                                                  | «Noten & Beurteilungsberichte» «Kompetenzorientierung»                        |
+| Förderorientierung                                                                                                                                                                                                                                                                                                                                               | «Förderorientierung»                                                          |
+| Lernbegleitung & Lerncoaching                                                                                                                                                                                                                                                                                                                                    | «Lernbegleitung & Lerncoaching»                                               |
+| Gesamturteil (Zustandekommen der Gesamtnoten) & Beurteilungsbericht                                                                                                                                                                                                                                                                                              | «Gesamturteil & PSK»                                                          |
+| Beurteilung der «Personalen Kompetenzen» sowie der «Schlüsselkompetenzen» (Portfolio)                                                                                                                                                                                                                                                                            | «Gesamturteil & PSK»                                                          |
+| Klare Unterscheidung zwischen summativer Beurteilung des «Lernprozesses» mit den 5 überfachli-chen Aspekten (4 Beurteilungsbericht), der Beurteilung der «personalen Kompetenzen und Schlüs-selkompetenzen» (4 Portfolio) und der formativen Beurteilung der 56 überfachlichen (personalen, sozialen und methodischen) Kompetenzen im LP21 ( Standortgespräche). | «Gesamturteil & PSK»                                                          |
+| Selbst- und Fremdbeurteilung                                                                                                                                                                                                                                                                                                                                     | «Gesetzliche Grundlagen»                                                      |
+| Beurteilungsgrundsätze (z.B. FLUT) Förderorientierung (Lerncoaching & Feedback)                                                                                                                                                                                                                                                                                  | «Gesetzliche Grundlagen» «Förderorientierung»                                 |
+| Sekundarstufenmodelle & Niveauunterricht                                                                                                                                                                                                                                                                                                                         | «Niveaus & Schulmodelle» «Nachteilsausgleich & iLZ»                           |
+
+# Quellenangaben
+
+Obwohl es sich mit Ihrem Text um ein persönliches Konzept handelt, in welchem Sie insbesondere auch Ihre Haltungen und Einstellungen offenlegen müssen, werden Sie sich bei der Integration der obigen Begriffe in Ihr Konzept auch auf Quellen beziehen. Es versteht sich von selbst, dass Sie diese zitieren und bibliografieren.
+
+Zitieren Sie gemäss [APA 7](https://en.wikipedia.org/wiki/APA_style) [@american_psychological_association_publication_2020] Richtlinien.
+
+# Produkt
+
+Sie veröffentlichen (vgl. [Art. 25 Abs. 1 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_25)) ein persönliches Beurteilungskonzept unter einer freien Lizenz (Vorschlag: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+
+Das Werk muss per URL frei und ohne Login erreichbar sein. Das Werk kann z.B. in Form einer SWITCHPortfolio Webseite oder eines PDFs sein.
+
+# Abgabe
+
+Erfolgt als URL über LearningView.
+
+# Beratung
+
+Um Fragen zu klären sowie ein formatives Feedback auf Ihre Arbeit zu erhalten, nehmen Sie an mindestens einem Coaching zum Beurteilungskonzept teil. Die Coachings können beim Dozierenden per Mail mit mehreren Terminvorschlägen angefragt werden. Sie können in Person oder per Teams/Zoom sein.
+
+# Evaluation und Rückmeldung
+
+Das Beurteilungskonzept ist Bestandteil des Workloads des Seminars und muss den unten angefügten Anforderungskriterien genügen. Anhand dieser Kriterien erhalten Sie eine Rückmeldung sowie ein Prädikat. Es ist also möglich, dass das Beurteilungskonzept das Prädikat «nicht erfüllt» erhält. In diesem Falle dürfen Sie das Konzept einmalig überarbeiten.
+
+Genügt dieses auch nach der Überarbeitung den Anforderungskriterien nicht, erfolgt ein Ausschluss aus der Veranstaltung
+
+# Anforderungskriterien für die Rückmeldung zum Beurteilungskonzept
+
+Die Rückmeldung zu Ihrem Beurteilungskonzept orientiert sich an den folgenden Bereichen/Kriterien:
+
+-   Verwendung der Begrifflichkeiten
+-   Persönliche Haltung und Einstellung
+-   Umfassende Abdeckung
+-   Aufbau/Struktur
+-   Sprache
+
+Damit der Workload als «erfüllt» angenommen werden kann, darf keiner der Bereiche «nicht erfüllt» sein. Eine einmalige Überarbeitung ist möglich.

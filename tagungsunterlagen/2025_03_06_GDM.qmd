@@ -1,0 +1,338 @@
+---
+title: "<small>Fail, flip, fix and feed in der Sekundarschule</small>"
+subtitle: "58. Jahrestagung der Gesellschaft für Didaktik der Mathematik"
+format: 
+  phheidelberg-revealjs:
+    multiplex: true
+    embed-resources: true
+    self-contained-math: true
+
+
+date: 06 03 2025
+menu: false
+toc-depth: 1
+author:
+      - id: cori
+        name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
+        affiliation:
+          - ref: phheidelberg
+          - ref: phbern
+      - id: span
+        name: Christian Spannagel
+        orcid: 0000-0002-7299-4943
+        url: https://www.ph-heidelberg.de/mathematik/personen/lehrende/spannagel/
+        affiliation:
+          - ref: phheidelberg
+title-slide-attributes: 
+      data-background-image: "https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg"
+      data-background-size: 16%
+      data-background-position: 98% 5%
+code-fold: true
+slide-number: c
+header-includes:
+  - |
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Initialize countdown time (20 minutes in seconds)
+        let countdownTime = 10 * 60; 
+        let countdownElement = document.createElement('div');
+        
+        // Style the countdown element
+        countdownElement.style.position = 'fixed';
+        countdownElement.style.bottom = '10px';
+        countdownElement.style.left = '0%';
+        countdownElement.style.fontSize = '24px';
+        countdownElement.style.fontWeight = 'bold';
+        countdownElement.style.color = 'lightgrey';
+        countdownElement.style.zIndex = '1000';
+        countdownElement.style.backgroundColor = 'white';
+        countdownElement.style.padding = '5px 10px';
+        
+        // Insert countdown into the body
+        countdownElement.innerHTML = formatTime(countdownTime);
+        document.body.appendChild(countdownElement);
+
+        // Timer to update countdown every second
+        let timer = setInterval(function() {
+          countdownTime--;
+          countdownElement.innerHTML = formatTime(countdownTime);
+
+          if (countdownTime <= 0) {
+            clearInterval(timer);
+          }
+        }, 1000);
+
+        // Format time function (show minutes and rounded half-minutes)
+        function formatTime(seconds) {
+          const minutes = Math.floor(seconds / 60);
+          const remainingSeconds = seconds % 60;
+          
+          // Round seconds to nearest half-minute
+          const roundedSeconds = (remainingSeconds < 30) ? 0 : 30;
+          
+          return `${minutes}:${roundedSeconds === 0 ? '00' : '30'}`;  // Show minutes and rounded seconds (00 or 30)
+        }
+      });
+    </script>
+---
+## Exploration und Instruktion 
+
+::: {style="text-align: center; width: 90%; margin: 0 auto"}
+![](2024_11_21_Zukunftsforum/zukunftsforum.webp)
+:::
+
+:::quelle
+@openai_chatgpt_2024 "generiere mir ein Bild im Schulkontext welche Exploration und Instruktion kontrastiert"
+:::
+
+# 4F-Modell und Theorien
+
+## 
+
+### Productive Failure 
+
+> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts **prior to instruction**. 
+
+:::quelle
+[@hartmann_productive_2022, S.1219]
+:::
+
+::: {.fragment}
+
+### Flipped Classroom Method
+
+> Conceived as a two-phase model [...]
+>
+>
+> learn basic content online and prior to class[...]
+>
+>
+> in-class time to clarify students’ understandings [...] enable students to engage deeply [...]
+>
+> ::: quelle
+> [@kapur_fail_2022, S. 1-2]
+> :::
+
+:::
+
+## Empirische Forschung
+
+:::::: {.columns}
+::::: {.column width="65%"}
+
+::: {.fragment .fade-out fragment-index=2}
+### Metastudie
+
+
+
+|                        | g    |
+|------------------------|------|
+| Overall effect         | 0.37 | 
+| School-age children    | 0.68 | 
+| Math                   | 0.26 | 
+
+n=173
+
+:::
+
+:::::
+
+
+::::: {.column width="35%"}
+
+:::: {.fragment .fade-right fragment-index=1}
+
+### 4F Modell
+
+::: {.fragment .grow fragment-index=2}
+1.  [**Fail**]{}
+2.  [**Flip**]{}
+:::
+
+::: {.fragment .semi-fade-out fragment-index=2}
+3.  [**Fix**]{}
+4.  [**Feed**]{}
+:::
+
+
+
+::::
+
+
+
+::: quelle
+[@kapur_fail_2022, S.14]
+:::
+
+:::::
+::::::
+
+
+
+
+
+
+# Forschungsfrage & -design
+
+## Forschungsfrage
+
+Welche Phasen im 4F Modell sollen besser *in class*, welche *out of class* durchgeführt werden?
+
+
+
+
+## Untersuchungsdesign {.smaller}
+
+:::{.columns}
+::: {.column width="43%"}
+* Mathematikunterricht in der Sekundarstufe 1
+* Thema: Mittlere absolute Abweichung
+* Experimentelles Forschungsdesign (randomisiert innerhalb der Klassen)
+* 220 Lernende aus 12 Klassen
+:::
+::: {.column width="4%"}
+:::
+
+::: {.column width="43%"}
+::: {.fragment .fade-in}
+|       | 4F | ALT      |
+|-----------------------|---------------------------|--------------|
+| **Fail**              | in class       | out of class     |
+| **Flip**              | out of class              | in class |
+| **Fix**               | in class                  | in class     |
+| **Feed**              | in class                  | in class     |
+:::
+:::
+:::
+
+
+## 
+
+![vergangener Aufbau Experiment - Sekundarschule](../images/Experiment_1_drawio.svg){#fig-exp1}
+
+
+# Erkenntnisse und Ausblick
+
+
+
+## Zentrale Erkenntnisse {.smaller}
+
+1. Beide Modelle funktionieren gemäss PF Mechanismen.
+2. Beide Modelle funktionieren gleich gut.
+3. Die Rolle des Engagements ist noch unklar.
+
+:::quelle
+Genauere Angaben in der [Präsentation an der GEBF](2025_01_27_Gebf.qmd)
+:::
+
+. . .
+
+:::: {.columns}
+::: {.column width="60%"}
+### Leistungsprädiktoren
+
+1. Lehrperson
+2. Vornote
+3. Schuljahr (7. & 8. Klasse)
+4. Schulniveau
+:::
+
+
+
+::: {.column width="40%"}
+::: {.fragment}
+### Limitationen
+
+* out-of-class im Schulgebäude
+* "fremde" Lehrperson
+* Erhebungsinstrumente
+:::
+:::
+::::
+
+
+
+## Nächste Studie {.smaller}
+
+
+
+:::{.columns}
+::: {.column width="43%"}
+* Mathematikunterricht in der Hochschule
+* Thema: Lineare Regression
+* Experimentelles Forschungsdesign
+* $>$ 60 Studierende
+:::
+::: {.column width="4%"}
+:::
+
+::: {.column width="43%"}
+::: {.fragment .fade-in}
+| 4F | ALT (2)      |
+|-----------------------|---------------------------|
+| **Fail**              | **Flip**        | 
+| **Flip**              | **Fail**              | 
+| Fix               | Fix                   | 
+| Feed              | Feed                  |
+:::
+:::
+:::
+
+##
+
+![zukünftiger Aufbau Experiment - Hochschule](../images/Experiment_2_drawio.svg){#fig-exp2}
+
+
+## Bibliographie {.unlisted .scrollable}
+
+::: {#refs}
+:::
+
+## Danke für Ihre Aufmerksamkeit {.smaller}
+
+. . .
+
+::: {.columns}
+:::{.column width=43%}
+
+### Sekundarstufe
+
+|       | 4F | ALT      |
+|-----------------------|---------------------------|--------------|
+| **Fail**              | in class       | out of class     |
+| **Flip**              | out of class              | in class |
+| **Fix**               | in class                  | in class     |
+| **Feed**              | in class                  | in class     |
+
+
+:::
+:::{.column width=10%}
+:::
+
+:::{.column width=40%}
+
+### Hochschule
+
+| 4F | ALT (2)      |
+|-----------------------|---------------------------|
+| **Fail**              | **Flip**        | 
+| **Flip**              | **Fail**              | 
+| Fix               | Fix                   | 
+| Feed              | Feed                  |
+
+
+
+:::
+:::
+
+<br>
+<br> 
+
+:::{.mittig}
+
+[Feedback](https://docs.google.com/forms/d/1_Oyj8n-8gQ-M8bdp3r36MZNuprBboCLByHn7qlAFh7s/edit){.knopf}
+
+:::
+

@@ -1,0 +1,188 @@
+---
+format: 
+    revealjs:
+        multiplex: true
+        embed-resources: true
+        self-contained-math: true
+title: Mediendidaktik
+subtitle: Lernorganisation
+---
+
+# Learning Management Systeme
+
+##
+
+:::{#fig-1}
+![](slides_04/potentiale_digitaler_schulbuecher.png)
+
+Potenziale digitaler Schulbücher, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), @dobeli_honegger_mehr_2017
+:::
+
+## Notwendige Kriterien
+
+* Eine Benutzerverwaltung  
+* Eine Kursverwaltung  
+* Eine Rollen und Rechtevergabe mit differenzierten Rechten  
+* Kommunikationsmethoden und Werkzeuge für das Lernen  
+* Die Darstellung der Kursinhalte, Lernobjekte und Medien in einem netzwerkfähigen Browser.
+
+::: quelle
+[@schulmeister_lernplattformen_2005, S.55]
+:::
+
+## POSIX - Dateiberechtigung {.smaller}
+
+```
+ls -l  # Unix CLI-Befehl um die Berechtigungen anzuzeigen
+```
+
+| Symbolische Notation | Numerische Notation | Bedeutung (Deutsch)                                                                 |
+|----------------------|---------------------|--------------------------------------------------------------------------------------|
+| -\-\-\-\-\-\-\-\-\-           | 0000                | keine Berechtigungen                                                                |
+| \-rwx\-\-\-\-\-\-           | 0700                | lesen, schreiben & ausführen nur für Besitzer                                       |
+| \-rwxrwx\-\-\-           | 0770                | lesen, schreiben & ausführen für Besitzer und Gruppe                                |
+| \-rwxrwxrwx           | 0777                | lesen, schreiben & ausführen für Besitzer, Gruppe und andere                        |
+| \-\-\-x-\-x-\-x           | 0111                | nur ausführen                                                                       |
+| -\-w-\-w\-\-w-           | 0222                | nur schreiben                                                                       |
+| -\-wx-wx-wx           | 0333                | schreiben & ausführen                                                               |
+| -r-\-r-\-r-\-           | 0444                | nur lesen                                                                           |
+| -r-xr-xr-x           | 0555                | lesen & ausführen                                                                   |
+| -rw-rw-rw-           | 0666                | lesen & schreiben                                                                   |
+| -rwxr-\-\-\-\-           | 0740                | Besitzer: lesen, schreiben & ausführen; Gruppe: nur lesen; andere: keine Berechtigung |
+
+: [Tabelle mit Berechtigungsbeispielen](https://en.wikipedia.org/wiki/File-system_permissions), maschinell übersetzt {#tbl-letters}
+
+## BYO-LMS $\approx$ Franken-LMS
+
+::::{.columns}
+:::{.column width=50%}
+
+:::{#exr-1}
+Stellen Sie sich ein LMS mit allen angegeben Eigenschaften zusammen, aus Software welche Ihnen in Ihrer Schule zur Verfügung steht.
+:::
+{{< countdown "5:00" bottom=2% left=2% padding="5px 5px" >}}
+:::
+:::{.column width=50%}
+:::{#fig-2}
+![](https://upload.wikimedia.org/wikipedia/commons/a/a7/Frankenstein%27s_monster_%28Boris_Karloff%29.jpg)
+
+[Frankensteins Monster](https://commons.wikimedia.org/wiki/File:Frankenstein%27s_monster_(Boris_Karloff).jpg) (public domain)
+:::
+:::
+::::
+
+
+
+
+##
+
+:::{#fig-1}
+![](slides_04/innovationstypen.png)
+
+Innovationstypen nach Rogers 1962, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), @dobeli_honegger_mehr_2017
+:::
+
+##
+
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
+
+:::{#exr-1}
+## Pair-Share
+
+In welchen Technologien, bzw. Innovationen, sind Sie eher Protagonist und in welchen Antagonist?
+:::
+
+## Klassische Open-Source LMS
+
+::::{.columns}
+:::{.column width="40%"}
+
+:::{#fig-1}
+![](https://upload.wikimedia.org/wikipedia/commons/c/c6/Moodle-logo.svg)
+
+Logo Moodle
+:::
+:::
+:::{.column width="40%"}
+:::{#fig-1}
+![](https://upload.wikimedia.org/wikipedia/commons/8/8a/Logo_ILIAS.svg)
+
+Logo MS-Teams
+:::
+:::
+::::
+
+## LearningView
+
+:::{#fig-1}
+![](https://learningview.org/app/icon512.png)
+
+Logo LearningView
+:::
+
+## Microsoft 
+
+::::{.columns}
+:::{.column width="40%"}
+
+:::{#fig-1}
+![](https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg)
+
+Logo MS-Teams
+:::
+:::
+:::{.column width="40%"}
+:::{#fig-1}
+![](https://upload.wikimedia.org/wikipedia/commons/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg)
+
+Logo MS-Teams
+:::
+:::
+::::
+
+## Google Classroom
+
+:::{#fig-2}
+![](https://upload.wikimedia.org/wikipedia/commons/1/19/Google_Classroom_Logo.svg){height=400px}
+
+Logo Google Classroom
+:::
+
+## Weitere
+
+* [Lernpfad](https://lernpfad.ch)
+* [Graasp](https://graasp.org/)
+* ...
+
+##
+
+:::{#fig-1}
+![](slides_04/strategische_entscheidungssituationen.png)
+
+Strategische Technologie-Entscheidungssituationen nach Foster 1986, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), @dobeli_honegger_mehr_2017
+:::
+
+## Ai-generated
+
+* [Khanmigo](https://www.khanmigo.ai/)
+* ...
+
+
+{{< video https://www.youtube.com/watch?v=rnIgnS8Susg width="100%" height="50%" >}}
+
+##
+
+:::{#fig-1}
+![](slides_04/hype_cycle.png)
+
+Der hype cycle am Beispiel von Tablets in der Schule, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), @dobeli_honegger_mehr_2017
+:::
+
+
+:::{#fig-1}
+![](slides_04/phasenmodell_Lernkurve.png)
+
+Phasenmodell der organisationalen Lernkurve bei der Einbettung von ICT in Schulen nach Breiter 2001, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), @dobeli_honegger_mehr_2017
+:::
+
+## Bibliographie

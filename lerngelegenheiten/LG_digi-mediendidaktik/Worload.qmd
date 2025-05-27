@@ -1,0 +1,29 @@
+---
+format: 
+  html: default
+title: Workload
+subtitle: Exemplarische Mikro- Makroplanung
+date: 27 11 24
+---
+
+# Inhalt
+
+## Mikroplanung
+
+Entwickeln Sie in Gruppen von maximal **vier Personen** eine **digitale** Lernumgebung.
+Die Lernumgebung muss folgendes beinhalten:
+
+* ein Lehr-Lernvideo.
+* eine digital unterstütze Gruppenarbeit.
+* eine Anwendungskompetenz.
+
+## Makroplanung
+
+Veröffentlichen Sie diese Lernumgebung in einer digital verwalteten Makroplanung / Kursverwaltung. Bilden Sie weitere Themenbereiche im gewählten Tool ab, die einzelnen Inhalte müssen nicht gefüllt sein.
+
+Sie können die Kursverwaltungssoftware frei wählen, sie sollte grundsätzlich in Ihrer nächsten Schule technisch und rechtlich möglich sein.
+
+# Abgabe
+
+Die Mikro-Makroplanung muss für alle Kursteilnehmer online erreichbar. Sie stellen gegebenenfalls Gast-Accounts bereit.
+

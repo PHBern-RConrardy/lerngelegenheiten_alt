@@ -1,0 +1,199 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Phasenmodelle und Kernprozesse
+---
+
+# Lernziele
+
+## Studienplan 22
+
+:::{.callout-note}
+### Indikatoren Mikroplanung
+
+Die Studierenden
+
+* gliedern Lernprozesse in Lernphasen.
+* [...]
+* gestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.
+
+:::quelle
+
+@phbern_studienplan_2022
+
+:::
+
+:::
+
+##
+
+:::{.callout-warning}
+
+## Lerngelegenheit mit Schwerpunkt Phasenmodelle
+
+### Planungsarbeit im Fokus 
+
+Dr. Daniel Ingrisani
+
+:::
+
+# Modelle
+
+## Modelle und Prozesse {.smaller}
+
+:::::: {.columns}
+
+::: {.column width="35%"}
+### PADUA
+
+1. **P**roblemlösendes **A**ufbauen
+2. **D**urcharbeiten
+3. **Ü**ben und Wiederholen
+4. **A**nwenden
+
+:::quelle
+
+@aebli_zwolf_1983
+:::
+
+
+:::
+::: {.column width="35%"}
+### AVIVA
+
+1. **A**nkommen
+2. **V**orwissen aktivieren
+3. **I**nformieren
+4. **V**ertiefen
+5. **A**uswerten
+
+
+:::quelle
+
+@stadeli_aviva_2020
+:::
+
+:::
+::: {.column width="20%"}
+### Kernprozesse
+
+* Erkunden
+* Ordnen
+* Vertiefen
+
+:::quelle
+
+@barzel_kontexte_2011
+:::
+
+:::
+::::::
+
+
+## Weitere Phasenmodelle {.smaller}
+
+:::::: {.columns}
+
+
+::: {.column width="33%"}
+##### Productive Failure
+
+
+1. *generation and exploration phase*
+2. *consolidation phase*
+
+::: quelle
+[@kapur_designing_2012, S.49]
+:::
+
+
+:::
+::: {.column width="33%"}
+##### Flipped Classroom
+
+1. *learn basic content online and prior to class*
+2. *in-class time to clarify students’ understandings [...] enable students to **engage** deeply [...]*
+
+:::quelle
+[@kapur_fail_2022]
+:::
+
+:::
+::: {.column width="33%" }
+##### 4F
+
+1.  Fail
+2.  Flip
+3.  Fix
+4.  Feed
+
+:::quelle
+[@kapur_fail_2022]
+:::
+
+:::
+::::::
+
+# Was wirkt?
+
+## Theoretische Modelle
+
+Padua, Aviva und Kernprozesse sagen keine Wirkung voraus. Es ist unklar wie man ihre Wirkung testen würde. Es sind keine Tests bekannt.
+
+## Flipped Classroom
+
+Die Flipped Classroom Methode enthält in der Definition keine Aussage über die Wirkung aufs Lernen [vgl. @abeysekera_motivation_2015], dennoch wurde die Wirkung getestet.
+
+##
+
+:::{ style="font-size: 0.5em;" }
+
+| Activity              | N   | M    | SE   |
+|-----------------------|-----|------|------|
+| **Pre-Class Activities**       |     |      |      |
+| Readings              | 8   | 0.75 | 0.23 |
+| Video + quiz          | 15  | 0.66 | 0.23 |
+| Video + readings      | 24  | 0.45 | 0.06 |
+| Online lectures       | 336 | 0.40 | 0.04 |
+| Online modules        | 45  | 0.38 | 0.07 |
+| Video                 | 29  | 0.22 | 0.09 |
+| **In-Class Activities**        |     |      |      |
+| Problem based         | 19  | 0.44 | 0.15 |
+| Use of clicker        | 49  | 0.43 | 0.10 |
+| Lectures              | 532 | 0.38 | 0.04 |
+| Problem-solving       | 203 | 0.38 | 0.06 |
+| Group work            | 175 | 0.34 | 0.06 |
+| In-class quizzes      | 132 | 0.20 | 0.06 |
+| Student presentation  | 8   | 0.00 | 0.07 |
+
+:::
+
+:::quelle
+gekürzt aus der Meta-Metastudie von @kapur_fail_2022
+:::
+
+## Productive Failure
+
+
+:::{ style="font-size: 0.7em;" }
+
+| Moderating variables  | n   | g    | SE   |
+|-----------------------|-----|------|------|
+| **Education**          |     |      |      |
+| Junior high            | 11  | 0.65 | 0.16 |
+| High school            | 9   | 0.38 | 0.17 |
+| College                | 3   | 0.06 | 0.40 |
+| **Domain**             |     |      |      |
+| Science/math           | 20  | 0.50 | 0.13 |
+| Other                  | 3   | 0.06 | 0.40 |
+| **Duration**           |     |      |      |
+| ≤ 1 week               | 16  | 0.43 | 0.16 |
+| > 1 week               | 7   | 0.45 | 0.13 |
+
+:::
+
+:::quelle
+[@darabi_learning_2018]
+:::
+
+## Literatur

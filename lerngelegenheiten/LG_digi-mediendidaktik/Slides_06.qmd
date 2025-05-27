@@ -1,0 +1,81 @@
+---
+format: 
+  revealjs: default
+  pptx: default
+title: Mediendidaktik
+subtitle: H5P und Learningapps
+---
+
+
+## Ziel der Doppelstunde
+
+- Einblick in zwei browserbasierte Tools: **H5P** und **LearningApps**
+- Eigene kleine Web-Anwendung erstellen
+- Reflexion über den Einsatz im eigenen Unterricht
+
+---
+
+## Warum interaktive Module?
+
+- fördern aktive Auseinandersetzung mit Lerninhalten
+- ermöglichen Selbststeuerung & Feedback
+- leicht zugänglich – keine Installation notwendig
+- medienpädagogisch & didaktisch vielseitig einsetzbar
+
+---
+
+## Tool 1: H5P
+
+- Plattform: [h5p.org](https://h5p.org), Moodle, Ilias, Wordpress
+- über 40 Inhaltstypen, z. B.:
+  - Interaktives Video
+  - Drag & Drop
+  - Quizformate
+- **Open Source**, Inhalte wiederverwendbar
+
+---
+
+##
+
+<iframe src="https://h5p.org/h5p/embed/617" width="100%" height="750px" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Interactive Video"></iframe>
+
+## Tool 2: LearningApps
+
+- Plattform: [learningapps.org](https://learningapps.org)
+- Fokus: kleine interaktive Übungen
+  - Zuordnungsübungen
+  - Lückentexte
+  - Gruppenpuzzle u. v. m.
+- sehr einfache Oberfläche
+- Registrierung freiwillig, aber empfohlen
+
+---
+
+##
+
+<iframe src="https://learningapps.org/watch?app=1810496" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
+## Ihre Aufgabe (60 Min.)
+
+1. Wählen Sie ein Tool: **H5P** oder **LearningApps**
+2. Erstellen Sie ein interaktives Modul zu einem Unterrichtsthema Ihrer Wahl
+3. Speichern Sie den Link oder Screenshot
+4. Laden Sie andere zum Testen ein
+
+---
+
+## Reflexion (20 Min.)
+
+Diskussion im Plenum:
+
+- Welches Tool war für Sie zugänglicher?
+- Wo sehen Sie Einsatzmöglichkeiten im Unterricht?
+- Was würden Sie beim nächsten Mal anders machen?
+
+---
+
+## Tools & Links
+
+- [h5p.org](https://h5p.org)
+- [learningapps.org](https://learningapps.org)
+- [ToolFinder PHBern](https://digileb.phbern.ch/toolfinder/)

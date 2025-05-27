@@ -1,0 +1,16 @@
+---
+format: html
+title: subdomains
+---
+
+## PHBern
+
+* [Software](https://ssk.site.phbern.ch)
+* [Komet](https://kompetenzabbildung.phbern.ch/)
+* [Masterarbeiten](https://arbeitenportal.phbern.ch/)
+
+## PH Heidelberg
+
+* [LimeSurvey](https://phheidelberg.limequery.com/admin/authentication/sa/newPassword/param/syh8r2e9a4prugbj4gmcg8atici7pfauaqa5zu)
+* [Docata](https://docata.ph-heidelberg.de/home)
+* [CampusPortal](https://campus.ph-heidelberg.de/)

@@ -1,0 +1,10 @@
+---
+title: "Disclaimer"
+format: html
+---
+
+Meine Website enthält Verknüpfungen zu Webseiten Dritter (sog. „externe Links“) Da ich auf deren Inhalte keinen Einfluss habe, kann für die fremden Inhalte keine Gewähr übernommen werden.
+
+Für die Inhalte und Richtigkeit der Informationen ist stets der jeweilige Informationsanbieter der verlinkten Webseite verantwortlich.
+
+Externe Links entziehen sich, wenn nicht anderes kennzeichnet, der OER Lizenz.  

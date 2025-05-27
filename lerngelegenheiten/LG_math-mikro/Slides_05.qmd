@@ -1,0 +1,132 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Aktivitäten der Lernenden
+---
+
+# Symbole
+
+## Visuelle Symbole
+
+:::{#fig-rechteck}
+![](images/Rectangle.svg)
+
+Rechteck, umgeändert von [XZise](https://commons.wikimedia.org/wiki/File:Rectangle.svg), CC BY-SA 3.0
+:::
+
+## Verbal-Algebraische Symbole
+
+$$\sqrt{21}$$
+
+$$a^2+b^2=x^2$$
+
+##
+
+:::{.callout-important}
+Der Mensch lernt mit Bildern.
+:::
+
+:::{.fragment}
+
+> Offenbar begünstigen visuelle Symbole das intuitive Denken, wahrend deduktive Gedankengange besser durch verbal-algebraische Symbole unterstützt werden.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.67]
+:::
+:::
+
+
+## Zusammengesetzte Symbole
+
+:::{#fig-rechteck}
+![](https://upload.wikimedia.org/wikipedia/commons/f/fa/Rectangle.svg)
+
+Rechteck, [XZise](https://commons.wikimedia.org/wiki/File:Rectangle.svg), CC BY-SA 3.0
+:::
+
+##
+
+:::{#fig-mittelsenkrechte}
+![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Umkreismittelpunkt.svg)
+
+Mittelsenkrechte, [Kmhkmh](https://commons.wikimedia.org/wiki/File:Umkreismittelpunkt.svg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
+
+:::
+
+## 
+
+:::{#exr-1}
+## Dynamische Geometriesoftware
+
+Wir erstellen den Umkreis mit den Mittelsenkrechten in dynamischer Geometriesoftware.
+
+:::
+
+:::{.callout-important title="Geogebra"}
+1. Geogebra 5 🧑‍💼 > Geogebra 6 🫣 > Webapp 🤡
+2. Input-Bar 🦸 >> Toolbar 🤮 (`disable` Toolbar)
+3. Befehle auf Englisch 
+4. Koordinaten `A=(5,2.4)`
+5. Datenaustausch über `.ggb` files oder Befehle.
+:::
+
+## Signale
+
+
+> Ein Zeichen hat Symbolcharakter, wenn es ein kognitives Schema aufruft; es hat Signalcharakter, wenn es zu bestimmten Handlungen veranlasst, wie beispielsweise eine Verkehrsampel.
+
+:::quelle
+[@van_dormolen_didaktik_1978, S.70]
+:::
+
+### Beispiel kürzen
+
+:::{.fragment}
+
+* Symbol: Ich **teile** Zähler und Nenner durch den gleichen Faktor.
+* Signal: Ich **muss** oben und unten dasselbe **streichen**.
+:::
+
+
+## Einüben von Automatismen {}
+
+1. Willen zur Verbesserung
+2. mit Verstand
+3. unmittelbar kontrollierbar
+4. individualisiert
+5. kurz aber abwechslungsreich
+6. keine Strafe
+
+:::quelle
+[vgl. @van_dormolen_didaktik_1978, S.74-75]
+:::
+
+## 
+
+:::{#exr-2}
+## Rezeptives und selbstentdeckendes Lernen
+
+Beantworten Sie Frage 17 [@van_dormolen_didaktik_1978, S.76].
+:::
+
+:::{.fragment}
+
+> Insofern scheinen sich gegenwärtig alle in einer Art Minimalkonsens darüber einig zu sein, dass Schulen weder eine Generation von Fachidioten noch eine Generation geschwätziger Dilletanten ausbilden sollten. Was das genau heißt, bleibt umstritten.
+
+:::quelle
+[@weinert_leistungsmessungen_2014, S.28]
+:::
+:::
+
+# Eigene Lernumgebung
+
+## Vorschlag des Vorgehens
+
+1. Stoffauswahl und Sachanalyse
+2. Lernziele
+3. Vorwissen
+4. Sozialformen und Phasen
+5. Aufgaben
+6. Überleitung
+
+## Bibliographie

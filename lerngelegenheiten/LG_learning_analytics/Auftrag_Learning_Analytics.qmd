@@ -1,0 +1,62 @@
+---
+format: html
+  
+title: Auftrag
+subtitle: Learning Analytics
+authors:
+  - name: Florian Keller
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Richard Conrardy
+    affiliations:
+      - ref: phbern
+citation:
+  author:
+    - Florian Keller
+    - Richard Conrardy
+date: 05/14/2024
+draft: true
+---
+
+# Ziel
+
+Sie führen in dieser Lerngelegenheit eine quantitative Untersuchung mit Unterrichtsbezug durch. 
+
+# Abgabe
+
+Sie reichen ihre Forschungsarbeit 2 Wochen vor Semesterende über [SWITCHportfolio](https://portfolio.switch.ch/) in einer speziell dafür eingerichteten Gruppe ein.
+
+Alle Dateien müssen auf der Seite eingebettet sein. Sie dürfen nicht per Link zu einem Cloudanbieter eingebunden sein.
+
+Sie erhalten eine schriftliche, formative Rückmeldung. Auf Wunsch erhalten Sie sehr gerne auch eine ausführliche mündliche Rückmeldung.
+
+# Notwendige Bedingungen
+
+- Werk is veröffentlicht ([vgl. Art. 9 Abs. 3 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_9))
+- Autoren sind benannt
+- Freie Lizenz ist korrekt angegeben
+- Rechtliche Rahmenbedingungen werden eingehalten (insb. URG, DSG und KDSG)
+- Eine Klasse pro Autor wird erhoben
+- Die Forschung ist replizierbar:
+  - Datensatz vorhanden
+  - Informationen zur Auswertung 
+  - Notwendige Dateien (Formula, Aufgabenblätter, ...) vorhanden
+
+# Grundlegende Lernziele
+
+- Zielgruppengerechte Sprache
+- Graphiken aussagekräftig
+- Hypothesen wohlformuliert
+- Interpretation datengestützt
+- Störvariablen mehrheitlich beachtet
+- mind. 3 Variablen
+- mind. 2 abhängige Stichproben
+
+# Erweiterte Lernziele
+
+- Schreibstil ist wissenschaftlich
+- Hypothesen theoriegeleitet
+- Schliessende Statistik (ohne Untersuchung der Annahmen) 
+- Erweiterte Diagrammtypen (falls angebracht)
+- Sehr umfangreicher Datensatz

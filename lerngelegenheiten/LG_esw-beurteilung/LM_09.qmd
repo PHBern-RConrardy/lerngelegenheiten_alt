@@ -1,0 +1,89 @@
+---
+format: html
+title: Niveaus und Schulmodelle
+subtitle: Grundlagen der Beurteilung
+
+authors:
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  Im kommenden Lernmodul geht es um die Themen Bildungssystem der Schweiz und Sekundarschulmodelle im Kanton Bern. Arbeiten Sie das Lernmodul Schritt für Schritt durch.
+---
+
+::: callout-note
+# Ziele des Lernmoduls
+
+Die Studierenden ...
+
+-   wissen wie der gymnasiale Unterricht im Kanton Bern organisiert ist.
+-   kennen die fünf bernischen Schulmodelle der Sekundarstufe.
+-   kennen Vor- und Nachteile der unterschiedlichen Schulmodelle.
+:::
+
+# «Schweizer Bildungssystem & Sekundarschulmodelle»
+
+:::{#fig-bildungssystem}
+
+<iframe src="https://tube.switch.ch/embed/HjMtHz9jSG?title=hide" frameborder="0" allow="fullscreen"></iframe>
+
+Screencast - Schweizer Bildungssystem
+:::
+
+# Verarbeitungsauftrag
+
+Betrachten Sie die folgenen Abbildungen und beantworten Sie für sich folgende Fragen:
+
+-   Was ist auf diesen Abbildungen zu sehen?
+-   Wie sind die Kurven zu interpretieren?
+-   Welche Problematik ergibt sich daraus?
+
+:::{#fig-verteilung}
+![](images/Verteilung_der_Mathematikleistung_in_PISA_2000.png)
+
+Verteilung
+:::
+
+
+:::{#fig-leseleistung}
+![](images/Verteilung_der_Leseleistung_in_PISA_2000.png)
+
+Verteilung Leseleistung
+:::
+
+# Schulmodelle Kanton Bern
+
+:::{#fig-schulmodelle}
+
+<iframe src="https://tube.switch.ch/embed/jbt9DnpJm5?title=hide" frameborder="0" allow="fullscreen"></iframe>
+
+Screencast - Schulmodelle
+:::
+
+# Verarbeitungsauftrag
+### Niveaugetrennte Klassen
+
+Obwohl die Dauer der Sekundarstufe 1 gesamtschweizerisch auf 3 Jahre (Model 6/3) vereinheitlicht wurde bzw. wird, hat das trotzdem zu einer Vielfalt an Sekundarschulmodellen geführt. Es gibt grundsätzlich drei Schulmodellarten, die im schweizerischen Bildungssystem beobachtet werden.
+
+1. Typengetrennte Schulmodelle
+2. Kooperative Schulmodelle
+3. Integrierende Schulmodelle
+
+### Auftrag:
+
+1. Erarbeiten Sie zunächst Vor- und Nachteile der unterschiedlichen Modelle im Kanton Bern.
+2. Entwickeln Sie für sich eine Haltung in Bezug auf die 5 bernischen Schulmodelle unter Berücksichtigung der Einteilung in typengetrennte, kooperative und integrierende Modelle. Entscheiden Sie sich letztlich für ein Modell, in welchem Sie in Zukunft am liebsten unterrichten würden.
+3. Halten Sie Ihre Ergebnisse und Überlegungen zuhanden Ihres Beurteilungskonzepts fest und nehmen Sie Ihre Favorisierung zusammen mit einer kurzen Begründung an die nächste Austauschveranstaltung mit.

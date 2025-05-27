@@ -1,0 +1,45 @@
+---
+title: "Learning Analytics"
+format: html
+  
+categories:
+  - Modul - Formative Beurteilung
+  - Label - Digitalität
+  
+authors:
+  - name: Florian Keller
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Richard Conrardy
+    affiliations:
+      - ref: phbern
+      
+citation:
+  author:
+    - Florian Keller
+    - Richard Conrardy
+date: 05/14/2024
+draft: true
+---
+
+# Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/PMuIHS18/Freigegebene%20Dokumente/General/Lerngelegenheiten%20SP22/Learning%20Analytics/Studierende_Schreibrechte/HS23_Organisationsblatt_Learning%20Analytics.xlsx?d=w12810bdcfe9242a898b417c50a2ad33c&csf=1&web=1&e=N2F37e){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+# Semesterüberblick
+
+| Teil | Thema                               |                         Vorbereitung                         |                          |
+|:------------:|:---------------|:---------------------------:|:------------:|
+|  1   | Einführung, Gruppenbildung          | [Forschungsethik](Lernmodul_01), [Open Access](Lernmodul_02) | [Slides](Slides_01.html) |
+|  2   | Festlegung der Fragestellungen      |                                                              |                          |
+|  3   | Erstellung der Erhebungsinstrumente |                                                              |                          |
+|  4   | Verwalten der Daten                 |                                                              |                          |
+|  5   | Analysieren der Daten               |                                                              |                          |
+|  6   | Veröffentlichen der Daten           |    [Ergebnisse reproduzierbar publizieren](Lernmodul_06)     |                          |
+
+: {.striped .hover .table-sm}

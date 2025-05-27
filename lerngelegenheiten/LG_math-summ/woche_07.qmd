@@ -1,0 +1,112 @@
+---
+title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
+subtitle: Grundlagen für den Unterricht <br> Woche 7
+format: revealjs
+---
+
+
+# 
+
+## Core mathematics vs. mathematical science
+
+[Padlet](https://phbern.padlet.org/richardconrardy/padlet-zu-quinn-2012-iodxajz5mvihuipp)
+
+<iframe src="https://phbern.padlet.org/richardconrardy/padlet-zu-quinn-2012-iodxajz5mvihuipp" width="100%" height="450px">
+
+</iframe>
+
+## Ordnen und Hypothesen
+
+
+::: columns
+::: {.column width="50%"}
+-   Stellen Sie sich bitte im Raum in Reihenfolge Ihrer Haarlänge auf.
+-   Je grösser der Längenunterschied, desto grösser die Distanz.
+:::
+
+::: {.column width="50%"}
+![symmetrische Frisuren](images/people_hair.jpg){height="400px"}
+:::
+:::
+
+
+
+
+## Hypothesen
+
+Wie kann ich die Hypothese "belegen", dass unsere Gruppe längere Haare hat als die andere Gruppe?
+
+## Fachbegriffe
+
+-   Hypothesen
+    -   Nullhypothese H_0
+    -   Alternativhypothese H_1
+-   Hypothesentest
+    -   Fehler 1. Art (Alphafehler)
+    -   Fehler 2. Art (Betafehler)
+    -   Signifikanz
+
+# Beschreibende Statistik
+
+## Skalenniveaus
+
+
+![Skalenniveaus](https://upload.wikimedia.org/wikipedia/commons/e/e3/Skalenniveau.png)
+
+## Verteilungen
+
+
+![Histogramm](https://upload.wikimedia.org/wikipedia/commons/8/82/Thist_german.png)
+
+
+## Statistische Kennwerte {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   Lagemasse
+    -   Modus
+    -   Median
+    -   Mittelwert
+-   Streumasse
+    -   Spannweite
+    -   Interquartilabstand
+    -   Varianz / Standardabweichung
+-   Verteilungsmasse
+    -   Gini-Koeffizient
+:::
+
+::: {.column width="50%"}
+![Gini-Koeffizient](https://upload.wikimedia.org/wikipedia/commons/3/39/Gini-Coefficient-pure.svg){width="500px"fig-alt="Aleks-ger, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" }
+:::
+:::
+
+## Verteilung
+
+-   Geht auf Ilias auf das verlinkte Padlet​
+-   Zeichnet eine Notenverteilung wie ihr sie in der 8. Klasse Mathematik vermutet / kennt.
+
+# Rechtliche Rahmenbedingen
+
+## AHB
+
+> Die Noten im Beurteilungsbericht sind ein Instrument zur Kommunikation der Beurteilung von Leistungen der Schülerinnen und Schüler und das Ergebnis eines professionellen Ermessensentscheids durch die Lehrpersonen. Sie basieren nicht auf Berechnungen von Durchschnitten.
+>
+> @bildungs-undkulturdirektiondeskantonsbern2016
+
+## DVBS
+
+
+> Art. 2 Einheitliche Praxis
+>
+> 1 Die Schulleitung legt unter Mitwirkung des Lehrerkollegiums eine einheitliche Praxis insbesondere in folgenden Bereichen fest: Beurteilung, Selbstbeurteilung und Information der Eltern.
+
+# Gütekriterien
+
+## Gütekriterien für Mess- und Testverfahren​
+
+* Objektivität
+* Reliabilität
+* Validität
+
+
+## Bibliographie

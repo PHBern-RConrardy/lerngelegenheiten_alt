@@ -1,0 +1,96 @@
+---
+title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
+subtitle: Grundlagen für den Unterricht <br> Woche 1
+format: revealjs
+---
+
+# Organisatorisches
+
+## Organisationsblatt
+
+<br>
+
+
+::: {style="text-align: center;"}
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/Pr%C3%A4senzkurs_Schreibrechte_Studierende/Organisationsblatt_Summ_Praes.xlsx?d=wf606fa7c49d4435a8505a9f2c621dd67&csf=1&web=1&e=czb7Xz){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+# Theorie
+
+## Grundlagen{.smaller}
+
+::: columns
+::: {.column width="50%"}
+#### Art.3 DVBS
+
+Die Beurteilung ist
+
+a.  förderorientiert,
+b.  lernzielorientiert,
+c.  umfassend, \[...\]
+d.  transparent und nachvollziehbar.
+
+:::quelle
+@erziehungsdirektiondeskantonsbern2022
+:::
+:::
+
+::: {.column width="50%"}
+#### Qualitätsmerkmale einer kompetenzorientierten Beurteilung
+
+-   Förderorientierung: \[...\]
+-   Passung zum Unterricht: \[...\]
+-   Transparenz / Nachvollziehbarkeit: \[...\]
+-   Umfassende Beurteilung: \[...\]
+
+::: quelle
+@erziehungsdirektiondeskantonsbern2016
+:::
+:::
+:::
+
+## Constructive Alignment
+
+The model of instruction that emerges is simple, and it makes intuitive sense:
+
+-   teachers need to be clear about what they want their students to learn, and how they would manifest that learning \[...\]
+-   students need to be placed in situations that are judged likely to elicit the required learnings.
+-   students are then required to provide evidence, either by self-set or teacher-set tasks, \[...\]
+
+:::quelle
+[@biggs1996 S.30-31]
+:::
+
+## Förderkreislauf
+
+:::{#fig-kreislauf}
+![](images/foerderkreislauf.svg){width="100%" fig-align="center"}
+
+Förderkreislauf  [@kuratle_kompetenzorientierte_2021, S.3]
+
+:::
+
+## Kriterien zur Auswahl von Schulstoff
+
+-   Der Lehrstoff muss mathematisch richtig sein.
+-   Der Lehrstoff muss spätere Erweiterungen vorbereiten.
+-   Der Lehrstoff muss an den Anfangszustand der Schüler anknüpfen.
+-   Der Lehrstoff muss den gestellten Zielen entsprechen.
+
+:::quelle
+[@vandormolen1978, S.36]
+:::
+
+# Projektarbeit
+
+## Auftrag auf Woche 8
+
+<br>
+
+::: {style="text-align: center;"}
+[Auftrag (siehe Ilias)](https://phbern-rconrardy.github.io/lerngelegenheiten/lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html){.knopf target="_blank" }
+:::
+
+## Bibliographie {.unnumbered .unlisted}

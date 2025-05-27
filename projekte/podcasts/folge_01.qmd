@@ -1,0 +1,19 @@
+---
+format: revealjs
+title: Leuphana Universität
+subtitle: Studienreise zu einer Lehrerausbildung mit einem BNE-Institut
+
+authors:
+      - id: cori
+        name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
+        affiliation:
+          - ref: phheidelberg
+          - ref: phbern
+      - id: cori
+        name: Benjamin Abplanalp
+        orcid: 0000-0002-7299-4943
+        affiliation:
+          - ref: phbern
+---
