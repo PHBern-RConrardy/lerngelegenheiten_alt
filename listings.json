@@ -7,7 +7,9 @@
       "/lerngelegenheiten/LG_digi-datenschutz/LG_datenschutz.html",
       "/lerngelegenheiten/LG_esw-beurteilung/LG_grundbeurteilung.html",
       "/lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
+      "/lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.html",
       "/lerngelegenheiten/LG_math-summ/LG_summmath.html",
+      "/lerngelegenheiten/LG_math-python/LG_mathpython.html",
       "/tagungsunterlagen/2025_11_10_Science_Slam_Heidelberg.html",
       "/tagungsunterlagen/2025_05_14_Nachwuchskolloquium.html",
       "/tagungsunterlagen/2025_03_06_GDM.html",
@@ -50,7 +52,7 @@
       "/lehrmaterialien/math_04_gleichungen/math_04_gleichungen.html",
       "/lehrmaterialien/math_06_zahlenstrahl2/math_06_zahlenstrahl.html",
       "/lehrmaterialien/math_04_funktionen/math_04_funktionen.html",
-      "/lehrmaterialien/math_05_symmetrien/math_05_symmetrien.pdf",
+      "/lehrmaterialien/math_05_symmetrien/math_05_symmetrien.html",
       "/lehrmaterialien/math_08_lineare_funktion_regression/math_08_lineare_funktion.html",
       "/projekte/Softwareempfehlungen.html",
       "/projekte/anki.html",
@@ -61,11 +63,7 @@
       "/projekte/test_praesi.html",
       "/projekte/zusammenhaenge.html",
       "/projekte/Beratungstermine.html",
-      "/projekte/Masterarbeitsthemen.html",
-      "/videos/01_Erklärungen_LU.html",
-      "/videos/02_Kriterien_Stoffauswahl.html",
-      "/videos/03_Podcast.html",
-      "/videos/04_Prozent.html"
+      "/projekte/Masterarbeitsthemen.html"
     ]
   }
 ]
